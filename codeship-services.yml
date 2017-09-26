@@ -3,5 +3,6 @@ app:
     image: patrikx3/resume
     context: app
     dockerfile: Dockerfile
-
+    volumes_from:
+        - data
 
