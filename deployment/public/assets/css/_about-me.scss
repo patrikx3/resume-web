@@ -1,0 +1,109 @@
+@import "mixins";
+
+$about-me-background-color: #4786d5;
+
+#about-me-opening {
+  background: url("../../images/opening-about-me.jpg") no-repeat center top local;
+  @include opening();
+}
+
+#about-me-welcome-1 {
+  opacity: 0.5;
+  position: absolute;
+  left: $content-margin;
+  top: $content-margin;
+  padding: $content-padding;
+  color: white;
+  background-color: black;
+
+  font-size: 25px;
+  @media screen and (min-width: $screen-small) {
+    font-size: 30px;
+  }
+  @media screen and (min-width: $screen-medium) {
+    font-size: 35px;
+  }
+  @media screen and (min-width: $screen-large) {
+    font-size: 40px;
+  }
+}
+
+#about-me-welcome-2 {
+  font-weight: bold;
+  opacity: 1;
+  color: black;
+  @include opening-title-welcome-font();
+  @include center-absolute-horizontal-text();
+}
+
+#about-me-welcome-3 {
+  opacity: 0.5;
+  color: black;
+  background-color: white;
+  position: absolute;
+  right: $content-margin;
+  bottom: $content-margin;
+  padding: $content-padding;
+
+  font-size: 15px;
+  @media screen and (min-width: $screen-small) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: $screen-medium) {
+    font-size: 25px;
+  }
+  @media screen and (min-width: $screen-large) {
+    font-size: 30px;
+  }
+}
+
+#about-me-welcome-4 {
+  opacity: 0.75;
+  color: black !important;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  white-space: nowrap;
+
+  font-size: 14px;
+  @media screen and (min-width: $screen-small) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: $screen-medium) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: $screen-large) {
+    font-size: 20px;
+  }
+}
+
+.about-me-welcome-notify {
+  color: white;
+  padding: $content-padding;
+  background-color: $about-me-background-color;
+}
+
+.about-me-slogan-notify {
+  background-color: black;
+  color: white;
+  opacity: 1;
+  font-size: 150%;
+  padding: $content-padding;
+}
+
+.about-me-slogan {
+  transition: opacity 1s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about-me-slogan.about-me-slogan-active {
+  opacity: 1;
+  height: auto;
+}
+

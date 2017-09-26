@@ -1,0 +1,26 @@
+#navigation-menu-button {
+}
+
+#menu-bar-1, #menu-bar-2, #menu-bar-3 {
+  transition: 1s;
+}
+
+#navigation-menu-button.change #menu-bar-1 {
+  transform: rotate(-45deg) translateX(-4px) translateY(4px);
+}
+
+/* Fade out the second bar */
+#navigation-menu-button.change #menu-bar-2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+#navigation-menu-button.change #menu-bar-3 {
+  transform: rotate(45deg) translateX(-4px) translateY(-4px);
+}
+
+#navigation-theme .dropdown-menu {
+  height: auto;
+  overflow-x: auto;
+  max-height: 200px;
+}

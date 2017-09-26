@@ -1,0 +1,28 @@
+$playground-color: #df7367;
+
+#playground-opening {
+  background: url("../../images/opening-playground.jpg") no-repeat center top local;
+  @include opening()
+}
+
+#playground-opening-title {
+  position: relative;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.playground-title-char {
+  position: absolute;
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+}
+
+.playground-titlize {
+  color: white;
+  background-color: $playground-color;
+  text-shadow: none;
+}

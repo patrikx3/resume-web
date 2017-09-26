@@ -1,0 +1,72 @@
+@import "mixins";
+
+#resume-opening {
+  background: url("../../images/opening-resume.jpg") no-repeat center top local;
+  @include opening();
+}
+
+.resume-profile-picture {
+  float: right;
+  background: url("../../images/profile-20170330.png") no-repeat center top local;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  width: 150px;
+  height: 150px;
+  @media screen and (min-width: $screen-small) {
+    width: 300px;
+    height: 300px;
+  }
+  @media screen and (min-width: $screen-medium) {
+    width: 300px;
+    height: 300px;
+  }
+  @media screen and (min-width: $screen-large) {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+
+.theme-dark .resume-profile-picture  {
+  filter: drop-shadow(0px 0px 10px #000);
+}
+
+.theme-light .resume-profile-picture  {
+  filter: drop-shadow(0px 0px 10px #888);
+}
+
+
+
+@mixin mixin-resume-opening-title() {
+  right: 0;
+  opacity: 0.9;
+  @include opening-title-font();
+}
+
+#resume-opening-title-position {
+  display: none;
+  @include mixin-resume-opening-title();
+}
+
+#resume-opening-title {
+  @include mixin-resume-opening-title();
+  position: absolute;
+  color: white;
+  right: $content-margin;
+}
+
+#resume-opening-block {
+  position: absolute;
+  background-color: black;
+  opacity: 0.4;
+  width: 100%;
+}
+
+.resume-opening-titlize {
+  background-color: white;
+  color: black;
+  opacity: 0.75;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,65 @@
+<div class="effect-shine opening">
+    <div id="contact-opening">
+        <div id="contact-title">
+            <div id="contact-title-background">
+                &nbsp;</div>
+            <div id="contact-title-text">
+                {{p3x-language 'contact' 'title'}}
+            </div>
+        </div>
+    </div>
+    {{> download-resume}}
+</div>
+
+<div class="layout-content-text">
+
+    <div style="display: block;" id="contact-window-form" class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <i class="{{p3x-default.icons.ICON_CONTACT_TITLE}}"></i>
+                {{p3x-language 'contact' 'message'}}
+            </div>
+        </div>
+        <div class="panel-body">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="contact-form-email">{{p3x-language 'contact' 'contact-form-email'}}</label>
+                    <input name="contact-form-email" type="text" class="form-control" id="contact-form-email" placeholder="{{p3x-language 'contact' 'contact-form-email-placeholder'}}">
+                </div>
+                <div class="form-group">
+                    <label for="contact-form-message">{{p3x-language 'contact' 'contact-form-message'}}</label>
+                    <textarea style="height: 200px" name="contact-form-message" class="form-control" id="contact-form-message" placeholder="{{p3x-language 'contact' 'contact-form-message-placeholder'}}"></textarea>
+                </div>
+                {{!--
+                <div style="text-align: right; opacity: 0.5;">
+                    {{p3x-language 'contact' 'contact-info'}}
+                </div>
+                --}}
+                <div class="pull-right">
+                    <button type="button" class="btn btn-primary" id="contact-form-send">
+                        <i class="{{p3x-default.icons.ICON_CONTACT_SUBMIT}}"></i>
+                        {{p3x-language 'contact' 'contact-form-send'}}
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="panel-footer"></div>
+    </div>
+
+    <div style="display: none;" id="contact-window-success" class="panel panel-default">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <i class="{{p3x-default.icons.ICON_CONTACT_SENT}}"></i>
+                {{p3x-language 'contact' 'contact-form-success-title'}}
+            </div>
+        </div>
+        <div class="panel-body">
+            <h3 id="contact-window-success-email">
+                &nbsp;</h3>
+            <h4 id="contact-window-success-message">
+                &nbsp;</h4>
+        </div>
+        <div class="panel-footer"></div>
+    </div>
+
+</div>

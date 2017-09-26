@@ -1,0 +1,4 @@
+.idea
+deployment/vendor
+deployment/public/components
+node_modules

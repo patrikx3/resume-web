@@ -1,0 +1,19 @@
+<a href="javascript:void(0);" onclick="load_template('resume/pdf-template');">Resume</a>
+|
+<a href="javascript:void(0);" onclick="load_template();">Load Template</a>
+<script>
+    function load_template(tpl) {
+        if (tpl === undefined) {
+            tpl = prompt('Template name:', 'dialog/status');
+        }
+        $.ajax({
+            url: p3x.Router.Url('admin/test/template'),
+            data: {
+                template: tpl
+            },
+            headers: p3x.AjaxHrefInterface.GetHeaders()
+        }).then(function(data) {
+            p3x.AjaxHrefInterface.LoadContent(data);
+        });
+    }
+</script>

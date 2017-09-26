@@ -1,0 +1,42 @@
+$contact-color: #4d6f6e;
+#contact-opening {
+  background: url("../../images/opening-contact.jpg") no-repeat center top local;
+  @include opening();
+  position: relative;
+  z-index: -3;
+}
+
+#contact-title {
+  @include opening-title-font();
+  color: white;
+  left: $content-margin;
+  padding: 10px;
+  z-index: 0;
+}
+
+#contact-title-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  @include gradient-vertical(lighten($contact-color, 10%), $contact-color);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+#contact-title-text {
+  opacity: 1;
+  z-index: 2;
+}
+
+.contact-line {
+  position: absolute;
+  //height:  10px;
+  width: 100%;
+  background-color: $contact-color;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -2;
+}

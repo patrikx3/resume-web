@@ -1,0 +1,12 @@
+{
+  "debug": true,
+  "email": {
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "security": "ssl"
+    },
+    "username": "skeleton@gmail.com",
+    "password": "secure"
+  }
+}

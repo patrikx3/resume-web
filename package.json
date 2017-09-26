@@ -1,0 +1,38 @@
+{
+  "name": "patrik-laszlo-resume",
+  "version": "1.3.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/patrikx3/resume.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test-global"
+  },
+  "author": "Patrik Laszlo",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cli-clear": "*",
+    "grunt": "*",
+    "grunt-bower-concat": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-handlebars": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-yuidoc": "*",
+    "grunt-githooks": "*",
+    "grunt-injector": "*",
+    "grunt-sass": "*",
+    "grunt-wiredep": "*",
+    "mz": "^2.7.0",
+    "request": "*",
+    "request-promise": "*",
+    "time-grunt": "*",
+    "xml2json": "*"
+  }
+}

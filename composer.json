@@ -1,0 +1,22 @@
+{
+  "config": {
+    "vendor-dir": "deployment/vendor",
+    "discard-changes": true
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "ext-gd": "*",
+    "swiftmailer/swiftmailer": "^5.4",
+    "mpdf/mpdf": "^6.1",
+    "p3x/resume-common": "^2.0.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "scripts": {
+    "compile": [
+      "bower install",
+      "php cli.php mpdf"
+    ]
+  }
+}

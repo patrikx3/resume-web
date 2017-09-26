@@ -1,0 +1,277 @@
+<html>
+<head>
+    <title>{{p3x-language 'layout' 'title'}} {{p3x-language 'resume' 'title'}}</title>
+    <style>
+        body {
+            font-family: 'resume-font';
+            color: {{css.default_color }};
+        }
+
+        .project-item {
+            font-family: 'fontawesome';
+            font-size: 22px;
+            color: {{css.color_project_item_icon }};
+        }
+
+        .fontawesome {
+            font-family: 'fontawesome';
+        }
+
+        hr {
+            height: 2px;
+            border-width: 0;
+            color: {{css.color_hr }};
+            background-color: {{css.color_hr }};
+        }
+
+        .profile-image {
+            float: right;
+            width: 25%;
+            height: auto;
+        }
+
+        .header {
+            font-weight: bold;
+            text-align: center;
+            font-size: 22px;
+            background-color: {{css.color_header_bg }};
+            color: {{css.color_header_font }};
+            border-radius: {{css.border_radius }};
+        }
+
+        .footer {
+            background-color: {{css.color_footer_bg }};
+            font-size: 13px;
+            color: {{css.color_header_font }};
+            border-radius: {{css.border_radius }};
+            opacity: 0.75;
+        }
+
+        .data-title {
+            font-size: 25px;
+            font-weight: bold;
+            color: {{css.color_title }};
+        }
+
+        .data-title-era {
+            font-size: 22px;
+            font-weight: bold;
+            text-align: right;
+            background-color: {{css.color_era }};
+            color: white;
+            border-radius: {{css.border_radius }};
+            padding-right: 5px;
+        }
+
+        .data-title-project {
+            font-weight: bold;
+            font-size: 22px;
+            color: {{css.color_title_project }};
+        }
+
+        .data-sub-title {
+            font-weight: bold;
+        }
+
+        .break {
+            margin-top: 20px;
+        }
+
+        .note {
+            color: {{css.color_note }};
+            font-size: 12px;
+        }
+
+        a {
+            color: {{css.color_link }};
+            text-decoration: underline;
+        }
+
+        a.transparent {
+            color: {{css.color_header_font }};
+            text-decoration: none;
+        }
+
+        a.text {
+            text-decoration: none;
+            color: {{css.default_color }};
+        }
+
+        /*
+        table {
+            page-break-inside:avoid;
+        }
+        */
+    </style>
+</head>
+<body>
+
+
+
+<htmlpageheader name="patrik-header">
+    <div class="header">
+        <span class="fontawesome">{{ p3x-icon-unicode p3x-default.icons.ICON_RESUME_RAW }}</span>&nbsp;{{ p3x-language 'layout' 'title' }} {{ p3x-language 'resume' 'title'}}
+    </div>
+</htmlpageheader>
+
+
+<htmlpagefooter name="patrik-footer">
+    <div class="footer">
+        <div style="float: left; width: 30%; margin-left: 10px;">
+            {{ p3x-default.version }}
+            <!--
+            { { p3x-default.project-divider }} { {  p3x-date (p3x-language 'layout' 'date-format') }}
+            -->
+        </div>
+        <div style="float: right; width: 67%; text-align: right; margin-right: 10px;">
+            <a target="_blank" class="transparent" href="{{ p3x-default.url }}">{{ p3x-default.url }}</a>
+            |
+            <a target="_blank" class="transparent" href="tel:{{ p3x-default.phone }}">{{ p3x-default.phone }}</a>
+            |
+            <a target="_blank" class="transparent" href="mailto:{{ p3x-base64-decode p3x-default.email }}">{{ p3x-base64-decode p3x-default.email }}</a>
+            |
+            {PAGENO}/{nbpg}
+        </div>
+    </div>
+</htmlpagefooter>
+
+<sethtmlpageheader name="patrik-header" page="ALL" value="1" show-this-page="1"/>
+<sethtmlpagefooter name="patrik-footer"/>
+
+<img class="profile-image" src="{{ p3x-default.url }}{{ p3x-route-url 'images/profile-20170330.png' }}"/>
+
+<span class="fontawesome">{{ p3x-icon-unicode p3x-default.icons.ICON_RESUME_COVER_RAW }}</span>
+{{{ p3x-language 'resume' 'tab-data-cover' }}}
+
+
+
+<hr/>
+
+
+<div>
+    <div class="data-title">
+        <span class="fontawesome">{{ p3x-icon-unicode p3x-default.icons.ICON_RESUME_PERSONAL_RAW }}</span>&nbsp;{{ p3x-language 'resume' 'tab-personal' }}
+    </div>
+    <table>
+        {{#each (p3x-language 'resume' 'tab-data-personal')}}
+            <tr>
+                <td align="right" valign="middle">
+                    <div class="data-sub-title">
+                        {{field}} :
+                    </div>
+                </td>
+                <td valign="middle">
+                    {{#if (p3x-expr type '=' 'url')}}
+                        <a href="{{content}}">{{content}}</a>
+                    {{else if (p3x-expr type '=' 'email')}}
+                        <a href="mailto:{{p3x-base64-decode content}}">{{p3x-base64-decode content}}</a>
+                    {{else if (p3x-expr type '=' 'since')}}
+                        {{p3x-sprintf (p3x-language 'resume' 'data-since-pdf') content (p3x-expr (p3x-date 'Y') "-" content)}}
+                    {{else }}
+                        {{content}}
+                    {{/if}}
+                </td>
+            </tr>
+        {{/each}}
+    </table>
+</div>
+
+
+<hr/>
+
+
+<div>
+    <div style="float: left; width: 50%; " class="data-title">
+        <span class="fontawesome">{{ p3x-icon-unicode p3x-default.icons.ICON_RESUME_SKILLS_RAW }}</span>&nbsp;{{ p3x-language 'resume' 'tab-skills' }}
+    </div>
+
+    <div class="note" style="float: right; width: 50%; text-align: right;">
+        <span class="fontawesome">{{ p3x-icon-unicode p3x-default.icons.ICON_INFO_RAW }}</span>&nbsp;
+        {{ p3x-language 'resume' 'skills-info' }}
+    </div>
+
+    <div style="clear: both;"></div>
+
+    {{#each (p3x-language 'resume' 'tab-data-skills') as |this index|}}
+        <div class="data-sub-title">
+            {{field}} :
+        </div>
+        {{ content }}
+
+        {{#if (p3x-expr @key '<' ../skill-upper)}}
+            <div class="break"></div>
+        {{/if}}
+    {{/each}}
+</div>
+
+
+<hr/>
+
+
+<div>
+    <div class="data-title">
+        <span class="fontawesome">{{ p3x-icon-unicode p3x-default.icons.ICON_RESUME_EDUCATION_RAW }}</span>&nbsp;{{ p3x-language 'resume' 'tab-education' }}
+    </div>
+
+    {{#each (p3x-language 'resume' 'tab-data-education') as |this index|}}
+        <div style="float: left;
+            {{#if (p3x-expr 1 '=' @key)}}
+            text-align: right; border-left: 2px solid {{../css.color_hr}};width: 48.8%;
+            {{else}}
+            width: 50%;
+            {{/if}}">
+            <div class="data-sub-title">
+                {{name}}
+            </div>
+            <div>
+                {{faculty}}
+            </div>
+            <div>
+                {{#if date-start }}
+                    {{date-start}} -
+                {{/if}}
+                {{date-end}}
+            </div>
+            {{#if (p3x-expr index '>=' ../education-upper)}}
+                <div class="break"></div>
+            {{/if}}
+        </div>
+    {{/each}}
+
+    <!--
+    <div class="note">
+        <span class="fontawesome">{{ p3x-icon-unicode p3x-default.icons.ICON_RESUME_EDUCATION_NOTE_RAW }} </span>
+        <span style="text-transform: capitalize;">
+        {{p3x-language 'layout' 'text-note' }} :
+        </span>
+    </div>
+    -->
+</div>
+
+<hr/>
+
+<div class="data-title">
+    <span class="fontawesome">{{ p3x-icon-unicode p3x-default.icons.ICON_RESUME_EMPLOYMENT_RAW }}</span>&nbsp;{{ p3x-language 'resume' 'tab-employment' }}
+
+    <table width="100%">
+        {{#each employment}}
+            <tr>
+                <td valign="top" style="font-weight: bold;">
+                    <a class="text" name="employer-{{ p3x-string-id @key}}">
+                        {{@key}}
+                    </a>
+                </td>
+            </tr>
+            {{#if (p3x-expr @index '<' ../employment-count )}}
+                <tr>
+                    <td colspan="2">
+                        <hr/>
+                    </td>
+                </tr>
+            {{/if}}
+        {{/each}}
+    </table>
+</div>
+
+</body>
+</html>

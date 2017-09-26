@@ -1,0 +1,22 @@
+server {
+        listen 80;
+        listen 8080;
+
+        root /resume-web/deployment/public;
+
+        index index.php;
+        location / {
+            #try_files $uri $uri/ /index.php;
+            try_files $uri $uri/ /index.php$is_args$args;
+            proxy_read_timeout 3600;
+        }
+        location ~ \.php$ {
+            include snippets/fastcgi-php.conf;
+            fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+            fastcgi_read_timeout 3600s;
+        }
+
+        location ~ /\.ht {
+            deny all;
+        }
+}

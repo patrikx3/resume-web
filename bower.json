@@ -1,0 +1,29 @@
+{
+  "name": "patrikx3-resume",
+  "authors": [
+    "Patrik Laszlo"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "http://www.patrikx3.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "deployment/public/components"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jGrowl": "jgrowl#^1.4.6",
+    "bootstrap": "^3.3.7",
+    "lity": "^2.3.0",
+    "swfobject": "*",
+    "p3x-resume": "*",
+    "p3x-resume-bootstrap": "*",
+    "components-font-awesome": "^4.7.0",
+    "p3x-stackicons": "*"
+  }
+}

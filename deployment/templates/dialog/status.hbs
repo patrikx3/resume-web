@@ -1,0 +1,51 @@
+<div class="modal fade transition" id="layout-status-modal" tabindex="-1" role="dialog"
+     aria-labelledby="layout-status-modal-label">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="layout-status-modal-label">
+                    {{ p3x-language 'layout' 'web-status' }}
+                </h4>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+                {{#each ci }}
+                    <div class="continuous-integration transition">
+                        <div>
+                            {{ this }}
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://travis-ci.org/patrikx3/{{ this }}?branch=master">
+                                <img src="https://travis-ci.org/patrikx3/{{ this }}.svg?branch=master"/>
+                            </a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://scrutinizer-ci.com/g/patrikx3/{{ this }}/">
+                                <img src="https://scrutinizer-ci.com/g/patrikx3/{{ this }}/badges/quality-score.png?b=master"/>
+                            </a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://scrutinizer-ci.com/g/patrikx3/{{ this }}/">
+                                <img src="https://scrutinizer-ci.com/g/patrikx3/{{ this }}/badges/coverage.png?b=master"/>
+                            </a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="https://github.com/patrikx3/{{this}}">
+                                <img src="https://img.shields.io/badge/GitHub-{{ p3x-replace this '-'
+                                                                                             '--'}}-ffcc00.svg"/>
+                            </a>
+                        </div>
+                    </div>
+                {{/each}}
+
+                <div style="display: block; clear: both;">
+                    <a target="_blank" href="https://hub.docker.com/r/patrikx3/resume/"><img src="https://img.shields.io/badge/Docker-alive-blue.svg"></a>
+                    <img src="https://codeship.com/projects/951b4e20-b118-0134-b8d2-02806e5946e9/status?branch=master"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
