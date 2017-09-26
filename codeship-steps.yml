@@ -1,0 +1,4 @@
+- name: build
+  tag: master
+  service: app
+  command: echo ready

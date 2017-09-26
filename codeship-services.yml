@@ -1,4 +1,7 @@
-- name: build
-  tag: master
-  service: web
-  command: echo ready
+app:
+  build:
+    image: patrikx3/resume
+    context: app
+    dockerfile: Dockerfile
+
+
