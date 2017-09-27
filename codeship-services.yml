@@ -1,8 +1,8 @@
 app:
   build:
     image: patrikx3/resume
-    context: app
+#    context: app
     dockerfile: Dockerfile
-    volumes_from:
-        - data
+#    volumes_from:
+#        - data
 
