@@ -1,4 +1,4 @@
-- name: build
-  tag: master
-  service: app
-  command: echo ready
+  - name: build
+    tag: master
+    service: app
+    command: echo ready
