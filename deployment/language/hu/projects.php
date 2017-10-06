@@ -134,6 +134,7 @@ $l['projects'] = [
             'location' => 'Magyarország, Budapest',
             'role' => 'Szenior Fejlesztő Mérnök',
             'task-normal' => 'A Hugo Bossnak egy textil színét felismerő alkalmazás fejlesztésre színfelismerés automatizálására.',
+            'technology' => 'ASP.NET 3.5, Hardware programozás, Web 2.0',
         ],
         [
             'location' => 'Magyarország, Budapest',

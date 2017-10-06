@@ -134,6 +134,7 @@ $l['projects'] = [
                 'location' => 'Hungary, Budapest',
                 'role' => 'Senior Software Engineer',
                 'task-normal' => 'Develop a color textile color recognition system for clothing manufacturing for Hugo Boss.',
+                'technology' => 'ASP.NET 3.5, Hardware programming, Web 2.0',
             ],
             [
                 'location' => 'Hungary, Budapest',

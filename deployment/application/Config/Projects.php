@@ -38,7 +38,7 @@ class Projects
                         'project' => 'NG-IVR',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2016-10-20'),
-                        'technology' => 'NodeJs, Angular, Angular Material, MongoDB, JavaScript, ES.Next, Babel, Jenkins, Upsource, Docker, Socket.IO, Observable',
+                        'technology' => 'NodeJs, Angular, Angular Material, MongoDB, JavaScript, ES.Next, Babel, Jenkins, Upsource, Docker, Socket.IO, Observable, Redis',
                         'country' => 'hu',
                         'image' => [
                             'files/projects/era-2015/ngivr/1.jpg',
@@ -231,7 +231,6 @@ class Projects
                         'company' => 'Infomatix',
                         'date-start' => new DateTime('2008-10-01'),
                         'date-end' => new DateTime('2008-10-04'),
-                        'technology' => 'ASP.NET 3.5, Hardware programozás, Web 2.0',
                         'country' => 'ch',
                     ],
                     [
