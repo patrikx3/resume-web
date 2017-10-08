@@ -155,7 +155,7 @@ $l['projects'] = [
         ],
         [
             'location' => 'Dánia, Vedbæk',
-            'role' => 'Szoftver Fejlesztő Mérnök / Team lead',
+            'role' => 'Szoftver Fejlesztő Mérnök / Vezető Fejlesztő',
             'summary' => 'Microsoft Business Framework GUI fejlesztő.',
             'task-normal' => 'Analízis, tervezés, fejlesztés, prototípúsok tervezése a Microsoft Dynamics üzleti rendszerhez',
         ],

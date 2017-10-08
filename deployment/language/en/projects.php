@@ -155,7 +155,7 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Denmark, Vedbæk',
-                'role' => 'Software Development Engineer / Team lead',
+                'role' => 'Software Development Engineer / Team leader',
                 'summary' => 'Microsoft Business Framework controls development.',
                 'task-normal' => 'Analysis, design, development and testing of controls as a consultant',
             ],
