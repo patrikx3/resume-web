@@ -35,11 +35,11 @@ class Resume
     {
         Analytics::Track();
 
-        if (HOST == 'www.patrikx3.com' || HOST == 'patrikx3.com' || isset($_REQUEST['old'])) {
+//        if (HOST == 'www.patrikx3.com' || HOST == 'patrikx3.com' || isset($_REQUEST['old'])) {
             $template = View::Get('resume/pdf-template');
-        } else {
-            $template = Template::Render('resume/pdf-template');
-        }
+//        } else {
+//            $template = Template::Render('resume/pdf-template');
+//        }
 
         if (isset($_REQUEST['raw'])) {
             echo $template;
