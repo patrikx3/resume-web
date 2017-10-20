@@ -270,7 +270,7 @@ class Projects
                         'company' => 'EPAM',
                         'date-start' => new DateTime('2005-06-01'),
                         'date-end' => new DateTime('2007-06-01'),
-                        'technology' => 'J2EE, Tamino XML Db, XML, XSL, Visual Basic, Windows Server Technologies, JRun, Visual Basic 6, Eclipse, AJAX',
+                        'technology' => 'J2EE, Tamino XML Db, XML, XSL, Visual Basic, Windows Server Technologies, JRun, Eclipse, AJAX',
                         'country' => 'us',
                     ],
                     [
