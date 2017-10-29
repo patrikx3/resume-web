@@ -54,7 +54,7 @@ RUN mkdir -p /run/php
 RUN echo "cgi.fix_pathinfo = 0;" >> /etc/php/7.0/fpm/php.ini
 RUN echo "max_input_vars = 10000;" >> /etc/php/7.0/fpm/php.ini
 RUN echo "max_execution_time = 10000;" >> /etc/php/7.0/fpm/php.ini
-RUN echo "date.timezone = Europe/Paris;" >> /etc/php/7.0/fpm/php.ini
+RUN echo "date.timezone = %~dp0\build-lib;" >> /etc/php/7.0/fpm/php.ini
 RUN sed -i 's/;daemonize = yes/daemonize = no/g' /etc/php/7.0/fpm/php-fpm.conf
 RUN apt-get autoremove
 RUN apt-get autoclean
