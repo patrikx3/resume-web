@@ -38,7 +38,7 @@ $l['content']
             <span class="{$profile_class}">{$age}</span> éves vagyok.
         </li>
         <li class="list-group-item">
-                <span class="{$profile_class}">2017</span> - Jelenleg szoftver rendszer építész és vezető fejlesztő vagyok.
+                <span class="{$profile_class}">2017</span> - Jelenleg szoftver rendszer építész és hacker vagyok.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span>-ig egy nagyobb munkám volt a <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> cégnél.

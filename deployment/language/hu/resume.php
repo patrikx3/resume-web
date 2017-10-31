@@ -81,7 +81,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Munkakör',
-        'content' => 'Szoftver Rendszer Építész / Vezető Fejlesztő'
+        'content' => 'Szoftver Rendszer Építész / Hacker'
     ],
     [
         'field' => 'Beszélt nyelvek',

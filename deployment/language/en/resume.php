@@ -82,7 +82,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Role',
-        'content' => 'Software Systems Architect / Developer Manager'
+        'content' => 'Software Systems Architect / Hacker'
     ],
     [
         'field' => 'Spoken languages',
