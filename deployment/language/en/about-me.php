@@ -39,7 +39,7 @@ $l['content']
             I am <span class="{$profile_class}">{$age}</span> years old.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">2017</span> - Currently my role is software systems architect and a hacker.
+            <span class="{$profile_class}">2018</span> - I am a veteran programmer. Currently, my role is software systems architect and a hacker at Sygnus.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span> I got a bigger client <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> so I was not creating other projects.
