@@ -30,7 +30,7 @@ Kb. 2000 óta használom az objektumorientált és funkcionális fejlesztést. 2
 <br/><br/>
 Általában web alapú rendszereket építek, de más alkalmazásokkal is foglalkozok. Legjobban a szerver, kliens, desktop, mobil, adatbázis és komponens módszerek kedvelem.  Olyan egyszerű megoldásokat tervezek, amely független az operációs rendszertől, nyelvtől és keretrendszertől.
 <br/><br/>
-Amit szeretek: elemzés, tervezés, teszt, építés, folyamatos integráció, kód stílus, kód felülvizsgálata, dokumentáció, telepítés, kód lefedettség, feladatkezelés, fejlesztők támogatása és fejlesztés.
+Amit szeretek: elemzés, tervezés, teszt, építés, folyamatos integráció, kód stílus, kód felülvizsgálata, dokumentáció, telepítés, kód lefedettség, feladatkezelés, fejlesztési műveletek (DevOps) és fejlesztés.
 EOF;
 
 $l['tab-data-personal'] = [
@@ -81,7 +81,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Munkakör',
-        'content' => 'Szoftver Rendszer Építész / Hacker'
+        'content' => 'Szoftver Rendszer Építész, Fejlesztési Műveletek Mérnök (DevOps) és hacker'
     ],
     [
         'field' => 'Beszélt nyelvek',
