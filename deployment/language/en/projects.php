@@ -34,7 +34,7 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Software Systems Architect, Development Operations Engineer (DevOps) and hacker',
+                'role' => 'Senior Software Systems Architect, Development Operations Engineer (DevOps) and hacker',
                 'tasks' => 'Mentoring, Planning, Automation, Development, Developer support',
                 'summary' => 'New generation integrated enterprise management system. I support the developers and architect.  Lots of components. I implemented continuous integration - Jenkins / Mocha / Protractor and build deployments. I overview the system and develop.',
             ],

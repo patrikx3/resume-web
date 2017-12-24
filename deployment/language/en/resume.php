@@ -128,7 +128,7 @@ $l['tab-data-skills'] = [
     ],
     [
         'field' => 'Process development',
-        'content' => 'Scrum, Agile, Rational Unified Process, Iterative',
+        'content' => 'Scrum, Agile, Rational Unified Process, Iterative, Development Operations (Dev Ops)',
         'type' => 'badge'
     ],
 ];
