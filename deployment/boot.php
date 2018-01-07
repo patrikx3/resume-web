@@ -38,3 +38,4 @@ P3x\Application::Boot();
 Config\Config::Define();
 Config\Route::Define();
 Config\Template::Define();
+

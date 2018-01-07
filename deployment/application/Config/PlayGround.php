@@ -16,6 +16,71 @@ class PlayGround
     public static $playground
         = [
             [
+                'title' => 'Redis Commander',
+                'year' => 2017,
+                'country' => 'hu',
+                'url' => [
+                    'GitHub' => 'https://github.com/patrikx3/redis-commander',
+                    'WWW' => 'https://pages.corifeus.com/redis-commander',
+                ]
+            ],
+
+            [
+                'title' => 'Freenom',
+                'year' => 2017,
+                'country' => 'hu',
+                'url' => [
+                    'GitHub' => 'https://github.com/patrikx3/freenom',
+                    'WWW' => 'https://pages.corifeus.com/freenom',
+                    'NPM' => 'https://www.npmjs.com/package/p3x-freenom',
+                ]
+            ],
+
+            [
+                'title' => 'Gitlist',
+                'year' => 2017,
+                'country' => 'hu',
+                'url' => [
+                    'GitHub' => 'https://github.com/patrikx3/gitlist',
+                    'GitHub Gitter' => 'https://github.com/patrikx3/gitter',
+                    'Gitlist' => 'https://gitlst.patrikx3.com',
+                ]
+            ],
+
+            [
+                'title' => 'LEDE Insomnia',
+                'year' => 2017,
+                'country' => 'hu',
+                'url' => [
+                    'GitHub' => 'https://github.com/patrikx3/lede-insomnia',
+                    "WWW" => 'https://pages.corifeus.com/lede-insomnia/',
+                    "CDN" => 'https://cdn.corifeus.com/lede/',
+                ]
+            ],
+
+            [
+                'title' => 'LEDE Redis',
+                'year' => 2017,
+                'country' => 'hu',
+                'url' => [
+                    'GitHub' => 'https://github.com/patrikx3/lede-redis',
+                    "WWW" => 'https://pages.corifeus.com/lede-redis/',
+                    "CDN" => 'https://cdn.corifeus.com/lede/',
+                ]
+            ],
+
+            [
+                'title' => 'LEDE MariaDB 5.5',
+                'year' => 2017,
+                'country' => 'hu',
+                'url' => [
+                    'GitHub' => 'https://github.com/patrikx3/lede-mariadb',
+                    "WWW" => 'https://pages.corifeus.com/lede-mariadb/',
+                    "CDN" => 'https://cdn.corifeus.com/lede/',
+                ]
+            ],
+
+            [
                 'title' => 'Afraid FreeDNS',
                 'year' => 2017,
                 'country' => 'us',

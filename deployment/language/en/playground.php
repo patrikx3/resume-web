@@ -10,6 +10,30 @@ $l['title-flash'] = 'Flash';
 
 $l['playground'] = [
     [
+        'summary' => 'This is a fork of the original Redis Commander with some fixes and uses Redis URL instead of objects.',
+    ],
+
+    [
+        'summary' => 'This is an async/await Promise based Freenom API package for the free DNS, it auto renews the domains that are about to be expired.',
+    ],
+
+    [
+        'summary' => 'This is a fork of the original Gitlist and Gitter with sub-modules, additional themes and updated PHP to 7 only and all packages are updated.',
+    ],
+
+    [
+        'summary' => 'LEDE Insomnia is a Linksys WRT, D-Link DIR 860L B1 and Rasberry PI Docker based build with addons and fixed, plus my LEDE packages are as well built from the stable source.',
+    ],
+
+    [
+        'summary' => 'This is the LEDE based Redis of stable source.',
+    ],
+
+    [
+        'summary' => 'This is the LEDE based MariaDB 5.5.',
+    ],
+
+    [
         'summary' => 'I haven\'t had more free domains, so I helped the FreeDns Afraid system, so I got more free 50 sub-domains / domain.',
     ],
     [

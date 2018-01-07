@@ -123,7 +123,7 @@ $l['tab-data-skills'] = [
     ],
     [
         'field' => 'Applications',
-        'content' => 'Enterprise Architect, Microsoft Project, Eclipse, Visual Studio,IntelliJ IDEA, Photoshop, Illustrator',
+        'content' => 'Docker, Jenkins, Enterprise Architect, Microsoft Project, Eclipse, Visual Studio,IntelliJ IDEA, Photoshop, Illustrator',
         'type' => 'badge'
     ],
     [

@@ -9,6 +9,29 @@ $l['title-flash'] = 'Flash';
 
 $l['playground'] = [
     [
+        'summary' => 'Ez egy fork, ez eredeti Redis Commander-ban néhány hiba volt, azt megcsináltam és most nem objektum-t ad Redis-nek, hanem Redis URL-t használ.',
+    ],
+
+    [
+        'summary' => 'Ez egy async/await Promise alapú Freenom API csomag ennek az ingzenes DNS-nek, autómatikusan megújítja a domaineket amik lejárnak.',
+    ],
+
+    [
+        'summary' => 'Ez egy fork az eredeti Gitlist és Gitter-ből al-modulokkal, plusz sminkkel és frissítve PHP 7-re és minden csomag is frissítve van.',
+    ],
+
+    [
+        'summary' => 'LEDE Insomnia a Linksys WRT, D-Link DIR 860L B1 és Rasberry PI Docker alapú építő plusz funkciókkal és pár hiba nem működött, plusz a saját LEDE csomagok is építelve vannak. Mind a LEDE stabil forrásból van.',
+    ],
+
+    [
+        'summary' => 'LEDE alapú Redis a stabil forrásból.',
+    ],
+
+    [
+        'summary' => 'LEDE alapú MariaDB 5.5.',
+    ],
+    [
         'summary' => 'Nem volt több ingyenes domain-em és segítettem a FreeDns Afraid rendszernek, így 5 évig plusz 50 ingyenes al-domain / domain-t kaptam.',
     ],
     [
