@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Csak távmunkában dolgozok. Mivel rengeteg kódot írok, nincs időm teszteket írni. Elég demóm van, megtekinthetők. Köszönöm.    
+Csak távmunkában dolgozok. Mivel rengeteg kódot írok, nincs sok időm teszteket írni, mivel folyamatosan dolgozok. Elég demóm van, megtekinthetők, de ha kell, hétvégén tudok tesztek kódolni, mivel sok munkából sok hiba. :)   
 <br/><br/>    
 Gyerekkorom óta használok grafikai programokat és kódolok. Nagyon szeretem a szép animációt és a strukturált programozást.
 <br/><br/>
