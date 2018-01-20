@@ -13,7 +13,7 @@ $l['playground'] = [
     ],
 
     [
-        'summary' => 'Ez egy async/await Promise alapú Freenom API csomag ennek az ingzenes DNS-nek, autómatikusan megújítja a domaineket amik lejárnak.',
+        'summary' => 'Ez egy async/await Promise alapú Freenom API csomag ennek az ingyenes DNS-nek, autómatikusan megújítja a domaineket amik lejárnak.',
     ],
 
     [
@@ -56,7 +56,7 @@ $l['playground'] = [
     ],
     [
         'title' => 'Corifeus Szoftver Architektúra',
-        'summary' => 'Érdekel az architektúra. Elemzés, tervezés, tervezés, ismétlődő, xyz vezetés, telepítés és végül: termék. Elkezdtem egy teljesen új platformot. Technológiák: Angular 2, Angular Material 2, SocketIO, MongoDB, Express',
+        'summary' => 'Érdekel az architektúra. Elemzés, tervezés, tervezés, ismétlődő, xyz vezetés, telepítés és végül: termék. Elkezdtem egy teljesen új platformot. Technológiák: Angular TypeScript, Angular Material 2, SocketIO, MongoDB, Express',
         'url' => [
             'GitHub' => 'https://github.com/patrikx3/corifeus',
             'Név' => 'http://www.kislexikon.hu/korifeus.html',

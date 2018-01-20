@@ -270,13 +270,13 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
     <table>
         <?php foreach ( Language::Get('resume', 'tab-data-personal') as $item) : ?>
             <tr>
-                <td align="right" valign="middle">
+                <td align="right" valign="top">
                     <div class="data-sub-title">
                         <?= $item['field'] ?>
                         :
                     </div>
                 </td>
-                <td valign="middle">
+                <td valign="top">
                     <?php
                     $type = isset($item['type']) ? $item['type'] : '';
                     switch ($type) {

@@ -22,7 +22,7 @@ $l['playground'] = [
     ],
 
     [
-        'summary' => 'LEDE Insomnia is a Linksys WRT, D-Link DIR 860L B1 and Rasberry PI Docker based build with addons and fixed, plus my LEDE packages are as well built from the stable source.',
+        'summary' => 'LEDE Insomnia is a Linksys WRT, D-Link DIR 860L B1 and Rasberry PI Docker based build with addons and fix, plus my LEDE packages are as well built from the stable source.',
     ],
 
     [
@@ -58,7 +58,7 @@ $l['playground'] = [
     ],
     [
         'title' => 'Corifeus Software Architecture',
-        'summary' => 'I am interested in software and building. Analysis, design, architecture, iterative, xyz driven, deployment and in the end: product. A started building a platform. Technologies: Angular 2, Angular Material 2, SocketIO, MongoDB, Express',
+        'summary' => 'I am interested in software and building. Analysis, design, architecture, iterative, xyz driven, deployment and in the end: product. A started building a platform. Technologies: Angular TypeScript, Angular Material 2, SocketIO, MongoDB, Express',
         'url' => [
             'GitHub' => 'https://github.com/patrikx3/corifeus',
             'Name' => 'https://en.wikipedia.org/wiki/Coryphaeus',

@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-I accept only remote work and contracts. Given the amount of code I write, I do not have too much time to take tests, given I am continuous coding. I can provide enough demos to show, but if really needed, I can do it on like weekends, after relaxing so I do no create more errors. :)
+Given the amount of code I write, I do not have too much time to take tests, given I am continuous coding. I can provide enough demos to show, but if really needed, I can do it on like weekends, after relaxing so I do no create more errors. :)
 <br/><br/>
 I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.  
 <br/><br/>
@@ -82,7 +82,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Role',
-        'content' => 'Software Systems Architect, Development Operations Engineer (DevOps) and hacker'
+        'content' => 'Senior Software Systems Technical Architect, Development Operations Engineer (DevOps) and hacker'
     ],
     [
         'field' => 'Spoken languages',
