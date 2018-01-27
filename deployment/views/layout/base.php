@@ -162,9 +162,9 @@ $title_name = Html::GetTitleName('layout', 'title');
     </div>
 
     <div class="p3x-sponsor fader">
-        <i class="fa fa-handshake-o"></i>
+        <img src="<?= Router::Url('images/jetbrains-logo.svg') ?>" style="height: 25px; width: auto;"/>
         <?= Language::Get('layout', 'sponsored-by'); ?>:
-        <a target="_blank" href="https://www.jetbrains.com/buy/opensource/?product=idea">IntelliJ</a>
+        <a target="_blank" href="https://www.jetbrains.com/">JetBrains</a>
     </div>
 
 

@@ -29,8 +29,9 @@ $l['date'] = 'Y/m/d';
 
 $l['social-phone'] = 'Telefonszám';
 
-$l['copied-email'] = 'Az e-mail cím a váglólapra mentetve.';
-$l['copied-phone'] = 'A telefonszám a váglólapra mentetve.';
+$l['copied-email'] = 'Az e-mail cím a váglólapra mentve.';
+$l['copied-phone'] = 'A telefonszám a váglólapra mentve.';
+$l['copied-skype'] = 'A skype név a váglólapra mentve.';
 
 $l['flash-no'] = 'A Ön böngészőjében a Flash nincs telepítve vagy az Ön böngészője nem engedélyezi a Flash-et.';
 

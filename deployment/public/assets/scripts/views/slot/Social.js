@@ -10,6 +10,7 @@
             var data = JSON.parse($('#data-slot-social').html());
             var social_email = data['data-social-email'];
             var social_phone = data['data-social-phone-id'];
+            var social_skype = data['data-social-skype'];
 
             var tooltips = $('.social-tooltip,.social-tooltip > a');
             tooltips.tooltip();
@@ -42,6 +43,22 @@
                 })
             });
 
+
+            $('#' + social_skype).click(function () {
+                var message = 'Skype: nanoneuron';
+                if (layout.CopyText('nanoneuron')) {
+                    message += '<br/><br/>' + language.Get('layout', 'copied-skype');
+                }
+                growl({
+                    message: message,
+                    sticky: true
+                });
+
+                var url = 'skype:nanoneuron?chat'
+                protocolValid(url, null, function () {
+                    window.open(url, '_self');
+                })
+            });
 
         });
     });

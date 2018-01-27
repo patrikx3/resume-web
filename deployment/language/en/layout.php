@@ -30,6 +30,7 @@ $l['social-phone'] = 'Telephone';
 
 $l['copied-email'] = 'Your e-mail have been copied to the clipboard.';
 $l['copied-phone'] = 'Your phone number have been copied to the clipboard.';
+$l['copied-skype'] = 'Your skype name have been copied to the clipboard.';
 
 $l['flash-no'] = 'Flash is not installed in your browser or your browser does not allow Flash.';
 
