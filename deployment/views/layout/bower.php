@@ -6,8 +6,8 @@ list($folder_source, $folder_source_scripts, $folder_source_css, $folder_product
 <?php if (DEBUG) : ?>
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/jGrowl/jquery.jgrowl.css" />
-    <link rel="stylesheet" href="bower_components/lity/dist/lity.min.css" />
     <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/lity/dist/lity.min.css" />
     <link rel="stylesheet" href="bower_components/p3x-stackicons/css/stackicons-social.css" />
     <!-- endbower -->
 

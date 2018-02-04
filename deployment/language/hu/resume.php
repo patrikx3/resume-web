@@ -22,8 +22,6 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Mivel rengeteg kódot írok, nincs sok időm teszteket írni, mivel folyamatosan dolgozok. Elég demóm van, megtekinthetők, de ha kell, hétvégén tudok teszteket kódolni, mivel sok munkából sok hiba. :)   
-<br/><br/>    
 Gyerekkorom óta használok grafikai programokat és kódolok. Nagyon szeretem a szép animációt és a strukturált programozást.
 <br/><br/>
 Kb. 2000 óta használom az objektumorientált és funkcionális fejlesztést. 2001 óta tervezek diagramokat és modelleket. Szeretem a tervező és Microsoft eszközeket.
@@ -118,7 +116,7 @@ $l['tab-data-skills'] = [
     [
         'field' => 'Adatbázisok',
         'type' => 'badge',
-        'content' => 'Redis, MongoDb, MySQL, Microsoft SQL Server, PostgreSQL, Tamino XML Server',
+        'content' => 'Redis, MongoDb, MySQL, MariaDB, Microsoft SQL Server, PostgreSQL, Tamino XML Server',
     ],
     [
         'field' => 'Alkalmazások',

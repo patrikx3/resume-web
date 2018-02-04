@@ -12,13 +12,14 @@ class Mail
 //        print_r($settings->gmail->password);
 //        exit;
         $smtp = $settings['email']['smtp'];
-        $transporter = \Swift_SmtpTransport::newInstance($smtp['host'], $smtp['port'], $smtp['security'])
+
+        $transporter = (new \Swift_SmtpTransport($smtp['host'], $smtp['port'], $smtp['security']))
             ->setUsername($settings['email']['username'])
             ->setPassword($settings['email']['password']);
 
-        $mailer = \Swift_Mailer::newInstance($transporter);
+        $mailer = new \Swift_Mailer($transporter);
 
-        $message = \Swift_Message::newInstance($subject)
+        $message = (new \Swift_Message($subject))
             ->setFrom($settings['email']['username'])
             ->setReplyTo($from)
             ->setTo($to)

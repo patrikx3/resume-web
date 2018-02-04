@@ -158,7 +158,6 @@
 
     LayoutManager.SwitchTheme = function (name) {
         var self = this;
-
         var url;
         if (name == 'bootstrap') {
             url = config.base_url + 'bower_components/bootstrap/dist/css/bootstrap.min.css';

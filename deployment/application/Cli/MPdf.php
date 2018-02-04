@@ -38,6 +38,7 @@ class MPdf
      * @return bool
      */
     public function loadFontInclude() {
+        /*
         debug::send('MPDF fonts were generated now.');
         $original_config_font = ROOT_VENDOR_MPDF . 'config_fonts.php';
         include_once ROOT_VENDOR_MPDF . 'config_fonts.php';
@@ -59,6 +60,7 @@ class MPdf
             $output .= '$this->' . $data_key . ' = ' . $export . ';' . PHP_EOL;
         }
         file_put_contents($original_config_font, $output);
+        */
         return true;
     }
 

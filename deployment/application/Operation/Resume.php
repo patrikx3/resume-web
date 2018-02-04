@@ -73,7 +73,34 @@ class Resume
         $letter = Language::$Language == 'hu' ? 'A4' : 'LETTER';
         // ($mode = '', $format = 'A4', $default_font_size = 0, $default_font = '', $mgl = 15, $mgr = 15, $mgt = 16, $mgb = 16, $mgh = 9, $mgf = 9, $orientation = 'P')
         error_reporting(E_ERROR | E_PARSE);
-        $mpdf = new \mPDF('utf-8', $letter, '', '', '10', '10', '22', '16');
+        //$mpdf = new \Mpdf\Mpdf(['utf-8', $letter, '', '', '10', '10', '22', '16']);
+        $mpdf = new \Mpdf\Mpdf([
+            'mode' => 'utf-8',
+			'format' => $letter,
+			'default_font_size' => 0,
+			'default_font' => '',
+			'margin_left' => 10,
+			'margin_right' => 10,
+			'margin_top' => 22,
+			'margin_bottom' => 16,
+//			'margin_header' => 9,
+//			'margin_footer' => 9,
+//			'orientation' => 'P',
+            'tempDir' => ROOT_BUILD,
+            'fontdata' => [
+                    'resume-font' => [
+                        'R' =>  'TitilliumWeb-Regular.ttf',
+                        'B' =>  'TitilliumWeb-Bold.ttf',
+                        'I' =>  'TitilliumWeb-Italic.ttf',
+                        'BI' => 'TitilliumWeb-BoldItalic.ttf',
+                    ],
+                    'fontawesome' => [
+                        'R' =>  'fontawesome-webfont.ttf',
+                    ]
+                ],
+            'default_font' => 'frutiger'
+        ]);
+
         $mpdf->showImageErrors = true;
         $mpdf->WriteHTML($template);
         $mpdf->Output($actual_file, 'F');

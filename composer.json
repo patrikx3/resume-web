@@ -6,12 +6,12 @@
   "require": {
     "php": ">=7.0.0",
     "ext-gd": "*",
-    "swiftmailer/swiftmailer": "^5.4",
-    "mpdf/mpdf": "^6.1",
+    "swiftmailer/swiftmailer": "^6",
+    "mpdf/mpdf": "^7.0",
     "p3x/resume-common": "^2.0.3"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.0"
+    "phpunit/phpunit": "^6"
   },
   "scripts": {
     "compile": [

@@ -22,8 +22,6 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Given the amount of code I write, I do not have too much time to take tests, given I am continuous coding. I can provide enough demos to show, but if really needed, I can do it on like weekends, after relaxing so I do no create more errors. :)
-<br/><br/>
 I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.  
 <br/><br/>
 Since about 2000, I have been using object-oriented and functional programming. By about 2001, I have been building diagrams and models. I like architect, Microsoft and alike tools.
@@ -118,7 +116,7 @@ $l['tab-data-skills'] = [
     ],
     [
         'field' => 'Databases',
-        'content' => 'Redis, MongoDb, MySQL, Microsoft SQL Server, PostgreSQL, Tamino XML Server',
+        'content' => 'Redis, MongoDb, MySQL, MariaDB, Microsoft SQL Server, PostgreSQL, Tamino XML Server',
         'type' => 'badge'
     ],
     [

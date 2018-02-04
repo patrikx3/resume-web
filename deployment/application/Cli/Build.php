@@ -24,23 +24,23 @@ class Build
         system('composer update');
 
         Debug::Send('PHP-COMMON');
-        Debug::ChDir('../php-common');
+        Debug::ChDir('../resume-php-common');
         system('phpunit');
 
         Debug::Send('JS-COMMON');
-        Debug::ChDir('../js-common');
+        Debug::ChDir('../resume-js-common');
         system('npm update');
         system('bower update');
         system('grunt build');
 
         Debug::Send('JS-BOOTSTRAP');
-        Debug::ChDir('../js-bootstrap');
+        Debug::ChDir('../resume-js-bootstrap');
         system('npm update');
         system('bower update');
         system('grunt build');
 
         Debug::Send('RESUME');
-        Debug::ChDir('../resume');
+        Debug::ChDir('../resume-web');
         system('phpunit');
         system('npm update');
         system('bower update');
