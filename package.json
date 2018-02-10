@@ -15,7 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "cli-clear": "^1.0.4",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.2",
     "grunt-bower-concat": "^1.0.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
