@@ -3,9 +3,10 @@ dist: trusty
 language: php
 php:
   - '7.0'
-#  - '7.1'
+  - '7.1'
+  - '7.2'
 #  - hhvm
-#  - nightly
+  - nightly
 before_script:
   composer install
 
@@ -15,4 +16,3 @@ notifications:
       - alabard@gmail.com
     on_success: change # default: change
     on_failure: change # default: always
-
