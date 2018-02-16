@@ -2,10 +2,12 @@ sudo: required
 dist: trusty
 language: php
 php:
-  - '7.1'
+# for now testing 7.2 php only
+#  - '7.1'
   - '7.2'
+# mpdf/mpdf is not working with nightly
 #  - hhvm
-  - nightly
+#  - nightly
 before_script:
   composer install
 
