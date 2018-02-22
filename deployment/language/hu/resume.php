@@ -101,7 +101,7 @@ $l['tab-data-skills'] = [
     [
         'field' => 'Keretrendszerek',
         'type' => 'badge',
-        'content' => 'Electron, Angular++, WebPack, SocketIO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii, SASS, LESS, NodeJs, Bootstrap, Angular Material',
+        'content' => 'Electron, AngularJs, Angular TS, WebPack, SocketIO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii, SASS, LESS, NodeJs, Bootstrap, AngularJs Material, Angular Material 2',
     ],
     [
         'field' => 'Nyelv / Jelölőnyelv',

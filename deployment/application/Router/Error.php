@@ -49,6 +49,7 @@ EOL;
         header('HTTP/1.0 ' . $not_found);
         static::Error(Language::Get('layout', 'error-404'), \Config\Icon::ICON_404);
 
+        /*
         if (!DEBUG) {
             $data = \P3x\Router::RequestInfo();
             $email = base64_decode(EMAIL);
@@ -62,6 +63,7 @@ EOF;
             $email = base64_decode(EMAIL);
             \Operation\Mail::Send($email, $email, '404 ERROR | ' . $_SERVER['REQUEST_URI'], $data);
         }
+        */
     }
 
 }

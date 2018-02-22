@@ -38,7 +38,7 @@ class Projects
                         'project' => 'NG-IVR',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2016-10-20'),
-                        'technology' => 'NodeJs, Angular, Angular Material, MongoDB, JavaScript, ES.Next, Babel, Jenkins, Upsource, Docker, Socket.IO, Observable, Redis',
+                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, ES.Next, Babel, Jenkins, Upsource, Docker, Socket.IO, Observable, Redis, NGINX, GIT, Ubuntu, NPM, Verdaccio',
                         'country' => 'hu',
                         'image' => [
                             'files/projects/era-2015/ngivr/1.jpg',

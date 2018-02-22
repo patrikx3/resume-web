@@ -44,6 +44,7 @@ class Route
             \P3x\Router\Route::$Filters[] = $filter;
         }
 
+
         Router::InjectError(
             '404', function () {
             Error::NotFound();
