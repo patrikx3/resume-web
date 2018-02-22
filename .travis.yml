@@ -1,6 +1,10 @@
 sudo: required
 dist: trusty
 language: php
+
+services:
+  - docker
+
 php:
 # for now testing 7.2 php only
 #  - '7.1'
@@ -10,6 +14,9 @@ php:
 #  - nightly
 before_script:
   composer install
+
+after_script:
+  - docker build -t patrikx3/resume/ .
 
 notifications:
   email:
