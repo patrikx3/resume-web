@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb02096622e53d0591b807e762f9e77f",
+    "content-hash": "58773a1228ab36f628c00cc929b71c9f",
     "packages": [
         {
             "name": "doctrine/lexer",
@@ -186,16 +186,16 @@
         },
         {
             "name": "p3x/resume-common",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/patrikx3/resume-php-common.git",
-                "reference": "1555c766f34f7f3327dffda9b3001b0380dbe96d"
+                "reference": "bf296ddfff1473263b9109867e7e904c351a0323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/patrikx3/resume-php-common/zipball/1555c766f34f7f3327dffda9b3001b0380dbe96d",
-                "reference": "1555c766f34f7f3327dffda9b3001b0380dbe96d",
+                "url": "https://api.github.com/repos/patrikx3/resume-php-common/zipball/bf296ddfff1473263b9109867e7e904c351a0323",
+                "reference": "bf296ddfff1473263b9109867e7e904c351a0323",
                 "shasum": ""
             },
             "require": {
@@ -226,7 +226,7 @@
             ],
             "description": "patrikx3 resume php common",
             "homepage": "https://github.com/patrikx3/resume-php-common",
-            "time": "2018-02-15T22:21:18+00:00"
+            "time": "2018-02-23T15:48:13+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -876,16 +876,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "1.7.4",
+            "version": "1.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "9f901e29c93dae4aa77c0bb161df4276f9c9a1be"
+                "reference": "dfd6be44111a7c41c2e884a336cc4f461b3b2401"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/9f901e29c93dae4aa77c0bb161df4276f9c9a1be",
-                "reference": "9f901e29c93dae4aa77c0bb161df4276f9c9a1be",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/dfd6be44111a7c41c2e884a336cc4f461b3b2401",
+                "reference": "dfd6be44111a7c41c2e884a336cc4f461b3b2401",
                 "shasum": ""
             },
             "require": {
@@ -935,7 +935,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2018-02-11T18:49:29+00:00"
+            "time": "2018-02-19T10:16:54+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
