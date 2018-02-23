@@ -57,7 +57,9 @@ RUN apt-get autoclean
 RUN apt-get clean
 COPY artifacts/docker-files /
 RUN chmod +x /run.sh
+RUN echo "Chmod will take a few seconds..."
 RUN chmod 0777 -R /resume-web
+RUN echo "Chown will take a few seconds..."
 RUN chown -R www-data:www-data /resume-web
 EXPOSE 80 8080 8443 443
 CMD ["/run.sh"]

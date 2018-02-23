@@ -20,6 +20,8 @@ bower update --allow-root
 php cli.php mpdf
 phpunit
 grunt
+echo "Chown will take a few seconds..."
 chown -R www-data:www-data /resume-web
+echo "you can check at http://localhost:8080"
 /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf
 popd
