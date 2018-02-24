@@ -244,7 +244,7 @@ class Config
 
         define('GIT_COMMIT', $git_commit);
         define('GIT_DATE', $git_date);
-        define('VERSION', '1.4.' . GIT_COMMIT);
+        define('VERSION', '1.5.' . GIT_COMMIT);
         define('VERSION_TEXT', 'v' . VERSION);
     }
 }
