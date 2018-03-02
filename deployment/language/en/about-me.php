@@ -45,7 +45,7 @@ $l['content']
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span> I got a bigger client <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> so I was not creating other projects.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> I worked for <a target="_blank" href="https://www.epam.com/">Epam</a> and <a target="_blank" href="https://www.microsoft.com/{$language}-us/dynamics/">Microsoft</a> in Hungary. I came back back to Hungary from Los Angeles. I also was a contractor as well.
+            <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> I worked for <a target="_blank" href="https://www.epam.com/">Epam</a> and <a target="_blank" href="https://www.microsoft.com/{$language}-us/dynamics/">Microsoft</a> in Hungary. I came back to Hungary from Los Angeles. I also was a contractor as well.
         </li>
           <li class="list-group-item">
             <span class="{$profile_class}">1999</span> - <span class="{$profile_class}">2005</span> I lived in Los Angeles and I worked on web and desktop projects as a contractor. I usually used <a target="_blank" href="https://{$language}.wikipedia.org/wiki/PHP">PHP</a> / <a target="_blank" href="{$java}">Java</a> / <a target="_blank" href="{$dotnet}">.NET</a> but a few others as well.
