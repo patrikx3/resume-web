@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bb0283932dfee2e5ec7a8bb4ba378afb",
-    "content-hash": "58773a1228ab36f628c00cc929b71c9f",
+    "hash": "119510a9a4c2559c1239675e3cfc4fbf",
+    "content-hash": "ff2159c62ef0297b466500ce3480fa7c",
     "packages": [
         {
             "name": "doctrine/lexer",
@@ -187,16 +187,16 @@
         },
         {
             "name": "p3x/resume-common",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/patrikx3/resume-php-common.git",
-                "reference": "bf296ddfff1473263b9109867e7e904c351a0323"
+                "reference": "ee175e097f0bbeed85166713721b0d53da4e866e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/patrikx3/resume-php-common/zipball/bf296ddfff1473263b9109867e7e904c351a0323",
-                "reference": "bf296ddfff1473263b9109867e7e904c351a0323",
+                "url": "https://api.github.com/repos/patrikx3/resume-php-common/zipball/ee175e097f0bbeed85166713721b0d53da4e866e",
+                "reference": "ee175e097f0bbeed85166713721b0d53da4e866e",
                 "shasum": ""
             },
             "require": {
@@ -227,7 +227,7 @@
             ],
             "description": "patrikx3 resume php common",
             "homepage": "https://github.com/patrikx3/resume-php-common",
-            "time": "2018-02-23 15:48:13"
+            "time": "2018-03-17 19:07:14"
         },
         {
             "name": "paragonie/random_compat",
