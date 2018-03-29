@@ -33,6 +33,6 @@
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
     "time-grunt": "^1.4.0",
-    "xml2json": "^0.11.0"
+    "xml2json": "^0.11.2"
   }
 }
