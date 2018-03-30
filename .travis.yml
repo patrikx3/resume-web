@@ -1,26 +1,19 @@
 sudo: required
 dist: trusty
 language: php
-
 services:
-  - docker
-
+- docker
 php:
-# for now testing 7.2 php only
-#  - '7.1'
-  - '7.2'
-# mpdf/mpdf is not working with nightly
-#  - hhvm
-#  - nightly
-before_script:
-  composer install
-
+- '7.2'
+before_script: composer install
 after_script:
-  - docker build -t patrikx3/resume/ .
-
+- docker build -t patrikx3/resume/ .
 notifications:
   email:
     recipients:
-      - alabard@gmail.com
-    on_success: change # default: change
-    on_failure: change # default: always
+    - alabard@gmail.com
+    on_success: change
+    on_failure: change
+env:
+  global:
+    secure: eoteW+NJ6vmIrKGvO+1j7RlzeqIqWm35PHNCMT8k/1lT3UmeXjv4Q/jAS7g9iD+Ey5NgOfcxdTgT1dcBN1M4YM347rS3Cf+d9lOGLolJ/qcKVhHABtT7TPiTb56+OSN2ztnUinlepO8WndgmCNAyImUzEYA+hi1ZxZuzb0mJrwLupm0BV9/E2MwaPR/1eUUjWqPAmi7iRXkJ+cJa7EtKLwuL77sOkYjBsy/6KTyJVQLrrbjqdByue1RBbbY7EQ7alEEh9MoT47nLGVXL3uXPcBnbDJXfR31umCM9J9ASsNjBsDCyVWzEi0fWNmgnuO7taX3LMtr8M4928Eemo3hYAjAbTgZThg9AneJ4O0D1QGF9j7xqZ+tpA2/tmKtRqaTqlPIwsYhDxCfNEgJt9dfx15QwGWkAim4UXpeomGMT4hFNJkzHyB8os6EI6YECYdRPTVPQStXsYDEMBoMRp45Y5HnA1ZN0HYYFexQjRWOy0acGXAob3uMRzpQJ8lWoH4M9FkovK+VwD4VLg7+CRKCbeD7BFjYybAGJBia5UVZ9XgmU/65IS9y6UOlUA4eSjtk28OyJGcngEg6NFG6/ZMWdK/yxOBESMi1uJ32gVKORon8RlfyyiPUqbac1iFxKdS4Lzh9HjcX6ATNiOXrlqKcE6oLa8KxD1Nzx2nELqd6LMgQ=
