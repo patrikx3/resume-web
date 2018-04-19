@@ -1,4 +1,4 @@
-# Patrik Laszlo's Resume Web
+# 😀 Patrik Laszlo's Resume Web
  
 [![Build Status](https://travis-ci.org/patrikx3/resume-web.svg?branch=master)](https://travis-ci.org/patrikx3/resume-web)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/patrikx3/resume-web/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/patrikx3/resume-web/?branch=master)
