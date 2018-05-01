@@ -63,4 +63,4 @@ $l['error-onpopstate'] = 'Böngésző navigáció hiba!';
 
 $l['web-status'] = 'Status';
 
-$l['sponsored-by'] = 'Sponsor';
+$l['sponsored-by'] = 'Sponsors';

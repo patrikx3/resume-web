@@ -57,3 +57,11 @@ footer .p3x-rs-status-divider {
     display: inline;
   }
 }
+
+footer .p3x-sponsor-responsive {
+  display: block;
+  @media screen and (min-width: 560px) {
+    display: none;
+  }
+}
+

@@ -63,4 +63,4 @@ $l['error-onpopstate'] = 'Browser navigation error!';
 
 $l['web-status'] = 'Állapot';
 
-$l['sponsored-by'] = 'Szponzor';
+$l['sponsored-by'] = 'Szponzorok';

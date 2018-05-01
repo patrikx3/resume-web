@@ -794,6 +794,16 @@ footer .p3x-rs-status-divider {
   }
 }
 
+footer .p3x-sponsor-responsive {
+  display: block;
+}
+
+@media screen and (min-width: 560px) {
+  footer .p3x-sponsor-responsive {
+    display: none;
+  }
+}
+
 body {
   margin-top: 45px;
   margin-bottom: 37px !important;

@@ -142,6 +142,34 @@ $title_name = Html::GetTitleName('layout', 'title');
         <?= P3x\Template::Render('slot/social') ?>
     </div>
 
+
+    <div class="p3x-sponsor fader">
+        <? /*= Language::Get('layout', 'sponsored-by');  */ ?> <!-- :
+        <br/>
+        -->
+        <a target="_blank" href="https://www.jetbrains.com/">JetBrains</a>
+        &nbsp;
+        <span class="p3x-sponsor-responsive">&nbsp;</span>
+        <a target="_blank" href="https://www.jetbrains.com/"><img src="https://cdn.corifeus.com/assets/svg/jetbrains-logo.svg" style="height: 50px; width: auto;"/></a>
+        &nbsp;
+        <a target="_blank" href="https://www.jetbrains.com/"><img src="https://cdn.corifeus.com/assets/png/nosqlbooster-70x70.png" style="height: 50px; width: auto;"/></a>
+        &nbsp;
+        <span class="p3x-sponsor-responsive">&nbsp;</span>
+        <a target="_blank" href="https://www.jetbrains.com/">NoSQLBooster</a>
+    </div>
+
+    <br/>
+
+    <div id="layout-bottom" class="label label-default">
+        <div>
+            <span id="layout-bottom-logo">
+                <span class="text-extended"> <i class="<?= Icon::ICON_LOGO ?> logo-animation"></i></span> <?= $title_name ?>
+            </span>
+            <span class="text-extended"><i class="<?= Icon::ICON_COPYRIGHT ?>"></i> <?= date('Y', GIT_DATE) ?></span>
+        </div>
+    </div>
+
+
     <div class="text-extended transition p3x-info fader">
         <!--
         <span class="p3x-rs-status">
@@ -159,22 +187,6 @@ $title_name = Html::GetTitleName('layout', 'title');
                 <?= Language::Get('layout', 'web-status') ?>
             </a>
         </span>
-    </div>
-
-    <div class="p3x-sponsor fader">
-        <img src="<?= Router::Url('images/jetbrains-logo.svg') ?>" style="height: 25px; width: auto;"/>
-        <?= Language::Get('layout', 'sponsored-by'); ?>:
-        <a target="_blank" href="https://www.jetbrains.com/">JetBrains</a>
-    </div>
-
-
-    <div id="layout-bottom" class="label label-default">
-        <div>
-            <span id="layout-bottom-logo">
-                <span class="text-extended"> <i class="<?= Icon::ICON_LOGO ?> logo-animation"></i></span> <?= $title_name ?>
-            </span>
-            <span class="text-extended"><i class="<?= Icon::ICON_COPYRIGHT ?>"></i> <?= date('Y', GIT_DATE) ?></span>
-        </div>
     </div>
 
 </footer>
