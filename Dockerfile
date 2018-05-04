@@ -1,11 +1,12 @@
 FROM ubuntu:latest
 MAINTAINER patrikx3/resume - Patrik Laszlo
 ENV COMPOSER_PROCESS_TIMEOUT=3600
+ENV DEBIAN_FRONTEND=noninteractive
 # install
 #RUN apt-get -y install git php7.0 php7.0-gd php7.0-mbstring php7.0-curl php7.0-fpm  php-xdebug nginx nodejs composer phpunit npm supervisor unzip zip telnet lynx mc nano inetutils-ping
 RUN apt-get update
 RUN apt-get install software-properties-common -y
-RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
+#RUN LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 
 RUN apt-get update
 RUN apt-get upgrade -y
@@ -21,9 +22,10 @@ RUN apt-get -y install nginx
 RUN apt-get -y install curl
 
 # node
-RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN apt-get -y install nodejs
 RUN nodejs -v
+RUN npm i -g npm  --unsafe-perm
 
 RUN curl -o /usr/bin/phpdoc -L https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.9.0/phpDocumentor.phar
 RUN chmod 0777 /usr/bin/phpdoc
@@ -52,15 +54,19 @@ RUN echo "max_input_vars = 10000;" >> /etc/php/7.2/fpm/php.ini
 RUN echo "max_execution_time = 10000;" >> /etc/php/7.2/fpm/php.ini
 RUN echo "date.timezone = Europe/Budapest;" >> /etc/php/7.2/fpm/php.ini
 RUN sed -i 's/;daemonize = yes/daemonize = no/g' /etc/php/7.2/fpm/php-fpm.conf
-RUN apt-get autoremove
-RUN apt-get autoclean
-RUN apt-get clean
+
 COPY artifacts/docker-files /
 RUN chmod +x /run.sh
 RUN echo "Chmod will take a few seconds..."
 RUN chmod 0777 -R /resume-web
 RUN echo "Chown will take a few seconds..."
 RUN chown -R www-data:www-data /resume-web
+
+RUN apt-get autoremove
+RUN apt-get autoclean
+RUN apt-get clean
+RUN rm -rf /var/lib/apt/lists/*
+
 EXPOSE 80 8080 8443 443
 CMD ["/run.sh"]
 
