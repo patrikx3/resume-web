@@ -30,7 +30,7 @@
     "grunt-sass": "^2.1.0",
     "grunt-wiredep": "^3.0.1",
     "mz": "^2.7.0",
-    "request": "^2.86.0",
+    "request": "^2.87.0",
     "request-promise": "^4.2.2",
     "time-grunt": "^1.4.0",
     "xml2json": "^0.11.2"
