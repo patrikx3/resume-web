@@ -39,6 +39,9 @@ $l['content']
             I am <span class="{$profile_class}">{$age}</span> years old.
         </li>
         <li class="list-group-item">
+            You can find me on <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>.
+        </li>
+        <li class="list-group-item">
             <span class="{$profile_class}">2016</span> - I am a veteran programmer. Currently, my roles are senior software systems technical architect, development operations engineer (DevOps) and hacker at Sygnus.
         </li>
         <li class="list-group-item">
@@ -57,7 +60,7 @@ $l['content']
             <span class="{$profile_class}">1996</span> The <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Internet">internet</a> came in.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">1992</span> I started to program with a PC, about when the <a target="_blank" href="{$doom}">Doom</a> came out. I liked it a lot. Firstly, I used an Amoeba game, and later an <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Reversi">Othello</a> in <a target="_blank" href="{$pascal}">Pascal</a>, the games were playing with me.
+            <span class="{$profile_class}">1992</span> I started to program with a PC, about when the <a target="_blank" href="{$doom}">Doom</a> came out. I liked it a lot. Firstly, I created an Amoeba game, and later an <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Reversi">Othello</a> in <a target="_blank" href="{$pascal}">Pascal</a>, the games were playing with me.
             My most successful program was a 3D modeller I wrote. 
         </li>
         <li class="list-group-item">
