@@ -38,7 +38,7 @@ $l['content']
             <span class="{$profile_class}">{$age}</span> éves vagyok.
         </li>
         <li class="list-group-item">
-            Megtalalász a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on.
+            Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on.
         </li>        
         <li class="list-group-item">
                 <span class="{$profile_class}">2016</span> - Egy veterán programozó vagyok. Jelenleg, tapasztalt szoftver rendszer műszaki építész, fejlesztési műveletek mérnök (DevOps) és hacker vagyok a Sygnusnál.
