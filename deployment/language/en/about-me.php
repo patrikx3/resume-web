@@ -42,7 +42,7 @@ $l['content']
             You can find me on <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">2016</span> - I am a veteran programmer. Currently, my roles are senior software systems technical architect, development operations engineer (DevOps) and hacker at Sygnus.
+            <span class="{$profile_class}">2016</span> - I am a veteran programmer. Currently, my main role is about co-operative systems at Sygnus - Hungary.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span> I got a bigger client <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> so I was not creating other projects.

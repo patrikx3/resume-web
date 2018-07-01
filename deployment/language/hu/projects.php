@@ -35,7 +35,7 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Tapasztalt Szoftver Rendszer Műszaki Építész, Fejlesztési Műveletek Mérnök (DevOps) and hacker',
+                'role' => 'Ko-operatív rendszerek',
                 'tasks' => 'Tervezés, Automatizálás, Fejlesztők támogatása, Fejlesztés',
                 'summary' => 'Új generációs integrált vállalatirányítási rendszer. Támogatom a fejlesztőkeket és építek. Sok komponens. Beépítettem a folyamatos integrációt - Jenkins / Mocha / Protractor és automatikus telepitéseket. Átnézem a teljes rendszert és fejlesztek.'
             ],
