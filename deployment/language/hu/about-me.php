@@ -41,7 +41,7 @@ $l['content']
             Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on.
         </li>        
         <li class="list-group-item">
-                <span class="{$profile_class}">2016</span> - Egy veterán programozó vagyok. Jelenleg, kooperatív rendszerekkel foglalkozok a Sygnus Kft.-nál - Magyarországon.
+                <span class="{$profile_class}">2016</span> - Veterán programozó vagyok. Jelenleg, kooperatív rendszerekkel foglalkozok a Sygnus Kft.-nál - Magyarországon.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span>-ig egy nagyobb munkám volt a <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> cégnél.
