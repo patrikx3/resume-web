@@ -28,7 +28,7 @@ Since about 2000, I have been using object-oriented and functional programming. 
 <br/><br/>
 Usually, I engineer web based systems but I deal with other applications as well.  I like server, client, desktop, mobile, database and component methods.  I architect simple solutions that are independent of operating system, language and framework.   
 <br/><br/>
-What I like to do: analysis, architecture, test, build, continuous integration, code style, code review, documentation, deployment, code coverage, tasks, developer support, development operations and development.
+What I like and do: analysis, architecture, test, build, continuous integration, code style, code review, documentation, deployment, code coverage, tasks, developer support, development operations (DevOps), distributed - co-operative systems and development.
 EOF;
 
 
