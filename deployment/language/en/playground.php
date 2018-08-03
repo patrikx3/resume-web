@@ -10,7 +10,7 @@ $l['title-flash'] = 'Flash';
 
 $l['playground'] = [
     [
-        'summary' => 'This is a fork of the original Redis Commander with some fixes and uses Redis URL instead of objects.',
+        'summary' => 'The future is on GitHub.',
     ],
 
     [
@@ -18,11 +18,11 @@ $l['playground'] = [
     ],
 
     [
-        'summary' => 'This is a fork of the original Gitlist and Gitter with sub-modules, additional themes and updated PHP to 7 only and all packages are updated.',
+        'summary' => 'Gitlist with web workers, multiple themes (dark/light), editor - Code Mirror, sub-modules, uglify-es, webpack, toast, pure Bootstrap 3 and upgraded to PHP7.1 with all components.',
     ],
 
     [
-        'summary' => 'LEDE Insomnia is a Linksys WRT, D-Link DIR 860L B1 and Rasberry PI Docker based build with addons and fix, plus my LEDE packages are as well built from the stable source.',
+        'summary' => 'LEDE Insomnia is a Linksys WRT and Rasberry PI Docker based build with addons and fix, plus my LEDE packages are as well built from the stable source.',
     ],
 
     [

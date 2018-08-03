@@ -16,12 +16,12 @@ class PlayGround
     public static $playground
         = [
             [
-                'title' => 'Redis Commander',
-                'year' => 2017,
+                'title' => 'GitHub',
+                'year' => 2018,
                 'country' => 'hu',
                 'url' => [
-                    'GitHub' => 'https://github.com/patrikx3/redis-commander',
-                    'WWW' => 'https://pages.corifeus.com/redis-commander',
+                    'GitHub' => 'https://github.com/patrikx3/',
+                    'WWW' => 'https://pages.corifeus.com/',
                 ]
             ],
 
@@ -42,8 +42,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/gitlist',
-                    'GitHub Gitter' => 'https://github.com/patrikx3/gitter',
-                    'Gitlist' => 'https://gitlst.patrikx3.com',
+                    'Gitlist' => 'https://gitlist.patrikx3.com',
                 ]
             ],
 
@@ -70,7 +69,7 @@ class PlayGround
             ],
 
             [
-                'title' => 'LEDE MariaDB 5.5',
+                'title' => 'LEDE MariaDB 10',
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
