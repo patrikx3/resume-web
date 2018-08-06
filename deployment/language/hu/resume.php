@@ -79,7 +79,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Munkakör',
-        'content' => 'Tapasztalt Szoftver Rendszer Műszaki Építész, Fejlesztési Műveletek Mérnök (DevOps) és hacker'
+        'content' => 'Kooperatív rendszerek, Rendszer Építés, Fejlesztési Műveletek (DevOps) és hacking',
     ],
     [
         'field' => 'Beszélt nyelvek',

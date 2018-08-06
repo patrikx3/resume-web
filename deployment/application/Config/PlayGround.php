@@ -47,24 +47,30 @@ class PlayGround
             ],
 
             [
-                'title' => 'LEDE Insomnia',
+
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
-                    'GitHub' => 'https://github.com/patrikx3/lede-insomnia',
-                    "WWW" => 'https://pages.corifeus.com/lede-insomnia/',
-                    "CDN" => 'https://cdn.corifeus.com/lede/',
+                    'GitHub LEDE' => 'https://github.com/patrikx3/lede-insomnia',
+                    "WWW LEDE" => 'https://pages.corifeus.com/lede-insomnia/',
+                    "CDN LEDE" => 'https://cdn.corifeus.com/lede/',
+                    'GitHub OpenWrt' => 'https://github.com/patrikx3/openwrt-insomnia',
+                    "WWW OpenWrt" => 'https://pages.corifeus.com/openwrt-insomnia/',
+                    "CDN OpenWrt" => 'https://cdn.corifeus.com/openwrt/',
                 ]
             ],
 
             [
-                'title' => 'LEDE Redis',
+                'title' => 'LEDE / OpenWrt Redis',
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
-                    'GitHub' => 'https://github.com/patrikx3/lede-redis',
-                    "WWW" => 'https://pages.corifeus.com/lede-redis/',
-                    "CDN" => 'https://cdn.corifeus.com/lede/',
+                    'GitHub LEDE' => 'https://github.com/patrikx3/lede-redis',
+                    "WWW LEDE" => 'https://pages.corifeus.com/lede-redis/',
+                    "CDN LEDE" => 'https://cdn.corifeus.com/lede/',
+                    'GitHub OpenWrt' => 'https://github.com/patrikx3/openwrt-redis',
+                    "WWW OpenWrt" => 'https://pages.corifeus.com/openwrt-redis/',
+                    "CDN OpenWrt" => 'https://cdn.corifeus.com/openwrt/',
                 ]
             ],
 

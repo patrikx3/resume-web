@@ -80,7 +80,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Role',
-        'content' => 'Senior Software Systems Technical Architect, Development Operations Engineer (DevOps) and hacker'
+        'content' => 'Co-operative systems, Systems Architecture, Development Operations (DevOps) and hacking'
     ],
     [
         'field' => 'Spoken languages',

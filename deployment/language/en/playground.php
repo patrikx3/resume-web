@@ -22,11 +22,12 @@ $l['playground'] = [
     ],
 
     [
-        'summary' => 'LEDE Insomnia is a Linksys WRT and Rasberry PI Docker based build with addons and fix, plus my LEDE packages are as well built from the stable source.',
+        'title' => 'LEDE / OpenWrt Insomnia',
+        'summary' => 'LEDE / OpenWrt Insomnia is a Linksys WRT and Rasberry PI Docker based build with addons and fix, plus my LEDE packages are as well built from the stable source.',
     ],
 
     [
-        'summary' => 'This is the LEDE based Redis of stable source.',
+        'summary' => 'This is the LEDE / OpenWrt based Redis of stable source.',
     ],
 
     [

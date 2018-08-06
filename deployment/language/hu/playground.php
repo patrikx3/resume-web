@@ -21,11 +21,12 @@ $l['playground'] = [
     ],
 
     [
-        'summary' => 'LEDE Insomnia a Linksys WRT és Rasberry PI Docker alapú építő plusz funkciókkal és pár hiba nem működött, plusz a saját LEDE csomagok is építelve vannak. Mind a LEDE stabil forrásból van.',
+        'title' => 'LEDE / OpenWrt Álmatlanság',
+        'summary' => 'LEDE / OpenWrt Álmatlanság a Linksys WRT és Rasberry PI Docker alapú építő plusz funkciókkal és pár hiba nem működött, plusz a saját LEDE csomagok is építelve vannak. Mind a LEDE stabil forrásból van.',
     ],
 
     [
-        'summary' => 'LEDE alapú Redis a stabil forrásból.',
+        'summary' => 'LEDE / OpenWrt alapú Redis a stabil forrásból.',
     ],
 
     [
