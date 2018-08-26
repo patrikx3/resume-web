@@ -30,7 +30,7 @@ $l['playground'] = [
     ],
 
     [
-        'summary' => 'LEDE alapú MariaDB 5.5.',
+        'summary' => 'LEDE alapú MariaDB 10.',
     ],
     [
         'summary' => 'Nem volt több ingyenes domain-em és segítettem a FreeDns Afraid rendszernek, így 5 évig plusz 50 ingyenes al-domain / domain-t kaptam.',

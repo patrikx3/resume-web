@@ -31,7 +31,7 @@ $l['playground'] = [
     ],
 
     [
-        'summary' => 'This is the LEDE based MariaDB 5.5.',
+        'summary' => 'This is the LEDE based MariaDB 10.',
     ],
 
     [
