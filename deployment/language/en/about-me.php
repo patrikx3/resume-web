@@ -48,7 +48,7 @@ $l['content']
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span> I got a bigger client <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a>. I had no other projects.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> I worked for <a target="_blank" href="https://www.epam.com/">Epam</a> and <a target="_blank" href="https://www.microsoft.com/{$language}-us/dynamics/">Microsoft</a> in Hungary. I moved back to Hungary from Los Angeles. I was a contractor as well.
+            <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> I worked for <a target="_blank" href="https://www.epam.com/">Epam</a> and <a target="_blank" href="https://www.microsoft.com/{$language}-us/dynamics/">Microsoft</a> in Hungary. I moved back from Los Angeles to Hungary . I was a contractor as well.
         </li>
           <li class="list-group-item">
             <span class="{$profile_class}">1999</span> - <span class="{$profile_class}">2005</span> I lived in Los Angeles and I worked on web and desktop projects as a contractor. I usually used <a target="_blank" href="https://{$language}.wikipedia.org/wiki/PHP">PHP</a> / <a target="_blank" href="{$java}">Java</a> / <a target="_blank" href="{$dotnet}">.NET</a>, but a few others as well.
@@ -57,7 +57,7 @@ $l['content']
             <span class="{$profile_class}">1998</span> At the university, I started to play with <a target="_blank" href="https://{$language}.wikipedia.org/wiki/HTML">HTML</a> creating web sites.
         </li>
          <li class="list-group-item">
-            <span class="{$profile_class}">1996</span> The big time, the <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Internet">internet</a> works in Hungary.
+            <span class="{$profile_class}">1996</span> The big time, the <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Internet">internet</a> works in Hungary, Balassagyarmat.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1992</span> I started to program with a PC, about when <a target="_blank" href="{$doom}">Doom</a> came out. I liked it a lot. Firstly, I created an Amoeba game, and later an <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Reversi">Othello</a> in <a target="_blank" href="{$pascal}">Pascal</a>, my games were intelligent and played with me.

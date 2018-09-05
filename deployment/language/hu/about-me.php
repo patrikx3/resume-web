@@ -56,7 +56,7 @@ $l['content']
             <span class="{$profile_class}">1998</span>-ban az egyetemen elkezdtem <a target="_blank" href="https://{$language}.wikipedia.org/wiki/HTML">HTML</a> web oldalakat csináltam.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">1996</span>-ban elkezdtett működni az <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Internet">internet</a>.
+            <span class="{$profile_class}">1996</span>-ban elkezdtett működni az <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Internet">internet</a> Balassagyarmaton.
         </li>                 
         <li class="list-group-item">
             <span class="{$profile_class}">1992</span>-ban már elkeztem a PC-vel programozni, kb. ekkor jött ki a <a target="_blank" href="{$doom}">Doom</a> játék, ami nagyon tetszett. Először Amőbát, majd <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Reversi">Otelló</a>-t írtam <a target="_blank" href="{$pascal}">Pascal</a>-ban, melyek lényege az volt, hogy a gép játszott velem.
