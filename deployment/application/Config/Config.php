@@ -234,17 +234,16 @@ class Config
 
         if (!Controller::IsAjax() && WEB_TEST_SERVER && DEBUG) {
             $output_commit = trim(shell_exec('git rev-list --all --count 2>&1'));
-//            $output_date = trim(shell_exec('git log -1 --format=%at 2>&1'));
-            $output_date = 0;
-            if ($git_commit == null || $output_commit != $git_commit) {
+            $output_date = trim(shell_exec('git log -1 --format=%at 2>&1'));
+            //if ($git_commit == null || $output_commit !== $git_commit) {
                 \P3x\File::EnsurePutContents(VERSION_FILE, $output_commit . ',' . $output_date);
-            }
+            //}
             list($git_commit, $git_date) = $read_data();
         }
 
         define('GIT_COMMIT', $git_commit);
         define('GIT_DATE', $git_date);
-        define('VERSION', '1.5.' . GIT_COMMIT);
+        define('VERSION', date('Y.n.j', $git_date) . '-' . GIT_COMMIT);
         define('VERSION_TEXT', 'v' . VERSION);
     }
 }
