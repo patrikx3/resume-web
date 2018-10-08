@@ -240,7 +240,7 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 <htmlpagefooter name="patrik-footer">
     <div class="footer">
         <div style="float: left; width: 32%; margin-left: 10px;">
-            V<?= VERSION ?><?php //= PROJECT_DIVIDER ?><?php //= date(Language::Get('layout', 'date-format')) ?>
+            v<?= VERSION ?><?php //= PROJECT_DIVIDER ?><?php //= date(Language::Get('layout', 'date-format')) ?>
         </div>
         <div style="float: right; width: 64%; text-align: right; margin-right: 10px;">
             <a target="_blank" class="transparent" href="<?= URL ?>"><?= URL ?></a>

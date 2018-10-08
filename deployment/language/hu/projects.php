@@ -36,6 +36,12 @@ $l['projects'] = [
             [
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Ko-operatív rendszerek',
+                'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
+                'summary' => 'Az NGIVR-n alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Ko-operatív rendszerek',
                 'tasks' => 'Tervezés, Automatizálás, Fejlesztők támogatása, Fejlesztés',
                 'summary' => 'Új generációs integrált vállalatirányítási rendszer. Támogatom a fejlesztőkeket és építek. Sok komponens. Beépítettem a folyamatos integrációt - Jenkins / Mocha / Protractor és automatikus telepitéseket. Átnézem a teljes rendszert és fejlesztek.'
             ],

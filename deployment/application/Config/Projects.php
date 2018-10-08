@@ -36,9 +36,16 @@ class Projects
                 'items' => [
                     [
                         'project' => 'NG-IVR',
+                        'company' => 'DuóVill',
+                        'date-start' => new DateTime('2018-04-01'),
+                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Jenkins, Socket.IO, Observable, Redis, NGINX, GIT',
+                        'country' => 'hu',
+                    ],
+                    [
+                        'project' => 'NG-IVR',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2016-10-20'),
-                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, ES.Next, Babel, Jenkins, Upsource, Docker, Socket.IO, Observable, Redis, NGINX, GIT, Ubuntu, NPM, Verdaccio',
+                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, ES.Next, Babel, Jenkins, Upsource, Docker, Socket.IO, Observable, Redis, NGINX, GIT, Ubuntu, NPM, Verdaccio, Electron',
                         'country' => 'hu',
                         'image' => [
                             'files/projects/era-2015/ngivr/1.jpg',

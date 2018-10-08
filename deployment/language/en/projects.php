@@ -34,6 +34,12 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Hungary, Dunaújváros',
+                'role' => 'Architect',
+                'tasks' => 'Planning, Automation, Development, Developer support',
+                'summary' => 'Enterprise resource planning system development based on NGIVR.',
+            ],
+            [
+                'location' => 'Hungary, Dunaújváros',
                 'role' => 'Co-operative systems',
                 'tasks' => 'Mentoring, Planning, Automation, Development, Developer support',
                 'summary' => 'New generation integrated enterprise management system. I support the developers and architect.  Lots of components. I implemented continuous integration - Jenkins / Mocha / Protractor and build deployments. I overview the system and develop.',
