@@ -39,6 +39,14 @@
   height: $opening-height;
   background-size: cover;
   position: relative;
+
+//  background-attachment: fixed;
+//  background-size: 100% 470px;
+}
+
+@mixin opening-fixed() {
+  background-attachment: fixed !important;
+  background-size: cover !important;
 }
 
 @mixin center-absolute-horizontal-text() {

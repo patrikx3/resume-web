@@ -1,10 +1,33 @@
 @import "mixins";
 
 $about-me-background-color: #4786d5;
-
+$about-me-background-color-fixed: #1c3678;
+$about-me-background-color-fixed-main: rgba(255, 255, 255, 0.8);
 #about-me-opening {
-  background: url("../../images/opening-about-me.jpg") no-repeat center top local;
   @include opening();
+}
+
+.about-me-opening-start {
+  background: url("../../images/opening-about-me.jpg") no-repeat center top local;
+}
+
+#about-me-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-about-me-fixed.jpg") no-repeat center top local !important;
+  @include opening-fixed();
+
+  .about-me-welcome-notify {
+    color: $about-me-background-color-fixed-main;
+    background-color: $about-me-background-color-fixed;
+  }
+
+  .about-me-slogan-notify {
+    background-color: $about-me-background-color-fixed-main;
+    color: black;
+  }
+
+  .about-me-slogan {
+    color: $about-me-background-color-fixed-main;
+  }
 }
 
 #about-me-welcome-1 {

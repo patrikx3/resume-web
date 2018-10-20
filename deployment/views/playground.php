@@ -18,7 +18,7 @@ foreach ($title as $index => $title_item) {
 }
 $title_left_default = 20;
 ?>
-<div class="effect-shine-vertical opening">
+<div class="effect-shine-vertical opening" id="playground-opening-shine">
     <div id="playground-opening">
         <div id="playground-opening-title">
             <div style="position: absolute; top: 120px; left: <?= $title_left_default ?>px">

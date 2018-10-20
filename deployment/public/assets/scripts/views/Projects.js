@@ -2,6 +2,10 @@
     p3x.Module.Projects = function () {
         p3x.Language.Ensure('projects').then(function () {
             $(document).ready(function () {
+                var layout_manager = p3x.Module.LayoutManager;
+
+                layout_manager.RandomBoolOpening('projects-opening');
+
                 var periodical = p3x.Periodical;
                 var language = p3x.Language;
                 var data_cache = p3x.DataCache;
@@ -10,8 +14,6 @@
                 var bootstrap_tab = p3x.Gui.Bootstrap.Tab;
                 var _event = p3x.Event;
                 var config = p3x.config;
-
-                var layout_manager = p3x.Module.LayoutManager;
 
                 var accordion_decorate = function (current_accordion) {
                     if ($('#' + current_accordion.accordion_id).length == 0) {

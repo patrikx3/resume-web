@@ -43,11 +43,34 @@
 }
 
 #about-me-opening {
-  background: url("../../images/opening-about-me.jpg") no-repeat center top local;
   width: 100%;
   height: 400px;
   background-size: cover;
   position: relative;
+}
+
+.about-me-opening-start {
+  background: url("../../images/opening-about-me.jpg") no-repeat center top local;
+}
+
+#about-me-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-about-me-fixed.jpg") no-repeat center top local !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+#about-me-opening.p3x-resume-opening-fixed .about-me-welcome-notify {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #1c3678;
+}
+
+#about-me-opening.p3x-resume-opening-fixed .about-me-slogan-notify {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+#about-me-opening.p3x-resume-opening-fixed .about-me-slogan {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #about-me-welcome-1 {
@@ -205,11 +228,20 @@
 }
 
 #resume-opening {
-  background: url("../../images/opening-resume.jpg") no-repeat center top local;
   width: 100%;
   height: 400px;
   background-size: cover;
   position: relative;
+}
+
+.resume-opening-start {
+  background: url("../../images/opening-resume.jpg") no-repeat center top local;
+}
+
+#resume-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-resume-fixed.jpg") no-repeat center top local !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
 }
 
 .resume-profile-picture {
@@ -336,11 +368,20 @@
 }
 
 #projects-opening {
-  background: url("../../images/opening-projects.jpg") no-repeat center top local;
   width: 100%;
   height: 400px;
   background-size: cover;
   position: relative;
+}
+
+.projects-opening-start {
+  background: url("../../images/opening-projects.jpg") no-repeat center top local;
+}
+
+#projects-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-projects-fixed.jpg") no-repeat center top local !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
 }
 
 #projects-bg-1 {
@@ -401,11 +442,24 @@
 }
 
 #playground-opening {
-  background: url("../../images/opening-playground.jpg") no-repeat center top local;
   width: 100%;
   height: 400px;
   background-size: cover;
   position: relative;
+}
+
+.playground-opening-start {
+  background: url("../../images/opening-playground.jpg") no-repeat center top local;
+}
+
+#playground-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-playground-fixed.jpg") no-repeat center top local !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+#playground-opening.p3x-resume-opening-fixed .playground-titlize {
+  background-color: #ffa818;
 }
 
 #playground-opening-title {
@@ -431,13 +485,38 @@
 }
 
 #contact-opening {
-  background: url("../../images/opening-contact.jpg") no-repeat center top local;
   width: 100%;
   height: 400px;
   background-size: cover;
   position: relative;
   position: relative;
   z-index: -3;
+}
+
+.contact-opening-start {
+  background: url("../../images/opening-contact.jpg") no-repeat center top local;
+}
+
+#contact-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-contact-fixed.jpg") no-repeat center top local !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+#contact-opening.p3x-resume-opening-fixed .contact-line {
+  background-color: #b6af55 !important;
+}
+
+#contact-opening.p3x-resume-opening-fixed #contact-title-background {
+  background-image: -webkit-linear-gradient(top, #dcd9ae 0%, #b6af55 100%);
+  background-image: -o-linear-gradient(top, #dcd9ae 0%, #b6af55 100%);
+  background-image: linear-gradient(to bottom, #dcd9ae 0%, #b6af55 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDCD9AE', endColorstr='#FFB6AF55', GradientType=0);
+}
+
+#contact-opening.p3x-resume-opening-fixed #contact-title {
+  color: black;
 }
 
 #contact-title {

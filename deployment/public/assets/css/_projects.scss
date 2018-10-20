@@ -1,8 +1,17 @@
 @import "mixins";
 
 #projects-opening {
-  background: url("../../images/opening-projects.jpg") no-repeat center top local;
   @include opening();
+}
+
+.projects-opening-start {
+  background: url("../../images/opening-projects.jpg") no-repeat center top local;
+}
+
+
+#projects-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-projects-fixed.jpg") no-repeat center top local !important;
+  @include opening-fixed();
 }
 
 #projects-bg-1 {

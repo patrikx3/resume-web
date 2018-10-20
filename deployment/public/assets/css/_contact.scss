@@ -1,9 +1,31 @@
 $contact-color: #4d6f6e;
+$contact-color-fixed: #b6af55;
+
 #contact-opening {
-  background: url("../../images/opening-contact.jpg") no-repeat center top local;
   @include opening();
   position: relative;
   z-index: -3;
+}
+
+.contact-opening-start {
+  background: url("../../images/opening-contact.jpg") no-repeat center top local;
+}
+
+
+#contact-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-contact-fixed.jpg") no-repeat center top local !important;
+  @include opening-fixed();
+
+  .contact-line {
+    background-color: $contact-color-fixed !important;
+  }
+  #contact-title-background {
+
+    @include gradient-vertical(lighten($contact-color-fixed, 25%), $contact-color-fixed);
+  }
+  #contact-title {
+    color: black;
+  };
 }
 
 #contact-title {
@@ -40,3 +62,4 @@ $contact-color: #4d6f6e;
   top: 0;
   z-index: -2;
 }
+

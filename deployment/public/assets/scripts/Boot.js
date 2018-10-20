@@ -5,7 +5,7 @@
         )
     );
     $(document).ready(function () {
-        p3x.AjaxHrefInterface.Animate = true;
+        p3x.AjaxHrefInterface.Animate = false;
         p3x.Module.LayoutManager.Decorate();
     });
 })(window, document, jQuery, p3x);

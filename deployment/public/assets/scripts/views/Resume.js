@@ -1,7 +1,12 @@
 (function (window, document, $, p3x) {
+    console.warn('#resume-opening random bool fixed should be working in the future on android chrome')
     p3x.Module.Resume = function () {
         p3x.Language.Ensure('resume').then(function () {
             $(document).ready(function () {
+                var layout_manager = p3x.Module.LayoutManager;
+
+                layout_manager.RandomBoolOpening('resume-opening');
+
                 var language = p3x.Language;
                 var data_cache = p3x.DataCache;
                 var periodical = p3x.Periodical;
@@ -11,8 +16,6 @@
                 var bootstrap_accordion = p3x.Gui.Bootstrap.Accordion;
                 var bootstrap_tab = p3x.Gui.Bootstrap.Tab;
                 var config = p3x.config;
-
-                var layout_manager = p3x.Module.LayoutManager;
 
                 var view_data = JSON.parse($('#data-resume').html());
                 var title = language.Get('resume', 'title').split('');

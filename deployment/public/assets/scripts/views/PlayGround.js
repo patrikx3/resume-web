@@ -2,6 +2,10 @@
     p3x.Module.PlayGround = function () {
         p3x.Language.Ensure('playground').then(function () {
             $(document).ready(function () {
+                var layout_manager = p3x.Module.LayoutManager;
+
+                var isFixed = layout_manager.RandomBoolOpening('playground-opening');
+
                 var periodical = p3x.Periodical;
                 var language = p3x.Language;
                 var data_cache = p3x.DataCache;
@@ -74,9 +78,22 @@
                     $char.addClass('playground-titlize');
                 }, 2000);
 
+
+                var $shine = $('#playground-opening-shine');
+
                 periodical.Factory(ajax_href_interface.CurrentContentId).work(function () {
-                    $('.effect-shine-vertical').toggleClass('effect-shine-vertical-active');
+                    if (!isFixed) {
+                        $shine.removeClass('effect-shine')
+                        $shine.removeClass('effect-shine-active')
+                        $shine.addClass('effect-shine-vertical')
+                    } else {
+                        $shine.removeClass('effect-shine-vertical')
+                        $shine.removeClass('effect-shine-vertical-active')
+                        $shine.addClass('effect-shine')
+                    }
+                    $shine.toggleClass(!isFixed ? 'effect-shine-vertical-active'  : 'effect-shine-active');
                 }, 2000, 500, true);
+
 
                 periodical.Factory().once(function () {
                     for (var title_index in $title) {

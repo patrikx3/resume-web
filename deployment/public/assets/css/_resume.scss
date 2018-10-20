@@ -1,8 +1,17 @@
 @import "mixins";
 
 #resume-opening {
-  background: url("../../images/opening-resume.jpg") no-repeat center top local;
   @include opening();
+}
+
+.resume-opening-start {
+  background: url("../../images/opening-resume.jpg") no-repeat center top local;
+}
+
+
+#resume-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-resume-fixed.jpg") no-repeat center top local !important;
+  @include opening-fixed();
 }
 
 .resume-profile-picture {

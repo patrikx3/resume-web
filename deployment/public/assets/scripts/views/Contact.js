@@ -47,7 +47,7 @@
                     self.Transport();
                 }
             });
-            self.Email.focusWithoutScrolling();
+            //self.Email.focusWithoutScrolling();
         };
 
         FormMessage.ErrorClear = function () {
@@ -108,6 +108,10 @@
         };
 
         $(document).ready(function () {
+            var layoutManager = p3x.Module.LayoutManager;
+
+            layoutManager.RandomBoolOpening('contact-opening');
+
             FormMessage.Implement();
 
             $title = $('#contact-opening');

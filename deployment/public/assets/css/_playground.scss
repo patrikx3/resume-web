@@ -1,8 +1,21 @@
 $playground-color: #df7367;
 
 #playground-opening {
-  background: url("../../images/opening-playground.jpg") no-repeat center top local;
   @include opening()
+}
+
+.playground-opening-start {
+  background: url("../../images/opening-playground.jpg") no-repeat center top local;
+}
+
+
+#playground-opening.p3x-resume-opening-fixed {
+  background: url("../../images/opening-playground-fixed.jpg") no-repeat center top local !important;
+  @include opening-fixed();
+
+  .playground-titlize {
+    background-color: #ffa818;
+  }
 }
 
 #playground-opening-title {

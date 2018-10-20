@@ -105,7 +105,7 @@
             var error = '';
             thrownError = String(thrownError);
             if (thrownError != '') {
-                Error = '<br/>' + thrownError;
+                error = '<br/>' + thrownError;
             }
 
             language.Ensure('layout').then(function () {
@@ -113,7 +113,7 @@
                 //console.log(arguments);
                 growl({
                     group: 'alert-danger',
-                    message: '<i class="' + config.icons.ICON_ERROR + '" aria-hidden="true"></i>&nbsp;' + language.Get('layout', 'ajax-error') + Error,
+                    message: '<i class="' + config.icons.ICON_ERROR + '" aria-hidden="true"></i>&nbsp;' + language.Get('layout', 'ajax-error') + error,
                     sticky: true
                 });
             });
@@ -140,11 +140,11 @@
             self.Update()
         }).click(self.Update.bind(self));
 
-        if (self.IsMobile) {
+       // if (self.IsMobile) {
             $.support.transition = false;
             $.fx.off = true;
             $('body').addClass('p3x-no-animation');
-        }
+       // }
     };
 
     LayoutManager.Titlize = function (text, css) {
@@ -220,6 +220,33 @@
         }
         findActive.addClass('active');
         findActive.children().blur();
+    }
+
+    var firstRandomBoolOpening = undefined
+    var slides = {
+    }
+    LayoutManager.RandomBoolOpening = function(id) {
+        var opening = $('#' + id );
+
+        if (!slides.hasOwnProperty(id)) {
+            if (firstRandomBoolOpening === undefined) {
+                firstRandomBoolOpening = Math.random() >= 0.5;
+            } else {
+                firstRandomBoolOpening = !firstRandomBoolOpening
+            }
+            slides[id] = firstRandomBoolOpening
+        } else {
+            slides[id] = !slides[id]
+        }
+
+        if (slides[id]) {
+            opening.addClass('p3x-resume-opening-fixed')
+            opening.removeClass(id + '-start');
+        } else {
+            opening.addClass(id + '-start');
+            opening.removeClass('p3x-resume-opening-fixed')
+        }
+        return slides[id];
     }
 
     window.lm = LayoutManager;
