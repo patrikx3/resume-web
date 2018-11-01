@@ -143,7 +143,7 @@
        // if (self.IsMobile) {
             $.support.transition = false;
             $.fx.off = true;
-            $('body').addClass('p3x-no-animation');
+            //$('body').addClass('p3x-no-animation');
        // }
     };
 
@@ -225,8 +225,20 @@
     var firstRandomBoolOpening = undefined
     var slides = {
     }
-    LayoutManager.RandomBoolOpening = function(id) {
-        var opening = $('#' + id );
+   // var $document = $(document)
+    LayoutManager.RandomBoolOpening = function(id, id2) {
+        var $opening = $('#' + id );
+        var $opening2 = $('#' + id2 );
+
+        /*
+        var scroll = function(e) {
+            var scrollTop = $(window).scrollTop();
+            $opening.css('top', scrollTop + 'px')
+            console.log(scrollTop, $opening.css('top'), $opening)
+        }
+        $document.off('scroll', scroll)
+        $opening.css('top', 0 + 'px')
+        */
 
         if (!slides.hasOwnProperty(id)) {
             if (firstRandomBoolOpening === undefined) {
@@ -240,11 +252,17 @@
         }
 
         if (slides[id]) {
-            opening.addClass('p3x-resume-opening-fixed')
-            opening.removeClass(id + '-start');
+            $opening.addClass('p3x-resume-opening-fixed')
+            $opening2.addClass('p3x-resume-opening-fixed')
+            $opening.removeClass(id + '-start');
+
+            //$document.on('scroll', scroll)
+
         } else {
-            opening.addClass(id + '-start');
-            opening.removeClass('p3x-resume-opening-fixed')
+            $opening.addClass(id + '-start');
+            $opening.removeClass('p3x-resume-opening-fixed')
+            $opening2.removeClass('p3x-resume-opening-fixed')
+
         }
         return slides[id];
     }

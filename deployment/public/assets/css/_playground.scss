@@ -4,14 +4,18 @@ $playground-color: #df7367;
   @include opening()
 }
 
-.playground-opening-start {
+#playground-opening-bg {
+  @include opening-parallax()
+}
+
+.playground-opening-bg-start {
   background: url("../../images/opening-playground.jpg") no-repeat center top local;
 }
 
 
-#playground-opening.p3x-resume-opening-fixed {
+#playground-opening-bg.p3x-resume-opening-fixed {
   background: url("../../images/opening-playground-fixed.jpg") no-repeat center top local !important;
-  @include opening-fixed();
+  @include opening-parallax-fixed();
 
   .playground-titlize {
     background-color: #ffa818;

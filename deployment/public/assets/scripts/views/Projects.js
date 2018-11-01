@@ -4,7 +4,7 @@
             $(document).ready(function () {
                 var layout_manager = p3x.Module.LayoutManager;
 
-                layout_manager.RandomBoolOpening('projects-opening');
+                layout_manager.RandomBoolOpening('projects-opening-bg', 'projects-opening');
 
                 var periodical = p3x.Periodical;
                 var language = p3x.Language;

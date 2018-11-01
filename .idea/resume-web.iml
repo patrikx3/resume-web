@@ -2,7 +2,46 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/mpdf/mpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/p3x/resume-common" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/setasign/fpdi" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/deployment/vendor/zordius/lightncandy" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

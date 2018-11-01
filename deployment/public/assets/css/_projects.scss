@@ -4,14 +4,20 @@
   @include opening();
 }
 
-.projects-opening-start {
+#projects-opening-bg {
+  @include opening-parallax();
+}
+
+.projects-opening-bg-start {
   background: url("../../images/opening-projects.jpg") no-repeat center top local;
 }
 
+// 01591_nebulax4_1920x1080
+// fruit
 
-#projects-opening.p3x-resume-opening-fixed {
+#projects-opening-bg.p3x-resume-opening-fixed {
   background: url("../../images/opening-projects-fixed.jpg") no-repeat center top local !important;
-  @include opening-fixed();
+  @include opening-parallax-fixed();
 }
 
 #projects-bg-1 {

@@ -7,6 +7,7 @@ $root_tab = Project::ProjectEraTab();
 ?>
 <div class="effect-shine opening">
     <div id="projects-opening">
+        <div id="projects-opening-bg"></div>
         <div id="projects-bg-1"></div>
         <div id="projects-bg-2"></div>
         <div id="projects-title">

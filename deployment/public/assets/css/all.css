@@ -49,14 +49,25 @@
   position: relative;
 }
 
-.about-me-opening-start {
+#about-me-opening-bg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 100%;
+  bottom: 100%;
+}
+
+.about-me-opening-bg-start {
   background: url("../../images/opening-about-me.jpg") no-repeat center top local;
 }
 
-#about-me-opening.p3x-resume-opening-fixed {
+#about-me-opening-bg.p3x-resume-opening-fixed {
   background: url("../../images/opening-about-me-fixed.jpg") no-repeat center top local !important;
-  background-attachment: fixed !important;
   background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 #about-me-opening.p3x-resume-opening-fixed .about-me-welcome-notify {
@@ -234,14 +245,25 @@
   position: relative;
 }
 
-.resume-opening-start {
+#resume-opening-bg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 100%;
+  bottom: 100%;
+}
+
+.resume-opening-bg-start {
   background: url("../../images/opening-resume.jpg") no-repeat center top local;
 }
 
-#resume-opening.p3x-resume-opening-fixed {
+#resume-opening-bg.p3x-resume-opening-fixed {
   background: url("../../images/opening-resume-fixed.jpg") no-repeat center top local !important;
-  background-attachment: fixed !important;
   background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 .resume-profile-picture {
@@ -374,14 +396,25 @@
   position: relative;
 }
 
-.projects-opening-start {
+#projects-opening-bg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 100%;
+  bottom: 100%;
+}
+
+.projects-opening-bg-start {
   background: url("../../images/opening-projects.jpg") no-repeat center top local;
 }
 
-#projects-opening.p3x-resume-opening-fixed {
+#projects-opening-bg.p3x-resume-opening-fixed {
   background: url("../../images/opening-projects-fixed.jpg") no-repeat center top local !important;
-  background-attachment: fixed !important;
   background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 #projects-bg-1 {
@@ -448,17 +481,28 @@
   position: relative;
 }
 
-.playground-opening-start {
+#playground-opening-bg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 100%;
+  bottom: 100%;
+}
+
+.playground-opening-bg-start {
   background: url("../../images/opening-playground.jpg") no-repeat center top local;
 }
 
-#playground-opening.p3x-resume-opening-fixed {
+#playground-opening-bg.p3x-resume-opening-fixed {
   background: url("../../images/opening-playground-fixed.jpg") no-repeat center top local !important;
-  background-attachment: fixed !important;
   background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
-#playground-opening.p3x-resume-opening-fixed .playground-titlize {
+#playground-opening-bg.p3x-resume-opening-fixed .playground-titlize {
   background-color: #ffa818;
 }
 
@@ -493,14 +537,26 @@
   z-index: -3;
 }
 
-.contact-opening-start {
+#contact-opening-bg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 100%;
+  bottom: 100%;
+  z-index: -3;
+}
+
+.contact-opening-bg-start {
   background: url("../../images/opening-contact.jpg") no-repeat center top local;
 }
 
-#contact-opening.p3x-resume-opening-fixed {
+#contact-opening-bg.p3x-resume-opening-fixed {
   background: url("../../images/opening-contact-fixed.jpg") no-repeat center top local !important;
-  background-attachment: fixed !important;
   background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 #contact-opening.p3x-resume-opening-fixed .contact-line {

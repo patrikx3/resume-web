@@ -7,15 +7,21 @@ $contact-color-fixed: #b6af55;
   z-index: -3;
 }
 
-.contact-opening-start {
+#contact-opening-bg {
+  @include opening-parallax();
+  z-index: -3;
+}
+
+.contact-opening-bg-start {
   background: url("../../images/opening-contact.jpg") no-repeat center top local;
 }
 
+#contact-opening-bg.p3x-resume-opening-fixed {
+  background: url("../../images/opening-contact-fixed.jpg") no-repeat center top local !important;
+  @include opening-parallax-fixed();
+}
 
 #contact-opening.p3x-resume-opening-fixed {
-  background: url("../../images/opening-contact-fixed.jpg") no-repeat center top local !important;
-  @include opening-fixed();
-
   .contact-line {
     background-color: $contact-color-fixed !important;
   }

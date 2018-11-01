@@ -6,7 +6,7 @@
             $(document).ready(function () {
                 var layoutManager = p3x.Module.LayoutManager;
 
-                var isFixed = layoutManager.RandomBoolOpening('about-me-opening');
+                var isFixed = layoutManager.RandomBoolOpening('about-me-opening-bg', 'about-me-opening');
 
                 var periodical = p3x.Periodical;
                 var language = p3x.Language;

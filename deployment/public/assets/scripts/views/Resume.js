@@ -5,7 +5,7 @@
             $(document).ready(function () {
                 var layout_manager = p3x.Module.LayoutManager;
 
-                layout_manager.RandomBoolOpening('resume-opening');
+                layout_manager.RandomBoolOpening('resume-opening-bg', 'resume-opening');
 
                 var language = p3x.Language;
                 var data_cache = p3x.DataCache;

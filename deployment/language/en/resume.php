@@ -83,7 +83,7 @@ $l['tab-data-personal'] = [
         'content' => 'Co-operative systems, Systems Architecture, Development Operations (DevOps) and hacking'
     ],
     [
-        'field' => 'Spoken languages',
+        'field' => 'Used languages',
         'content' => 'Hungarian and English'
     ],
     [

@@ -110,7 +110,7 @@
         $(document).ready(function () {
             var layoutManager = p3x.Module.LayoutManager;
 
-            layoutManager.RandomBoolOpening('contact-opening');
+            layoutManager.RandomBoolOpening('contact-opening-bg', 'contact-opening');
 
             FormMessage.Implement();
 

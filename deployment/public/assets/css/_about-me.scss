@@ -7,14 +7,21 @@ $about-me-background-color-fixed-main: rgba(255, 255, 255, 0.8);
   @include opening();
 }
 
-.about-me-opening-start {
+#about-me-opening-bg {
+  @include opening-parallax();
+}
+
+.about-me-opening-bg-start {
   background: url("../../images/opening-about-me.jpg") no-repeat center top local;
 }
 
-#about-me-opening.p3x-resume-opening-fixed {
+#about-me-opening-bg.p3x-resume-opening-fixed {
   background: url("../../images/opening-about-me-fixed.jpg") no-repeat center top local !important;
-  @include opening-fixed();
+  @include opening-parallax-fixed();
 
+}
+
+#about-me-opening.p3x-resume-opening-fixed {
   .about-me-welcome-notify {
     color: $about-me-background-color-fixed-main;
     background-color: $about-me-background-color-fixed;

@@ -22,6 +22,7 @@ $root = Language::RouteUrl('front/resume');
 
 <div class="effect-shine-vertical opening">
     <div id="resume-opening">
+        <div id="resume-opening-bg"></div>
         <div id="resume-opening-block">
         </div>
         <div id="resume-opening-title">

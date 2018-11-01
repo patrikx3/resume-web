@@ -82,7 +82,7 @@ $l['tab-data-personal'] = [
         'content' => 'Kooperatív rendszerek, Rendszer Építés, Fejlesztési Műveletek (DevOps) és hacking',
     ],
     [
-        'field' => 'Beszélt nyelvek',
+        'field' => 'Használt nyelvek',
         'content' => 'Magyar és Angol'
     ],
     [
