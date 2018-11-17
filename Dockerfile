@@ -11,18 +11,18 @@ RUN apt-get install software-properties-common -y
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get -y install git
-RUN apt-get -y install php7.2 --allow-unauthenticated
-RUN apt-get -y install php7.2-gd --allow-unauthenticated
-RUN apt-get -y install php7.2-mbstring --allow-unauthenticated
-RUN apt-get -y install php7.2-curl --allow-unauthenticated
-RUN apt-get -y install php7.2-fpm --allow-unauthenticated
-RUN apt-get -y install php7.2-xml --allow-unauthenticated
-RUN apt-get -y install php7.2-xdebug --allow-unauthenticated
+RUN apt-get -y install php --allow-unauthenticated
+RUN apt-get -y install php-gd --allow-unauthenticated
+RUN apt-get -y install php-mbstring --allow-unauthenticated
+RUN apt-get -y install php-curl --allow-unauthenticated
+RUN apt-get -y install php-fpm --allow-unauthenticated
+RUN apt-get -y install php-xml --allow-unauthenticated
+RUN apt-get -y install php-xdebug --allow-unauthenticated
 RUN apt-get -y install nginx
 RUN apt-get -y install curl
 
 # node
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
 RUN apt-get -y install nodejs
 RUN nodejs -v
 RUN npm i -g npm  --unsafe-perm
