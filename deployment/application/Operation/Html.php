@@ -138,13 +138,34 @@ class Html
         $no_flash = json_encode(Language::Get('layout', 'flash-no'));
         $o
             .= <<<EOF
-<div id="swf-container-{$id}" style="position: absolute; display: none; color: white;">{$no_flash}</div>
+<div id="swf-container-{$id}" style="position: absolute; display: none; color: white;">
+</div>
 <script>
     function swf{$id}() {
         setTimeout(function() {
+            var no_flash = {$no_flash}; 
             var id = 'swf-container-{$id}';
-            var no_flash = {$no_flash};
-        
+            
+            if (p3x.Mobile.Any()) {
+              $('.lity-close').trigger('click');
+              p3x.Growl(no_flash);
+            }
+         
+            var lity = $('.lity-content');
+            lity.prop('id', 'swf-' + id);                    
+            var parent = lity.parent();                    
+            parent.css('width',  {$data[1]});
+            parent.css('height',  {$data[2]});
+            lity.css('width',  {$data[1]});
+            lity.css('height',  {$data[2]});                    
+            var lityiframeContainer = $('.lity-iframe-container');
+            lityiframeContainer.css('width',  {$data[1]} );
+            lityiframeContainer.css('height',  {$data[2]} );                    
+            lityiframeContainer.css('overflow', 'hidden');                    
+
+            
+            /*
+            
             var el = document.getElementById(id);
             if (swfobject.hasFlashPlayerVersion("10")) {
                     var add = $('<div/>');
@@ -163,9 +184,10 @@ class Html
                     });
             }
             else {
-                $('.lity-close').trigger('click');
-                p3x.Growl(no_flash);
-            }        
+              //  $('.lity-close').trigger('click');
+              //  p3x.Growl(no_flash);
+            } 
+            */       
         }, 250);
         return false;
     };

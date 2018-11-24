@@ -22,6 +22,8 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
+Jelenleg, elsősorban mikroszervízekre, webes és Electron asztali alkalmazásokra (és Ionic telefonra / tablettákra is) összpontosítok.
+<br/><br/>    
 Gyerekkorom óta használok grafikai programokat és kódolok. Nagyon szeretem a szép animációt és a strukturált programozást.
 <br/><br/>
 Kb. 2000 óta használom az objektumorientált és funkcionális fejlesztést. 2001 óta tervezek diagramokat és modelleket. Szeretem a tervező és Microsoft eszközeket.

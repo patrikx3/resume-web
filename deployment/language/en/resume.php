@@ -22,6 +22,8 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
+Right now, I primarily focus on microservices, web and Electron desktop applications (and Ionic for phones/tablets as well).
+<br/><br/>
 I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.  
 <br/><br/>
 Since about 2000, I have been using object-oriented and functional programming. By about 2001, I have been building diagrams and models. I like architect, Microsoft and alike tools.

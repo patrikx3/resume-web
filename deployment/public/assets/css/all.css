@@ -939,6 +939,7 @@ footer .p3x-sponsor-responsive {
   }
 }
 
+/*
 #about-me-opening #about-me-opening-bg,
 #contact-opening #contact-opening-bg,
 #playground-opening #playground-opening-bg,
@@ -946,7 +947,6 @@ footer .p3x-sponsor-responsive {
 #resume-opening #resume-opening-bg {
   transition: all 5s;
 }
-
 #about-me-opening:hover #about-me-opening-bg,
 #contact-opening:hover #contact-opening-bg,
 #playground-opening:hover #playground-opening-bg,
@@ -955,6 +955,7 @@ footer .p3x-sponsor-responsive {
   transform: scale(1.5);
 }
 
+*/
 body {
   margin-top: 45px;
   margin-bottom: 37px !important;
