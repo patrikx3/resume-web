@@ -16,6 +16,22 @@ class PlayGround
     public static $playground
         = [
             [
+                'title' => 'P3X Reds UI',
+                'year' => 2018,
+                'country' => 'hu',
+                'url' => [
+                    'GitHub' => 'https://github.com/patrikx3/redis-ui',
+                    'WWW' => 'https://pages.corifeus.com/redis-ui',
+                    'Test online' => 'https://p3x.redis.patrikx3.com/main/statistics',
+                ],
+                'image' => [
+                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/screenshot-1.png',
+                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/screenshot-2.png',
+                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/screenshot-3.png',
+                ],
+            ],
+
+            [
                 'title' => 'GitHub',
                 'year' => 2018,
                 'country' => 'hu',

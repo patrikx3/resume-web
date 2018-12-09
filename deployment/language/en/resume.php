@@ -149,6 +149,9 @@ $l['tab-data-education'] = [
 ];
 
 $l['company-info'] = [
+    'sygnus' => [
+        'info' => 'Co-operative systems. New generation integrated enterprise management system. I support the developers and architect. Lots of components. I implemented continuous integration - Jenkins / Mocha / Protractor and build deployments. I overview the system and develop.',
+    ],
     'clickandlike' => [
         'info' => 'I have worked various platforms, languages and frameworks including PHP, NodeJs, Java and Android. Mentoring.',
     ],

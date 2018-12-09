@@ -7,7 +7,13 @@ $l['title-summary'] = 'Összefoglaló';
 $l['title-image'] = 'Kép';
 $l['title-flash'] = 'Flash';
 
+$l['flash-info'] = 'Néha, a Flash link csak akkor működik, ha kétszer klikkelsz rá';
+
 $l['playground'] = [
+    [
+        'summary' => '📡 P3X Redis UI technológiai: Socket.IO, AngularJs Material és IORedis statisztikái, konzol - terminal, fa kulcsok, sötét mód, lehetséges több nyelvű UI, több kapcsolatok, web and Electron.',
+    ],
+
     [
         'summary' => 'A jövőben minden új program a GitHub-on van.',
     ],

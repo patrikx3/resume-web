@@ -35,9 +35,15 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Ko-operatív rendszerek',
+                'role' => 'Szoftver Tervező',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
-                'summary' => 'Az NGIVR-n alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
+                'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Szoftver Tervező',
+                'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
+                'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',

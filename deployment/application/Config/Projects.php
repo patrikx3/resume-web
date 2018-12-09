@@ -35,11 +35,26 @@ class Projects
             'era-2015' => [
                 'items' => [
                     [
+                        'project' => 'Adony Logisztikai Központ',
+                        'company' => 'Sygnus',
+                        'date-start' => new DateTime('2018-11-13'),
+                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Observable, Redis, NGINX, GIT',
+                        'country' => 'hu',
+                        'image' => [
+                            'files/projects/era-2015/adony/1.jpg',
+                            'files/projects/era-2015/adony/2.jpg',
+                        ]
+                    ],
+                    [
                         'project' => 'NG-IVR',
                         'company' => 'DuóVill',
                         'date-start' => new DateTime('2018-04-01'),
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Jenkins, Socket.IO, Observable, Redis, NGINX, GIT',
                         'country' => 'hu',
+                        'image' => [
+                            'files/projects/era-2015/duovill/1.jpg',
+                            'files/projects/era-2015/duovill/2.jpg',
+                        ]
                     ],
                     [
                         'project' => 'NG-IVR',
@@ -52,6 +67,7 @@ class Projects
                             'files/projects/era-2015/ngivr/2.jpg',
                             'files/projects/era-2015/ngivr/3.jpg',
                             'files/projects/era-2015/ngivr/4.jpg',
+                            'files/projects/era-2015/ngivr/5.jpg',
                         ]
                     ],
                     [

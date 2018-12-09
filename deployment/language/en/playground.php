@@ -7,8 +7,13 @@ $l['title-summary'] = 'Summary';
 $l['title-image'] = 'Picture';
 $l['title-flash'] = 'Flash';
 
+$l['flash-info'] = 'Sometimes, the Flash link only works if you click twice';
 
 $l['playground'] = [
+    [
+        'summary' => '📡 P3X Redis UI that uses Socket.IO, AngularJs Material and IORedis with statistics, console - terminal, tree, dark mode, internationalization, multiple connections, web and desktop by Electron.',
+    ],
+
     [
         'summary' => 'The future is on GitHub.',
     ],

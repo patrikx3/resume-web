@@ -89,7 +89,7 @@ class Config
         if (static::$themeData == null || $reload) {
 
             // region Themes
-            $default_theme = 'yeti';
+            $default_theme = 'cosmo';
 
             $orignal_themes = array();
             $orignal_themes[] = 'bootstrap';

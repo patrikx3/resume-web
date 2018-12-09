@@ -52,11 +52,13 @@ class Html
         switch ($type) {
         case 'flash':
             $comma = '';
+            $text .= ' <span style="opacity: 0.5">(' . Language::Get('playground', 'flash-info') . ')</span>';
             foreach ($content as $flash) {
                 $text .= $comma;
                 $text .= static::Flash($flash);
                 $comma = ', ';
             }
+
             break;
         case 'image':
             foreach ($content as $image) {
@@ -209,7 +211,12 @@ EOF;
 
     public static function Image($image)
     {
-        $url = Router::Url($image);
+        if (substr( $image, 0, 4 ) === "http") {
+            $url = $image;
+
+        } else {
+            $url = Router::Url($image);
+        }
         $o = '';
         $o .= '<div class="image"><a href="' . $url . '" class="thumbnail"><img alt="' . $image . '" data-lity src="' . $url . '"/></a></div>';
         return $o;

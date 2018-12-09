@@ -36,7 +36,13 @@ $l['projects'] = [
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Architect',
                 'tasks' => 'Planning, Automation, Development, Developer support',
-                'summary' => 'Enterprise resource planning system development based on NGIVR.',
+                'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 11/03/2018.',
+            ],
+            [
+                'location' => 'Hungary, Dunaújváros',
+                'role' => 'Architect',
+                'tasks' => 'Planning, Automation, Development, Developer support',
+                'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 04/18/2018.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',

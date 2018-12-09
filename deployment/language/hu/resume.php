@@ -147,6 +147,9 @@ $l['tab-data-education'] = [
 ];
 
 $l['company-info'] = [
+    'sygnus' => [
+        'info' => 'Ko-operatív rendszerek. Új generációs integrált vállalatirányítási rendszer. Támogatom a fejlesztőkeket és építek. Sok komponens. Beépítettem a folyamatos integrációt - Jenkins / Mocha / Protractor és automatikus telepitéseket. Átnézem a teljes rendszert és fejlesztek.',
+    ],
     'clickandlike' => [
         'info' => 'Különböző platformok, nyelvek és keretek között dolgoztam PHP, NodeJs, Java és Android. Mentorálás.',
     ],
