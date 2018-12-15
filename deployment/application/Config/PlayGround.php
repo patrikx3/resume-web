@@ -68,7 +68,6 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub LEDE' => 'https://github.com/patrikx3/lede-insomnia',
-                    "WWW LEDE" => 'https://pages.corifeus.com/lede-insomnia/',
                     "CDN LEDE" => 'https://cdn.corifeus.com/lede/',
                     'GitHub OpenWrt' => 'https://github.com/patrikx3/openwrt-insomnia',
                     "WWW OpenWrt" => 'https://pages.corifeus.com/openwrt-insomnia/',
@@ -82,7 +81,6 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub LEDE' => 'https://github.com/patrikx3/lede-redis',
-                    "WWW LEDE" => 'https://pages.corifeus.com/lede-redis/',
                     "CDN LEDE" => 'https://cdn.corifeus.com/lede/',
                     'GitHub OpenWrt' => 'https://github.com/patrikx3/openwrt-redis',
                     "WWW OpenWrt" => 'https://pages.corifeus.com/openwrt-redis/',
@@ -96,7 +94,6 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/lede-mariadb',
-                    "WWW" => 'https://pages.corifeus.com/lede-mariadb/',
                     "CDN" => 'https://cdn.corifeus.com/lede/',
                 ]
             ],

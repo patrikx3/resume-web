@@ -361,3 +361,9 @@ a[data-toggle=dropdown][aria-expanded="true"] .patrikx3-caret:after {
 .fader:hover {
   opacity: 1;
 }
+
+@media screen and (max-width: $screen-small) {
+  .nav-justified>li > a {
+    text-align: left;
+  }
+}
