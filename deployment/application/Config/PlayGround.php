@@ -25,9 +25,10 @@ class PlayGround
                     'Test online' => 'https://p3x.redis.patrikx3.com/main/statistics',
                 ],
                 'image' => [
-                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/screenshot-1.png',
-                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/screenshot-2.png',
-                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/screenshot-3.png',
+                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview.png',
+                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-2.png',
+                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-3.png',
+                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-4.png',
                 ],
             ],
 
