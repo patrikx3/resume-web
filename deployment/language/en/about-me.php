@@ -39,7 +39,7 @@ $l['content']
             I am <span class="{$profile_class}">{$age}</span> years old.
         </li>
         <li class="list-group-item">
-            You can find me on <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong> and check out my microservices on <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>...
+            You can find me on <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong> and check out my microservices on <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>. Usually, enterprise systems using NodeJs and AngularJs Material and playing with AI and tensors ...
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2016</span> - I am a veteran programmer. Currently, my main role is about co-operative systems at Sygnus - Hungary.
