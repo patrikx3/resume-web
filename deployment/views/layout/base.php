@@ -147,10 +147,10 @@ $title_name = Html::GetTitleName('layout', 'title');
         <? /*= Language::Get('layout', 'sponsored-by');  */ ?> <!-- :
         <br/>
         -->
-        <a target="_blank" href="https://www.jetbrains.com/">JetBrains</a>
+        <a target="_blank" href="https://www.jetbrains.com/?from=patrikx3">JetBrains</a>
         &nbsp;
         <span class="p3x-sponsor-responsive">&nbsp;</span>
-        <a target="_blank" href="https://www.jetbrains.com/"><img src="https://cdn.corifeus.com/assets/svg/jetbrains-logo.svg" style="height: 50px; width: auto;"/></a>
+        <a target="_blank" href="https://www.jetbrains.com/?from=patrikx3"><img src="https://cdn.corifeus.com/assets/svg/jetbrains-logo.svg" style="height: 50px; width: auto;"/></a>
         &nbsp;
         <a target="_blank" href="https://www.nosqlbooster.com/"><img src="https://cdn.corifeus.com/assets/png/nosqlbooster-70x70.png" style="height: 50px; width: auto;"/></a>
         &nbsp;
