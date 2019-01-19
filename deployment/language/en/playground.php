@@ -11,6 +11,11 @@ $l['flash-info'] = 'Sometimes, the Flash link only works if you click twice';
 
 $l['playground'] = [
     [
+        'title' => 'Experimental Artifical Intelligence Playground',
+        'summary' => 'I created a web site dedicated to AI only. It is a playground, when I have time, I play with it. Tensorflow, OpenCV, ArrayFire ...',
+    ],
+
+    [
         'summary' => '📡 P3X Redis UI that uses Socket.IO, AngularJs Material and IORedis with statistics, console - terminal, tree, dark mode, internationalization, multiple connections, web and desktop by Electron.',
     ],
 
@@ -64,7 +69,7 @@ $l['playground'] = [
     ],
     [
         'title' => 'Corifeus Software Architecture',
-        'summary' => 'I am interested in software and building. Analysis, design, architecture, iterative, xyz driven, deployment and in the end: product. A started building a platform. Technologies: Angular TypeScript, Angular Material 2, SocketIO, MongoDB, Express',
+        'summary' => 'I am interested in software and building. Analysis, design, architecture, iterative, xyz driven, deployment and in the end: product. A started building a platform. Technologies: Angular TypeScript, Angular Material 2, Socket.IO, MongoDB, Express',
         'url' => [
             'GitHub' => 'https://github.com/patrikx3/corifeus',
             'Name' => 'https://en.wikipedia.org/wiki/Coryphaeus',

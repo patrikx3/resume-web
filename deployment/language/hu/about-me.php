@@ -38,7 +38,7 @@ $l['content']
             <span class="{$profile_class}">{$age}</span> éves vagyok.
         </li>
         <li class="list-group-item">
-            Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on és nézd meg a mikroszervízeimet a <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>-on. Általában a NodeJs és AngularJs Material használó vállalati rendszereket építek, és MI és tensor anyagokkal foglalkozok ...
+            Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on és nézd meg a mikroszervízeimet a <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>-on. Általában a NodeJs és AngularJs Material vállalati rendszereket építek, és MI anyagokkal foglalkozok ...
         </li>        
         <li class="list-group-item">
                 <span class="{$profile_class}">2016</span> - Veterán programozó vagyok. Jelenleg, kooperatív rendszerekkel foglalkozok a Sygnus Kft.-nál - Magyarországon.

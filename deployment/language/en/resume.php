@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Right now, I primarily focus on microservices, web and Electron desktop applications (and Ionic for phones/tablets as well).
+Right now, I primarily focus on artifical intelligence frameworks, microservices, web and Electron desktop applications (and Ionic for phones/tablets as well).
 <br/><br/>
 I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.  
 <br/><br/>
@@ -60,7 +60,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Travis',
-        'content' => 'https://travis-ci.org/patrikx3/',
+        'content' => 'https://travis.ci.com/patrikx3/',
         'type' => 'url'
     ],
     [
@@ -103,7 +103,7 @@ $l['tab-data-personal'] = [
 $l['tab-data-skills'] = [
     [
         'field' => 'Frameworks',
-        'content' => 'Electron, AngularJs, Angular TS, WebPack, SocketIO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii, SASS, LESS, NodeJs, Bootstrap, AngularJs Material, Angular Material 2',
+        'content' => 'Tensorflow, ArrayFire, Electron, AngularJs, Angular, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii, SASS, LESS, NodeJs, Bootstrap, AngularJs Material, Angular Material 2',
         'type' => 'badge'
     ],
     [
@@ -150,7 +150,7 @@ $l['tab-data-education'] = [
 
 $l['company-info'] = [
     'sygnus' => [
-        'info' => 'Co-operative systems. New generation integrated enterprise management system. I support the developers and architect. Lots of components. I implemented continuous integration - Jenkins / Mocha / Protractor and build deployments. I overview the system and develop.',
+        'info' => 'Co-operative systems. We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
     ],
     'clickandlike' => [
         'info' => 'I have worked various platforms, languages and frameworks including PHP, NodeJs, Java and Android. Mentoring.',

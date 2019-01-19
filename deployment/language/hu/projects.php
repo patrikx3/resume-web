@@ -36,6 +36,14 @@ $l['projects'] = [
             [
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Szoftver Tervező',
+                'tasks' => 'Kutatás, Fejlesztés',
+                'summary' => 'Egy Raspberry PI alapó robot, ami kiszámítja a raktár méretét és mennyire üres. Egy robot, egy REST/Socket.IO alapú web kliens és egy NodeJs szerver C++ és WebGL-ell.',
+                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, mesterséges intelligencia, WebGL, C++',
+
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Szoftver Tervező',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
                 'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
@@ -49,7 +57,7 @@ $l['projects'] = [
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Ko-operatív rendszerek',
                 'tasks' => 'Tervezés, Automatizálás, Fejlesztők támogatása, Fejlesztés',
-                'summary' => 'Új generációs integrált vállalatirányítási rendszer. Támogatom a fejlesztőkeket és építek. Sok komponens. Beépítettem a folyamatos integrációt - Jenkins / Mocha / Protractor és automatikus telepitéseket. Átnézem a teljes rendszert és fejlesztek.'
+                'summary' => 'Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.'
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',

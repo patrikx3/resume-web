@@ -11,6 +11,11 @@ $l['flash-info'] = 'Néha, a Flash link csak akkor működik, ha kétszer klikke
 
 $l['playground'] = [
     [
+        'title' => 'Kísérleti Mesterséges Intelligencia Játszótér',
+        'summary' => 'Csináltam egy csak mesterséges intelligenciával foglálkozo oldalt, amikor van időm, foglalkozok vele. Tensorflow, OpenCV, ArrayFire ...',
+    ],
+
+    [
         'summary' => '📡 P3X Redis UI technológiai: Socket.IO, AngularJs Material és IORedis statisztikái, konzol - terminal, fa kulcsok, sötét mód, lehetséges több nyelvű UI, több kapcsolatok, web and Electron.',
     ],
 
@@ -63,7 +68,7 @@ $l['playground'] = [
     ],
     [
         'title' => 'Corifeus Szoftver Architektúra',
-        'summary' => 'Érdekel az architektúra. Elemzés, tervezés, tervezés, ismétlődő, xyz vezetés, telepítés és végül: termék. Elkezdtem egy teljesen új platformot. Technológiák: Angular TypeScript, Angular Material 2, SocketIO, MongoDB, Express',
+        'summary' => 'Érdekel az architektúra. Elemzés, tervezés, tervezés, ismétlődő, xyz vezetés, telepítés és végül: termék. Elkezdtem egy teljesen új platformot. Technológiák: Angular TypeScript, Angular Material 2, Socket.IO, MongoDB, Express',
         'url' => [
             'GitHub' => 'https://github.com/patrikx3/corifeus',
             'Név' => 'http://www.kislexikon.hu/korifeus.html',

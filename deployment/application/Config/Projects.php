@@ -35,6 +35,16 @@ class Projects
             'era-2015' => [
                 'items' => [
                     [
+                        'project' => 'Thermo Range',
+                        'company' => 'Sygnus',
+                        'date-start' => new DateTime('2018-12-11'),
+                        'country' => 'hu',
+                        'image' => [
+                            'files/projects/era-2015/thermo/1.png',
+                            'files/projects/era-2015/thermo/2.png',
+                        ]
+                    ],
+                    [
                         'project' => 'Adony Logisztikai Központ',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2018-11-13'),

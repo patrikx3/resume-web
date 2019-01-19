@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Jelenleg, elsősorban mikroszervízekre, webes és Electron asztali alkalmazásokra (és Ionic telefonra / tablettákra is) összpontosítok.
+Jelenleg, elsősorban mesterséges intelligenciára, mikroszervízekre, webes és Electron asztali alkalmazásokra (és Ionic telefonra / tablettákra is) összpontosítok.
 <br/><br/>    
 Gyerekkorom óta használok grafikai programokat és kódolok. Nagyon szeretem a szép animációt és a strukturált programozást.
 <br/><br/>
@@ -59,7 +59,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Travis',
-        'content' => 'https://travis-ci.org/patrikx3/',
+        'content' => 'https://travis.ci.com/patrikx3/',
         'type' => 'url'
     ],
     [
@@ -103,7 +103,7 @@ $l['tab-data-skills'] = [
     [
         'field' => 'Keretrendszerek',
         'type' => 'badge',
-        'content' => 'Electron, AngularJs, Angular TS, WebPack, SocketIO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii, SASS, LESS, NodeJs, Bootstrap, AngularJs Material, Angular Material 2',
+        'content' => 'Tensorflow, ArrayFire, Electron, AngularJs, Angular, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii, SASS, LESS, NodeJs, Bootstrap, AngularJs Material, Angular Material 2',
     ],
     [
         'field' => 'Nyelv / Jelölőnyelv',
@@ -148,7 +148,7 @@ $l['tab-data-education'] = [
 
 $l['company-info'] = [
     'sygnus' => [
-        'info' => 'Ko-operatív rendszerek. Új generációs integrált vállalatirányítási rendszer. Támogatom a fejlesztőkeket és építek. Sok komponens. Beépítettem a folyamatos integrációt - Jenkins / Mocha / Protractor és automatikus telepitéseket. Átnézem a teljes rendszert és fejlesztek.',
+        'info' => 'Ko-operatív rendszerek. Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.',
     ],
     'clickandlike' => [
         'info' => 'Különböző platformok, nyelvek és keretek között dolgoztam PHP, NodeJs, Java és Android. Mentorálás.',
@@ -163,6 +163,6 @@ $l['company-info'] = [
         'info' => 'Mint tapasztalt fejlesztőnek dolgoztam. Microsot Excel / SQL Analysis integrációt csináltunk.',
     ],
     'epam' => [
-        'info' => 'Voltam fejlesztő, csapatvezető és projekt menedzser. Java, .NET használtunk és Scrum.',
+        'info' => 'Voltam fejlesztő, csapatvezető és projekt menedzser. Java-t, .NET -et és Scrum-ot használtunk.',
     ],
 ];

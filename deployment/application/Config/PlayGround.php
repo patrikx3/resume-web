@@ -16,6 +16,16 @@ class PlayGround
     public static $playground
         = [
             [
+                'year' => 2019,
+                'country' => 'hu',
+                'url' => [
+                    'GitHub' => 'https://github.com/patrikx3/play-ai-ui',
+                    'WWW' => 'https://ai.play.patrikx3.com',
+                ],
+            ],
+
+
+            [
                 'title' => 'P3X Reds UI',
                 'year' => 2018,
                 'country' => 'hu',
@@ -29,6 +39,7 @@ class PlayGround
                     'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-2.png',
                     'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-3.png',
                     'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-4.png',
+                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-5.png',
                 ],
             ],
 
@@ -172,7 +183,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'Github' => 'https://github.com/patrikx3/resume-web',
-                    'Traivs' => 'https://travis-ci.org/patrikx3/resume-web',
+                    'Traivs' => 'https://travis.ci.com/patrikx3/resume-web',
                     'Scrutinizer' => 'https://scrutinizer-ci.com/g/patrikx3/resume-web/',
                     'Composer' => 'https://packagist.org/packages/p3x/resume-common',
                     'Bower' => 'https://bower.io/search/?q=p3x',
