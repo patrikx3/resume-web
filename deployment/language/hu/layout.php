@@ -58,6 +58,7 @@ $l['country-dk'] = 'Dánia';
 $l['country-fr'] = 'Franciaország';
 $l['country-hu'] = 'Magyarország';
 $l['country-us'] = 'USA';
+$l['country-gb'] = 'Anglia';
 
 $l['error-onpopstate'] = 'Browser navigation error!';
 

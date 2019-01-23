@@ -466,6 +466,11 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
         $project_count = count($era['items']);
         ?>
         <?php foreach ($era['items'] as $project_item_index => $project_item) : ?>
+            <?php
+            if(isset($project_item['full']) && $project_item['full'] === false) {
+                continue;
+            }
+            ?>
             <table width="100%" border="0">
                 <?php
                 $employer_id = Project::GetEmployerId($project_item);

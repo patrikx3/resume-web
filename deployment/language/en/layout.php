@@ -58,6 +58,7 @@ $l['country-dk'] = 'Denmark';
 $l['country-fr'] = 'France';
 $l['country-hu'] = 'Hungary';
 $l['country-us'] = 'USA';
+$l['country-gb'] = 'English';
 
 $l['error-onpopstate'] = 'Böngésző navigáció hiba!';
 

@@ -54,7 +54,7 @@ class PlayGround
             ],
 
             [
-                'title' => 'Freenom',
+                'title' => 'P3X Freenom',
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
@@ -65,7 +65,7 @@ class PlayGround
             ],
 
             [
-                'title' => 'Gitlist',
+                'title' => 'P3X Gitlist',
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
@@ -121,6 +121,7 @@ class PlayGround
             ],
 
             [
+                'title' => 'P3X Linux Onenote',
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
@@ -183,7 +184,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'Github' => 'https://github.com/patrikx3/resume-web',
-                    'Traivs' => 'https://travis.ci.com/patrikx3/resume-web',
+                    'Traivs' => 'https://travis-ci.com/patrikx3/resume-web',
                     'Scrutinizer' => 'https://scrutinizer-ci.com/g/patrikx3/resume-web/',
                     'Composer' => 'https://packagist.org/packages/p3x/resume-common',
                     'Bower' => 'https://bower.io/search/?q=p3x',

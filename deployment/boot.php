@@ -33,6 +33,7 @@ const ROOT_BUILD = ROOT . 'build/';
 const VERSION_FILE = ROOT . 'version.txt';
 include_once ROOT_VENDOR_AUTOLOAD;
 
+
 P3x\Application::Boot();
 
 Config\Config::Define();
@@ -40,5 +41,10 @@ Config\Route::Define();
 Config\Template::Define();
 
 
-
+if (isset($_REQUEST['full'])) {
+    setcookie('p3x-resume-full', true, 0, WEB_ROOT);
+}
+if (isset($_COOKIE['p3x-resume-full'])) {
+    $_REQUEST['full'] = 1;
+}
 

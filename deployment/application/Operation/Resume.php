@@ -59,7 +59,7 @@ class Resume
         };
 
         File::EnsureDirectory($actual_dir);
-        if (is_file($actual_file)) {
+        if (!isset($_REQUEST['full']) && is_file($actual_file)) {
             $actual_file_file = filemtime($actual_file);
             $root_mod = GIT_DATE;
 //            echo 'All change: ' . date('r', $root_mod) . '<br/>';
@@ -103,8 +103,13 @@ class Resume
 
         $mpdf->showImageErrors = true;
         $mpdf->WriteHTML($template);
-        $mpdf->Output($actual_file, 'F');
-        $send();
+
+        if (isset($_REQUEST['full'])) {
+            $mpdf->Output($actual_file, \Mpdf\Output\Destination::INLINE);
+        } else {
+            $mpdf->Output($actual_file, \Mpdf\Output\Destination::FILE);
+            $send();
+        }
         return;
     }
 

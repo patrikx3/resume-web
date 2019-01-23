@@ -35,6 +35,14 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Frontend fejlesztő',
+                'tasks' => 'Fejlesztés',
+                'summary' => 'Egy egészségügyi rendszer.',
+                'technology' => 'Angular',
+
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Szoftver Tervező',
                 'tasks' => 'Kutatás, Fejlesztés',
                 'summary' => 'Egy Raspberry PI alapó robot, ami kiszámítja a raktár méretét és mennyire üres. Egy robot, egy REST/Socket.IO alapú web kliens és egy NodeJs szerver C++ és WebGL-ell.',

@@ -59,7 +59,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Travis',
-        'content' => 'https://travis.ci.com/patrikx3/',
+        'content' => 'https://travis-ci.com/patrikx3/',
         'type' => 'url'
     ],
     [

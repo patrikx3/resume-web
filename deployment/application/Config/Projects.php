@@ -35,6 +35,13 @@ class Projects
             'era-2015' => [
                 'items' => [
                     [
+                        'project' => 'Nuaxia',
+                        'company' => 'Nuaxia',
+                        'date-start' => new DateTime('2019-01-19'),
+                        'country' => 'gb',
+                        'full' => isset($_REQUEST['full']),
+                    ],
+                    [
                         'project' => 'Thermo Range',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2018-12-11'),

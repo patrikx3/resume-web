@@ -47,7 +47,6 @@ $l['playground'] = [
         'summary' => 'Nem volt több ingyenes domain-em és segítettem a FreeDns Afraid rendszernek, így 5 évig plusz 50 ingyenes al-domain / domain-t kaptam.',
     ],
     [
-        'title' => 'Linux Onenote',
         'summary' => 'Onenote-t használok. Szeretem. Linuxben még nincs meg, úgyhogy csináltam egyet. Kicsit még lassú, cache kell neki. Csak nincs időm mindenre.',
     ],
     [

@@ -55,6 +55,11 @@ class Project
             foreach ($projects as $era_key => $era) {
                 foreach ($era['items'] as $project_index => $project) {
 
+                    if(isset($project['full']) && $project['full'] === false) {
+                        continue;
+                    }
+
+
                     $employer = static::GetEmployerName($project);
 
                     if (!isset($employment[$employer])) {
@@ -132,6 +137,11 @@ class Project
                         $tab_id_heading = $tab_id . '-heading';
                         $tab_id_content = $tab_id;
                         $accordion_title = Str::ToUrl($project_item['project']);
+
+                        if(isset($project_item['full']) && $project_item['full'] === false) {
+                            continue;
+                        }
+
                         ?>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="<?= $tab_id_heading ?>">
@@ -202,6 +212,7 @@ class Project
     {
         $projects = Language::Get('projects', 'projects');
         $project_item = $projects[$era]['items'][$index];
+
 
         $output = '';
         $output .= '<div class="panel-body">';
