@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Right now, I primarily focus on artifical intelligence frameworks, microservices, web and Electron desktop applications (and Ionic for phones/tablets as well).
+Right now, I primarily focus on artifical intelligence frameworks, microservices, web and Electron desktop applications (and open for Ionic based phones/tablets).
 <br/><br/>
 I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.  
 <br/><br/>
@@ -109,7 +109,7 @@ $l['tab-data-skills'] = [
     [
         'field' => 'Language / Markup',
         'type' => 'badge',
-        'content' => 'TypeScript, Javascript, Java, PHP, C#, C, HTML, CSS, VBScript, C++, SQL, Visual Basic, Android, Basic, Assembly, Pascal, Perl, XPath, XSL, XML, JSON, NoSQL',
+        'content' => 'Javascript, C++, TypeScript, Java, PHP, C#, C, HTML, CSS, VBScript, C++, SQL, Visual Basic, Android, Basic, Assembly, Pascal, Perl, XPath, XSL, XML, JSON, NoSQL',
     ],
     [
         'field' => 'Methodologies',

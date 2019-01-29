@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Jelenleg, elsősorban mesterséges intelligenciára, mikroszervízekre, webes és Electron asztali alkalmazásokra (és Ionic telefonra / tablettákra is) összpontosítok.
+Jelenleg, elsősorban mesterséges intelligenciára, mikroszervízekre, webes és Electron asztali alkalmazásokra összpontosítok (és nyitott vagyok Ionic telefon / tablet-okra).
 <br/><br/>    
 Gyerekkorom óta használok grafikai programokat és kódolok. Nagyon szeretem a szép animációt és a strukturált programozást.
 <br/><br/>
@@ -108,7 +108,7 @@ $l['tab-data-skills'] = [
     [
         'field' => 'Nyelv / Jelölőnyelv',
         'type' => 'badge',
-        'content' => 'TypeScript, Javascript, Java, PHP, C#, C, HTML, CSS, VBScript, C++, SQL, Visual Basic, Android, Basic, Assembly, Pascal, Perl, XPath, XSL, XML, JSON, NoSQL',
+        'content' => 'Javascript, C++, TypeScript, Java, PHP, C#, C, HTML, CSS, VBScript, C++, SQL, Visual Basic, Android, Basic, Assembly, Pascal, Perl, XPath, XSL, XML, JSON, NoSQL',
     ],
     [
         'field' => 'Módszerek',

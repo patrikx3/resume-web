@@ -35,7 +35,7 @@ class Projects
             'era-2015' => [
                 'items' => [
                     [
-                        'project' => 'Nuaxia',
+                        'project' => 'Healthcare',
                         'company' => 'Nuaxia',
                         'date-start' => new DateTime('2019-01-19'),
                         'country' => 'gb',

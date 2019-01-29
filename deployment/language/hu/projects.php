@@ -35,15 +35,15 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Frontend fejlesztő',
-                'tasks' => 'Fejlesztés',
-                'summary' => 'Egy egészségügyi rendszer.',
-                'technology' => 'Angular',
+                'role' => 'Szenior Fejlesztő Mérnök',
+                'tasks' => 'Frontend fejlesztés',
+                'summary' => 'Egy egészségügyi rendszer, ami Angular Materialt és Watson API mesterséges intelligenciát használ és feldolgozza az emberi videókat a betegekről, majd diagramokat csinál mély tudásért.',
+                'technology' => 'Angular, Angular Material, Watson AI',
 
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szoftver Tervező',
+                'role' => 'Szenior Fejlesztő Mérnök',
                 'tasks' => 'Kutatás, Fejlesztés',
                 'summary' => 'Egy Raspberry PI alapó robot, ami kiszámítja a raktár méretét és mennyire üres. Egy robot, egy REST/Socket.IO alapú web kliens és egy NodeJs szerver C++ és WebGL-ell.',
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, mesterséges intelligencia, WebGL, C++',
@@ -51,19 +51,19 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szoftver Tervező',
+                'role' => 'Szenior Fejlesztő Mérnök',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
                 'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szoftver Tervező',
+                'role' => 'Szenior Fejlesztő Mérnök',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
                 'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Ko-operatív rendszerek',
+                'role' => 'Szenior Fejlesztő Mérnök',
                 'tasks' => 'Tervezés, Automatizálás, Fejlesztők támogatása, Fejlesztés',
                 'summary' => 'Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.'
             ],
@@ -119,7 +119,7 @@ $l['projects'] = [
     'items' => [
         [
             'location' => 'Magyarország, Balassagyarmat - Dunaújváros',
-            'role' => 'Szoftver Tervező',
+            'role' => 'Szenior Fejlesztő Mérnök',
             'task-normal' => 'Meglévő oktatási rendszer modernizálása, AJAX és Ext/jQuery kombinációval',
         ],
         [

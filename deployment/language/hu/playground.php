@@ -11,7 +11,7 @@ $l['flash-info'] = 'Néha, a Flash link csak akkor működik, ha kétszer klikke
 
 $l['playground'] = [
     [
-        'title' => 'Kísérleti Mesterséges Intelligencia Játszótér',
+        'title' => 'Kisérleti Mesterséges Intelligencia Játszótér',
         'summary' => 'Csináltam egy csak mesterséges intelligenciával foglálkozo oldalt, amikor van időm, foglalkozok vele. Tensorflow, OpenCV, ArrayFire ...',
     ],
 

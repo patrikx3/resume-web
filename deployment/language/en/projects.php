@@ -34,14 +34,14 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Frontend developer',
-                'tasks' => 'Development',
-                'summary' => 'A healthcare system.',
-                'technology' => 'Angular',
+                'role' => 'Senior Software Engineer',
+                'tasks' => 'Frontend development',
+                'summary' => 'A healthcare system using Angular Material and Watson API AI and it processes human videos about the patients and generates charts for deep knowledge.',
+                'technology' => 'Angular, Angular Material, Watson AI',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Architect',
+                'role' => 'Senior Software Engineer',
                 'tasks' => 'Research, Development',
                 'summary' => 'A robot based on Raspberry PI, that calculates the size of the warehouse and how empty it is. A robot, a REST/Socket.IO based web client and a NodeJs server using C++ and WebGL.',
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++',
@@ -49,19 +49,19 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Architect',
+                'role' => 'Senior Software Engineer',
                 'tasks' => 'Planning, Automation, Development, Developer support',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 11/03/2018.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Architect',
+                'role' => 'Senior Software Engineer',
                 'tasks' => 'Planning, Automation, Development, Developer support',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 04/18/2018.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Co-operative systems',
+                'role' => 'Senior Software Engineer',
                 'tasks' => 'Mentoring, Planning, Automation, Development, Developer support',
                     'summary' => 'We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
             ],
@@ -118,7 +118,7 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Hungary, Balassagyarmat - Dunaújváros',
-                'role' => 'Software Architect',
+                'role' => 'Senior Software Engineer',
                 'task-normal' => 'Architect the next generation of class management system on top of the existing in SOA and re-design the ASP system in .NET MVC with a choice of freely chosen tools',
             ],
             [
