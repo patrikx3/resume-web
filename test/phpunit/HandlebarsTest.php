@@ -9,7 +9,7 @@ use P3x\Template;
 class HandlebarsTest extends TestCase
 {
 
-    protected function setUp()
+    protected function setUp(): void
     {
         ApplicationTest::Init();
     }

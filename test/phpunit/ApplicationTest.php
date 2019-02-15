@@ -20,7 +20,7 @@ class ApplicationTest extends TestCase
         Application::Boot();
     }
 
-    protected function setUp()
+    protected function setUp() : void
     {
         static::Init();
     }
