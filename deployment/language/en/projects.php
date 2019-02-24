@@ -41,7 +41,7 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Enterprise Architect',
+                'role' => 'Senior Software Engineer',
                 'tasks' => 'Research, Development',
                 'summary' => 'A robot based on Raspberry PI, that calculates the size of the warehouse and how empty it is. A robot, a REST/Socket.IO based web client and a NodeJs server using C++ and WebGL.',
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++',
@@ -49,13 +49,13 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Enterprise Architect',
+                'role' => 'Senior Software Engineer',
                 'tasks' => 'Planning, Automation, Development, Developer support',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 11/03/2018.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Enterprise Architect',
+                'role' => 'Senior Software Engineer',
                 'tasks' => 'Planning, Automation, Development, Developer support',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 04/18/2018.',
             ],

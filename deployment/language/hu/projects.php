@@ -43,7 +43,7 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Nagyvállalati tervező',
+                'role' => 'Szenior Fejlesztő Mérnök',
                 'tasks' => 'Kutatás, Fejlesztés',
                 'summary' => 'Egy Raspberry PI alapó robot, ami kiszámítja a raktár méretét és mennyire üres. Egy robot, egy REST/Socket.IO alapú web kliens és egy NodeJs szerver C++ és WebGL-ell.',
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, mesterséges intelligencia, WebGL, C++',
@@ -51,13 +51,13 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Nagyvállalati tervező',
+                'role' => 'Szenior Fejlesztő Mérnök',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
                 'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Nagyvállalati tervező',
+                'role' => 'Szenior Fejlesztő Mérnök',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
                 'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
