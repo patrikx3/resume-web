@@ -45,9 +45,6 @@ $l['playground'] = [
     ],
 
     [
-        'summary' => 'I haven\'t had more free domains, so I helped the FreeDns Afraid system, so I got more free 50 sub-domains / domain.',
-    ],
-    [
         'summary' => 'I use Onenote. I love it. There is no alternative in Linux, so I created. It is slow, needs cache. Don\'t have time for everything. Life is short.',
     ],
     [

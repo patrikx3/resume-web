@@ -5,7 +5,7 @@ $l = [];
 
 $l['title-note']
     = <<<EOF
-<span class="label label-info note">Note:</span> This is an overview and doesn’t include the complete list. Some of the programming (mostly e-commerce) and most of the visual design and animation related projects have been taken out to make the list “shorter”. We are usually running multiple projects simultaneously which extends the list fast.
+<span class="label label-warning note">Warning:</span> This is an overview and doesn’t include the complete list. Some of the consulting related projects have been taken out to make the list “shorter”. We are usually running multiple projects simultaneously which extends the list fast.
 EOF;
 
 $l['format-date'] = 'm/d/Y';
@@ -34,10 +34,10 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Frontend Consultant',
                 'tasks' => 'Frontend development',
-                'summary' => 'A healthcare system using Angular Material and Watson API AI and it processes human videos about the patients and generates charts for deep knowledge.',
-                'technology' => 'Angular, Angular Material, Watson AI',
+                'summary' => 'Enterprise frontend guidance counsellor.',
+                'technology' => 'Angular, Angular Material, Highchart.js',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
@@ -63,8 +63,15 @@ $l['projects'] = [
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Enterprise Architect',
                 'tasks' => 'Mentoring, Planning, Automation, Development, Developer support',
-                    'summary' => 'We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
+                'summary' => 'We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
             ],
+            [
+                'location' => 'Hungary, Dunaújváros',
+                'role' => 'Contractor',
+                'tasks' => 'Web page',
+                'summary' => 'I haven\'t had more free domains, so I helped the FreeDns Afraid system, so I got more free 50 sub-domains / domain.',
+            ],
+
             [
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Contractor',

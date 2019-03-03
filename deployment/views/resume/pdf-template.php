@@ -456,7 +456,9 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
     <div class="data-title">
         <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_PROJECTS_RAW) ?></span>&nbsp;<?= Language::Get('projects', 'title') ?>
     </div>
-    <div class="note"><?= Language::Get('projects', 'title-note') ?> </div>
+    <?php if (!isset($_REQUEST['full'])): ?>
+    <div class="note"><?= Language::Get('projects', 'title-note') ?></div>
+    <?php endif; ?>
     <?php foreach ( Language::Get('projects', 'projects') as $era_key => $era) : ?>
         <div class="data-title-era">
             <?= $era['title'] ?>

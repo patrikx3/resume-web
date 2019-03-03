@@ -88,6 +88,18 @@ class Projects
                         ]
                     ],
                     [
+                        'project' => 'Afraid FreeDNS',
+                        'date-start' => new DateTime('2017-05-01'),
+                        'date-end' => new DateTime('2017-08-01'),
+                        'company' => 'Corifeus',
+                        'country' => 'us',
+                        'url' => [
+                            'Afraid P3X' => 'https://afraid.patrikx3.com/',
+                        //    'Live' => 'https://freedns.afraid.org/',
+                        ],
+                        'full' => isset($_REQUEST['full']),
+                    ],
+                    [
                         'project' => 'FruitMarketing',
                         'company' => 'Corifeus',
                         'date-start' => new DateTime('2015-08-01'),

@@ -110,15 +110,7 @@ class PlayGround
                 ]
             ],
 
-            [
-                'title' => 'Afraid FreeDNS',
-                'year' => 2017,
-                'country' => 'us',
-                'url' => [
-                    'Afraid P3X' => 'https://afraid.patrikx3.com/',
-                    'Live' => 'https://freedns.afraid.org/',
-                ],
-            ],
+
 
             [
                 'title' => 'P3X Linux Onenote',

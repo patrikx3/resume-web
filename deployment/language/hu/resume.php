@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Jelenleg, elsősorban mesterséges intelligenciára, mikroszervízekre, webes és Electron asztali alkalmazásokra összpontosítok (és nyitott vagyok Ionic telefon / tablet-okra).
+Jelenleg, elsősorban vállalati alkalmazásokra, mikroszervízekre, webes és Electron asztali alkalmazásokra összpontosítok (és nyitott vagyok Ionic telefon / tablet-okra).
 <br/><br/>    
 Gyerekkorom óta használok grafikai programokat és kódolok. Nagyon szeretem a szép animációt és a strukturált programozást.
 <br/><br/>
@@ -154,7 +154,7 @@ $l['company-info'] = [
         'info' => 'Különböző platformok, nyelvek és keretek között dolgoztam PHP, NodeJs, Java és Android. Mentorálás.',
     ],
     'corifeus' => [
-        'info' => 'Vállalkozó vagyok. Több nyelven dolgozok - szkriptek és bináris platformokon. Általában 2-3 projektek és a csapat körülbelül 5 fő. A költségvetés között 500 - 50.000 dollár. Rational Unified Process és UML.',
+        'info' => 'Nagyvállalati rendszerépítészeti tanácsadó vagyok. Több nyelven dolgozok - szkriptek és bináris platformokon. Általában 2-3 projektek és a csapat körülbelül 5 fő. A költségvetés között 500 - 50.000 dollár. Rational Unified Process és UML.',
     ],
     'grosvenor-enterprises' => [
         'info' => 'Vállalkozónak dolgoztam Microsoft rendszereken (ASP, VBScript, .NET, C), SQL Server és Java.',

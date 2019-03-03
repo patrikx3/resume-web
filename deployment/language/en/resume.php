@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Right now, I primarily focus on artifical intelligence frameworks, microservices, web and Electron desktop applications (and open for Ionic based phones/tablets).
+Right now, I primarily focus on enterprise applications, microservices, web and Electron desktop applications (and open for Ionic based phones/tablets).
 <br/><br/>
 I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.  
 <br/><br/>
@@ -156,7 +156,7 @@ $l['company-info'] = [
         'info' => 'I have worked various platforms, languages and frameworks including PHP, NodeJs, Java and Android. Mentoring.',
     ],
     'corifeus' => [
-        'info' => 'I am a contractor. I use multiple languages including from scripts to binary platforms. I use usually 2-3 projects and about 5 people at once. The budget is between $500 - $50,000. I use rational unifed process and UML.',
+        'info' => 'I am an enterprise systems architecture consultant. I use multiple languages including from scripts to binary platforms. I use usually 2-3 projects and about 5 people at once. The budget is between $500 - $50,000. I use rational unifed process and UML.',
     ],
     'grosvenor-enterprises' => [
         'info' => 'I was a contractor using usually Microsoft (ASP, VbScript, .NET, C), SQL server and Java.',

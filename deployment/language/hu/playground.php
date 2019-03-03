@@ -44,9 +44,6 @@ $l['playground'] = [
         'summary' => 'LEDE alapú MariaDB 10.',
     ],
     [
-        'summary' => 'Nem volt több ingyenes domain-em és segítettem a FreeDns Afraid rendszernek, így 5 évig plusz 50 ingyenes al-domain / domain-t kaptam.',
-    ],
-    [
         'summary' => 'Onenote-t használok. Szeretem. Linuxben még nincs meg, úgyhogy csináltam egyet. Kicsit még lassú, cache kell neki. Csak nincs időm mindenre.',
     ],
     [

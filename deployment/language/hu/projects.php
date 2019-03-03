@@ -5,7 +5,7 @@ $l = [];
 
 $l['title-note']
     = <<<EOF
-<span class="label label-info note">Megjegyés:</span> Ez a lista nem a teljes lista, csak egy átfogó lista főbb kivitelezett projektekről. Mivel általában több projektet is kivitelezünk és fejlesztünk egy időben, ezért csak a fontosabb és nagyobb projektek lettek benne hagyva a listában. (Ki lett szedve a legtöbb e-commerce és grafikai.)
+<span class="label label-warning note">Figyelmeztetés:</span> Ez a lista nem a teljes lista, csak egy átfogó lista a kivitelezett projektekről. Mivel általában több projektet is kivitelezünk és fejlesztünk egy időben, ezért nem minden projekt lett benne a listában. 
 EOF;
 
 $l['format-date'] = 'Y. m. d.';
@@ -35,10 +35,10 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Frontend tanácsadó',
                 'tasks' => 'Frontend fejlesztés',
-                'summary' => 'Egy egészségügyi rendszer, ami Angular Materialt és Watson API mesterséges intelligenciát használ és feldolgozza az emberi videókat a betegekről, majd diagramokat csinál mély tudásért.',
-                'technology' => 'Angular, Angular Material, Watson AI',
+                'summary' => 'Vállalati frontend tanácsadás.',
+                'technology' => 'Angular, Angular Material, Highchart.js',
 
             ],
             [
@@ -66,6 +66,12 @@ $l['projects'] = [
                 'role' => 'Nagyvállalati tervező',
                 'tasks' => 'Tervezés, Automatizálás, Fejlesztők támogatása, Fejlesztés',
                 'summary' => 'Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.'
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Vállalkozó',
+                'tasks' => 'Web oldal',
+                'summary' => 'Nem volt több ingyenes domain-em és segítettem a FreeDns Afraid rendszernek, így 5 évig plusz 50 ingyenes al-domain / domain-t kaptam.',
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
