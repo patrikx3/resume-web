@@ -82,7 +82,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Role',
-        'content' => 'Co-operative systems, Enterprise Architect, Development Operations (DevOps) and hacking'
+        'content' => 'Contractor, consultant, enterprise architect, development operations sys-admin (DevOps)'
     ],
     [
         'field' => 'Used languages',
@@ -153,7 +153,7 @@ $l['company-info'] = [
         'info' => 'Co-operative systems. We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
     ],
     'clickandlike' => [
-        'info' => 'I have worked various platforms, languages and frameworks including PHP, NodeJs, Java and Android. Mentoring.',
+        'info' => 'I have worked various platforms, languages and frameworks including PHP, NodeJs, AngularJs, Java and Android. Mentoring.',
     ],
     'corifeus' => [
         'info' => 'I am an enterprise systems architecture consultant. I use multiple languages including from scripts to binary platforms. I use usually 2-3 projects and about 5 people at once. The budget is between $500 - $50,000. I use rational unifed process and UML.',

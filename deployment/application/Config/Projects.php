@@ -196,7 +196,7 @@ class Projects
                         'company' => 'ClickAndLike',
                         'date-start' => new DateTime('2016-04-01'),
                         'date-end' => new DateTime('2016-05-01'),
-                        'technology' => 'NodeJs, Angular, PostgreSQL',
+                        'technology' => 'NodeJs, AngularJs, PostgreSQL',
                         'country' => 'at',
                     ]
                 ]

@@ -81,7 +81,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Munkakör',
-        'content' => 'Kooperatív rendszerek, Nagyvállalati tervező, Fejlesztési Műveletek (DevOps) és hacking',
+        'content' => 'Vállalkozó, tanácsadó, nagyvállalati tervező, fejlesztési műveletek sys-admin (DevOps)',
     ],
     [
         'field' => 'Használt nyelvek',
@@ -151,7 +151,7 @@ $l['company-info'] = [
         'info' => 'Ko-operatív rendszerek. Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.',
     ],
     'clickandlike' => [
-        'info' => 'Különböző platformok, nyelvek és keretek között dolgoztam PHP, NodeJs, Java és Android. Mentorálás.',
+        'info' => 'Különböző platformok, nyelvek és keretek között dolgoztam PHP, NodeJs, AngularJs, Java és Android. Mentorálás.',
     ],
     'corifeus' => [
         'info' => 'Nagyvállalati rendszerépítészeti tanácsadó vagyok. Több nyelven dolgozok - szkriptek és bináris platformokon. Általában 2-3 projektek és a csapat körülbelül 5 fő. A költségvetés között 500 - 50.000 dollár. Rational Unified Process és UML.',
