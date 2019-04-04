@@ -28,11 +28,14 @@ $accordions_data = [];
 ?>
 <div class="layout-content-text">
 
-    <br/>
-    <div class="warning">
-        <?= language::get('projects', 'title-note'); ?>
-    </div>
-    <br/>
+    <?php if (!isset($_REQUEST['full'])): ?>
+        <br/>
+        <div class="warning">
+            <?= language::get('projects', 'title-note'); ?>
+        </div>
+        <br/>
+    <?php endif; ?>
+
 
     <div id="projects-tab" data-tab-item-url="item/project">
         <ul class="nav nav-pills nav-justified" role="tablist">

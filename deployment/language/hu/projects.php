@@ -5,7 +5,7 @@ $l = [];
 
 $l['title-note']
     = <<<EOF
-<span class="label label-warning note">Figyelmeztetés:</span> Ez a lista nem a teljes lista, csak egy átfogó lista a kivitelezett projektekről. Mivel általában több projektet is kivitelezünk és fejlesztünk egy időben, ezért nem minden projekt lett benne a listában. 
+<span class="label label-info note">Info:</span> Kérem, lépjen kapcsolatba velem, hogy megkapja a legfrissebb önéletrajzomat.
 EOF;
 
 $l['format-date'] = 'Y. m. d.';
@@ -34,88 +34,100 @@ $l['projects'] = [
         'title' => '2015 - Most',
         'items' => [
             [
+                'index' => 1,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Frontend tanácsadó',
-                'tasks' => 'Frontend fejlesztés',
+                'role' => 'Szenior Frontend Fejlesztő',
+                'tasks' => 'Frontend fejlesztés, diagramok, video',
                 'summary' => 'Vállalati frontend tanácsadás.',
-                'technology' => 'Angular, Angular Material, Highchart.js',
-
             ],
             [
+                'index' => 2,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Kutatás, Fejlesztés',
                 'summary' => 'Egy Raspberry PI alapó robot, ami kiszámítja a raktár méretét és mennyire üres. Egy robot, egy REST/Socket.IO alapú web kliens és egy NodeJs szerver C++ és WebGL-ell.',
-                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, mesterséges intelligencia, WebGL, C++',
+                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, mesterséges intelligencia, WebGL, C++, OpenCV',
 
             ],
             [
+                'index' => 3,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
                 'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
             [
+                'index' => 4,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
                 'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
             [
+                'index' => 5,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Nagyvállalati tervező',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Tervezés, Automatizálás, Fejlesztők támogatása, Fejlesztés',
                 'summary' => 'Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.'
             ],
             [
+                'index' => 6,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Vállalkozó',
+                'role' => 'Szenior Frontend Fejlesztő',
                 'tasks' => 'Web oldal',
                 'summary' => 'Nem volt több ingyenes domain-em és segítettem a FreeDns Afraid rendszernek, így 5 évig plusz 50 ingyenes al-domain / domain-t kaptam.',
             ],
             [
+                'index' => 7,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Vállalkozó',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Karbantartás',
             ],
             [
+                'index' => 8,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Vállalkozó',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Karbantartás',
                 'summary' => 'Több integrációt csináltam, mint Blackboard, Canvas, Google, Haiku, Lti. Mind REST, de Blackboard az Java, ezért segíteni kell, mert ott mindenki .NET-es. Több, mint 3 és fél évig alkalmazott voltam.'
             ],
             [
+                'index' => 9,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Bank kalkulációk, Drupal modul, Adatbázis tervezés, Frontend, Backend',
                 'summary' => 'Összehasonlítani több bankokat, mint bankszámla, hitel, kölcsön és megtakarítás. A hitel kalkuláció viszonylag komplex, mert nincs lineáris képlet. Volt egy végeredmeny és egy funkció, ennek kellett megtalálni a nulla végeredményét (célérték keresése - goal seek).'
             ],
             [
+                'index' => 10,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Magyarítások, Chat, Anonym feltöltés',
                 'summary' => 'Az Alfresco rendszer csak angolul működött jól, ráadásul úgy kellett megcsinálni, hogy csak mi tudjuk magyarul működjön. A másik megoldás az volt, hogy kellett egy belső rendszer, ahol chatelni tudtak. Az EJabbered XMPP szervert használtam és integráltam Alfresco-t a JavaScript ConverseJS klienssel úgy hogy minden automatikus lett, csak klikkelni kellett. A másik feladat volt, hogy tudjanak feltölteni az Alfresco-ba egy linkkel, hogy ne kelljen belépni, de titkos legyen. 256-bitos AES kódot csináltam.'
             ],
             [
+                'index' => 11,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'GUI, Stream, figyelmeztetés',
                 'summary' => 'Az volt a feladatom, hogy megcsináljam a Rádió 1 stream-t. Kellett egy Android info sáv, ami ráadásul lezárt telefonnal is működjön és 16 Mb memóriában is.',
             ],
             [
+                'index' => 12,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Hibák, új funkciók',
             ],
             [
+                'index' => 13,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Hibák, új funkciók',
                 'summary' => 'Humánerőforrás adatok információs portál / alkalmazás.',
             ],
             [
+                'index' => 14,
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Fejlesztő Mérnök',
+                'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Hibák, új funkciók',
             ]
         ]

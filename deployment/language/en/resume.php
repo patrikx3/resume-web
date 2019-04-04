@@ -30,7 +30,7 @@ Since about 2000, I have been using object-oriented and functional programming. 
 <br/><br/>
 Usually, I engineer web based systems but I deal with other applications as well.  I like server, client, desktop, mobile, database and component methods.  I architect simple solutions that are independent of operating system, language and framework.   
 <br/><br/>
-What I like and do: analysis, architecture, test, build, continuous integration, code style, code review, documentation, deployment, code coverage, tasks, developer support, development operations (DevOps), distributed - co-operative systems and development.
+What I like and do: analysis, architecture, test, build, continuous integration, code style, code review, documentation, deployment, code coverage, tasks, developer support, development operations (DevOps), distributed - co-operative systems and development aka <strong>full-stack</strong>.
 EOF;
 
 
@@ -82,7 +82,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Role',
-        'content' => 'Contractor, consultant, enterprise architect, development operations sys-admin (DevOps)'
+        'content' => 'Full-stack  developer aka enterprise architect, sys-admin (DevOps)'
     ],
     [
         'field' => 'Used languages',
@@ -103,13 +103,13 @@ $l['tab-data-personal'] = [
 $l['tab-data-skills'] = [
     [
         'field' => 'Frameworks',
-        'content' => 'Tensorflow, ArrayFire, Electron, AngularJs, Angular, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii, SASS, LESS, NodeJs, Bootstrap, AngularJs Material, Angular Material 2',
+        'content' => 'OpenCV, Tensorflow, ArrayFire, Electron, AngularJs, Angular, NodeJs, Bootstrap, AngularJs Material, Angular Material 2, SASS, LESS, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii',
         'type' => 'badge'
     ],
     [
         'field' => 'Language / Markup',
         'type' => 'badge',
-        'content' => 'Javascript, C++, TypeScript, Java, PHP, C#, C, HTML, CSS, VBScript, C++, SQL, Visual Basic, Android, Basic, Assembly, Pascal, Perl, XPath, XSL, XML, JSON, NoSQL',
+        'content' => 'Javascript, C++, TypeScript, Java, PHP, C#, C, HTML, CSS, VBScript, SQL, Visual Basic, Android, Basic, Assembly, Pascal, Perl, XPath, XSL, XML, JSON, NoSQL',
     ],
     [
         'field' => 'Methodologies',
@@ -156,7 +156,7 @@ $l['company-info'] = [
         'info' => 'I have worked various platforms, languages and frameworks including PHP, NodeJs, AngularJs, Java and Android. Mentoring.',
     ],
     'corifeus' => [
-        'info' => 'I am an enterprise systems architecture consultant. I use multiple languages including from scripts to binary platforms. I use usually 2-3 projects and about 5 people at once. The budget is between $500 - $50,000. I use rational unifed process and UML.',
+        'info' => 'I am an enterprise full-stack consultant. I use multiple languages including from scripts to binary platforms. I use usually 2-3 projects and about 5 people at once. The budget is between $500 - $50,000. I use rational unifed process and UML.',
     ],
     'grosvenor-enterprises' => [
         'info' => 'I was a contractor using usually Microsoft (ASP, VbScript, .NET, C), SQL server and Java.',

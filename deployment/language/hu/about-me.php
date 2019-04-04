@@ -38,16 +38,16 @@ $l['content']
             <span class="{$profile_class}">{$age}</span> éves vagyok.
         </li>
         <li class="list-group-item">
-            Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on és megnézheted a mikroszervízeimet a <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>-on. Általában a NodeJs/C++ és Angular Material vállalati rendszereket építek, és MI anyagokkal foglalkozok ...
+            Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on és megnézheted a mikroszervízeimet a <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>-on. Általában a NodeJs/C++ és Angular Material vállalati rendszereket építek, és MI anyagokkal játszok ...
         </li>        
         <li class="list-group-item">
-                <span class="{$profile_class}">2016</span> - Nagyvállalati rendszerépítészeti tanácsadó vagyok.
+                <span class="{$profile_class}">2016</span> - Full-stack fejlesztő vagyok.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span>-ig egy nagyobb munkám volt a <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> cégnél. Más projektem nem volt.
         </li>             
         <li class="list-group-item">
-            <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> Hazajöttem Magyarországra Los Angeles-ből, majd dolgoztam az <a target="_blank" href="https://www.epam.com/">Epam</a>-nak és a <a target="_blank" href="https://www.microsoft.com/{$language}-us/dynamics/">Microsoft</a>-nak, plusz közben vállalkoztam.
+            <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> Hazajöttem Magyarországra Los Angeles-ből, majd dolgoztam az <a target="_blank" href="https://www.epam.com/">Epam</a>-nak és a <a target="_blank" href="https://www.microsoft.com/{$language}-us/dynamics/">Microsoft</a>-nak, plusz, közben, vállalkoztam.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1999</span> - <span class="{$profile_class}">2005</span> Los Angeles-ben dolgoztam web és asztali projekteket csináltam vállalkozónként. Leggyakrabban <a target="_blank" href="https://{$language}.wikipedia.org/wiki/PHP">PHP</a> / <a target="_blank" href="{$java}">Java</a> / <a target="_blank" href="{$dotnet}">.NET</a>-et használtam.
@@ -56,7 +56,7 @@ $l['content']
             <span class="{$profile_class}">1998</span>-ban az egyetemen elkezdtem <a target="_blank" href="https://{$language}.wikipedia.org/wiki/HTML">HTML</a> web oldalakat csináltam.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">1996</span>-ban elkezdtett működni az <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Internet">internet</a> Balassagyarmaton.
+            <span class="{$profile_class}">1996</span>-ban elkezdett működni az <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Internet">internet</a> Balassagyarmaton.
         </li>                 
         <li class="list-group-item">
             <span class="{$profile_class}">1992</span>-ban már elkeztem a PC-vel programozni, kb. ekkor jött ki a <a target="_blank" href="{$doom}">Doom</a> játék, ami nagyon tetszett. Először Amőbát, majd <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Reversi">Otelló</a>-t írtam <a target="_blank" href="{$pascal}">Pascal</a>-ban, melyek lényege az volt, hogy a gép játszott velem.

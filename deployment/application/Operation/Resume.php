@@ -225,6 +225,16 @@ class Resume
                 list($icon_employment_normal, $icon_employment_checked) = Resume::EmploymentCheckIcons();
                 $root_accordion = \Operation\Resume::EmploymentAccordionRoot();
                 ?>
+
+                <?php if (!isset($_REQUEST['full'])): ?>
+                    <br/>
+                    <div class="warning">
+                        <?= language::get('projects', 'title-note'); ?>
+                    </div>
+                    <br/>
+                <?php endif; ?>
+
+
                 <div class="panel-group" id="employment-accordion" role="tablist" aria-multiselectable="true" data-accordion-item-url="item/employment">
                     <?php foreach ($employment as $employer => $data) : ?>
                         <?php

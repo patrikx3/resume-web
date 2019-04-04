@@ -202,9 +202,13 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
             margin-top: 20px;
         }
 
-        .note {
+        .note-container {
             color: <?= $color_note ?>;
             font-size: 12px;
+        }
+
+        .note-container .note {
+            font-weight: bold;
         }
 
         a {
@@ -377,6 +381,13 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 
 <hr/>
 
+<?php if (!isset($_REQUEST['full'])): ?>
+    <div class="note-container"><?= Language::Get('projects', 'title-note') ?></div>
+
+    <hr/>
+<?php endif; ?>
+
+
 <div>
     <div class="data-title">
         <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_EMPLOYMENT_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-employment') ?>
@@ -456,9 +467,6 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
     <div class="data-title">
         <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_PROJECTS_RAW) ?></span>&nbsp;<?= Language::Get('projects', 'title') ?>
     </div>
-    <?php if (!isset($_REQUEST['full'])): ?>
-    <div class="note"><?= Language::Get('projects', 'title-note') ?></div>
-    <?php endif; ?>
     <?php foreach ( Language::Get('projects', 'projects') as $era_key => $era) : ?>
         <div class="data-title-era">
             <?= $era['title'] ?>

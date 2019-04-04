@@ -5,7 +5,7 @@ $l = [];
 
 $l['title-note']
     = <<<EOF
-<span class="label label-warning note">Warning:</span> This is an overview and doesn’t include the complete list. Some of the consulting related projects have been taken out to make the list “shorter”. We are usually running multiple projects simultaneously which extends the list fast.
+<span class="label label-info note">FYI:</span> Please, contact me to receive my latest CV.
 EOF;
 
 $l['format-date'] = 'm/d/Y';
@@ -33,89 +33,92 @@ $l['projects'] = [
         'title' => '2015 - Now',
         'items' => [
             [
+                'index' => 1,
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Frontend Consultant',
-                'tasks' => 'Frontend development',
+                'role' => 'Senior Frontend Developer',
+                'tasks' => 'Frontend development, charts, video',
                 'summary' => 'Enterprise frontend guidance counsellor.',
-                'technology' => 'Angular, Angular Material, Highchart.js',
             ],
             [
+                'index' => 2,
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Research, Development',
                 'summary' => 'A robot based on Raspberry PI, that calculates the size of the warehouse and how empty it is. A robot, a REST/Socket.IO based web client and a NodeJs server using C++ and WebGL.',
-                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++',
-
+                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++, OpenCV',
             ],
             [
-                'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
-                'tasks' => 'Planning, Automation, Development, Developer support',
-                'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 11/03/2018.',
+                'index' => 3,
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Senior Full-stack Developer',
+                'tasks' => 'Planning, development, mentoring',
+                'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus ',
             ],
             [
-                'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
-                'tasks' => 'Planning, Automation, Development, Developer support',
+                'index' => 4,
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Senior Full-stack Developer',
+                'tasks' => 'Planning, development, mentoring',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 04/18/2018.',
             ],
             [
+                'index' => 3,
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Enterprise Architect',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Mentoring, Planning, Automation, Development, Developer support',
                 'summary' => 'We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Contractor',
+                'role' => 'Senior Frontend Developer',
                 'tasks' => 'Web page',
                 'summary' => 'I haven\'t had more free domains, so I helped the FreeDns Afraid system, so I got more free 50 sub-domains / domain.',
             ],
 
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Contractor',
+                'role' => 'Szenior Full-stack Developer',
                 'tasks' => 'Maintenance ',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Contractor',
+                'role' => 'Szenior Full-stack Developer',
                 'tasks' => 'Maintenance',
                 'summary' => 'I have implemented multiple integration like Blackboard, Canvas, Google, Haiku, Lti. They all use REST, except Blackboard which is Java based and the programmers use are .NET , so I have to help them. I worked them as a employee for over 3 and a half years.'
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Bank calculations, Drupal module, Database design, Frontend, Backend',
                 'summary' => 'To compare several banks, such as bank account, credit, loans and savings. The credit calculation is relatively complex, because there is no linear formula. There was a final result and formula, we had to find the zero outcome (goal seek).'
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Hungarian translation, Chat, Anonymous upload',
                 'summary' => '
                 There was only english Alfresco working well. I had to create the new translations in hungarian. Also it was only availbale for our clients, not everyone, private. The other solution was to create an internal system for chatting. I used EJabbered XMPP server where I integrated Alfresco using the ConverseJS JavaScript client so that everything became automatic. The other task was to make the user to be able to upload files without login with a URL. I created a key that was to validate the URL using AES 256 bit.'
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'GUI, Stream services, notification',
                 'summary' => 'I was appointed to create the Radio 1 Stream using a notification bar that can be done with the lock GUI as well. I had to squeeze the program into 16MB memory.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Bugs, new features',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Bugs, new features',
                 'summary' => 'Human Resources data information portal / application.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Bugs, new features',
             ]
         ]
@@ -130,13 +133,13 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Software Developer',
                 'tasks' => 'Backend development',
                 'summary' => 'To help in the development of the 4CSX product, related projects and experimental features. Key responsibilities and accountabilities: Producing new features, Fixing bugs in any product, Testing existing or newly developed features, General software development tasks including databases, web applications, back-end systems and integrated components.'
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Software Developer',
                 'tasks' => 'Module development and development',
             ]
         ]
@@ -166,36 +169,36 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Hungary, Budapest',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Software Developer',
                 'task-normal' => 'Develop a color textile color recognition system for clothing manufacturing for Hugo Boss.',
                 'technology' => 'ASP.NET 3.5, Hardware programming, Web 2.0',
             ],
             [
                 'location' => 'Hungary, Budapest',
-                'role' => 'Senior Software Engineer',
+                'role' => 'Senior Software Developer',
                 'task-normal' => 'Help and support the software engineers, complex tasks, Excel add-in development, OLAP decision support systems',
             ],
             [
                 'location' => 'Hungary, Budapest',
-                'role' => 'Software Development Engineer',
+                'role' => 'Software Development Developer',
                 'tasks' => 'Maintenance, development, bug fixing, system design improvements',
                 'summary' => 'Aerospace insurance system.'
             ],
             [
                 'location' => 'Hungary, Budapest',
-                'role' => 'Software Development Engineer',
+                'role' => 'Software Development Developer',
                 'task-normal' => 'Implement a secure welcome center feature for the latest Visual Studio product.',
                 'summary' => 'Welcome center feature for Visual Studio Orcas.'
             ],
             [
                 'location' => 'Denmark, Vedbæk',
-                'role' => 'Software Development Engineer / Team leader',
+                'role' => 'Software Development Developer / Team leader',
                 'summary' => 'Microsoft Business Framework controls development.',
                 'task-normal' => 'Analysis, design, development and testing of controls as a consultant',
             ],
             [
                 'location' => 'Hungary, Budapest',
-                'role' => 'Software Development Engineer / Project Manager',
+                'role' => 'Software Development Developer / Project Manager',
                 'summary' => 'System consists of 3 servers: application, document and database server.',
                 'task-normal' => 'Maintenance, development, bug fixing, project delivery, customer relationship management, training',
             ],
@@ -247,7 +250,7 @@ $l['projects'] = [
             ],
             [
                 'location' => 'USA, California',
-                'role' => 'Software Development Engineer',
+                'role' => 'Software Development Developer',
                 'task-normal' => 'Real Estate agent search engine web application',
             ],
             [
@@ -257,7 +260,7 @@ $l['projects'] = [
             ],
             [
                 'location' => 'USA, California',
-                'role' => 'Software Development Engineer',
+                'role' => 'Software Development Developer',
                 'task-normal' => 'Multi-lingual portal web applications (search engine, chat, matchmaking), internationalization, data mining applications, general purpose Java Swing libraries, Mnogosearch search engine bug fixes.',
             ],
             [

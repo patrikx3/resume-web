@@ -30,7 +30,7 @@ Kb. 2000 óta használom az objektumorientált és funkcionális fejlesztést. 2
 <br/><br/>
 Általában web alapú rendszereket építek, de más alkalmazásokkal is foglalkozok. Legjobban a szerver, kliens, desktop, mobil, adatbázis és komponens módszerek kedvelem.  Olyan egyszerű megoldásokat tervezek, amely független az operációs rendszertől, nyelvtől és keretrendszertől.
 <br/><br/>
-Amit szeretek és csinálok: elemzés, tervezés, tesztelés, építés, folyamatos integráció, kód stílus, kód felülvizsgálat, dokumentáció, telepítés, kód lefedettség, feladatkezelés, fejlesztési műveletek (DevOps), elosztott - kooperatív rendszerek és fejlesztés.
+Amit szeretek és csinálok: elemzés, tervezés, tesztelés, építés, folyamatos integráció, kód stílus, kód felülvizsgálat, dokumentáció, telepítés, kód lefedettség, feladatkezelés, fejlesztési műveletek (DevOps), elosztott - kooperatív rendszerek és fejlesztés aka <strong>full-stack</strong>.
 EOF;
 
 $l['tab-data-personal'] = [
@@ -81,7 +81,7 @@ $l['tab-data-personal'] = [
     ],
     [
         'field' => 'Munkakör',
-        'content' => 'Vállalkozó, tanácsadó, nagyvállalati tervező, fejlesztési műveletek sys-admin (DevOps)',
+        'content' => 'Full-stack fejlesztő aka nagyvállalati tervező, sys-admin (DevOps)',
     ],
     [
         'field' => 'Használt nyelvek',
@@ -103,12 +103,12 @@ $l['tab-data-skills'] = [
     [
         'field' => 'Keretrendszerek',
         'type' => 'badge',
-        'content' => 'Tensorflow, ArrayFire, Electron, AngularJs, Angular, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii, SASS, LESS, NodeJs, Bootstrap, AngularJs Material, Angular Material 2',
+        'content' => 'OpenCV, Tensorflow, ArrayFire, Electron, AngularJs, Angular, NodeJs, Bootstrap, AngularJs Material, Angular Material 2, SASS, LESS, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii',
     ],
     [
         'field' => 'Nyelv / Jelölőnyelv',
         'type' => 'badge',
-        'content' => 'Javascript, C++, TypeScript, Java, PHP, C#, C, HTML, CSS, VBScript, C++, SQL, Visual Basic, Android, Basic, Assembly, Pascal, Perl, XPath, XSL, XML, JSON, NoSQL',
+        'content' => 'Javascript, C++, TypeScript, Java, PHP, C#, C, HTML, CSS, VBScript, SQL, Visual Basic, Android, Basic, Assembly, Pascal, Perl, XPath, XSL, XML, JSON, NoSQL',
     ],
     [
         'field' => 'Módszerek',
@@ -154,7 +154,7 @@ $l['company-info'] = [
         'info' => 'Különböző platformok, nyelvek és keretek között dolgoztam PHP, NodeJs, AngularJs, Java és Android. Mentorálás.',
     ],
     'corifeus' => [
-        'info' => 'Nagyvállalati rendszerépítészeti tanácsadó vagyok. Több nyelven dolgozok - szkriptek és bináris platformokon. Általában 2-3 projektek és a csapat körülbelül 5 fő. A költségvetés között 500 - 50.000 dollár. Rational Unified Process és UML.',
+        'info' => 'Nagyvállalati full-stack tanácsadó vagyok. Több nyelven dolgozok - szkriptek és bináris platformokon. Általában 2-3 projektek és a csapat körülbelül 5 fő. A költségvetés között 500 - 50.000 dollár. Rational Unified Process és UML.',
     ],
     'grosvenor-enterprises' => [
         'info' => 'Vállalkozónak dolgoztam Microsoft rendszereken (ASP, VBScript, .NET, C), SQL Server és Java.',

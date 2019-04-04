@@ -35,13 +35,16 @@ class Projects
             'era-2015' => [
                 'items' => [
                     [
+                        'index' => 1,
                         'project' => 'Healthcare',
                         'company' => 'Nuaxia',
                         'date-start' => new DateTime('2019-01-19'),
                         'country' => 'gb',
+                        'technology' => 'Angular, Angular Material, Highcharts',
                         'full' => isset($_REQUEST['full']),
                     ],
                     [
+                        'index' => 2,
                         'project' => 'Thermo Range',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2018-12-11'),
@@ -49,9 +52,12 @@ class Projects
                         'image' => [
                             'files/projects/era-2015/thermo/1.png',
                             'files/projects/era-2015/thermo/2.png',
-                        ]
+                            'files/projects/era-2015/thermo/3.png',
+                        ],
+                        'full' => isset($_REQUEST['full']),
                     ],
                     [
+                        'index' => 3,
                         'project' => 'Adony Logisztikai Központ',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2018-11-13'),
@@ -60,9 +66,11 @@ class Projects
                         'image' => [
                             'files/projects/era-2015/adony/1.jpg',
                             'files/projects/era-2015/adony/2.jpg',
-                        ]
-                    ],
+                        ],
+                         'full' => isset($_REQUEST['full']),
+                   ],
                     [
+                        'index' => 4,
                         'project' => 'NG-IVR',
                         'company' => 'DuóVill',
                         'date-start' => new DateTime('2018-04-01'),
@@ -71,9 +79,11 @@ class Projects
                         'image' => [
                             'files/projects/era-2015/duovill/1.jpg',
                             'files/projects/era-2015/duovill/2.jpg',
-                        ]
+                        ],
+                        'full' => isset($_REQUEST['full']),
                     ],
                     [
+                        'index' => 5,
                         'project' => 'NG-IVR',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2016-10-20'),
@@ -85,9 +95,11 @@ class Projects
                             'files/projects/era-2015/ngivr/3.jpg',
                             'files/projects/era-2015/ngivr/4.jpg',
                             'files/projects/era-2015/ngivr/5.jpg',
-                        ]
+                        ],
+                        'full' => isset($_REQUEST['full']),
                     ],
                     [
+                        'index' => 6,
                         'project' => 'Afraid FreeDNS',
                         'date-start' => new DateTime('2017-05-01'),
                         'date-end' => new DateTime('2017-08-01'),
@@ -97,9 +109,9 @@ class Projects
                             'Afraid P3X' => 'https://afraid.patrikx3.com/',
                         //    'Live' => 'https://freedns.afraid.org/',
                         ],
-                        'full' => isset($_REQUEST['full']),
                     ],
                     [
+                        'index' => 7,
                         'project' => 'FruitMarketing',
                         'company' => 'Corifeus',
                         'date-start' => new DateTime('2015-08-01'),
@@ -117,6 +129,7 @@ class Projects
                         ]
                     ],
                     [
+                        'index' => 8,
                         'project' => 'GoSignMeUp',
                         'company' => 'Corifeus',
                         'date-start' => new DateTime('2015-08-01'),
@@ -129,6 +142,7 @@ class Projects
                         ]
                     ],
                     [
+                        'index' => 9,
                         'project' => 'Bank360',
                         'company' => 'ClickAndLike',
                         'date-start' => new DateTime('2016-07-29'),
@@ -144,6 +158,7 @@ class Projects
                         ],
                     ],
                     [
+                        'index' => 10,
                         'project' => 'Valdemor Alfresco CMS',
                         'company' => 'ClickAndLike',
                         'date-start' => new DateTime('2016-06-01'),
@@ -159,6 +174,7 @@ class Projects
                         'country' => 'hu',
                     ],
                     [
+                        'index' => 11,
                         'url' => [
                             'Radio1 Google' => 'https://play.google.com/store/apps/details?id=radio1.radio1streamapplication'
                         ],
@@ -176,6 +192,7 @@ class Projects
                         'country' => 'hu',
                     ],
                     [
+                        'index' => 12,
                         'project' => 'RHExpat',
                         'company' => 'ClickAndLike',
                         'date-start' => new DateTime('2016-03-01'),
@@ -184,6 +201,7 @@ class Projects
                         'country' => 'fr',
                     ],
                     [
+                        'index' => 13,
                         'project' => 'Bikemaraton Bicycle',
                         'company' => 'ClickAndLike',
                         'date-start' => new DateTime('2016-04-01'),
@@ -192,6 +210,7 @@ class Projects
                         'country' => 'hu',
                     ],
                     [
+                        'index' => 14,
                         'project' => 'Treeday.NET',
                         'company' => 'ClickAndLike',
                         'date-start' => new DateTime('2016-04-01'),
