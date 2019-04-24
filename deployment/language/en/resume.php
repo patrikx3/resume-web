@@ -156,7 +156,7 @@ $l['company-info'] = [
         'info' => 'I have worked various platforms, languages and frameworks including PHP, NodeJs, AngularJs, Java and Android. Mentoring.',
     ],
     'corifeus' => [
-        'info' => 'I am an enterprise full-stack consultant. I use multiple languages including from scripts to binary platforms. I use usually 2-3 projects and about 5 people at once. The budget is between $500 - $50,000. I use rational unifed process and UML.',
+        'info' => 'I am an enterprise full-stack consultant. I use multiple languages including from scripts to binary platforms. I use usually 2-3 projects and about 5 people at once. The budget is between $500 - $50,000. I use Rational Unified Process and UML.',
     ],
     'grosvenor-enterprises' => [
         'info' => 'I was a contractor using usually Microsoft (ASP, VbScript, .NET, C), SQL server and Java.',

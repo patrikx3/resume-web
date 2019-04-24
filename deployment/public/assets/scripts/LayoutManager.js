@@ -267,6 +267,12 @@
         return slides[id];
     }
 
+    LayoutManager.RecaptchaLoaded = false
+    LayoutManager.Recaptcha = function() {
+        LayoutManager.RecaptchaLoaded = true;
+    }
+
     window.lm = LayoutManager;
+    window.lmRecaptcha = LayoutManager.Recaptcha;
     p3x.Module.LayoutManager = LayoutManager;
 })(window, document, jQuery, p3x);

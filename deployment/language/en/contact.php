@@ -4,12 +4,14 @@ $l['title'] = "Contact";
 $l['message'] = 'Instant message';
 
 $l['contact-form-email'] = 'E-Mail';
+$l['contact-form-recaptcha'] = 'reCAPTCHA';
 $l['contact-form-email-placeholder'] = 'Required';
 $l['contact-form-message'] = 'Message';
 $l['contact-form-message-placeholder'] = 'Required';
 $l['contact-form-send'] = 'Send';
 
 $l['contact-form-email-error'] = 'Valid like user@company.com';
+$l['contact-form-recaptcha-error'] = 'Are you a robot?';
 $l['contact-form-mail-error'] = 'Could not send e-mail';
 $l['contact-form-message-error'] = 'Empty message';
 

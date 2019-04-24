@@ -36,6 +36,8 @@ $title_name = Html::GetTitleName('layout', 'title');
     <meta name="description" content="{{DESCRIPTION}}"/>
     <meta name="author" content="<?= Language::Get('layout', 'author') ?>">
 
+    <script src="https://www.google.com/recaptcha/api.js?onload=lmRecaptcha&render=explicit" async defer></script>
+
     <?= View::Get('layout/bower') ?>
     <?= View::Get('layout/head', $view_data) ?>
 

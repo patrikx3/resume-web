@@ -1,6 +1,7 @@
 <?php
 namespace Operation;
 
+use Config\Config;
 use P3x\Language;
 use P3x\Router;
 
@@ -8,6 +9,10 @@ class Contact
 {
     public static function Execution()
     {
+        $reCaptchaBackendKey = Config::$private['recaptcha']['backend'];
+        //echo $reCaptchaBackendKey;
+        //exit;
+
         $email = isset($_POST['contact-form-email']) ? $_POST['contact-form-email'] : '';
         $message = isset($_POST['contact-form-message']) ? $_POST['contact-form-message'] : '';
         $result = [
@@ -20,6 +25,31 @@ class Contact
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $result['error']['contact-form-email'] = Language::Get('contact', 'contact-form-email-error');
         }
+
+
+/*
+        $post_data = http_build_query(
+            array(
+                'secret' => $reCaptchaBackendKey,
+                'response' => $_POST['g-recaptcha-response'],
+               // 'remoteip' => $_SERVER['REMOTE_ADDR']
+            )
+        );
+        $opts = array('http' =>
+            array(
+                'method'  => 'POST',
+                'header'  => 'Content-type: application/x-www-form-urlencoded',
+                'content' => $post_data
+            )
+        );
+        $context  = stream_context_create($opts);
+        $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $context);
+        $captcha_success = json_decode($response);
+
+        if ($captcha_success->success !== true) {
+            $result['error']['contact-form-captcha'] = Language::Get('contact', 'contact-form-recaptcha-error');
+        }
+*/
 
         if (count($result['error']) == 0) {
             $data = Router::RequestInfo();

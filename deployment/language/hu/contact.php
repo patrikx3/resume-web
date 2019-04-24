@@ -4,12 +4,14 @@ $l['title'] = "Kapcsolat";
 $l['message'] = 'Azonnali üzenetet';
 
 $l['contact-form-email'] = 'E-Mail';
+$l['contact-form-recaptcha'] = 'reCAPTCHA';
 $l['contact-form-email-placeholder'] = 'Kötelező';
 $l['contact-form-message'] = 'Üzenet';
 $l['contact-form-message-placeholder'] = 'Kötelező';
 $l['contact-form-send'] = 'Küld';
 
 $l['contact-form-email-error'] = 'Helyes pl. felhasználó@cég.hu';
+$l['contact-form-recaptcha-error'] = 'Ez egy robot?';
 $l['contact-form-mail-error'] = 'Nem tudtam elküldeni az e-mail-t';
 $l['contact-form-message-error'] = 'Üres üzenet';
 

@@ -1,5 +1,9 @@
 {
   "debug": true,
+  "recaptcha": {
+    "frontend": "",
+    "backend": ""
+  },
   "email": {
     "smtp": {
       "host": "smtp.gmail.com",

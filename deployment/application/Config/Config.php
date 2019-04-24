@@ -35,6 +35,9 @@ class Config
         unset($text['router']);
 
         $data = [
+            'recaptcha' => [
+              'frontend' => static::$private['recaptcha']['frontend'],
+            ],
             'themes' => [
                 'light' => array_merge($light_themes, $orignal_themes),
                 'dark' => $dark_themes,

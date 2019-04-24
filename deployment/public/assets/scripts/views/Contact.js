@@ -1,4 +1,5 @@
 (function (window, document, $, p3x) {
+
     p3x.Module.Contact = function () {
         var periodical = p3x.Periodical;
         var dataCache = p3x.DataCache;
@@ -27,6 +28,7 @@
             self.WindowSuccess = $('#contact-window-success');
             self.Form = $('#contact-form');
             self.Send = $('#contact-form-send');
+            //self.Send.show();
             self.Send.click(self.Transport.bind(self));
             self.Email = self.Form.find('#contact-form-email');
             self.Message = self.Form.find('#contact-form-message');
@@ -62,9 +64,14 @@
             for (var error_index in data.error) {
                 var error = data.error[error_index];
                 var input = self.Form.find('#' + error_index);
-                var control = input.parent();
-                control.addClass('has-error');
-                control.find('label').after('<div style="display:none; clear: both;" class="' + errorClass + ' alert alert-danger">' + error + '</div>');
+                if (error_index === 'contact-form-captcha') {
+                    input.addClass('has-error');
+                    input.append('<div id="contact-form-captcha-error" class="' + errorClass + ' alert alert-danger">' + error + '</div>');
+                } else {
+                    var control = input.parent();
+                    control.addClass('has-error');
+                    control.find('label').after('<div style="display:none; clear: both;" class="' + errorClass + ' alert alert-danger">' + error + '</div>');
+                }
             }
         };
 
@@ -108,6 +115,7 @@
         };
 
         $(document).ready(function () {
+
             var layoutManager = p3x.Module.LayoutManager;
 
             layoutManager.RandomBoolOpening('contact-opening-bg', 'contact-opening');
@@ -167,6 +175,25 @@
             periodical.Factory(ajaxHrefInterface.CurrentContentId).work(function () {
                 $('.effect-shine').toggleClass('effect-shine-active');
             }, 2000, 500, true);
+
+            /*
+            var loadRecaptchaTimeout
+            var loadRecaptcha = function() {
+                clearTimeout(loadRecaptchaTimeout)
+                if (lm.RecaptchaLoaded !== true) {
+                    loadRecaptchaTimeout = setTimeout(loadRecaptcha, 100)
+                    return;
+                }
+                window.grecaptcha.render('contact-form-captcha-render', {
+                    'sitekey' : p3x.config.recaptcha.frontend,
+                    'callback' : function() {
+                        $('#contact-form-captcha-error').remove()
+                    },
+                    'theme' : $('body').hasClass('theme-light') ? 'light' : 'dark'
+                });
+            }
+            loadRecaptcha()
+            */
         });
     };
 })(window, document, jQuery, p3x);
