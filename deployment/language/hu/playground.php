@@ -10,17 +10,13 @@ $l['title-flash'] = 'Flash';
 $l['flash-info'] = 'Néha, a Flash link csak akkor működik, ha kétszer klikkelsz rá';
 
 $l['playground'] = [
+
     [
-        'title' => 'Kisérleti Mesterséges Intelligencia Játszótér',
-        'summary' => 'Csináltam egy csak mesterséges intelligenciával foglálkozo oldalt, amikor van időm, foglalkozok vele. Tensorflow, OpenCV, ArrayFire ...',
+        'summary' => 'A jövőben, a játszótéren, minden új program a GitHub-on van.',
     ],
 
     [
         'summary' => '📡 P3X Redis UI technológiai: Socket.IO, AngularJs Material és IORedis statisztikái, konzol - terminal, fa kulcsok, sötét mód, lehetséges több nyelvű UI, több kapcsolatok, web and Electron.',
-    ],
-
-    [
-        'summary' => 'A jövőben minden új program a GitHub-on van.',
     ],
 
     [

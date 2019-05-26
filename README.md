@@ -22,13 +22,18 @@ http://www.patrikx3.com
 File: deployment/settings.json
 ```bash
 {
+  "debug": true,
+  "recaptcha": {
+    "frontend": "",
+    "backend": ""
+  },
   "email": {
     "smtp": {
       "host": "smtp.gmail.com",
       "port": 465,
       "security": "ssl"
     },
-    "username": "own",
+    "username": "skeleton@gmail.com",
     "password": "secure"
   }
 }

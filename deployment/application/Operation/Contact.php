@@ -27,31 +27,31 @@ class Contact
         }
 
 
-/*
-        $post_data = http_build_query(
-            array(
-                'secret' => $reCaptchaBackendKey,
-                'response' => $_POST['g-recaptcha-response'],
-               // 'remoteip' => $_SERVER['REMOTE_ADDR']
-            )
-        );
-        $opts = array('http' =>
-            array(
-                'method'  => 'POST',
-                'header'  => 'Content-type: application/x-www-form-urlencoded',
-                'content' => $post_data
-            )
-        );
-        $context  = stream_context_create($opts);
-        $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $context);
-        $captcha_success = json_decode($response);
+        if ( count($result['error']) === 0) {
+            $post_data = http_build_query(
+                array(
+                    'secret' => $reCaptchaBackendKey,
+                    'response' => $_POST['g-recaptcha-response'],
+                    // 'remoteip' => $_SERVER['REMOTE_ADDR']
+                )
+            );
+            $opts = array('http' =>
+                array(
+                    'method'  => 'POST',
+                    'header'  => 'Content-type: application/x-www-form-urlencoded',
+                    'content' => $post_data
+                )
+            );
+            $context  = stream_context_create($opts);
+            $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $context);
+            $captcha_success = json_decode($response);
 
-        if ($captcha_success->success !== true) {
-            $result['error']['contact-form-captcha'] = Language::Get('contact', 'contact-form-recaptcha-error');
+            if ($captcha_success->success !== true) {
+                $result['error']['contact-form-captcha'] = Language::Get('contact', 'contact-form-recaptcha-error');
+            }
         }
-*/
 
-        if (count($result['error']) == 0) {
+        if (count($result['error']) === 0) {
             $data = Router::RequestInfo();
 
             $message

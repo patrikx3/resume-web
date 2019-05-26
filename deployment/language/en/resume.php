@@ -22,7 +22,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 
 $l['tab-data-cover']
     = <<<EOF
-Right now, I primarily focus on enterprise applications, microservices, web and Electron desktop applications (and open for Ionic based phones/tablets).
+Right now, I primarily focus on enterprise applications, microservices, web and Electron desktop applications.
 <br/><br/>
 I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.  
 <br/><br/>

@@ -159,8 +159,13 @@ class Config
      */
     public static function Define()
     {
+        define('HOST', $_SERVER['HTTP_HOST']);
 
-        static::$private = json_decode(file_get_contents(ROOT . 'settings.json'), true);
+        if (HOST === 'resume.workstation.patrikx3.com' || HOST === 'resume.bitang.patrikx3.com') {
+            static::$private = json_decode(file_get_contents(ROOT . '../secure/settings.json'), true);
+        } else {
+            static::$private = json_decode(file_get_contents(ROOT . 'settings.json'), true);
+        }
 
         $web_root = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME']));
         if ($web_root != '/') {
@@ -172,7 +177,6 @@ class Config
         if ($host == 'patrikx3.com') {
             $host = 'www.patrikx3.com';
         }
-        define('HOST', $_SERVER['HTTP_HOST']);
         define('URL', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ? 'https://' : 'http://') . HOST . '/');
 
         $debug = $host == 'www.patrikx3.com' ? false: true;
@@ -193,7 +197,7 @@ class Config
         }
         define('ANALYTICS', $analytics);
 //define('DEBUG', isset($_REQUEST['debug']) ? true : false);
-        define('PHONE', '+36 20 342 8046');
+        define('PHONE', '+36 (20) 342-8046');
 //const DEBUG = true;
         // patrik laszlo email
         define('EMAIL', base64_encode('alabard@gmail.com'));
@@ -246,7 +250,8 @@ class Config
 
         define('GIT_COMMIT', $git_commit);
         define('GIT_DATE', $git_date);
-        define('VERSION', date('Y.n.j', $git_date) . '-' . GIT_COMMIT);
+        //define('VERSION', date('Y.n.j', $git_date) . '-' . GIT_COMMIT);
+        define('VERSION', date('Y.n', $git_date) . '.' . GIT_COMMIT);
         define('VERSION_TEXT', 'v' . VERSION);
     }
 }

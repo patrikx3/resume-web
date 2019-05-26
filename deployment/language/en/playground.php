@@ -10,18 +10,15 @@ $l['title-flash'] = 'Flash';
 $l['flash-info'] = 'Sometimes, the Flash link only works if you click twice';
 
 $l['playground'] = [
+
     [
-        'title' => 'Experimental Artifical Intelligence Playground',
-        'summary' => 'I created a web site dedicated to AI only. It is a playground, when I have time, I play with it. Tensorflow, OpenCV, ArrayFire ...',
+        'summary' => 'The future playground is on GitHub.',
     ],
 
     [
         'summary' => '📡 P3X Redis UI that uses Socket.IO, AngularJs Material and IORedis with statistics, console - terminal, tree, dark mode, internationalization, multiple connections, web and desktop by Electron.',
     ],
 
-    [
-        'summary' => 'The future is on GitHub.',
-    ],
 
     [
         'summary' => 'This is an async/await Promise based Freenom API package for the free DNS, it auto renews the domains that are about to be expired.',

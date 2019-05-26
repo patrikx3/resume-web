@@ -3,6 +3,8 @@ namespace Config;
 
 use P3x\Str;
 
+define("PlayGroundGithubYear", date('Y'));
+
 /**
  * Class PlayGround
  * @package Config
@@ -15,13 +17,15 @@ class PlayGround
      */
     public static $playground
         = [
+
             [
-                'year' => 2019,
+                'title' => 'GitHub',
+                'year' => PlayGroundGithubYear,
                 'country' => 'hu',
                 'url' => [
-                    'GitHub' => 'https://github.com/patrikx3/play-ai-ui',
-                    'WWW' => 'https://ai.play.patrikx3.com',
-                ],
+                    'GitHub' => 'https://github.com/patrikx3/',
+                    'WWW' => 'https://pages.corifeus.com/',
+                ]
             ],
 
 
@@ -35,22 +39,12 @@ class PlayGround
                     'Test online' => 'https://p3x.redis.patrikx3.com/main/statistics',
                 ],
                 'image' => [
-                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview.png',
-                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-2.png',
-                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-3.png',
-                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-4.png',
-                    'http://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-5.png',
+                    'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview.png',
+                    'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-2.png',
+                    'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-3.png',
+                    'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-4.png',
+                    'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-5.png',
                 ],
-            ],
-
-            [
-                'title' => 'GitHub',
-                'year' => 2018,
-                'country' => 'hu',
-                'url' => [
-                    'GitHub' => 'https://github.com/patrikx3/',
-                    'WWW' => 'https://pages.corifeus.com/',
-                ]
             ],
 
             [

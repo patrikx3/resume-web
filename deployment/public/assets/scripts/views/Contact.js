@@ -1,5 +1,22 @@
 (function (window, document, $, p3x) {
 
+    var loadRecaptchaTimeout
+    var loadRecaptcha = function() {
+        clearTimeout(loadRecaptchaTimeout)
+        if (lm.RecaptchaLoaded !== true) {
+            loadRecaptchaTimeout = setTimeout(loadRecaptcha, 100)
+            return;
+        }
+        window.grecaptcha.render('contact-form-captcha-render', {
+            'sitekey' : p3x.config.recaptcha.frontend,
+            'callback' : function() {
+                $('#contact-form-captcha-error').remove()
+            },
+            'theme' : $('body').hasClass('theme-light') ? 'light' : 'dark'
+        });
+    }
+
+
     p3x.Module.Contact = function () {
         var periodical = p3x.Periodical;
         var dataCache = p3x.DataCache;
@@ -65,6 +82,11 @@
                 var error = data.error[error_index];
                 var input = self.Form.find('#' + error_index);
                 if (error_index === 'contact-form-captcha') {
+                    /*
+                    if (lm.RecaptchaLoaded) {
+                        window.grecaptcha.reset();
+                    }
+                     */
                     input.addClass('has-error');
                     input.append('<div id="contact-form-captcha-error" class="' + errorClass + ' alert alert-danger">' + error + '</div>');
                 } else {
@@ -176,24 +198,7 @@
                 $('.effect-shine').toggleClass('effect-shine-active');
             }, 2000, 500, true);
 
-            /*
-            var loadRecaptchaTimeout
-            var loadRecaptcha = function() {
-                clearTimeout(loadRecaptchaTimeout)
-                if (lm.RecaptchaLoaded !== true) {
-                    loadRecaptchaTimeout = setTimeout(loadRecaptcha, 100)
-                    return;
-                }
-                window.grecaptcha.render('contact-form-captcha-render', {
-                    'sitekey' : p3x.config.recaptcha.frontend,
-                    'callback' : function() {
-                        $('#contact-form-captcha-error').remove()
-                    },
-                    'theme' : $('body').hasClass('theme-light') ? 'light' : 'dark'
-                });
-            }
             loadRecaptcha()
-            */
         });
     };
 })(window, document, jQuery, p3x);
