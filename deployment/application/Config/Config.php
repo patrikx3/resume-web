@@ -92,7 +92,7 @@ class Config
         if (static::$themeData == null || $reload) {
 
             // region Themes
-            $default_theme = 'cosmo';
+            $default_theme = 'slate';
 
             $orignal_themes = array();
             $orignal_themes[] = 'bootstrap';

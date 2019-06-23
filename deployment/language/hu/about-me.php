@@ -32,7 +32,7 @@ $l['content']
     = <<<EOT
     <ul class="list-group profile-list">
         <li class="list-group-item">
-            Szóval most már tudod a nevem ... <span class="{$content_label}">László Patrik</span> ...
+            Szóval, most már tudod a nevem ... <span class="{$content_label}">László Patrik</span> ...
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">{$age}</span> éves vagyok.

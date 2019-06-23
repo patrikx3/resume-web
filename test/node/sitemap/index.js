@@ -94,7 +94,7 @@ module.exports = function (grunt, grunt_this, local) {
                     }
                 };
 
-                var parser = require('xml2json');
+                var parser = require('xml2json-temporary');
                 var sitemap_json = parser.toJson(sitemap_xml);
                 sitemap = JSON.parse(sitemap_json);
                 for (var index in sitemap.urlset.url) {

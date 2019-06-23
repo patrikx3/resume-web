@@ -33,7 +33,7 @@ $l['content']
         
     <ul class="list-group profile-list">
         <li class="list-group-item">
-            So now you know my name ...  <span class="{$content_label}">Patrik Laszlo</span> ...
+            So, now, you know my name ...  <span class="{$content_label}">Patrik Laszlo</span> ...
         </li>
         <li class="list-group-item">
             I am <span class="{$profile_class}">{$age}</span> years old.
