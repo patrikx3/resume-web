@@ -4,6 +4,9 @@
     "frontend": "",
     "backend": ""
   },
+  "google": {
+    "maps": ""
+  },
   "email": {
     "smtp": {
       "host": "smtp.gmail.com",
