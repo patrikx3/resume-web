@@ -27,6 +27,9 @@ File: deployment/settings.json
     "frontend": "",
     "backend": ""
   },
+  "google": {
+    "maps": ""
+  },
   "email": {
     "smtp": {
       "host": "smtp.gmail.com",
@@ -37,6 +40,7 @@ File: deployment/settings.json
     "password": "secure"
   }
 }
+
 ```
 
 
@@ -44,4 +48,3 @@ File: deployment/settings.json
 http://patrikx3.com
 
 http://github.com/patrikx3/resume
- 

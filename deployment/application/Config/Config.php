@@ -207,6 +207,8 @@ class Config
         define('PROJECT_DIVIDER', ' | ');
         define('GOOGLE_MAPS_API_KEY', static::$private['google']['maps'] );
 
+        //print_r(static::$private);
+
         static::Version();
     }
 
