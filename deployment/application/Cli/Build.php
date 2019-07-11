@@ -1,4 +1,5 @@
 <?php
+
 namespace Cli;
 
 use P3x\Debug;
@@ -12,7 +13,8 @@ class Build
     /**
      *
      */
-    public function run() {
+    public function run()
+    {
         Debug::Send('Check following files for directories:');
         Debug::Send('.bowerrc');
         Debug::Send('.gitignore');

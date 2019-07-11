@@ -1,4 +1,5 @@
 <?php
+
 namespace Operation;
 
 use Config\Config;

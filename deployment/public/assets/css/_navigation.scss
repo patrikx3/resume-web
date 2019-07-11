@@ -1,51 +1,51 @@
 
 #navigation {
-  z-index: 2;
+    z-index: 2;
 }
 
 #language-flag-switcher {
-  position: fixed;
-  opacity: 0;
-  z-index: 9989;
-  right: 5px;
-  top: 9px;
+    position: fixed;
+    opacity: 0;
+    z-index: 9989;
+    right: 5px;
+    top: 9px;
 }
 
 .language-flag-switcher-done {
-  opacity: 0.75 !important;
+    opacity: 0.75 !important;
 }
 
 .language-flag-switcher-done:hover, #language-flag-switcher:active {
-  opacity: 1 !important;
+    opacity: 1 !important;
 }
 
 .navbar-fixed-top {
-  font-size: 14px !important;
-  @media screen and (min-width: $screen-small) {
     font-size: 14px !important;
-  }
-  @media screen and (min-width: $screen-medium) {
-    font-size: 15px !important;
-  }
-  @media screen and (min-width: $screen-large) {
-    font-size: 18px !important;
-  }
+    @media screen and (min-width: $screen-small) {
+        font-size: 14px !important;
+    }
+    @media screen and (min-width: $screen-medium) {
+        font-size: 15px !important;
+    }
+    @media screen and (min-width: $screen-large) {
+        font-size: 18px !important;
+    }
 }
 
 .navbar-brand {
-  display: block;
-  font-size: 20px !important;
-  @media screen and (min-width: $screen-small) {
-    display: none;
-  }
-  @media screen and (min-width: $screen-medium) {
-    font-size: 22px !important;
     display: block;
-  }
-  @media screen and (min-width: $screen-large) {
-    font-size: 22px !important;
-    display: block;
-  }
+    font-size: 20px !important;
+    @media screen and (min-width: $screen-small) {
+        display: none;
+    }
+    @media screen and (min-width: $screen-medium) {
+        font-size: 22px !important;
+        display: block;
+    }
+    @media screen and (min-width: $screen-large) {
+        font-size: 22px !important;
+        display: block;
+    }
 }
 
 #language-flag-switcher {

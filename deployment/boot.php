@@ -44,7 +44,19 @@ Config\Template::Define();
 if (isset($_REQUEST['full'])) {
     setcookie('p3x-resume-full', true, 0, WEB_ROOT);
 }
+if (isset($_REQUEST['sygnus'])) {
+    setcookie('p3x-resume-sygnus', true, 0, WEB_ROOT);
+}
+if (isset($_REQUEST['nuaxia'])) {
+    setcookie('p3x-resume-nuaxia', true, 0, WEB_ROOT);
+}
 if (isset($_COOKIE['p3x-resume-full'])) {
     $_REQUEST['full'] = 1;
+}
+if (isset($_COOKIE['p3x-resume-sygnus'])) {
+    $_REQUEST['sygnus'] = 1;
+}
+if (isset($_COOKIE['p3x-resume-nuaxia'])) {
+    $_REQUEST['nuaxia'] = 1;
 }
 

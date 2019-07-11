@@ -1,4 +1,5 @@
 <?php
+
 use P3x\language;
 use P3x\Controller;
 use Operation\Project;
@@ -28,7 +29,7 @@ $accordions_data = [];
 ?>
 <div class="layout-content-text">
 
-    <?php if (!isset($_REQUEST['full'])): ?>
+    <?php if (!isset($_REQUEST['full']) && !isset($_REQUEST['sygnus']) && !isset($_REQUEST['nuaxia'])): ?>
         <br/>
         <div class="warning">
             <?= language::get('projects', 'title-note'); ?>
@@ -48,7 +49,8 @@ $accordions_data = [];
                 $root_tab_project = $root_tab . '/' . $tab_id;
                 ?>
                 <li class="<?= $defaut_tab_id == $tab_id ? 'active' : '' ?>">
-                    <a role="tab" data-toggle="tab" href="<?= $root_tab_project ?>#<?= $tab_id ?>" data-base-href="<?= $root_tab ?>">
+                    <a role="tab" data-toggle="tab" href="<?= $root_tab_project ?>#<?= $tab_id ?>"
+                       data-base-href="<?= $root_tab ?>">
                         <i class="<?= \config\Icon::ICON_PROJECTS_ERA ?>"></i>
                         <?= $project['title'] ?>
                     </a>
@@ -71,7 +73,8 @@ $accordions_data = [];
                     'root_addon' => $root_addon,
                 ];
                 ?>
-                <div data-tab-loaded="<?= $loaded ? 'true' : 'false' ?>" id="<?= $tab_id ?>" class="tab-pane fade <?= $loaded ? 'active in' : '' ?>">
+                <div data-tab-loaded="<?= $loaded ? 'true' : 'false' ?>" id="<?= $tab_id ?>"
+                     class="tab-pane fade <?= $loaded ? 'active in' : '' ?>">
                     <?php if ($loaded) echo \Operation\Project::ProjectEra($project_era, $data) ?>
                 </div>
             <?php endforeach; ?>

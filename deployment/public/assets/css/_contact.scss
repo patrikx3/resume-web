@@ -2,70 +2,73 @@ $contact-color: #4d6f6e;
 $contact-color-fixed: #b6af55;
 
 #contact-opening {
-  @include opening();
-  position: relative;
-  z-index: -3;
+    @include opening();
+    position: relative;
+    z-index: -3;
 }
 
 #contact-opening-bg {
-  @include opening-parallax();
-  z-index: -3;
+    @include opening-parallax();
+    z-index: -3;
 }
 
 .contact-opening-bg-start {
-  background: url("../../images/opening-contact.jpg") no-repeat center top local;
+    background: url("../../images/opening-contact.jpg") no-repeat center top local;
 }
 
 #contact-opening-bg.p3x-resume-opening-fixed {
-  background: url("../../images/opening-contact-fixed.jpg") no-repeat center top local !important;
-  @include opening-parallax-fixed();
+    background: url("../../images/opening-contact-fixed.jpg") no-repeat center top local !important;
+    @include opening-parallax-fixed();
 }
 
 #contact-opening.p3x-resume-opening-fixed {
-  .contact-line {
-    background-color: $contact-color-fixed !important;
-  }
-  #contact-title-background {
+    .contact-line {
+        background-color: $contact-color-fixed !important;
+    }
 
-    @include gradient-vertical(lighten($contact-color-fixed, 25%), $contact-color-fixed);
-  }
-  #contact-title {
-    color: black;
-  };
+    #contact-title-background {
+
+        @include gradient-vertical(lighten($contact-color-fixed, 25%), $contact-color-fixed);
+    }
+
+    #contact-title {
+        color: black;
+    }
+;
 }
 
 #contact-title {
-  @include opening-title-font();
-  color: white;
-  left: $content-margin;
-  padding: 10px;
-  z-index: 0;
+    @include opening-title-font();
+    color: white;
+    left: $content-margin;
+    padding: 10px;
+    z-index: 0;
 }
 
 #contact-title-background {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  @include gradient-vertical(lighten($contact-color, 10%), $contact-color);
-  opacity: 0.5;
-  z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    @include gradient-vertical(lighten($contact-color, 10%), $contact-color);
+    opacity: 0.5;
+    z-index: -1;
 }
 
 #contact-title-text {
-  opacity: 1;
-  z-index: 2;
+    opacity: 1;
+    z-index: 2;
 }
 
 .contact-line {
-  position: absolute;
-  //height:  10px;
-  width: 100%;
-  background-color: $contact-color;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: -2;
+    position: absolute;
+    //height:  10px;
+    width: 100%;
+    background-color: $contact-color;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -2;
 }
 

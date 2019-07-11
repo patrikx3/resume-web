@@ -1,4 +1,5 @@
 <?php
+
 namespace Operation;
 
 use Config\Config;
@@ -27,7 +28,7 @@ class Contact
         }
 
 
-        if ( count($result['error']) === 0) {
+        if (count($result['error']) === 0) {
             $post_data = http_build_query(
                 array(
                     'secret' => $reCaptchaBackendKey,
@@ -37,12 +38,12 @@ class Contact
             );
             $opts = array('http' =>
                 array(
-                    'method'  => 'POST',
-                    'header'  => 'Content-type: application/x-www-form-urlencoded',
+                    'method' => 'POST',
+                    'header' => 'Content-type: application/x-www-form-urlencoded',
                     'content' => $post_data
                 )
             );
-            $context  = stream_context_create($opts);
+            $context = stream_context_create($opts);
             $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $context);
             $captcha_success = json_decode($response);
 
@@ -72,7 +73,7 @@ From: $own_email_name <{$own_email}>;
 Reply-To: {$email};
 EOF;
 
-            $mail = \Operation\Mail::Send($email, base64_decode(EMAIL),Language::Get('contact', 'contact-form-mail-subject'),$message );
+            $mail = \Operation\Mail::Send($email, base64_decode(EMAIL), Language::Get('contact', 'contact-form-mail-subject'), $message);
 
             if ($mail == false) {
                 $result['error']['contact-form-email'] = Language::Get('contact', 'contact-form-mail-error');

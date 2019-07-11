@@ -1,4 +1,5 @@
 <?php
+
 namespace Controller;
 
 use Operation\Contact;
@@ -45,23 +46,23 @@ class Front extends \Controller
         $title = static::GetTitle(Language::Get('layout', 'menu-resume'));
         $this->contentView(
             'resume', [
-            'downloadOrTab' => $downloadOrTab,
-            'title' => $title,
-            'accordion' => $accordion,
-            'run-id' => 'Resume',
-            'language-ensure-areas' => ['resume'],
-            'description' => function () {
-                $projects = Language::Get('resume', 'tab-data-cover');
-                return str_ireplace(
-                    [
-                        '<br/>',
-                        '<br>',
-                        "\r\n",
-                        "\n",
-                        "\r",
-                        "\"",
-                        "  "
-                    ], [
+                'downloadOrTab' => $downloadOrTab,
+                'title' => $title,
+                'accordion' => $accordion,
+                'run-id' => 'Resume',
+                'language-ensure-areas' => ['resume'],
+                'description' => function () {
+                    $projects = Language::Get('resume', 'tab-data-cover');
+                    return str_ireplace(
+                        [
+                            '<br/>',
+                            '<br>',
+                            "\r\n",
+                            "\n",
+                            "\r",
+                            "\"",
+                            "  "
+                        ], [
                         '',
                         '',
                         '',
@@ -70,9 +71,9 @@ class Front extends \Controller
                         '\'',
                         ''
                     ], $projects
-                );
-            }
-        ]
+                    );
+                }
+            ]
         );
     }
 
@@ -81,25 +82,25 @@ class Front extends \Controller
         $title = static::GetTitle(Language::Get('layout', 'menu-projects'));
         $this->contentView(
             'projects', [
-            'tab' => $tab,
-            'accordion' => $accordion,
-            'title' => $title,
-            'run-id' => 'Projects',
-            'language-ensure-areas' => ['projects'],
-            'description' => function () {
-                $description = [];
-                $projects = Language::Get('projects', 'projects');
-                foreach ($projects as $era) {
-                    foreach ($era['items'] as $project) {
-                        if (isset($project['company'])) {
-                            $description[$project['company']] = true;
+                'tab' => $tab,
+                'accordion' => $accordion,
+                'title' => $title,
+                'run-id' => 'Projects',
+                'language-ensure-areas' => ['projects'],
+                'description' => function () {
+                    $description = [];
+                    $projects = Language::Get('projects', 'projects');
+                    foreach ($projects as $era) {
+                        foreach ($era['items'] as $project) {
+                            if (isset($project['company'])) {
+                                $description[$project['company']] = true;
+                            }
+                            $description[$project['project']] = true;
                         }
-                        $description[$project['project']] = true;
                     }
+                    return array_keys($description);
                 }
-                return array_keys($description);
-            }
-        ]
+            ]
         );
     }
 
@@ -108,16 +109,16 @@ class Front extends \Controller
         $title = static::GetTitle(Language::Get('layout', 'menu-playground'));
         $this->contentView(
             'playground', [
-            'accordion' => $accordion,
-            'title' => $title,
-            'run-id' => 'PlayGround',
-            'language-ensure-areas' => ['playground'],
-            'description-index' => 'title',
-            'description' => function () {
-                $playground = Language::Get('playground', 'playground');
-                return $playground;
-            }
-        ]
+                'accordion' => $accordion,
+                'title' => $title,
+                'run-id' => 'PlayGround',
+                'language-ensure-areas' => ['playground'],
+                'description-index' => 'title',
+                'description' => function () {
+                    $playground = Language::Get('playground', 'playground');
+                    return $playground;
+                }
+            ]
         );
     }
 

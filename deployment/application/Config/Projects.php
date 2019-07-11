@@ -1,4 +1,5 @@
 <?php
+
 namespace Config;
 
 
@@ -41,7 +42,7 @@ class Projects
                         'date-start' => new DateTime('2019-01-19'),
                         'country' => 'gb',
                         'technology' => 'Angular, Angular Material, Highcharts',
-                        'full' => isset($_REQUEST['full']),
+                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['nuaxia']),
                     ],
                     [
                         'index' => 2,
@@ -54,7 +55,7 @@ class Projects
                             'files/projects/era-2015/thermo/2.png',
                             'files/projects/era-2015/thermo/3.png',
                         ],
-                        'full' => isset($_REQUEST['full']),
+                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
                     ],
                     [
                         'index' => 3,
@@ -67,8 +68,8 @@ class Projects
                             'files/projects/era-2015/adony/1.jpg',
                             'files/projects/era-2015/adony/2.jpg',
                         ],
-                         'full' => isset($_REQUEST['full']),
-                   ],
+                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
+                    ],
                     [
                         'index' => 4,
                         'project' => 'NG-IVR',
@@ -80,7 +81,7 @@ class Projects
                             'files/projects/era-2015/duovill/1.jpg',
                             'files/projects/era-2015/duovill/2.jpg',
                         ],
-                        'full' => isset($_REQUEST['full']),
+                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
                     ],
                     [
                         'index' => 5,
@@ -96,7 +97,7 @@ class Projects
                             'files/projects/era-2015/ngivr/4.jpg',
                             'files/projects/era-2015/ngivr/5.jpg',
                         ],
-                        'full' => isset($_REQUEST['full']),
+                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
                     ],
                     [
                         'index' => 6,
@@ -107,7 +108,7 @@ class Projects
                         'country' => 'us',
                         'url' => [
                             'Afraid P3X' => 'https://afraid.patrikx3.com/',
-                        //    'Live' => 'https://freedns.afraid.org/',
+                            //    'Live' => 'https://freedns.afraid.org/',
                         ],
                     ],
                     [

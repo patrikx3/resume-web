@@ -40,8 +40,8 @@
                     var data = [];
                     for (var angle = 0; angle < Math.PI * 2; angle = angle + angle_stepsize) {
                         var step = length_y * (
-                                Math.sin(angle)
-                            );
+                            Math.sin(angle)
+                        );
                         data.push(step);
                     }
                     return data;
@@ -98,7 +98,7 @@
                 _event.Factory(ajaxHrefInterface.CurrentContentId).on(employmentAccordion, 'hidden.bs.collapse', function (e) {
                     $(e.target).parent().find('[aria-controls]').find('.' + check).removeClass(check).addClass(normal);
                 });
-                var runEmploymentAccordion = function() {
+                var runEmploymentAccordion = function () {
                     _event.Factory(ajaxHrefInterface.CurrentContentId).on('a.resume-link', 'click', function () {
                         $('a.resume-link .fa').removeClass(check).addClass(normal);
 

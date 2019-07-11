@@ -1,4 +1,5 @@
 <?php
+
 use P3x\Controller;
 use Config\config;
 use Config\Route;
@@ -7,17 +8,17 @@ list($folder_source, $folder_source_scripts, $folder_source_css, $folder_product
 
 list($default_theme, $orignal_themes, $light_themes, $dark_themes, $current_theme) = Config::GetThemes();
 switch ($current_theme) {
-case 'bootstrap':
-    $theme_url = 'bower_components/bootstrap/dist/css/bootstrap' . (DEBUG ? '' : '.min') . '.css';
-    break;
-default:
-    $theme_url = $folder_source . 'bootstrap-theme/bootstrap-' . $current_theme . '.theme.min.css';
-    break;
+    case 'bootstrap':
+        $theme_url = 'bower_components/bootstrap/dist/css/bootstrap' . (DEBUG ? '' : '.min') . '.css';
+        break;
+    default:
+        $theme_url = $folder_source . 'bootstrap-theme/bootstrap-' . $current_theme . '.theme.min.css';
+        break;
 }
 ?>
 
-    <link rel="stylesheet" id="bootstrap-theme" href="<?= $theme_url ?>">
-    <script type="application/json" id="layout-data-config"><?= Controller::Json(Config::GetConfig($data)) ?></script>
+<link rel="stylesheet" id="bootstrap-theme" href="<?= $theme_url ?>">
+<script type="application/json" id="layout-data-config"><?= Controller::Json(Config::GetConfig($data)) ?></script>
 
 <?php if (DEBUG) : ?>
     <link rel="stylesheet" href="<?= $folder_source_css ?>all.css">

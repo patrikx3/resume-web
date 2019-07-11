@@ -1,67 +1,67 @@
 @import "variables";
 
 .continuous-integration {
-  display:inline-block;
+    display: inline-block;
 
-  padding: 5px;
-  text-align: center;
-  font-size: 10px;
-  background-color: transparent;
-  text-transform: uppercase;
-  margin: 0 auto;
-  width: 140px;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 140px;
 
-  @media screen and (min-width: 150px) {
-    width: 150px;
-  }
+    @media screen and (min-width: 150px) {
+        width: 150px;
+    }
 
-  @media screen and (min-width: 400px) {
-    width: 200px;
-  }
+    @media screen and (min-width: 400px) {
+        width: 200px;
+    }
 
-  @media screen and (min-width: 500px) {
-    width: 250px;
-  }
+    @media screen and (min-width: 500px) {
+        width: 250px;
+    }
 
 }
 
 
 .continuous-integration > div {
-  padding: 2px;
+    padding: 2px;
 }
 
 footer {
-  text-align: center;
+    text-align: center;
 }
 
 .p3x-sponsor {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 
 .p3x-footer-version {
-  font-size: smaller;
-  text-align: center;
+    font-size: smaller;
+    text-align: center;
 }
 
 footer .p3x-rs-status {
-  display: block;
-  @media screen and (min-width: 600px) {
-    display: inline;
-  }
+    display: block;
+    @media screen and (min-width: 600px) {
+        display: inline;
+    }
 }
 
 footer .p3x-rs-status-divider {
-  display: none;
-  @media screen and (min-width: 600px) {
-    display: inline;
-  }
+    display: none;
+    @media screen and (min-width: 600px) {
+        display: inline;
+    }
 }
 
 footer .p3x-sponsor-responsive {
-  display: block;
-  @media screen and (min-width: 560px) {
-    display: none;
-  }
+    display: block;
+    @media screen and (min-width: 560px) {
+        display: none;
+    }
 }
 

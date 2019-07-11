@@ -1,4 +1,5 @@
 <?php
+
 namespace Operation;
 
 use DOMDocument;
@@ -103,20 +104,20 @@ class Sitemap
         if (isset($path_info['extension'])) {
             $extension = strtolower($path_info['extension']);
             switch ($extension) {
-            case 'png':
-            case 'jpg':
-            case 'jpeg':
-            case 'gif':
-                if (isset($this->dataHtml[$parent])) {
-                    $this->urls[$parent]['images'][] = $url;
-                }
-                break;
+                case 'png':
+                case 'jpg':
+                case 'jpeg':
+                case 'gif':
+                    if (isset($this->dataHtml[$parent])) {
+                        $this->urls[$parent]['images'][] = $url;
+                    }
+                    break;
 
-            default:
-                $this->urls[$url] = [
-                    'url' => $url,
-                ];
-                break;
+                default:
+                    $this->urls[$url] = [
+                        'url' => $url,
+                    ];
+                    break;
             }
             return;
         }

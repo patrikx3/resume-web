@@ -1,4 +1,5 @@
 <?php
+
 use P3x\Language;
 
 $l = array();
@@ -39,7 +40,11 @@ $l['content']
         </li>
         <li class="list-group-item">
             Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on és megnézheted a mikroszervízeimet a <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>-on. Általában a NodeJs/C++ és Angular Material vállalati rendszereket építek ...
-        </li>        
+        </li>       
+        <li class="list-group-item">
+            Néha, blogozok a <a href="https://blog.patrikx3.com/" target="p3x-blog">https://blog.patrikx3.com/</a>-on.
+        </li>
+        
         <li class="list-group-item">
                 <span class="{$profile_class}">2016</span> - Full-stack fejlesztő vagyok.
         </li>

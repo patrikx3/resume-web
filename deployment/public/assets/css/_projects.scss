@@ -1,53 +1,53 @@
 @import "mixins";
 
 #projects-opening {
-  @include opening();
+    @include opening();
 }
 
 #projects-opening-bg {
-  @include opening-parallax();
+    @include opening-parallax();
 }
 
 .projects-opening-bg-start {
-  background: url("../../images/opening-projects.jpg") no-repeat center top local;
+    background: url("../../images/opening-projects.jpg") no-repeat center top local;
 }
 
 // 01591_nebulax4_1920x1080
 // fruit
 
 #projects-opening-bg.p3x-resume-opening-fixed {
-  background: url("../../images/opening-projects-fixed.jpg") no-repeat center top local !important;
-  @include opening-parallax-fixed();
+    background: url("../../images/opening-projects-fixed.jpg") no-repeat center top local !important;
+    @include opening-parallax-fixed();
 }
 
 #projects-bg-1 {
-  width: 100%;
-  position: absolute;
-  //height: $opening-height /4;
-  background-color: black;
-  opacity: 0.2;
+    width: 100%;
+    position: absolute;
+    //height: $opening-height /4;
+    background-color: black;
+    opacity: 0.2;
 }
 
 #projects-bg-2 {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  //height: $opening-height /4;
-  background-color: black;
-  opacity: 0.2;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    //height: $opening-height /4;
+    background-color: black;
+    opacity: 0.2;
 }
 
 #projects-title {
-  @include opening-title-font();
-  color: white;
-  opacity: 0.9;
-  left: $content-margin;
-  @include shadow();
+    @include opening-title-font();
+    color: white;
+    opacity: 0.9;
+    left: $content-margin;
+    @include shadow();
 }
 
 .projects-opening-titlize {
-  background-color: black;
-  color: white;
-  opacity: 0.75;
-  padding: 5px;
+    background-color: black;
+    color: white;
+    opacity: 0.75;
+    padding: 5px;
 }

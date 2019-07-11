@@ -1,11 +1,14 @@
 <?php
+
 namespace Router;
 
 use P3x\Language;
 use P3x\View;
 
-class Error {
-    static function NotSsl() {
+class Error
+{
+    static function NotSsl()
+    {
         header('HTTP/1.0 403 Forbidden');
         $url = \P3x\Router::UrlSsl($_SERVER['REQUEST_URI']);
         $info = \Config\Icon::ICON_INFO;
@@ -28,17 +31,18 @@ EOL;
         $view = new view('layout/base');
         $view->updateView(
             'errors/default', [
-            'title' => $title,
-            'icon' => $icon,
-            'message' => $message
-        ]
+                'title' => $title,
+                'icon' => $icon,
+                'message' => $message
+            ]
         );
         $view->updateContent($title, 'TITLE');
         $view->updateContent($title, 'DESCRIPTION');
         echo $view->render();
     }
 
-    static function NotAuthorized() {
+    static function NotAuthorized()
+    {
         header('HTTP/1.0 403 Forbidden');
         static::Error(Language::Get('layout', 'error-403'), \Config\Icon::ICON_403);
     }

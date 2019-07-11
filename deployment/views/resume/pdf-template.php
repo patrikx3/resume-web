@@ -1,4 +1,5 @@
 <?php
+
 use P3x\Language;
 use P3x\Str;
 use Config\Icon;
@@ -45,79 +46,79 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
     echo '</td>';
     echo '<td valign="' . $valign . '" width="99%">';
     switch ($type) {
-    case 'date':
+        case 'date':
 
-        echo $data[$item]->format($additional);
+            echo $data[$item]->format($additional);
 
-        echo ' - ';
+            echo ' - ';
 
-        if (isset($data['date-end'])) {
-            echo $data['date-end']->format($additional);
-        } else {
-            echo '<span class="fontawesome">' . \P3x\Template\Icon::Unicode(Icon::ICON_PROGRESS_RAW) . '</span>';
-        }
-
-        if (isset($data['date-end'])) {
-            echo ' | <span style="font-weight: bold;">' . Language::GetDuration($data[$item], $data['date-end']) . '</span>';
-        }
-        break;
-
-    case 'since':
-        echo sprintf(Language::Get('projects', 'data-since'), $data[$item]);
-        break;
-
-    case 'image':
-        if (!is_array($data[$item])) {
-            $data[$item] = [$data[$item]];
-        }
-        $count = 0;
-        foreach ($data[$item] as $url) {
-            if ($count > 0) {
-                echo ', ';
+            if (isset($data['date-end'])) {
+                echo $data['date-end']->format($additional);
+            } else {
+                echo '<span class="fontawesome">' . \P3x\Template\Icon::Unicode(Icon::ICON_PROGRESS_RAW) . '</span>';
             }
-            $url = URL . $url;
-            $name = pathinfo($url);
-            echo "<a target=\"_blank\" href=\"{$url}\">" . $name['filename'] . "</a>";
-            $count++;
-        }
-        break;
 
-    case 'flash':
-        if (!is_array($data[$item])) {
-            $data[$item] = [$data[$item]];
-        }
-        $count = 0;
-        foreach ($data[$item] as $flash) {
-            if ($count > 0) {
-                echo ', ';
+            if (isset($data['date-end'])) {
+                echo ' | <span style="font-weight: bold;">' . Language::GetDuration($data[$item], $data['date-end']) . '</span>';
             }
-            $url = Html::FlashUrl($flash);
-            $name = pathinfo($flash[0]);
-            echo "<a target=\"_blank\" href=\"{$url}\">" . $name['filename'] . "</a>";
-            $count++;
-        }
-        break;
+            break;
 
-    case 'youtube':
-    case 'url':
-        if (!is_array($data[$item])) {
-            $data[$item] = [$data[$item]];
-        }
-        $count = 0;
-        foreach ($data[$item] as $url) {
-            if ($count > 0) {
-                echo ', ';
+        case 'since':
+            echo sprintf(Language::Get('projects', 'data-since'), $data[$item]);
+            break;
+
+        case 'image':
+            if (!is_array($data[$item])) {
+                $data[$item] = [$data[$item]];
             }
-            if ($type == 'image') {
-                $url = 'files/projects/' . $url;
+            $count = 0;
+            foreach ($data[$item] as $url) {
+                if ($count > 0) {
+                    echo ', ';
+                }
+                $url = URL . $url;
+                $name = pathinfo($url);
+                echo "<a target=\"_blank\" href=\"{$url}\">" . $name['filename'] . "</a>";
+                $count++;
             }
-            echo "<a target=\"_blank\" href=\"{$url}\">{$url}</a>";
-            $count++;
-        }
-        break;
-    default:
-        echo $data[$item];
-        break;
+            break;
+
+        case 'flash':
+            if (!is_array($data[$item])) {
+                $data[$item] = [$data[$item]];
+            }
+            $count = 0;
+            foreach ($data[$item] as $flash) {
+                if ($count > 0) {
+                    echo ', ';
+                }
+                $url = Html::FlashUrl($flash);
+                $name = pathinfo($flash[0]);
+                echo "<a target=\"_blank\" href=\"{$url}\">" . $name['filename'] . "</a>";
+                $count++;
+            }
+            break;
+
+        case 'youtube':
+        case 'url':
+            if (!is_array($data[$item])) {
+                $data[$item] = [$data[$item]];
+            }
+            $count = 0;
+            foreach ($data[$item] as $url) {
+                if ($count > 0) {
+                    echo ', ';
+                }
+                if ($type == 'image') {
+                    $url = 'files/projects/' . $url;
+                }
+                echo "<a target=\"_blank\" href=\"{$url}\">{$url}</a>";
+                $count++;
+            }
+            break;
+        default:
+            echo $data[$item];
+            break;
     }
     echo '</td>';
     echo '</tr>';
@@ -125,7 +126,7 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 ?>
 <html>
 <head>
-    <title><?= Language::Get('layout', 'title') ?> <?=  Language::Get('resume', 'title') ?></title>
+    <title><?= Language::Get('layout', 'title') ?> <?= Language::Get('resume', 'title') ?></title>
     <style>
         body {
             font-family: 'resume-font';
@@ -237,7 +238,8 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 
 <htmlpageheader name="patrik-header">
     <div class="header">
-        <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_RAW) ?></span>&nbsp;<?= Language::Get('layout', 'title') ?> <?= Language::Get('resume', 'title') ?>
+        <span
+            class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_RAW) ?></span>&nbsp;<?= Language::Get('layout', 'title') ?> <?= Language::Get('resume', 'title') ?>
     </div>
 </htmlpageheader>
 
@@ -269,10 +271,11 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 
 <div>
     <div class="data-title">
-        <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_PERSONAL_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-personal') ?>
+        <span
+            class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_PERSONAL_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-personal') ?>
     </div>
     <table>
-        <?php foreach ( Language::Get('resume', 'tab-data-personal') as $item) : ?>
+        <?php foreach (Language::Get('resume', 'tab-data-personal') as $item) : ?>
             <tr>
                 <td align="right" valign="top">
                     <div class="data-sub-title">
@@ -284,22 +287,22 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
                     <?php
                     $type = isset($item['type']) ? $item['type'] : '';
                     switch ($type) {
-                    case 'url':
-                        echo "<a href=\"{$item['content']}\">{$item['content']}</a>";
-                        break;
+                        case 'url':
+                            echo "<a href=\"{$item['content']}\">{$item['content']}</a>";
+                            break;
 
-                    case 'email':
-                        echo "<a target='_blank' href=\"mailto:{$email}\">{$email}</a>";
-                        break;
+                        case 'email':
+                            echo "<a target='_blank' href=\"mailto:{$email}\">{$email}</a>";
+                            break;
 
-                    case 'since':
-                        $years = date('Y') - $item['content'];
-                        echo sprintf(Language::Get('resume', 'data-since-pdf'), $item['content'], $years);
-                        break;
+                        case 'since':
+                            $years = date('Y') - $item['content'];
+                            echo sprintf(Language::Get('resume', 'data-since-pdf'), $item['content'], $years);
+                            break;
 
-                    default:
-                        echo $item['content'];
-                        break;
+                        default:
+                            echo $item['content'];
+                            break;
                     }
                     ?>
                 </td>
@@ -312,7 +315,8 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 
 <div>
     <div class="data-title" style="float: left; width: 50%;">
-        <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_SKILLS_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-skills') ?>
+        <span
+            class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_SKILLS_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-skills') ?>
     </div>
 
     <div style="clear: both;"></div>
@@ -340,12 +344,13 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 
 <div>
     <div class="data-title">
-        <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_EDUCATION_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-education') ?>
+        <span
+            class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_EDUCATION_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-education') ?>
     </div>
     <?php
     $education_count = 0;
     ?>
-    <?php foreach ( Language::Get('resume', 'tab-data-education')as $item) : ?>
+    <?php foreach (Language::Get('resume', 'tab-data-education') as $item) : ?>
         <div
             style="float: left; <?= $education_count % 2 == 1 ? 'text-align: right; border-left: 2px solid ' . $color_hr . ';width: 48.8%;' : 'width: 50%;' ?>">
             <div class="data-sub-title">
@@ -381,7 +386,7 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 
 <hr/>
 
-<?php if (!isset($_REQUEST['full'])): ?>
+<?php if (!isset($_REQUEST['full']) && !isset($_REQUEST['sygnus']) && !isset($_REQUEST['nuaxia'])): ?>
     <div class="note-container"><?= Language::Get('projects', 'title-note') ?></div>
 
     <hr/>
@@ -390,7 +395,8 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 
 <div>
     <div class="data-title">
-        <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_EMPLOYMENT_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-employment') ?>
+        <span
+            class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_RESUME_EMPLOYMENT_RAW) ?></span>&nbsp;<?= Language::Get('resume', 'tab-employment') ?>
         <?php
         $employment_count = 0;
         ?>
@@ -465,9 +471,10 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 
 <div>
     <div class="data-title">
-        <span class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_PROJECTS_RAW) ?></span>&nbsp;<?= Language::Get('projects', 'title') ?>
+        <span
+            class="fontawesome"><?= \P3x\Template\Icon::Unicode(Icon::ICON_PROJECTS_RAW) ?></span>&nbsp;<?= Language::Get('projects', 'title') ?>
     </div>
-    <?php foreach ( Language::Get('projects', 'projects') as $era_key => $era) : ?>
+    <?php foreach (Language::Get('projects', 'projects') as $era_key => $era) : ?>
         <div class="data-title-era">
             <?= $era['title'] ?>
         </div>
@@ -477,7 +484,7 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
         ?>
         <?php foreach ($era['items'] as $project_item_index => $project_item) : ?>
             <?php
-            if(isset($project_item['full']) && $project_item['full'] === false) {
+            if (isset($project_item['full']) && $project_item['full'] === false) {
                 continue;
             }
             ?>

@@ -1,19 +1,19 @@
 {
-  "debug": true,
-  "recaptcha": {
-    "frontend": "",
-    "backend": ""
-  },
-  "google": {
-    "maps": ""
-  },
-  "email": {
-    "smtp": {
-      "host": "smtp.gmail.com",
-      "port": 465,
-      "security": "ssl"
+    "debug": true,
+    "recaptcha": {
+        "frontend": "",
+        "backend": ""
     },
-    "username": "skeleton@gmail.com",
-    "password": "secure"
-  }
+    "google": {
+        "maps": ""
+    },
+    "email": {
+        "smtp": {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "security": "ssl"
+        },
+        "username": "skeleton@gmail.com",
+        "password": "secure"
+    }
 }

@@ -1,4 +1,5 @@
 <?php
+
 use P3x\Str;
 
 $l = array();
@@ -28,7 +29,7 @@ I have been practicing imaging applications and coding since I was small. I real
 <br/><br/>
 Since about 2000, I have been using object-oriented and functional programming. By about 2001, I have been building diagrams and models. I like architect, Microsoft and alike tools.
 <br/><br/>
-Usually, I engineer web based systems but I deal with other applications as well.  I like server, client, desktop, mobile, database and component methods.  I architect simple solutions that are independent of operating system, language and framework.   
+Usually, I engineer web based systems, but I deal with other applications as well.  I like server, client, desktop, mobile, database and component methods.  I architect simple solutions, that are independent of operating system, language and framework.   
 <br/><br/>
 What I like and do: analysis, architecture, test, build, continuous integration, code style, code review, documentation, deployment, code coverage, tasks, developer support, development operations (DevOps), distributed - co-operative systems and development aka <strong>full-stack</strong>.
 EOF;
@@ -149,6 +150,9 @@ $l['tab-data-education'] = [
 ];
 
 $l['company-info'] = [
+    'duovill' => [
+        'info' => 'We are working with new AI technologies using NodeJs/C++ and Angular Material full-stack systems.',
+    ],
     'sygnus' => [
         'info' => 'Co-operative systems. We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
     ],

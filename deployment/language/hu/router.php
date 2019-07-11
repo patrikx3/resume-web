@@ -1,4 +1,5 @@
 <?php
+
 use P3x\Language;
 
 $l = [];

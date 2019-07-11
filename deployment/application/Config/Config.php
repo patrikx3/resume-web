@@ -1,4 +1,5 @@
 <?php
+
 namespace Config;
 
 use P3x\Controller;
@@ -36,7 +37,7 @@ class Config
 
         $data = [
             'recaptcha' => [
-              'frontend' => static::$private['recaptcha']['frontend'],
+                'frontend' => static::$private['recaptcha']['frontend'],
             ],
             'themes' => [
                 'light' => array_merge($light_themes, $orignal_themes),
@@ -92,7 +93,7 @@ class Config
         if (static::$themeData == null || $reload) {
 
             // region Themes
-            $default_theme = 'slate';
+            $default_theme = 'cosmo';
 
             $orignal_themes = array();
             $orignal_themes[] = 'bootstrap';
@@ -178,8 +179,9 @@ class Config
             $host = 'www.patrikx3.com';
         }
         define('URL', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ? 'https://' : 'http://') . HOST . '/');
+        //define('URL', 'http://patrikx3.com/');
 
-        $debug = $host == 'www.patrikx3.com' ? false: true;
+        $debug = $host == 'www.patrikx3.com' ? false : true;
         $debug = isset($_REQUEST['debug']) ? true : $debug;
         $debug = isset($_REQUEST['production']) ? false : $debug;
 
@@ -192,7 +194,7 @@ class Config
 
         if (isset($_REQUEST['analytics'])) {
             $analytics = static::RestrictBoolean($_REQUEST['analytics']);
-        }  else {
+        } else {
             $analytics = !DEBUG;
         }
         define('ANALYTICS', $analytics);
@@ -205,7 +207,7 @@ class Config
         define('GOOGLE_ANALYTICS_ID', 'UA-102206537-1');
         define('PARAMETER_THEME', 'patrikx3-theme');
         define('PROJECT_DIVIDER', ' | ');
-        define('GOOGLE_MAPS_API_KEY', static::$private['google']['maps'] );
+        define('GOOGLE_MAPS_API_KEY', static::$private['google']['maps']);
 
         //print_r(static::$private);
 
@@ -245,7 +247,7 @@ class Config
             $output_commit = trim(shell_exec('git rev-list --all --count 2>&1'));
             $output_date = trim(shell_exec('git log -1 --format=%at 2>&1'));
             //if ($git_commit == null || $output_commit !== $git_commit) {
-                \P3x\File::EnsurePutContents(VERSION_FILE, $output_commit . ',' . $output_date);
+            \P3x\File::EnsurePutContents(VERSION_FILE, $output_commit . ',' . $output_date);
             //}
             list($git_commit, $git_date) = $read_data();
         }

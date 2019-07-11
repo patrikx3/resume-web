@@ -1,4 +1,5 @@
 <?php
+
 use Config\Icon;
 use Operation\Html;
 use Operation\Project;
@@ -41,7 +42,8 @@ $root = Language::RouteUrl('front/resume');
                 <?php
                 $current_path = Language::Get('resume', 'tab-cover-id');
                 ?>
-                <a role="tab" data-toggle="tab" data-base-href="<?= $root ?>" href="<?= $root . '/1/' . $current_path ?>#R1" data-bootstrab-tab="<?= $current_path ?>">
+                <a role="tab" data-toggle="tab" data-base-href="<?= $root ?>"
+                   href="<?= $root . '/1/' . $current_path ?>#R1" data-bootstrab-tab="<?= $current_path ?>">
                     <i class="<?= Icon::ICON_RESUME_COVER ?> fa-lg"></i>
                     <?= Language::Get('resume', 'tab-cover') ?>
                 </a>
@@ -50,7 +52,8 @@ $root = Language::RouteUrl('front/resume');
                 <?php
                 $current_path = Language::Get('resume', 'tab-personal-id');
                 ?>
-                <a role="tab" data-toggle="tab" data-base-href="<?= $root ?>" href="<?= $root . '/2/' . $current_path ?>#R2" data-bootstrab-tab="<?= $current_path ?>">
+                <a role="tab" data-toggle="tab" data-base-href="<?= $root ?>"
+                   href="<?= $root . '/2/' . $current_path ?>#R2" data-bootstrab-tab="<?= $current_path ?>">
                     <i class="<?= Icon::ICON_RESUME_PERSONAL ?> fa-lg"></i>
                     <?= Language::Get('resume', 'tab-personal') ?>
                 </a>
@@ -59,7 +62,8 @@ $root = Language::RouteUrl('front/resume');
                 <?php
                 $current_path = Language::Get('resume', 'tab-skills-id');
                 ?>
-                <a role="tab" data-toggle="tab" data-base-href="<?= $root ?>" href="<?= $root . '/3/' . $current_path ?>#R3" data-bootstrab-tab="<?= $current_path ?>">
+                <a role="tab" data-toggle="tab" data-base-href="<?= $root ?>"
+                   href="<?= $root . '/3/' . $current_path ?>#R3" data-bootstrab-tab="<?= $current_path ?>">
                     <i class="<?= Icon::ICON_RESUME_SKILLS ?> fa-lg"></i>
                     <?= Language::Get('resume', 'tab-skills') ?>
                 </a>
@@ -68,7 +72,8 @@ $root = Language::RouteUrl('front/resume');
                 <?php
                 $current_path = Language::Get('resume', 'tab-education-id');
                 ?>
-                <a role="tab" data-toggle="tab" href="<?= $root . '/4/' . $current_path ?>#R4" data-base-href="<?= $root ?>" data-bootstrab-tab="<?= $current_path ?>">
+                <a role="tab" data-toggle="tab" href="<?= $root . '/4/' . $current_path ?>#R4"
+                   data-base-href="<?= $root ?>" data-bootstrab-tab="<?= $current_path ?>">
                     <i class="<?= Icon::ICON_RESUME_EDUCATION ?> fa-lg"></i>
                     <?= Language::Get('resume', 'tab-education') ?>
                 </a>
@@ -77,7 +82,8 @@ $root = Language::RouteUrl('front/resume');
                 <?php
                 $current_path = Language::Get('resume', 'tab-employment-id');
                 ?>
-                <a role="tab" data-toggle="tab" href="<?= $root . '/5/' . $current_path ?>#R5" data-base-href="<?= $root ?>" data-bootstrab-tab="<?= $current_path ?>">
+                <a role="tab" data-toggle="tab" href="<?= $root . '/5/' . $current_path ?>#R5"
+                   data-base-href="<?= $root ?>" data-bootstrab-tab="<?= $current_path ?>">
                     <i class="<?= Icon::ICON_RESUME_EMPLOYMENT ?> fa-lg"></i>
                     <?= Language::Get('resume', 'tab-employment') ?>
                 </a>
@@ -85,19 +91,24 @@ $root = Language::RouteUrl('front/resume');
         </ul>
 
         <div class="tab-content">
-            <div id="R1" data-tab-loaded="<?= $current_tab == 1 ? 'true' : 'false' ?>" class="tab-pane fade <?= $current_tab == 1 ? 'active in' : '' ?>">
+            <div id="R1" data-tab-loaded="<?= $current_tab == 1 ? 'true' : 'false' ?>"
+                 class="tab-pane fade <?= $current_tab == 1 ? 'active in' : '' ?>">
                 <?php if ($current_tab == 1) echo Resume::Cover() ?>
             </div>
-            <div id="R2" data-tab-loaded="<?= $current_tab == 2 ? 'true' : 'false' ?>" class="tab-pane fade <?= $current_tab == 2 ? 'active in' : '' ?>">
+            <div id="R2" data-tab-loaded="<?= $current_tab == 2 ? 'true' : 'false' ?>"
+                 class="tab-pane fade <?= $current_tab == 2 ? 'active in' : '' ?>">
                 <?php if ($current_tab == 2) echo Resume::Personal() ?>
             </div>
-            <div id="R3" data-tab-loaded="<?= $current_tab == 3 ? 'true' : 'false' ?>" class="tab-pane fade <?= $current_tab == 3 ? 'active in' : '' ?>">
+            <div id="R3" data-tab-loaded="<?= $current_tab == 3 ? 'true' : 'false' ?>"
+                 class="tab-pane fade <?= $current_tab == 3 ? 'active in' : '' ?>">
                 <?php if ($current_tab == 3) echo Resume::Skills() ?>
             </div>
-            <div id="R4" data-tab-loaded="<?= $current_tab == 4 ? 'true' : 'false' ?>" class="tab-pane fade <?= $current_tab == 4 ? 'active in' : '' ?>">
+            <div id="R4" data-tab-loaded="<?= $current_tab == 4 ? 'true' : 'false' ?>"
+                 class="tab-pane fade <?= $current_tab == 4 ? 'active in' : '' ?>">
                 <?php if ($current_tab == 4) echo Resume::Education() ?>
             </div>
-            <div id="R5" data-tab-loaded="<?= $current_tab == 5 ? 'true' : 'false' ?>" class="tab-pane fade <?= $current_tab == 5 ? 'active in' : '' ?>">
+            <div id="R5" data-tab-loaded="<?= $current_tab == 5 ? 'true' : 'false' ?>"
+                 class="tab-pane fade <?= $current_tab == 5 ? 'active in' : '' ?>">
                 <?php if ($current_tab == 5) echo Resume::Employment($view_data['accordion']) ?>
             </div>
 

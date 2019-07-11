@@ -67,7 +67,7 @@
 
             var show = $header_button.is(':visible');
             var header_button_expanded = $header_button.attr('aria-expanded');
-            header_button_expanded = typeof(header_button_expanded) == 'undefined' ? false : header_button_expanded == 'true';
+            header_button_expanded = typeof (header_button_expanded) == 'undefined' ? false : header_button_expanded == 'true';
             var show_result = self.HeaderOver || (show && header_button_expanded);
             var height_result = $window.scrollTop() > navigationHeight;
             if (show_result == false && height_result) {
@@ -98,7 +98,7 @@
 
         ajaxHrefInterface.ClickUpdate = self.UpdateMenu.bind(self);
 
-        self.IsMobile= false;
+        self.IsMobile = false;
 //        self.IsMobile= mobile.any() || p3x.uri.current().data.query['mobile'] !== undefined;
 
         $(document).ajaxError(function (event, jqxhr, settings, thrownError) {
@@ -140,11 +140,11 @@
             self.Update()
         }).click(self.Update.bind(self));
 
-       // if (self.IsMobile) {
-            $.support.transition = false;
-            $.fx.off = true;
-            //$('body').addClass('p3x-no-animation');
-       // }
+        // if (self.IsMobile) {
+        $.support.transition = false;
+        $.fx.off = true;
+        //$('body').addClass('p3x-no-animation');
+        // }
     };
 
     LayoutManager.Titlize = function (text, css) {
@@ -164,21 +164,21 @@
         } else {
             url = config.base_url + 'assets/bootstrap-theme/bootstrap-' + name + '.theme.min.css';
         }
-        $.get(url).then(function(result) {
+        $.get(url).then(function (result) {
             var style = document.getElementById("bootstrap-theme");
             style.setAttribute("href", url);
             $('#navigation-theme .active').removeClass('active');
             $('#theme-' + name).addClass('current-theme active');
             $('#navigation-menu-button:visible').trigger('click');
             config.theme = name;
-            Cookies.set(config.parameter.theme, name,  { expires: 365, path: config.base_url } );
+            Cookies.set(config.parameter.theme, name, {expires: 365, path: config.base_url});
 
             if (config.themes.light.indexOf(name) == -1) {
                 $('body').removeClass(config.parameter['theme-light']).addClass(config.parameter['theme-dark']);
             } else {
                 $('body').removeClass(config.parameter['theme-dark']).addClass(config.parameter['theme-light']);
             }
-            setTimeout(function() {
+            setTimeout(function () {
                 self.Update();
             }, 1000)
         });
@@ -187,9 +187,9 @@
 //        location = url.stringify();
     };
 
-    LayoutManager.IsMobile= false;
+    LayoutManager.IsMobile = false;
 
-    LayoutManager.UpdateMenu = function(url) {
+    LayoutManager.UpdateMenu = function (url) {
         var self = this;
 
         var menu = $('#navigation-menu-button:visible');
@@ -223,12 +223,11 @@
     }
 
     var firstRandomBoolOpening = undefined
-    var slides = {
-    }
-   // var $document = $(document)
-    LayoutManager.RandomBoolOpening = function(id, id2) {
-        var $opening = $('#' + id );
-        var $opening2 = $('#' + id2 );
+    var slides = {}
+    // var $document = $(document)
+    LayoutManager.RandomBoolOpening = function (id, id2) {
+        var $opening = $('#' + id);
+        var $opening2 = $('#' + id2);
 
         /*
         var scroll = function(e) {
@@ -268,7 +267,7 @@
     }
 
     LayoutManager.RecaptchaLoaded = false
-    LayoutManager.Recaptcha = function() {
+    LayoutManager.Recaptcha = function () {
         LayoutManager.RecaptchaLoaded = true;
     }
 

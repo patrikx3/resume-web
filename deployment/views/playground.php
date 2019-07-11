@@ -1,4 +1,5 @@
 <?php
+
 use P3x\language;
 use P3x\Controller;
 use Operation\Html;
@@ -42,7 +43,8 @@ $root_accordion = Language::RouteUrl('front/playground');
 ?>
 <div class="layout-content-text">
 
-    <div class="panel-group" id="playground-accordion" role="tablist" aria-multiselectable="true" data-accordion-item-url="item/playground">
+    <div class="panel-group" id="playground-accordion" role="tablist" aria-multiselectable="true"
+         data-accordion-item-url="item/playground">
         <?php foreach ($playground as $key => $game) : ?>
             <?php
             $id = $key_id--;
@@ -57,17 +59,26 @@ $root_accordion = Language::RouteUrl('front/playground');
                     <div class="panel-title">
                         <div class="pull-right">
                             <?php if (isset($game['image'])) : ?>
-                                <i class="playground-tooltip <?= \Config\Icon::ICON_IMAGE ?>" data-toggle="tooltip" data-placement="<?= $tooltip_placement ?>" title="<?= htmlentities(language::get('playground', 'title-image')) ?>"></i>
+                                <i class="playground-tooltip <?= \Config\Icon::ICON_IMAGE ?>" data-toggle="tooltip"
+                                   data-placement="<?= $tooltip_placement ?>"
+                                   title="<?= htmlentities(language::get('playground', 'title-image')) ?>"></i>
                             <?php endif; ?>
                             <?php if (isset($game['url'])) : ?>
-                                <i class="playground-tooltip <?= \Config\Icon::ICON_LINK ?>" data-toggle="tooltip" data-placement="<?= $tooltip_placement ?>" title="<?= htmlentities(language::get('playground', 'title-url')) ?>"></i>
+                                <i class="playground-tooltip <?= \Config\Icon::ICON_LINK ?>" data-toggle="tooltip"
+                                   data-placement="<?= $tooltip_placement ?>"
+                                   title="<?= htmlentities(language::get('playground', 'title-url')) ?>"></i>
                             <?php endif; ?>
                             <?php if (isset($game['flash'])) : ?>
-                                <i class="playground-tooltip <?= \Config\Icon::ICON_FLASH ?>" data-toggle="tooltip" data-placement="<?= $tooltip_placement ?>" title="<?= htmlentities(language::get('playground', 'title-flash')) ?>"></i>
+                                <i class="playground-tooltip <?= \Config\Icon::ICON_FLASH ?>" data-toggle="tooltip"
+                                   data-placement="<?= $tooltip_placement ?>"
+                                   title="<?= htmlentities(language::get('playground', 'title-flash')) ?>"></i>
                             <?php endif; ?>
                         </div>
 
-                        <a role="button" data-toggle="collapse" data-parent="#playground-accordion" data-base-href="<?= $root_accordion ?>" href="<?= $root_accordion . '/' . $id . '/' . $accordion_title ?>#<?= $tab_id_content ?>" aria-controls="<?= $tab_id_content ?>"><?= Html::Country($game['country'], $tooltip_placement, 'playground-tooltip') ?><?= $game['year'] ?>
+                        <a role="button" data-toggle="collapse" data-parent="#playground-accordion"
+                           data-base-href="<?= $root_accordion ?>"
+                           href="<?= $root_accordion . '/' . $id . '/' . $accordion_title ?>#<?= $tab_id_content ?>"
+                           aria-controls="<?= $tab_id_content ?>"><?= Html::Country($game['country'], $tooltip_placement, 'playground-tooltip') ?><?= $game['year'] ?>
                             - <?= $game['title'] ?>
                         </a>
                     </div>
@@ -75,7 +86,9 @@ $root_accordion = Language::RouteUrl('front/playground');
                 <?php
                 $loaded = $id == $data['accordion'];
                 ?>
-                <div id="<?= $tab_id_content ?>" data-bootstrap-accordion="<?= $accordion_title; ?>" class="panel-collapse collapse <?= $loaded ? 'active in' : '' ?>" role="tabpanel" aria-labelledby="<?= $tab_id_heading ?>" data-accordion-loaded="<?= $loaded ? 'true' : 'false' ?>">
+                <div id="<?= $tab_id_content ?>" data-bootstrap-accordion="<?= $accordion_title; ?>"
+                     class="panel-collapse collapse <?= $loaded ? 'active in' : '' ?>" role="tabpanel"
+                     aria-labelledby="<?= $tab_id_heading ?>" data-accordion-loaded="<?= $loaded ? 'true' : 'false' ?>">
                     <?php if ($loaded) echo \Operation\PlayGround::ItemFull($key) ?>
                 </div>
             </div>

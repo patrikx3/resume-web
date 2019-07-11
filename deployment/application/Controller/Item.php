@@ -1,4 +1,5 @@
 <?php
+
 namespace Controller;
 
 use P3x\Language;
@@ -23,9 +24,9 @@ class Item extends \Controller
             [
                 'content' => \Operation\Project::ProjectEra(
                     $era, [
-                    'tab' => $era,
-                    'accordion' => ''
-                ]
+                        'tab' => $era,
+                        'accordion' => ''
+                    ]
                 )
             ]
         );
@@ -62,21 +63,21 @@ class Item extends \Controller
     {
         $data = [];
         switch ($id) {
-        case 1:
-            $data['content'] = \Operation\Resume::Cover();
-            break;
-        case 2:
-            $data['content'] = \Operation\Resume::Personal();
-            break;
-        case 3:
-            $data['content'] = \Operation\Resume::Skills();
-            break;
-        case 4:
-            $data['content'] = \Operation\Resume::Education();
-            break;
-        case 5:
-            $data['content'] = \Operation\Resume::Employment();
-            break;
+            case 1:
+                $data['content'] = \Operation\Resume::Cover();
+                break;
+            case 2:
+                $data['content'] = \Operation\Resume::Personal();
+                break;
+            case 3:
+                $data['content'] = \Operation\Resume::Skills();
+                break;
+            case 4:
+                $data['content'] = \Operation\Resume::Education();
+                break;
+            case 5:
+                $data['content'] = \Operation\Resume::Employment();
+                break;
         }
         static::SendJson($data);
     }

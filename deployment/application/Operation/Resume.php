@@ -1,4 +1,5 @@
 <?php
+
 namespace Operation;
 
 use Config\Icon;
@@ -36,7 +37,7 @@ class Resume
         Analytics::Track();
 
 //        if (HOST == 'www.patrikx3.com' || HOST == 'patrikx3.com' || isset($_REQUEST['old'])) {
-            $template = View::Get('resume/pdf-template');
+        $template = View::Get('resume/pdf-template');
 //        } else {
 //            $template = Template::Render('resume/pdf-template');
 //        }
@@ -53,13 +54,13 @@ class Resume
         $actual_file = $actual_dir . $filename;
         $redirect = WEB_ROOT . 'files/resume/' . $filename;
 
-        $send = function() use ($actual_file, $redirect) {
+        $send = function () use ($actual_file, $redirect) {
             File::StreamFile($actual_file, mime::PDF);
 //            \P3x\Router::Redirect($redirect );
         };
 
         File::EnsureDirectory($actual_dir);
-        if (!isset($_REQUEST['full']) && is_file($actual_file)) {
+        if (!isset($_REQUEST['full']) && !isset($_REQUEST['sygnus']) && !isset($_REQUEST['nuaxia']) && is_file($actual_file)) {
             $actual_file_file = filemtime($actual_file);
             $root_mod = GIT_DATE;
 //            echo 'All change: ' . date('r', $root_mod) . '<br/>';
@@ -76,36 +77,36 @@ class Resume
         //$mpdf = new \Mpdf\Mpdf(['utf-8', $letter, '', '', '10', '10', '22', '16']);
         $mpdf = new \Mpdf\Mpdf([
             'mode' => 'utf-8',
-			'format' => $letter,
-			'default_font_size' => 0,
-			'default_font' => '',
-			'margin_left' => 10,
-			'margin_right' => 10,
-			'margin_top' => 22,
-			'margin_bottom' => 16,
+            'format' => $letter,
+            'default_font_size' => 0,
+            'default_font' => '',
+            'margin_left' => 10,
+            'margin_right' => 10,
+            'margin_top' => 22,
+            'margin_bottom' => 16,
 //			'margin_header' => 9,
 //			'margin_footer' => 9,
 //			'orientation' => 'P',
             'tempDir' => ROOT_BUILD,
             'fontdata' => [
-                    'resume-font' => [
-                        'R' =>  'TitilliumWeb-Regular.ttf',
-                        'B' =>  'TitilliumWeb-Bold.ttf',
-                        'I' =>  'TitilliumWeb-Italic.ttf',
-                        'BI' => 'TitilliumWeb-BoldItalic.ttf',
-                    ],
-                    'fontawesome' => [
-                        'R' =>  'fontawesome-webfont.ttf',
-                    ]
+                'resume-font' => [
+                    'R' => 'TitilliumWeb-Regular.ttf',
+                    'B' => 'TitilliumWeb-Bold.ttf',
+                    'I' => 'TitilliumWeb-Italic.ttf',
+                    'BI' => 'TitilliumWeb-BoldItalic.ttf',
                 ],
+                'fontawesome' => [
+                    'R' => 'fontawesome-webfont.ttf',
+                ]
+            ],
             'default_font' => 'frutiger'
         ]);
 
         $mpdf->showImageErrors = true;
         $mpdf->WriteHTML($template);
 
-        if (isset($_REQUEST['full'])) {
-            $mpdf->Output($actual_file, \Mpdf\Output\Destination::INLINE);
+        if (isset($_REQUEST['full']) || isset($_REQUEST['sygnus']) || isset($_REQUEST['nuaxia'])) {
+            $mpdf->Output(basename($actual_file), \Mpdf\Output\Destination::INLINE);
         } else {
             $mpdf->Output($actual_file, \Mpdf\Output\Destination::FILE);
             $send();
@@ -121,7 +122,8 @@ class Resume
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="resume-profile-picture">
-                            &nbsp;</div>
+                            &nbsp;
+                        </div>
                         <?= Language::Get('resume', 'tab-data-cover') ?>
                     </div>
                     <div class="panel-footer"></div>
@@ -226,7 +228,7 @@ class Resume
                 $root_accordion = \Operation\Resume::EmploymentAccordionRoot();
                 ?>
 
-                <?php if (!isset($_REQUEST['full'])): ?>
+                <?php if (!isset($_REQUEST['full']) && !isset($_REQUEST['sygnus']) && !isset($_REQUEST['nuaxia'])): ?>
                     <br/>
                     <div class="warning">
                         <?= language::get('projects', 'title-note'); ?>
@@ -235,7 +237,8 @@ class Resume
                 <?php endif; ?>
 
 
-                <div class="panel-group" id="employment-accordion" role="tablist" aria-multiselectable="true" data-accordion-item-url="item/employment">
+                <div class="panel-group" id="employment-accordion" role="tablist" aria-multiselectable="true"
+                     data-accordion-item-url="item/employment">
                     <?php foreach ($employment as $employer => $data) : ?>
                         <?php
                         $employer_id = Str::ToUrl($employer);
@@ -262,7 +265,7 @@ class Resume
                                        data-base-href="<?= $root ?>"
                                        href="<?= $root_accordion . '/' . $employer_id ?>#<?= $tab_id_content ?>"
                                        aria-controls="<?= $tab_id_content ?>"
-                                       >
+                                    >
                                         <i class="fa <?= $employer_id == $accordion ? $icon_employment_checked : $icon_employment_normal ?>"
                                            style="margin-right: 5px;" aria-hidden="true"></i><?= $employer ?>
                                     </a>
@@ -349,16 +352,16 @@ class Resume
         $output = '';
         $employer_id = Str::ToUrl($employer);
 
-        if (count($data['projects']) == 1) {
+        if (isset($employment_info[$employer_id]['info'])) {
+            $output .= $employment_info[$employer_id]['info'];
+        } else {
             $project_data = $data['projects'][0];
             $project_item = Project::Get($project_data['era'], $project_data['index']);
             $output .= Project::Info($project_item, 'role');
             $output .= Project::Info($project_item, 'tasks');
             $output .= Project::Info($project_item, 'task-normal');
             $output .= Project::Info($project_item, 'summary');
-        }
-        if (isset($employment_info[$employer_id]['info'])) {
-            $output .= $employment_info[$employer_id]['info'];
+
         }
         return $output;
     }

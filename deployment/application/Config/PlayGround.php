@@ -1,4 +1,5 @@
 <?php
+
 namespace Config;
 
 use P3x\Str;
@@ -103,7 +104,6 @@ class PlayGround
                     "CDN" => 'https://cdn.corifeus.com/lede/',
                 ]
             ],
-
 
 
             [

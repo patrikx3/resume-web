@@ -13,264 +13,267 @@
 @import "opening-zoom";
 
 body {
-  margin-top: $navbar-margin;
-  margin-bottom: $default-margin + $site-bottom + 20 !important;
-  @media screen and (min-width: $screen-small) {
-    margin-bottom: $default-margin + $site-bottom + 30 !important;;
-  }
-  @media screen and (min-width: $screen-medium) {
-    margin-bottom: $default-margin + $site-bottom + 40 !important;;
-  }
-  @media screen and (min-width: $screen-large) {
-    margin-bottom: $default-margin + $site-bottom + 50 !important;;
-  }
+    margin-top: $navbar-margin;
+    margin-bottom: $default-margin + $site-bottom + 20 !important;
+    @media screen and (min-width: $screen-small) {
+        margin-bottom: $default-margin + $site-bottom + 30 !important;;
+    }
+    @media screen and (min-width: $screen-medium) {
+        margin-bottom: $default-margin + $site-bottom + 40 !important;;
+    }
+    @media screen and (min-width: $screen-large) {
+        margin-bottom: $default-margin + $site-bottom + 50 !important;;
+    }
 }
 
 .list-group-item, body, .panel-title, .label, button, input, select, option, textarea {
-  font-size: 14px !important;
-  @media screen and (min-width: $screen-small) {
-    font-size: 16px !important;
-  }
-  @media screen and (min-width: $screen-medium) {
-    font-size: 18px !important;
-  }
-  @media screen and (min-width: $screen-large) {
-    font-size: 20px !important;
-  }
+    font-size: 14px !important;
+    @media screen and (min-width: $screen-small) {
+        font-size: 16px !important;
+    }
+    @media screen and (min-width: $screen-medium) {
+        font-size: 18px !important;
+    }
+    @media screen and (min-width: $screen-large) {
+        font-size: 20px !important;
+    }
 }
 
 .label-badge {
-  padding: 4px;
-  line-height: 34px !important;
-  @media screen and (min-width: $screen-small) {
-    line-height: 36px !important;
-  }
-  @media screen and (min-width: $screen-medium) {
-    line-height: 38px !important;
-  }
-  @media screen and (min-width: $screen-large) {
-    line-height: 40px !important;
-  }
+    padding: 4px;
+    line-height: 34px !important;
+    @media screen and (min-width: $screen-small) {
+        line-height: 36px !important;
+    }
+    @media screen and (min-width: $screen-medium) {
+        line-height: 38px !important;
+    }
+    @media screen and (min-width: $screen-large) {
+        line-height: 40px !important;
+    }
 }
 
 #layout-bottom {
-  position: fixed;
-  opacity: 0.8;
-  right: 0;
-  bottom: 0;
-  padding: $default-margin;
-  font-size: $site-bottom+2 !important;
-  z-index: 999;
-  //@include gradient-vertical(#fff, #eee);
-  @media screen and (min-width: $screen-small) {
-    //    font-size: $site-bottom !important;;
-    font-size: 20px !important;
-    opacity: 1;
-  }
-  @media screen and (min-width: $screen-medium) {
-    font-size: $site-bottom+4 !important;
+    position: fixed;
     opacity: 0.8;
-  }
-  @media screen and (min-width: $screen-large) {
-    font-size: $site-bottom+6 !important;
-    opacity: 0.8;
-  }
+    right: 0;
+    bottom: 0;
+    padding: $default-margin;
+    font-size: $site-bottom+2 !important;
+    z-index: 999;
+    //@include gradient-vertical(#fff, #eee);
+    @media screen and (min-width: $screen-small) {
+        //    font-size: $site-bottom !important;;
+        font-size: 20px !important;
+        opacity: 1;
+    }
+    @media screen and (min-width: $screen-medium) {
+        font-size: $site-bottom+4 !important;
+        opacity: 0.8;
+    }
+    @media screen and (min-width: $screen-large) {
+        font-size: $site-bottom+6 !important;
+        opacity: 0.8;
+    }
 }
 
 #layout-content {
 }
 
 .layout-content-text {
-  margin: $content-margin;
+    margin: $content-margin;
 
-  @media screen and (min-width: $screen-medium) {
-    max-width: $screen-medium - 2*$content-margin;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  @media screen and (min-width: $screen-large) {
-    max-width: $screen-medium;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    @media screen and (min-width: $screen-medium) {
+        max-width: $screen-medium - 2*$content-margin;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @media screen and (min-width: $screen-large) {
+        max-width: $screen-medium;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #layout-top {
-  .container-fluid {
-    @media screen and (min-width: $screen-small) and (max-width: $screen-medium) {
-      padding-left: 0px;
+    .container-fluid {
+        @media screen and (min-width: $screen-small) and (max-width: $screen-medium) {
+            padding-left: 0px;
+        }
     }
-  }
 }
 
 .language-flag {
-  width: $flag-dimension;
-  height: $flag-dimension;
+    width: $flag-dimension;
+    height: $flag-dimension;
 }
 
 
 .page-error {
-  display: block;
+    display: block;
 
-  @media screen and (min-width: $screen-small) {
-    margin-top: 60px !important;
-    margin-bottom: 20px !important;
-  }
-  @media screen and (min-width: $screen-medium) {
-    margin-top: 80px !important;
-    margin-bottom: 30px !important;
-  }
-  @media screen and (min-width: $screen-large) {
-    margin-top: 100px !important;
-    margin-bottom: 40px !important;
-  }
+    @media screen and (min-width: $screen-small) {
+        margin-top: 60px !important;
+        margin-bottom: 20px !important;
+    }
+    @media screen and (min-width: $screen-medium) {
+        margin-top: 80px !important;
+        margin-bottom: 30px !important;
+    }
+    @media screen and (min-width: $screen-large) {
+        margin-top: 100px !important;
+        margin-bottom: 40px !important;
+    }
 
 }
 
 .page-error .label {
-  font-size: 20px !important;
-  @media screen and (min-width: $screen-small) {
-    font-size: 30px !important;
-  }
-  @media screen and (min-width: $screen-medium) {
-    font-size: 40px !important;
-  }
-  @media screen and (min-width: $screen-large) {
-    font-size: 50px !important;
-  }
+    font-size: 20px !important;
+    @media screen and (min-width: $screen-small) {
+        font-size: 30px !important;
+    }
+    @media screen and (min-width: $screen-medium) {
+        font-size: 40px !important;
+    }
+    @media screen and (min-width: $screen-large) {
+        font-size: 50px !important;
+    }
 }
 
 .ellipsis {
-  overflow: hidden;
-  text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #social-container-wrap {
-  margin-left: 100px;
-  margin-right: 100px;
-  @media screen and (min-width: 445px) {
-    margin: 0;
-  }
+    margin-left: 100px;
+    margin-right: 100px;
+    @media screen and (min-width: 445px) {
+        margin: 0;
+    }
 }
 
 .social-container {
-  font-size: 200%;
-  @media screen and (min-width: $screen-small) {
-    font-size: 215%;
-  }
-  @media screen and (min-width: $screen-medium) {
-    font-size: 220%;
-  }
-  @media screen and (min-width: $screen-large) {
-    font-size: 225%;
-  }
+    font-size: 200%;
+    @media screen and (min-width: $screen-small) {
+        font-size: 215%;
+    }
+    @media screen and (min-width: $screen-medium) {
+        font-size: 220%;
+    }
+    @media screen and (min-width: $screen-large) {
+        font-size: 225%;
+    }
 }
 
 #social-container-pdf {
-  position: relative;
-  left: 4px;
-  @media screen and (min-width: $screen-small) {
-  }
-  @media screen and (min-width: $screen-medium) {
-  }
-  @media screen and (min-width: $screen-large) {
-    top: -2px
-  }
+    position: relative;
+    left: 4px;
+    @media screen and (min-width: $screen-small) {
+    }
+    @media screen and (min-width: $screen-medium) {
+    }
+    @media screen and (min-width: $screen-large) {
+        top: -2px
+    }
 }
 
 #download-resume {
-  position: absolute;
-  bottom: $content-margin;
-  right: $content-margin;
-  z-index: 100;
+    position: absolute;
+    bottom: $content-margin;
+    right: $content-margin;
+    z-index: 100;
 }
 
 #download-resume-secondary {
 }
 
 #download-resume-secondary #download-resume-secondary-text {
-  display: none;
+    display: none;
 
-  @media screen and (min-width: 400px) {
-    display: inline;
-  }
+    @media screen and (min-width: 400px) {
+        display: inline;
+    }
 }
 
 .image {
-  float: left;
-  width: 150px;
-  height: auto;
+    float: left;
+    width: 150px;
+    height: auto;
 }
 
 .listing-item {
-  padding: 0;
-  margin-bottom: 10px;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  background-color: transparent;
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
 }
 
 .listing-item-content {
-  float: right;
+    float: right;
 
-  @media screen and (min-width: $screen-small) {
-  }
-  @media screen and (min-width: $screen-medium) {
-  }
-  @media screen and (min-width: $screen-large) {
-  }
+    @media screen and (min-width: $screen-small) {
+    }
+    @media screen and (min-width: $screen-medium) {
+    }
+    @media screen and (min-width: $screen-large) {
+    }
 }
 
 .text-extended-big {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .text-extended {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .theme-light {
 
-  .panel, .opening {
-    box-shadow: $shadow-horizontal $shadow-vertical $shadow-panel $shadow-light-color;
-  }
-  .btn:hover, .continuous-integration img {
-    box-shadow: $shadow-horizontal $shadow-vertical $shadow-button $shadow-light-color;
-  }
+    .panel, .opening {
+        box-shadow: $shadow-horizontal $shadow-vertical $shadow-panel $shadow-light-color;
+    }
 
-  .social-tooltip i:hover, .navbar-nav li a:hover, a:hover, .continuous-integration > div {
-    text-shadow: $shadow-horizontal $shadow-vertical $shadow-link $shadow-light-color;
-  }
+    .btn:hover, .continuous-integration img {
+        box-shadow: $shadow-horizontal $shadow-vertical $shadow-button $shadow-light-color;
+    }
+
+    .social-tooltip i:hover, .navbar-nav li a:hover, a:hover, .continuous-integration > div {
+        text-shadow: $shadow-horizontal $shadow-vertical $shadow-link $shadow-light-color;
+    }
 
 }
 
 .theme-dark {
 
-  .jGrowl-dark {
-    background-color: white;
-    background-color: rgba(255,255,255,0.8);
-    color: black;
-  }
+    .jGrowl-dark {
+        background-color: white;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black;
+    }
 
-  .jGrowl-closer {
-    @extend .jGrowl-dark;
-  }
-  .jGrowl-notification {
-    @extend  .jGrowl-dark;
-  }
+    .jGrowl-closer {
+        @extend .jGrowl-dark;
+    }
 
-  .panel, .opening {
-    box-shadow: $shadow-horizontal $shadow-vertical $shadow-panel $shadow-dark-color;
+    .jGrowl-notification {
+        @extend .jGrowl-dark;
+    }
 
-  }
-  .btn:hover, .continuous-integration img {
-    box-shadow: $shadow-horizontal $shadow-vertical $shadow-button $shadow-dark-color;
-  }
+    .panel, .opening {
+        box-shadow: $shadow-horizontal $shadow-vertical $shadow-panel $shadow-dark-color;
 
-  .social-tooltip i:hover, .navbar-nav li a:hover, a:hover, .continuous-integration > div {
-    text-shadow: $shadow-horizontal $shadow-vertical $shadow-link $shadow-dark-color;
-  }
+    }
+
+    .btn:hover, .continuous-integration img {
+        box-shadow: $shadow-horizontal $shadow-vertical $shadow-button $shadow-dark-color;
+    }
+
+    .social-tooltip i:hover, .navbar-nav li a:hover, a:hover, .continuous-integration > div {
+        text-shadow: $shadow-horizontal $shadow-vertical $shadow-link $shadow-dark-color;
+    }
 }
 
 .panel,
@@ -287,84 +290,82 @@ a .fa,
 button .fa,
 #language-flag-switcher,
 .transition {
-  transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .btn:hover,
 .language-flag:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .country-icon:hover {
-  transform: scale(1.5) rotate(360deg);
+    transform: scale(1.5) rotate(360deg);
 }
 
 .social-tooltip:hover .fa,
-.social-tooltip > a:hover
-
-{
-  transform: scale(1.2) rotate(360deg);
+.social-tooltip > a:hover {
+    transform: scale(1.2) rotate(360deg);
 }
 
 .image img:hover {
-  transform: scale(1.4);
-  @media screen and (min-width: $screen-small) {
     transform: scale(1.4);
-  }
-  @media screen and (min-width: $screen-medium) {
-    transform: scale(1.4);
-  }
-  @media screen and (min-width: $screen-large) {
-    transform: scale(2);
-  }
+    @media screen and (min-width: $screen-small) {
+        transform: scale(1.4);
+    }
+    @media screen and (min-width: $screen-medium) {
+        transform: scale(1.4);
+    }
+    @media screen and (min-width: $screen-large) {
+        transform: scale(2);
+    }
 }
 
 
 .fa:hover, .panel-title:hover > .fa {
-  transform: scale(1.25);
+    transform: scale(1.25);
 }
 
 .projects-tab .panel-title a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .note {
-  font-size: 100% !important;
+    font-size: 100% !important;
 }
 
 
 a:hover .fa, button:hover .fa {
-  transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 .fa-static {
-  transform: none !important;
+    transform: none !important;
 }
 
 a[data-toggle=dropdown][aria-expanded="false"] .patrikx3-caret:after {
-  content: "\f107";
+    content: "\f107";
 }
 
 a[data-toggle=dropdown][aria-expanded="true"] .patrikx3-caret:after {
-  content: "\f106";
+    content: "\f106";
 }
 
 
 .label-fix {
-  line-height: 40px !important;
+    line-height: 40px !important;
 }
 
 
 .fader {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .fader:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 @media screen and (max-width: $screen-small) {
-  .nav-justified>li > a {
-    text-align: left;
-  }
+    .nav-justified > li > a {
+        text-align: left;
+    }
 }

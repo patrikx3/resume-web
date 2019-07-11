@@ -1,4 +1,5 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
 
 use P3x\Debug;
@@ -14,19 +15,22 @@ class HandlebarsTest extends TestCase
         ApplicationTest::Init();
     }
 
-    public function testDownloadResume() {
+    public function testDownloadResume()
+    {
         $output = template::render('slot/download-resume');
         $this->assertNotEmpty($output);
         $output = template::render('slot/download-resume', false, true);
         $this->assertNotEmpty($output);
     }
 
-    public function testAboutMe() {
+    public function testAboutMe()
+    {
         $output = Template::Render('about-me');
         $this->assertNotEmpty($output);
     }
 
-    public function testContact() {
+    public function testContact()
+    {
         $output = Template::Render('contact');
         $this->assertNotEmpty($output);
     }

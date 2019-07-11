@@ -1,4 +1,5 @@
 <?php
+
 namespace Cli;
 
 use P3x\Debug;
@@ -13,7 +14,8 @@ class MPdf
     /**
      *
      */
-    public function run() {
+    public function run()
+    {
         $this->install();
     }
 
@@ -37,7 +39,8 @@ class MPdf
     /**
      * @return bool
      */
-    public function loadFontInclude() {
+    public function loadFontInclude()
+    {
         /*
         debug::send('MPDF fonts were generated now.');
         $original_config_font = ROOT_VENDOR_MPDF . 'config_fonts.php';

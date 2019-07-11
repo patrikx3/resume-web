@@ -1,45 +1,45 @@
 $playground-color: #df7367;
 
 #playground-opening {
-  @include opening()
+    @include opening()
 }
 
 #playground-opening-bg {
-  @include opening-parallax()
+    @include opening-parallax()
 }
 
 .playground-opening-bg-start {
-  background: url("../../images/opening-playground.jpg") no-repeat center top local;
+    background: url("../../images/opening-playground.jpg") no-repeat center top local;
 }
 
 
 #playground-opening-bg.p3x-resume-opening-fixed {
-  background: url("../../images/opening-playground-fixed.jpg") no-repeat center top local !important;
-  @include opening-parallax-fixed();
+    background: url("../../images/opening-playground-fixed.jpg") no-repeat center top local !important;
+    @include opening-parallax-fixed();
 
-  .playground-titlize {
-    background-color: #ffa818;
-  }
+    .playground-titlize {
+        background-color: #ffa818;
+    }
 }
 
 #playground-opening-title {
-  position: relative;
-  color: black;
-  width: 100%;
-  height: 100%;
+    position: relative;
+    color: black;
+    width: 100%;
+    height: 100%;
 }
 
 .playground-title-char {
-  position: absolute;
-  font-size: 100px;
-  line-height: 120px;
-  font-weight: bold;
-  color: white;
-  padding: 5px;
+    position: absolute;
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
 }
 
 .playground-titlize {
-  color: white;
-  background-color: $playground-color;
-  text-shadow: none;
+    color: white;
+    background-color: $playground-color;
+    text-shadow: none;
 }

@@ -1,4 +1,5 @@
 <?php
+
 use P3x\Language;
 use P3x\Router;
 use P3x\Controller;

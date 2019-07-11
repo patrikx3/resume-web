@@ -1,4 +1,5 @@
 <?php
+
 namespace Operation;
 
 use Config\Config;
@@ -24,8 +25,7 @@ class Mail
             ->setReplyTo($from)
             ->setTo($to)
             ->setBody($message)
-            ->setContentType("text/html")
-        ;
+            ->setContentType("text/html");
         $result = $mailer->send($message);
         return $result;
     }

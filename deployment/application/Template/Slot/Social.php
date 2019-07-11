@@ -1,4 +1,5 @@
 <?php
+
 namespace Template\Slot;
 
 use P3x\Template\Face;
@@ -6,7 +7,8 @@ use Operation\Resume;
 
 class Social extends Face
 {
-    public function data() {
+    public function data()
+    {
 
         $id = uniqid();
         $social_email = 'social-email-' . $id;

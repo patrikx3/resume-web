@@ -1,4 +1,5 @@
 <?php
+
 namespace Template;
 
 use P3x\Template\Face;
@@ -7,7 +8,8 @@ use Operation\Html;
 
 class AboutMe extends Face
 {
-    public function data() {
+    public function data()
+    {
         $slogan1 = '';
         $slogan1 .= Language::Get('about-me', 'slogan-1-1');
         $slogan1 .= ' ' . Language::Get('about-me', 'slogan-1-mix') . ' ';
@@ -36,11 +38,12 @@ class AboutMe extends Face
             'content-title' => Language::Get('about-me', 'content-title'),
             'content' => Language::Get('about-me', 'content')
         ];
-        $data = array_merge_recursive($data, (new \Template\Slot\DownloadResume(true))->data() );
+        $data = array_merge_recursive($data, (new \Template\Slot\DownloadResume(true))->data());
         return $data;
     }
 
-    public function compile() {
+    public function compile()
+    {
         return [
             'partials' => [
                 'download-resume' => 'slot/download-resume'

@@ -37,7 +37,7 @@ module.exports = function (grunt, grunt_this, local) {
                     }
                 }
                 var count_all = Object.keys(urls_item).length;
-                var percentage = ((count / count_all) * 100 ).toFixed(2);
+                var percentage = ((count / count_all) * 100).toFixed(2);
                 if (isNaN(percentage)) {
                     percentage = 0;
                 }
@@ -65,7 +65,7 @@ module.exports = function (grunt, grunt_this, local) {
         rp(sitemapurl)
             .then(function (sitemap_xml) {
                 var check_url = function (url) {
-                    if (url.indexOf('?') == - 1) {
+                    if (url.indexOf('?') == -1) {
                         url = url + '?' + site_query;
                     } else {
                         url = url + site_query;

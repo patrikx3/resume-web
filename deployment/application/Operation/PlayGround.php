@@ -1,4 +1,5 @@
 <?php
+
 namespace Operation;
 
 use P3x\Language;
@@ -22,8 +23,8 @@ class PlayGround
     {
         if (array_key_exists($item, $data)) {
             return '<div>' . \Operation\Html::Item(
-                $title, $data[$item], $type, $additional
-            ) . '</div>';
+                    $title, $data[$item], $type, $additional
+                ) . '</div>';
         }
         return '';
     }

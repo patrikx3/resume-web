@@ -1,4 +1,5 @@
 <?php
+
 use P3x\Language;
 
 $l = array();
@@ -40,6 +41,9 @@ $l['content']
         </li>
         <li class="list-group-item">
             You could find me on <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong> and you may check out my micro-services on <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>. Usually, I build enterprise systems using NodeJs/C++ and Angular Material ...
+        </li>
+        <li class="list-group-item">
+            Sometimes, I blog @ <a href="https://blog.patrikx3.com/" target="p3x-blog">https://blog.patrikx3.com/</a>
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2016</span> -  I am a full-stack developer.

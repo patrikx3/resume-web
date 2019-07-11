@@ -1,11 +1,13 @@
 <?php
+
 namespace Template\Slot;
 
 use P3x\Template\Face;
 
 class DownloadResume extends Face
 {
-    public function data() {
+    public function data()
+    {
 
         return [
             'download-resume' => [

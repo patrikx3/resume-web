@@ -1,4 +1,5 @@
 <?php
+
 namespace Operation;
 
 use P3x\Str;
@@ -55,7 +56,7 @@ class Project
             foreach ($projects as $era_key => $era) {
                 foreach ($era['items'] as $project_index => $project) {
 
-                    if(isset($project['full']) && $project['full'] === false) {
+                    if (isset($project['full']) && $project['full'] === false) {
                         continue;
                     }
 
@@ -138,7 +139,7 @@ class Project
                         $tab_id_content = $tab_id;
                         $accordion_title = Str::ToUrl($project_item['project']);
 
-                        if(isset($project_item['full']) && $project_item['full'] === false) {
+                        if (isset($project_item['full']) && $project_item['full'] === false) {
                             continue;
                         }
 
@@ -148,7 +149,8 @@ class Project
                                 <div class="panel-title">
                                     <div class="pull-right">
                                         <?php if (isset($project_item['image'])) : ?>
-                                            <i class="project-tooltip <?= \Config\Icon::ICON_IMAGE ?>" data-toggle="tooltip"
+                                            <i class="project-tooltip <?= \Config\Icon::ICON_IMAGE ?>"
+                                               data-toggle="tooltip"
                                                data-placement="<?= $tooltip_placement ?>"
                                                title="<?= htmlentities(Language::Get('projects', 'title-image')) ?>"></i>
                                         <?php endif; ?>
@@ -159,17 +161,20 @@ class Project
                                                title="<?= htmlentities(Language::Get('projects', 'title-youtube')) ?>"></i>
                                         <?php endif; ?>
                                         <?php if (isset($project_item['url'])) : ?>
-                                            <i class="project-tooltip <?= \Config\Icon::ICON_LINK ?>" data-toggle="tooltip"
+                                            <i class="project-tooltip <?= \Config\Icon::ICON_LINK ?>"
+                                               data-toggle="tooltip"
                                                data-placement="<?= $tooltip_placement ?>"
                                                title="<?= htmlentities(Language::Get('projects', 'title-url')) ?>"></i>
                                         <?php endif; ?>
                                         <?php if (isset($project_item['flash'])) : ?>
-                                            <i class="project-tooltip <?= \Config\Icon::ICON_FLASH ?>" data-toggle="tooltip"
+                                            <i class="project-tooltip <?= \Config\Icon::ICON_FLASH ?>"
+                                               data-toggle="tooltip"
                                                data-placement="<?= $tooltip_placement ?>"
                                                title="<?= htmlentities(Language::Get('projects', 'title-flash')) ?>"></i>
                                         <?php endif; ?>
                                         <?php if (!isset($project_item['date-end'])) : ?>
-                                            <i class="project-tooltip <?= \Config\Icon::ICON_PROGRESS ?>" data-toggle="tooltip"
+                                            <i class="project-tooltip <?= \Config\Icon::ICON_PROGRESS ?>"
+                                               data-toggle="tooltip"
                                                data-placement="<?= $tooltip_placement ?>"
                                                title="<?= htmlentities(Language::Get('projects', 'title-in-progress')) ?>"></i>
                                         <?php endif; ?>

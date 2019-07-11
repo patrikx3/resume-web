@@ -1,5 +1,7 @@
 <?php
+
 use P3x\Router;
+
 ?>
 <div class="layout-content-text">
     <h1 class="page-error">

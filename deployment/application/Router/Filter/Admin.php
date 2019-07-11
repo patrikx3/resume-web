@@ -1,4 +1,5 @@
 <?php
+
 namespace Router\Filter;
 
 use P3x\Http;

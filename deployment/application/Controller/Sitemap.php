@@ -1,4 +1,5 @@
 <?php
+
 namespace Controller;
 
 use P3x\Http;
@@ -15,7 +16,8 @@ class Sitemap extends \Controller
         echo $content;
     }
 
-    public function yandex() {
+    public function yandex()
+    {
         $sitemap = new \Operation\Sitemap(false);
         $content = $sitemap->generateCached();
         Http::HeaderContent(Mime::XML);

@@ -1,4 +1,5 @@
 <?php
+
 use Config\Projects;
 
 $l = [];
@@ -46,7 +47,7 @@ $l['projects'] = [
                 'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Kutatás, Fejlesztés',
                 'summary' => 'Egy Raspberry PI alapó robot, ami kiszámítja a raktár méretét és mennyire üres. Egy robot, egy REST/Socket.IO alapú web kliens és egy NodeJs szerver C++ és WebGL-ell.',
-                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, mesterséges intelligencia, WebGL, C++, OpenCV',
+                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, mesterséges intelligencia, WebGL, C++, OpenCV, ArrayFire',
 
             ],
             [
@@ -133,162 +134,162 @@ $l['projects'] = [
         ]
     ],
     'era-2010' => [
-    'title' => '2010 - 2015',
-    'items' => [
-        [
-            'location' => 'Magyarország, Balassagyarmat - Dunaújváros',
-            'role' => 'Nagyvállalati tervező',
-            'task-normal' => 'Meglévő oktatási rendszer modernizálása, AJAX és Ext/jQuery kombinációval',
-        ],
-        [
-            'location' => 'Magyarország, Dunaújváros',
-            'role' => 'Szenior Szoftver Mérnök',
-            'tasks' => 'Backend fejlesztés',
-            'summary' => 'Annak érdekében, hogy a fejlesztés a 4CSX termék, a kapcsolódó projektek és kísérleti funkciók. Főbb feladatok és felelősségi: termelés új funkciók, hibákat bármely termék, tesztelés létező vagy újonnan kifejlesztett funkciókat, általános szoftverfejlesztési feladatokat, beleértve az adatbázisokat, webes alkalmazások, back-end rendszerek és integrált elemek.'
-        ],
-        [
-            'location' => 'Magyarország, Dunaújváros',
-            'role' => 'Szenior Szoftver Mérnök',
-            'tasks' => 'Modulok tervezése és fejlesztése',
+        'title' => '2010 - 2015',
+        'items' => [
+            [
+                'location' => 'Magyarország, Balassagyarmat - Dunaújváros',
+                'role' => 'Nagyvállalati tervező',
+                'task-normal' => 'Meglévő oktatási rendszer modernizálása, AJAX és Ext/jQuery kombinációval',
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Szenior Szoftver Mérnök',
+                'tasks' => 'Backend fejlesztés',
+                'summary' => 'Annak érdekében, hogy a fejlesztés a 4CSX termék, a kapcsolódó projektek és kísérleti funkciók. Főbb feladatok és felelősségi: termelés új funkciók, hibákat bármely termék, tesztelés létező vagy újonnan kifejlesztett funkciókat, általános szoftverfejlesztési feladatokat, beleértve az adatbázisokat, webes alkalmazások, back-end rendszerek és integrált elemek.'
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Szenior Szoftver Mérnök',
+                'tasks' => 'Modulok tervezése és fejlesztése',
+            ]
         ]
-    ]
-],
+    ],
     'era-2005' => [
-    'title' => '2005 - 2010',
-    'items' => [
-        [
-            'location' => 'Magyarország, Dunaújváros',
-            'role' => 'Vállalkozó',
-            'task-normal' => 'A web oldal megtervezése és kifejlesztése mind vizuális és szoftver oldalról',
-        ],
-        [
-            'location' => 'Magyarország, Dunaújváros',
-            'role' => 'Vállalkozó',
-            'task-normal' => 'Webdialogue Joomla site karbantartás, www.community-intelligence.com karbantartás és upgrade, http://www.euro-intelligence.eu/ site design, a cég klienseinek kiszolgálása',
-        ],
-        [
-            'location' => 'Magyarország, Dunaújváros',
-            'role' => 'Vállalkozó',
-            'task-normal' => 'Egy SOA alapú bank rendszer adminisztációs oldal AJAX-al teljes egészében.',
-        ],
-        [
-            'location' => 'USA / Magyarország',
-            'role' => 'Vállalkozó',
-            'task-normal' => 'Projektek kivitelezése, kapcsolattartás és kommunikáció a kliensekkel, a MédiaBlend termékeinek fejlesztése és tervezése,   (GoSignMeUp, GoSiteBuilder, GoWebStore), A GoSignMeUp, továbbiakban GSMU, rendszer integrációja a Blackboard rendszerrel (oktatási rendszerek), LDAP és GSMU integrácó és az NBC Universal rendszereinek a fejlesztése, BlackBoard integráció.',
-        ],
-        [
-            'location' => 'Magyarország, Budapest',
-            'role' => 'Szenior Fejlesztő Mérnök',
-            'task-normal' => 'A Hugo Bossnak egy textil színét felismerő alkalmazás fejlesztésre színfelismerés automatizálására.',
-            'technology' => 'ASP.NET 3.5, Hardware programozás, Web 2.0',
-        ],
-        [
-            'location' => 'Magyarország, Budapest',
-            'role' => 'Szenior Szoftver Fejlesztő',
-            'task-normal' => 'A mérnökök segítsége és támogatása, bonyolult feladatok megoldása, excel add-in-ek készítése a kliensnek, OLAP döntés támogató rendszerek.',
-        ],
-        [
-            'location' => 'Magyarország, Budapest',
-            'role' => 'Szoftver Fejlesztő Mérnök',
-            'tasks' => 'Karbantartás, fejlesztés',
-            'summary' => 'Repülőgép biztosítási rendszer.'
-        ],
-        [
-            'location' => 'Magyarország, Budapest',
-            'role' => 'Szoftver Fejlesztő Mérnök',
-            'task-normal' => 'Kivitelezés.',
-            'summary' => 'Welcome center funkció a Visual Studio 2008 (Orcas) termékhez.'
-        ],
-        [
-            'location' => 'Dánia, Vedbæk',
-            'role' => 'Szoftver Fejlesztő Mérnök / Vezető Fejlesztő',
-            'summary' => 'Microsoft Business Framework GUI fejlesztő.',
-            'task-normal' => 'Analízis, tervezés, fejlesztés, prototípúsok tervezése a Microsoft Dynamics üzleti rendszerhez',
-        ],
-        [
-            'location' => 'Magyarország, Budapest',
-            'role' => 'Szoftver Fejlesztő Mérnök / Projekt felügyelet',
-            'summary' => 'SOA biztosítási rendszer.',
-            'tasks' => 'Karbantartás, fejlesztés, átadás, tréning, projekt tervezése, szaktanácsadás',
-        ],
-        [
-            'location' => 'Magyarország, Budapest',
-            'role' => 'Szoftver Fejlesztő Mérnök',
-            'summary' => 'J2ME alapú casino game.',
-            'tasks' => 'Minőségbiztosítás, problémamegoldás',
+        'title' => '2005 - 2010',
+        'items' => [
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Vállalkozó',
+                'task-normal' => 'A web oldal megtervezése és kifejlesztése mind vizuális és szoftver oldalról',
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Vállalkozó',
+                'task-normal' => 'Webdialogue Joomla site karbantartás, www.community-intelligence.com karbantartás és upgrade, http://www.euro-intelligence.eu/ site design, a cég klienseinek kiszolgálása',
+            ],
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Vállalkozó',
+                'task-normal' => 'Egy SOA alapú bank rendszer adminisztációs oldal AJAX-al teljes egészében.',
+            ],
+            [
+                'location' => 'USA / Magyarország',
+                'role' => 'Vállalkozó',
+                'task-normal' => 'Projektek kivitelezése, kapcsolattartás és kommunikáció a kliensekkel, a MédiaBlend termékeinek fejlesztése és tervezése,   (GoSignMeUp, GoSiteBuilder, GoWebStore), A GoSignMeUp, továbbiakban GSMU, rendszer integrációja a Blackboard rendszerrel (oktatási rendszerek), LDAP és GSMU integrácó és az NBC Universal rendszereinek a fejlesztése, BlackBoard integráció.',
+            ],
+            [
+                'location' => 'Magyarország, Budapest',
+                'role' => 'Szenior Fejlesztő Mérnök',
+                'task-normal' => 'A Hugo Bossnak egy textil színét felismerő alkalmazás fejlesztésre színfelismerés automatizálására.',
+                'technology' => 'ASP.NET 3.5, Hardware programozás, Web 2.0',
+            ],
+            [
+                'location' => 'Magyarország, Budapest',
+                'role' => 'Szenior Szoftver Fejlesztő',
+                'task-normal' => 'A mérnökök segítsége és támogatása, bonyolult feladatok megoldása, excel add-in-ek készítése a kliensnek, OLAP döntés támogató rendszerek.',
+            ],
+            [
+                'location' => 'Magyarország, Budapest',
+                'role' => 'Szoftver Fejlesztő Mérnök',
+                'tasks' => 'Karbantartás, fejlesztés',
+                'summary' => 'Repülőgép biztosítási rendszer.'
+            ],
+            [
+                'location' => 'Magyarország, Budapest',
+                'role' => 'Szoftver Fejlesztő Mérnök',
+                'task-normal' => 'Kivitelezés.',
+                'summary' => 'Welcome center funkció a Visual Studio 2008 (Orcas) termékhez.'
+            ],
+            [
+                'location' => 'Dánia, Vedbæk',
+                'role' => 'Szoftver Fejlesztő Mérnök / Vezető Fejlesztő',
+                'summary' => 'Microsoft Business Framework GUI fejlesztő.',
+                'task-normal' => 'Analízis, tervezés, fejlesztés, prototípúsok tervezése a Microsoft Dynamics üzleti rendszerhez',
+            ],
+            [
+                'location' => 'Magyarország, Budapest',
+                'role' => 'Szoftver Fejlesztő Mérnök / Projekt felügyelet',
+                'summary' => 'SOA biztosítási rendszer.',
+                'tasks' => 'Karbantartás, fejlesztés, átadás, tréning, projekt tervezése, szaktanácsadás',
+            ],
+            [
+                'location' => 'Magyarország, Budapest',
+                'role' => 'Szoftver Fejlesztő Mérnök',
+                'summary' => 'J2ME alapú casino game.',
+                'tasks' => 'Minőségbiztosítás, problémamegoldás',
+            ]
         ]
-    ]
-],
+    ],
     'era-1998' => [
-    'title' => '1998 - 2005',
-    'items' => [
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Rendszer tervező / Kivitelező',
-            'task-normal' => 'A cég e-commerce rendszerének integrációja a Mas90 pénzügyi rendszerrel, a webes e-commerce rendszer kibővítése, automatizálás, karbantartás.',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Rendszer tervező / Kivitelező',
-            'task-normal' => '.NET kliens kivitelezése egy SOA alkalmazáshoz.',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Munka vezető',
-            'task-normal' => 'Reklám, arculattervezés, magyar arculattervező bevonásával',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Vállalkozó',
-            'task-normal' => 'Égészségügyi rendszer integrációjához adat kovertáló GUI rendszer',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Munka vezető',
-            'task-normal' => 'Reklám, arculattervezés, magyar erőforrás alkalmazása a kivitelezéshez',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Rendszer tervező',
-            'task-normal' => 'Rendszertervezés, kivitelezés,dokumentáció, tesztelés, támogatás a cég belső rendszeréhez mely a GMAC amerikai rendszerével integrálódik, 3 helyi fejlesztő bevonásával ',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Munka vezető',
-            'task-normal' => 'J2EE alapú marketing rendszer',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Szoftver Fejlesztő Mérnök',
-            'task-normal' => 'Real Estate agent search engine web application',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Munka vezető',
-            'task-normal' => 'Reklám, prezentáció, új webes arculat magyar erőförrások alkalmazásával',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'Programozó',
-            'task-normal' => 'UML alapú tervezés, portal rendszerek kivitelzése (kereső, adatbányászás, chat rendszer, társkereső rendszer).',
-        ],
-        [
-            'location' => 'USA, Kalifornia',
-            'role' => 'IT vezető',
-            'task-normal' => 'Hálózati infrastruktúra fejlesztése, gyártási folyamatok automatizálása.',
-        ],
-        [
-            'location' => 'Magyarország, Budapest ',
-            'role' => 'Y2K Projekt Koordinátor',
-            'task-normal' => 'Projektek kivitelezése, jelentés a vállalati vezetőknek.',
-        ],
-        [
-            'location' => 'Magyarország, Budapest ',
-            'role' => 'Projekt Mérnök',
-            'task-normal' => 'Projekt tervezése és kivitelezése (minőségbiztosítás), jelentés a Magyar Államkincstár és a Takarékbank részére',
+        'title' => '1998 - 2005',
+        'items' => [
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Rendszer tervező / Kivitelező',
+                'task-normal' => 'A cég e-commerce rendszerének integrációja a Mas90 pénzügyi rendszerrel, a webes e-commerce rendszer kibővítése, automatizálás, karbantartás.',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Rendszer tervező / Kivitelező',
+                'task-normal' => '.NET kliens kivitelezése egy SOA alkalmazáshoz.',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Munka vezető',
+                'task-normal' => 'Reklám, arculattervezés, magyar arculattervező bevonásával',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Vállalkozó',
+                'task-normal' => 'Égészségügyi rendszer integrációjához adat kovertáló GUI rendszer',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Munka vezető',
+                'task-normal' => 'Reklám, arculattervezés, magyar erőforrás alkalmazása a kivitelezéshez',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Rendszer tervező',
+                'task-normal' => 'Rendszertervezés, kivitelezés,dokumentáció, tesztelés, támogatás a cég belső rendszeréhez mely a GMAC amerikai rendszerével integrálódik, 3 helyi fejlesztő bevonásával ',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Munka vezető',
+                'task-normal' => 'J2EE alapú marketing rendszer',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Szoftver Fejlesztő Mérnök',
+                'task-normal' => 'Real Estate agent search engine web application',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Munka vezető',
+                'task-normal' => 'Reklám, prezentáció, új webes arculat magyar erőförrások alkalmazásával',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'Programozó',
+                'task-normal' => 'UML alapú tervezés, portal rendszerek kivitelzése (kereső, adatbányászás, chat rendszer, társkereső rendszer).',
+            ],
+            [
+                'location' => 'USA, Kalifornia',
+                'role' => 'IT vezető',
+                'task-normal' => 'Hálózati infrastruktúra fejlesztése, gyártási folyamatok automatizálása.',
+            ],
+            [
+                'location' => 'Magyarország, Budapest ',
+                'role' => 'Y2K Projekt Koordinátor',
+                'task-normal' => 'Projektek kivitelezése, jelentés a vállalati vezetőknek.',
+            ],
+            [
+                'location' => 'Magyarország, Budapest ',
+                'role' => 'Projekt Mérnök',
+                'task-normal' => 'Projekt tervezése és kivitelezése (minőségbiztosítás), jelentés a Magyar Államkincstár és a Takarékbank részére',
+            ]
         ]
     ]
-]
 ];
 
 $l['projects'] = Projects::ProjectFiller($l['projects']);

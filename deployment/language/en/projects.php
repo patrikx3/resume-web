@@ -1,4 +1,5 @@
 <?php
+
 use Config\Projects;
 
 $l = [];
@@ -45,7 +46,7 @@ $l['projects'] = [
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Research, Development',
                 'summary' => 'A robot based on Raspberry PI, that calculates the size of the warehouse and how empty it is. A robot, a REST/Socket.IO based web client and a NodeJs server using C++ and WebGL.',
-                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++, OpenCV',
+                'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++, OpenCV, ArrayFire',
             ],
             [
                 'index' => 3,

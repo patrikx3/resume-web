@@ -1,4 +1,5 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
 
 use P3x\Application;
@@ -8,7 +9,8 @@ use P3x\Debug;
 
 class ApplicationTest extends TestCase
 {
-    static function Init() {
+    static function Init()
+    {
         if (defined('ROOT')) {
             return;
         }
@@ -20,16 +22,17 @@ class ApplicationTest extends TestCase
         Application::Boot();
     }
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         static::Init();
     }
 
-    static function GetRoute($route, $is_ajax = false) {
+    static function GetRoute($route, $is_ajax = false)
+    {
         if ($is_ajax) {
             http::$Headers['X-Requested-With'] = 'XMLHttpRequest';
         }
-        return tpl::GetContent(function() use($route) {
+        return tpl::GetContent(function () use ($route) {
             return Application::Run($route);
         });
     }
@@ -37,11 +40,11 @@ class ApplicationTest extends TestCase
     /**
      * @runInSeparateProcess
      */
-    function testApplication() {
+    function testApplication()
+    {
         $result = json_decode(static::GetRoute('front/projects?production', true), true);
         $this->assertEquals($result['content']['template'], 'about-me');
     }
-
 
 
 }

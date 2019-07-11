@@ -1,4 +1,5 @@
 <?php
+
 namespace Config;
 
 
@@ -6,11 +7,13 @@ namespace Config;
  * Class Template
  * @package Config
  */
-class Template {
+class Template
+{
     /**
      *
      */
-    static function Define() {
+    static function Define()
+    {
         $data = Config::GetConfig();
         \P3x\Template::MergeDefaultData($data);
     }

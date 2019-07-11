@@ -91,7 +91,7 @@
                         $shine.removeClass('effect-shine-vertical-active')
                         $shine.addClass('effect-shine')
                     }
-                    $shine.toggleClass(!isFixed ? 'effect-shine-vertical-active'  : 'effect-shine-active');
+                    $shine.toggleClass(!isFixed ? 'effect-shine-vertical-active' : 'effect-shine-active');
                 }, 2000, 500, true);
 
 

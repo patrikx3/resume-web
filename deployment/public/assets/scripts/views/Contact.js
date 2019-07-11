@@ -1,18 +1,18 @@
 (function (window, document, $, p3x) {
 
     var loadRecaptchaTimeout
-    var loadRecaptcha = function() {
+    var loadRecaptcha = function () {
         clearTimeout(loadRecaptchaTimeout)
         if (lm.RecaptchaLoaded !== true) {
             loadRecaptchaTimeout = setTimeout(loadRecaptcha, 100)
             return;
         }
         window.grecaptcha.render('contact-form-captcha-render', {
-            'sitekey' : p3x.config.recaptcha.frontend,
-            'callback' : function() {
+            'sitekey': p3x.config.recaptcha.frontend,
+            'callback': function () {
                 $('#contact-form-captcha-error').remove()
             },
-            'theme' : $('body').hasClass('theme-light') ? 'light' : 'dark'
+            'theme': $('body').hasClass('theme-light') ? 'light' : 'dark'
         });
     }
 
@@ -169,7 +169,7 @@
                     var data_data = [];
                     for (var index = 0; index < lines.length; index++) {
                         data_data.push({
-                            y: calculate_y * Math.sin(angle - (index * line_step * 2 * lines.length )) + calculate_y,
+                            y: calculate_y * Math.sin(angle - (index * line_step * 2 * lines.length)) + calculate_y,
                             opacity: max_opacity - (index * max_opacity / lines_count)
                         });
                     }

@@ -1,4 +1,5 @@
 <?php
+
 namespace Operation;
 
 use P3x\Language;
@@ -50,77 +51,77 @@ class Html
         $text .= '<div class="label label-info " style="float: left;">' . $title . '</div>';
         $text .= '<div class="listing-item-content">';
         switch ($type) {
-        case 'flash':
-            $comma = '';
-            $text .= ' <span style="opacity: 0.5">(' . Language::Get('playground', 'flash-info') . ')</span>';
-            foreach ($content as $flash) {
-                $text .= $comma;
-                $text .= static::Flash($flash);
-                $comma = ', ';
-            }
+            case 'flash':
+                $comma = '';
+                $text .= ' <span style="opacity: 0.5">(' . Language::Get('playground', 'flash-info') . ')</span>';
+                foreach ($content as $flash) {
+                    $text .= $comma;
+                    $text .= static::Flash($flash);
+                    $comma = ', ';
+                }
 
-            break;
-        case 'image':
-            foreach ($content as $image) {
-                $text .= static::Image($image);
-            }
-            break;
+                break;
+            case 'image':
+                foreach ($content as $image) {
+                    $text .= static::Image($image);
+                }
+                break;
 
             // youtube add ?html5=1
-        case 'youtube':
-            if (!is_array($content)) {
-                $text .= static::YouTube($content);
-            } else {
-                $comma = '';
-                foreach ($content as $url) {
-                    $text .= $comma;
-                    $text .= static::YouTube($url);
-                    $comma = ', ';
+            case 'youtube':
+                if (!is_array($content)) {
+                    $text .= static::YouTube($content);
+                } else {
+                    $comma = '';
+                    foreach ($content as $url) {
+                        $text .= $comma;
+                        $text .= static::YouTube($url);
+                        $comma = ', ';
+                    }
                 }
-            }
-            break;
+                break;
 
-        case 'url':
-            if (!is_array($content)) {
-                $text .= static::Url($content);
-            } else {
-                $comma = '';
-                foreach ($content as $key => $url) {
-                    $text .= $comma;
-                    $text .= static::Url($url, $key);
-                    $comma = ', ';
+            case 'url':
+                if (!is_array($content)) {
+                    $text .= static::Url($content);
+                } else {
+                    $comma = '';
+                    foreach ($content as $key => $url) {
+                        $text .= $comma;
+                        $text .= static::Url($url, $key);
+                        $comma = ', ';
+                    }
                 }
-            }
-            break;
+                break;
 
-        case 'company':
-            if (isset($additional['company'])) {
-                $content = $additional['company'];
-            }
-            $text .= '<a p3x-ajax-href="' . Language::RouteUrl('front/resume') . '" href="' . Project::EmployerUrl($additional) . '">';
-            $text .= $content;
-            $text .= '</a>';
-            break;
+            case 'company':
+                if (isset($additional['company'])) {
+                    $content = $additional['company'];
+                }
+                $text .= '<a p3x-ajax-href="' . Language::RouteUrl('front/resume') . '" href="' . Project::EmployerUrl($additional) . '">';
+                $text .= $content;
+                $text .= '</a>';
+                break;
 
-        case 'email':
-            $text .= static::Email($content);
-            break;
+            case 'email':
+                $text .= static::Email($content);
+                break;
 
-        case 'badge':
-            $text .= static::Badge($content);
-            break;
+            case 'badge':
+                $text .= static::Badge($content);
+                break;
 
-        case 'date':
-            $text .= static::DateMonth($content, $additional);
-            break;
+            case 'date':
+                $text .= static::DateMonth($content, $additional);
+                break;
 
-        case 'since':
-            $text .= static::Since($content);
-            break;
+            case 'since':
+                $text .= static::Since($content);
+                break;
 
-        default:
-            $text .= $content;
-            break;
+            default:
+                $text .= $content;
+                break;
         }
         $text .= '</div>';
         $text .= '<div style="clear: both; margin-bottom: 2px;"></div>';
@@ -211,7 +212,7 @@ EOF;
 
     public static function Image($image)
     {
-        if (substr( $image, 0, 4 ) === "http") {
+        if (substr($image, 0, 4) === "http") {
             $url = $image;
 
         } else {

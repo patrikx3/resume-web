@@ -1,4 +1,5 @@
 <?php
+
 namespace Cli;
 
 use P3x\Debug;
@@ -13,12 +14,13 @@ class Helper
      * @param $source
      * @param $dest
      */
-    static function Copy($source, $dest) {
+    static function Copy($source, $dest)
+    {
         Debug::Send(sprintf(
             'copy: %s, to: %s',
             $source,
             $dest
         ));
-        copy($source , $dest);
+        copy($source, $dest);
     }
 }

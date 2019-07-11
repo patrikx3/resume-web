@@ -1,4 +1,5 @@
 <?php
+
 use P3x\Str;
 
 $l = array();
@@ -147,6 +148,9 @@ $l['tab-data-education'] = [
 ];
 
 $l['company-info'] = [
+    'duovill' => [
+        'info' => 'Mesterséges intelligencia keretrendszerekkel foglalkozunk, valamit NodeJs/C++ és Angular Material full-stack rendszerekkel.',
+    ],
     'sygnus' => [
         'info' => 'Ko-operatív rendszerek. Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.',
     ],
