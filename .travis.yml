@@ -9,7 +9,7 @@ php:
 #- nightly
 before_script: composer install
 after_script:
-- docker build -t patrikx3/resume/ .
+- docker build -t patrikx3/resume .
 notifications:
   email:
     recipients:
