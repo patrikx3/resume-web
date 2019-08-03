@@ -5,6 +5,8 @@ services:
 - docker
 php:
 - '7.2'
+- '7.3'
+#- nightly
 before_script: composer install
 after_script:
 - docker build -t patrikx3/resume/ .
