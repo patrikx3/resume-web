@@ -22,7 +22,7 @@ RUN apt-get -y install nginx
 RUN apt-get -y install curl
 
 # node
-RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get -y install nodejs
 RUN nodejs -v
 RUN npm i -g npm  --unsafe-perm
