@@ -28,7 +28,7 @@
     "grunt-contrib-yuidoc": "^1.0.0",
     "grunt-githooks": "^0.6.0",
     "grunt-injector": "^1.1.0",
-    "grunt-sass": "^3.0.2",
+    "grunt-sass": "^3.1.0",
     "grunt-wiredep": "^3.0.1",
     "mz": "^2.7.0",
     "request": "^2.88.0",
