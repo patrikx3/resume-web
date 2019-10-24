@@ -7,7 +7,7 @@
     "php": ">=7.1.0",
     "ext-gd": "*",
     "swiftmailer/swiftmailer": ">=6",
-    "mpdf/mpdf": ">=7",
+    "mpdf/mpdf": ">=8",
     "p3x/resume-common": "2.1.4"
   },
   "require-dev": {
