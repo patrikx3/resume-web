@@ -30,7 +30,7 @@ $accordions_data = [];
 <div class="layout-content-text">
 
     <?php if (!isset($_REQUEST['full']) && !isset($_REQUEST['sygnus']) && !isset($_REQUEST['nuaxia'])): ?>
-        <br/>
+
         <div class="warning">
             <?= language::get('projects', 'title-note'); ?>
         </div>

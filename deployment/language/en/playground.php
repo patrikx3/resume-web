@@ -9,6 +9,11 @@ $l['title-flash'] = 'Flash';
 
 $l['flash-info'] = 'Sometimes, the Flash link only works if you click twice';
 
+$l['fyi']
+    = <<<EOF
+<span class="label label-info note">FYI:</span> Some projects were obsolete and therefore deleted, so, it is possible, a few links will be not found.
+EOF;
+
 $l['playground'] = [
 
     [

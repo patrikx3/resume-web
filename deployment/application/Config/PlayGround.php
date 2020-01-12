@@ -74,8 +74,6 @@ class PlayGround
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
-                    'GitHub LEDE' => 'https://github.com/patrikx3/lede-insomnia',
-                    "CDN LEDE" => 'https://cdn.corifeus.com/lede/',
                     'GitHub OpenWrt' => 'https://github.com/patrikx3/openwrt-insomnia',
                     "WWW OpenWrt" => 'https://pages.corifeus.com/openwrt-insomnia/',
                     "CDN OpenWrt" => 'https://cdn.corifeus.com/openwrt/',
@@ -87,21 +85,16 @@ class PlayGround
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
-                    'GitHub LEDE' => 'https://github.com/patrikx3/lede-redis',
-                    "CDN LEDE" => 'https://cdn.corifeus.com/lede/',
-                    'GitHub OpenWrt' => 'https://github.com/patrikx3/openwrt-redis',
-                    "WWW OpenWrt" => 'https://pages.corifeus.com/openwrt-redis/',
                     "CDN OpenWrt" => 'https://cdn.corifeus.com/openwrt/',
                 ]
             ],
 
             [
-                'title' => 'LEDE MariaDB 10',
+                'title' => 'LEDE / OpenWrt MariaDB 10',
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
-                    'GitHub' => 'https://github.com/patrikx3/lede-mariadb',
-                    "CDN" => 'https://cdn.corifeus.com/lede/',
+                    "CDN" => 'https://cdn.corifeus.com/openwrt/',
                 ]
             ],
 
@@ -131,8 +124,6 @@ class PlayGround
                 'year' => 2017,
                 'country' => 'hu',
                 'url' => [
-                    'GitHub' => 'https://github.com/patrikx3/aes-folder',
-                    "WWW" => 'https://pages.corifeus.com/aes-folder/',
                     'NPM' => 'https://www.npmjs.com/package/p3x-aes-folder',
                 ]
 

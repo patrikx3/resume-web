@@ -207,6 +207,7 @@ class Config
         define('GOOGLE_ANALYTICS_ID', 'UA-102206537-1');
         define('PARAMETER_THEME', 'patrikx3-theme');
         define('PROJECT_DIVIDER', ' | ');
+        define('IPINFO_TOKEN', "3bbd3cb92d8163");
         define('GOOGLE_MAPS_API_KEY', static::$private['google']['maps']);
 
         //print_r(static::$private);

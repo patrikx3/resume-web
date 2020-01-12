@@ -43,6 +43,12 @@ $root_accordion = Language::RouteUrl('front/playground');
 ?>
 <div class="layout-content-text">
 
+
+        <div class="warning">
+            <?= language::get('playground', 'fyi'); ?>
+        </div>
+        <br/>
+
     <div class="panel-group" id="playground-accordion" role="tablist" aria-multiselectable="true"
          data-accordion-item-url="item/playground">
         <?php foreach ($playground as $key => $game) : ?>
