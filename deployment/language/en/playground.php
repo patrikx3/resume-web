@@ -67,7 +67,7 @@ $l['playground'] = [
     ],
     [
         'title' => 'Corifeus Software Architecture',
-        'summary' => 'I am interested in software and building. Analysis, design, architecture, iterative, xyz driven, deployment and in the end: product. A started building a platform. Technologies: Angular TypeScript, Angular Material 2, Socket.IO, MongoDB, Express',
+        'summary' => 'I am interested in software and building. Analysis, design, architecture, iterative, xyz driven, deployment and in the end: product. A started building a platform. Technologies: Angular TypeScript, Angular Material/Components, Socket.IO, MongoDB, Express',
         'url' => [
             'GitHub' => 'https://github.com/patrikx3/corifeus',
             'Name' => 'https://en.wikipedia.org/wiki/Coryphaeus',

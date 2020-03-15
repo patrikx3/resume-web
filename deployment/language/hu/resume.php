@@ -24,7 +24,7 @@ $l['tab-employment-id'] = Str::ToUrl($l['tab-employment']);
 $l['tab-data-cover']
     = <<<EOF
 Jelenleg, elsősorban vállalati alkalmazásokra, mikroszervízekre, webes és Electron asztali alkalmazásokra összpontosítok.
-<br/><br/>    
+<br/><br/>
 Gyerekkorom óta használok grafikai programokat és kódolok. Nagyon szeretem a szép animációt és a strukturált programozást.
 <br/><br/>
 Kb. 2000 óta használom az objektumorientált és funkcionális fejlesztést. 2001 óta tervezek diagramokat és modelleket. Szeretem a tervező és Microsoft eszközeket.
@@ -104,7 +104,7 @@ $l['tab-data-skills'] = [
     [
         'field' => 'Keretrendszerek',
         'type' => 'badge',
-        'content' => 'OpenCV, Tensorflow, ArrayFire, Electron, AngularJs, Angular, NodeJs, Bootstrap, AngularJs Material, Angular Material 2, SASS, LESS, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii',
+        'content' => 'Electron, AngularJs, Angular, NodeJs, Bootstrap, AngularJs Material, Angular Material/Components, SASS, LESS, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii',
     ],
     [
         'field' => 'Nyelv / Jelölőnyelv',

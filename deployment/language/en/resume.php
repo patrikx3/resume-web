@@ -25,11 +25,11 @@ $l['tab-data-cover']
     = <<<EOF
 Right now, I primarily focus on enterprise applications, microservices, web and Electron desktop applications.
 <br/><br/>
-I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.  
+I have been practicing imaging applications and coding since I was small. I really like beautiful animation and structured programming.
 <br/><br/>
 Since about 2000, I have been using object-oriented and functional programming. By about 2001, I have been building diagrams and models. I like architect, Microsoft and alike tools.
 <br/><br/>
-Usually, I engineer web based systems, but I deal with other applications as well.  I like server, client, desktop, mobile, database and component methods.  I architect simple solutions, that are independent of operating system, language and framework.   
+Usually, I engineer web based systems, but I deal with other applications as well.  I like server, client, desktop, mobile, database and component methods.  I architect simple solutions, that are independent of operating system, language and framework.
 <br/><br/>
 What I like and do: analysis, architecture, test, build, continuous integration, code style, code review, documentation, deployment, code coverage, tasks, developer support, development operations (DevOps), distributed - co-operative systems and development aka <strong>full-stack</strong>.
 EOF;
@@ -104,7 +104,7 @@ $l['tab-data-personal'] = [
 $l['tab-data-skills'] = [
     [
         'field' => 'Frameworks',
-        'content' => 'OpenCV, Tensorflow, ArrayFire, Electron, AngularJs, Angular, NodeJs, Bootstrap, AngularJs Material, Angular Material 2, SASS, LESS, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii',
+        'content' => 'Electron, AngularJs, Angular, NodeJs, Bootstrap, AngularJs Material, Angular Material/Components, SASS, LESS, WebPack, Socket.IO, Grunt, J2EE, .NET, ASP, ASP.NET/MVC, jQuery, ExtJs, CodeIgniter, Yii',
         'type' => 'badge'
     ],
     [

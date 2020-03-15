@@ -65,7 +65,7 @@ $l['playground'] = [
     ],
     [
         'title' => 'Corifeus Szoftver Architektúra',
-        'summary' => 'Érdekel az architektúra. Elemzés, tervezés, tervezés, ismétlődő, xyz vezetés, telepítés és végül: termék. Elkezdtem egy teljesen új platformot. Technológiák: Angular TypeScript, Angular Material 2, Socket.IO, MongoDB, Express',
+        'summary' => 'Érdekel az architektúra. Elemzés, tervezés, tervezés, ismétlődő, xyz vezetés, telepítés és végül: termék. Elkezdtem egy teljesen új platformot. Technológiák: Angular TypeScript, Angular Material/Components, Socket.IO, MongoDB, Express',
         'url' => [
             'GitHub' => 'https://github.com/patrikx3/corifeus',
             'Név' => 'http://www.kislexikon.hu/korifeus.html',
