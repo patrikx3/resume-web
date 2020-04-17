@@ -34,14 +34,18 @@ $l['projects'] = [
         'title' => '2015 - Now',
         'items' => [
             [
-                'index' => 1,
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Senior Frontend Developer',
                 'tasks' => 'Frontend development, charts, video',
                 'summary' => 'Enterprise frontend guidance counsellor.',
             ],
             [
-                'index' => 2,
+                'location' => 'Hungary, Dunaújváros',
+                'role' => 'Senior Frontend Developer',
+                'tasks' => 'Frontend development, charts, video',
+                'summary' => 'Enterprise frontend guidance counsellor.',
+            ],
+            [
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Research, Development',
@@ -49,21 +53,18 @@ $l['projects'] = [
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++, OpenCV, ArrayFire',
             ],
             [
-                'index' => 3,
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Planning, development, mentoring',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus ',
             ],
             [
-                'index' => 4,
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Planning, development, mentoring',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 04/18/2018.',
             ],
             [
-                'index' => 3,
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Mentoring, Planning, Automation, Development, Developer support',

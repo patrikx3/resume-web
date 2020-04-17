@@ -38,10 +38,19 @@ class Projects
                     [
                         'index' => 1,
                         'project' => 'Healthcare',
+                        'company' => 'elementary-AI',
+                        'date-start' => new DateTime('2020-02-01'),
+                        'country' => 'gb',
+                        'technology' => 'Angular, Angular Material, Highcharts, Web-worker',
+                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['nuaxia']),
+                    ],
+                    [
+                        'index' => 1,
+                        'project' => 'Healthcare',
                         'company' => 'Nuaxia',
                         'date-start' => new DateTime('2019-01-19'),
                         'country' => 'gb',
-                        'technology' => 'Angular, Angular Material, Highcharts',
+                        'technology' => 'Angular, Angular Material, Highcharts, Web-worker',
                         'full' => isset($_REQUEST['full']) || isset($_REQUEST['nuaxia']),
                     ],
                     [
