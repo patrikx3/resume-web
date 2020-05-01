@@ -71,7 +71,7 @@ $l['playground'] = [
         'url' => [
             'GitHub' => 'https://github.com/patrikx3/corifeus',
             'Name' => 'https://en.wikipedia.org/wiki/Coryphaeus',
-            'Corifeus pages' => 'http://pages.corifeus.com',
+            'Corifeus pages' => 'http://corifeus.com',
         ],
 
     ],

@@ -39,18 +39,18 @@ $l['content']
             <span class="{$profile_class}">{$age}</span> éves vagyok.
         </li>
         <li class="list-group-item">
-            Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on és megnézheted a mikroszervízeimet a <strong><a target="_blank" href="https://pages.corifeus.com">Corifeus</a></strong>-on. Általában a NodeJs/C++ és Angular Material vállalati rendszereket építek ...
-        </li>       
+            Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on és megnézheted a mikroszervízeimet a <strong><a target="_blank" href="https://corifeus.com">Corifeus</a></strong>-on. Általában a NodeJs/C++ és Angular Material vállalati rendszereket építek ...
+        </li>
         <li class="list-group-item">
             Néha, blogozok a <a href="https://blog.patrikx3.com/" target="p3x-blog">https://blog.patrikx3.com/</a>-on.
         </li>
-        
+
         <li class="list-group-item">
                 <span class="{$profile_class}">2016</span> - Full-stack fejlesztő vagyok.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span>-ig egy nagyobb munkám volt a <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> cégnél. Más projektem nem volt.
-        </li>             
+        </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> Hazajöttem Magyarországra Los Angeles-ből, majd dolgoztam az <a target="_blank" href="https://www.epam.com/">Epam</a>-nak és a <a target="_blank" href="https://www.microsoft.com/{$language}-us/dynamics/">Microsoft</a>-nak, plusz, közben, vállalkoztam.
         </li>
@@ -62,23 +62,23 @@ $l['content']
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1996</span>-ban elkezdett működni az <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Internet">internet</a> Balassagyarmaton.
-        </li>                 
+        </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1992</span>-ban már elkeztem a PC-vel programozni, kb. ekkor jött ki a <a target="_blank" href="{$doom}">Doom</a> játék, ami nagyon tetszett. Először Amőbát, majd <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Reversi">Otelló</a>-t írtam <a target="_blank" href="{$pascal}">Pascal</a>-ban, melyek lényege az volt, hogy a gép játszott velem.
-            A legnagyobb sikerem volt, hogy csináltam egy 3D modell szerkesztőt, amiből demó scene kódokat csináltam. 
+            A legnagyobb sikerem volt, hogy csináltam egy 3D modell szerkesztőt, amiből demó scene kódokat csináltam.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1988</span>-ban apukámtól kaptam egy <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Amiga">Amiga 500</a>-at. 11 éves voltam, már használtam a BASIC-et és elkezdtem megtanulni az Assembly-t egy <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Motorola_68000">Motorola 68000</a>-al. Jó pár grafikai alkalmazást használtam és már kódoltam egyszerű <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Demoscene">demo</a> programokat.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">1986</span>-ban kaptam anyukámtól egy <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Commodore_Plus/4">Commodore Plus/4</a>-et, de még csak hekkeltem az <a target="_blank" href="{$assembly}">Assembly</a>-t, nem igazán tudtam mit csináltam. BASIC könyvet olvastam és használtam. 
+            <span class="{$profile_class}">1986</span>-ban kaptam anyukámtól egy <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Commodore_Plus/4">Commodore Plus/4</a>-et, de még csak hekkeltem az <a target="_blank" href="{$assembly}">Assembly</a>-t, nem igazán tudtam mit csináltam. BASIC könyvet olvastam és használtam.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1984</span>-ban egy jó barátommal kezdtünk el játékból programozni egy <a target="_blank" href="https://{$language}.wikipedia.org/wiki/ZX81">Sinclair ZX81</a>-el <a target="_blank" href="https://{$language}.wikipedia.org/wiki/BASIC">BASIC</a>-ben.
-        </li>                         
+        </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1978</span>. December 8-án születtem, <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Balassagyarmat">Balassagyarmat</a>-on.
-        </li> 
+        </li>
     </ul>
 
 EOT;

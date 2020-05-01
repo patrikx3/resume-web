@@ -190,6 +190,13 @@ module.exports = function (grunt) {
                 mangle: true,
                 sourceMap: false,
                 preserveComments: false,
+                /*
+                beautify: true,
+                compress: false,
+                mangle: false,
+                sourceMap: false,
+                preserveComments: false,
+                */
             },
             'all': {
                 src: [

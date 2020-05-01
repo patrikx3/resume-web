@@ -25,7 +25,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/',
-                    'WWW' => 'https://pages.corifeus.com/',
+                    'WWW' => 'https://corifeus.com/',
                 ]
             ],
 
@@ -36,7 +36,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/redis-ui',
-                    'WWW' => 'https://pages.corifeus.com/redis-ui',
+                    'WWW' => 'https://corifeus.com/redis-ui',
                     'Test online' => 'https://p3x.redis.patrikx3.com/main/statistics',
                 ],
                 'image' => [
@@ -54,7 +54,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/freenom',
-                    'WWW' => 'https://pages.corifeus.com/freenom',
+                    'WWW' => 'https://corifeus.com/freenom',
                     'NPM' => 'https://www.npmjs.com/package/p3x-freenom',
                 ]
             ],
@@ -75,7 +75,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub OpenWrt' => 'https://github.com/patrikx3/openwrt-insomnia',
-                    "WWW OpenWrt" => 'https://pages.corifeus.com/openwrt-insomnia/',
+                    "WWW OpenWrt" => 'https://corifeus.com/openwrt-insomnia/',
                     "CDN OpenWrt" => 'https://cdn.corifeus.com/openwrt/',
                 ]
             ],
@@ -105,7 +105,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/onenote',
-                    "WWW" => 'https://pages.corifeus.com/onenote/',
+                    "WWW" => 'https://corifeus.com/onenote/',
                     'NPM' => 'https://www.npmjs.com/package/p3x-onenote',
                 ]
 
@@ -115,7 +115,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/ramdisk',
-                    "WWW" => 'https://pages.corifeus.com/ramdisk/',
+                    "WWW" => 'https://corifeus.com/ramdisk/',
                     'NPM' => 'https://www.npmjs.com/package/p3x-ramdisk',
                 ]
 
@@ -133,7 +133,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/systemd-manager',
-                    "WWW" => 'https://pages.corifeus.com/systemd-manager/',
+                    "WWW" => 'https://corifeus.com/systemd-manager/',
                     'NPM' => 'https://www.npmjs.com/package/p3x-systemd-manager',
                 ]
 
@@ -143,7 +143,7 @@ class PlayGround
                 'country' => 'hu',
                 'url' => [
                     'GitHub' => 'https://github.com/patrikx3/angular-compile',
-                    'WWW' => 'https://pages.corifeus.com/angular-compile/',
+                    'WWW' => 'https://corifeus.com/angular-compile/',
                     'NPM' => 'https://www.npmjs.com/package/p3x-angular-compile',
                 ]
 

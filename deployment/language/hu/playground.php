@@ -69,7 +69,7 @@ $l['playground'] = [
         'url' => [
             'GitHub' => 'https://github.com/patrikx3/corifeus',
             'Név' => 'http://www.kislexikon.hu/korifeus.html',
-            'Corifeus oldalok' => 'http://pages.corifeus.com',
+            'Corifeus oldalok' => 'http://corifeus.com',
         ],
     ],
     [
