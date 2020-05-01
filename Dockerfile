@@ -27,7 +27,7 @@ RUN apt-get -y install nodejs
 RUN node -v
 RUN npm i -g npm  --unsafe-perm
 
-RUN curl -o /usr/bin/phpdoc -L https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.9.0/phpDocumentor.phar
+RUN curl -o /usr/bin/phpdoc -L https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.9.1/phpDocumentor.phar
 RUN chmod 0777 /usr/bin/phpdoc
 
 RUN apt-get -y install composer supervisor unzip zip
