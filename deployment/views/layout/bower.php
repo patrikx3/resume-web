@@ -4,13 +4,6 @@ use Config\Route;
 
 list($folder_source, $folder_source_scripts, $folder_source_css, $folder_production, $folder_production_css, $folder_production_script) = Route::Folders();
 ?>
-<script>
-    p3x = {
-        Gui: {
-            Bootstrap: {}
-        }
-    };
-</script>
 <?php if (DEBUG) : ?>
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/jGrowl/jquery.jgrowl.css" />
@@ -32,35 +25,41 @@ list($folder_source, $folder_source_scripts, $folder_source_css, $folder_product
     <script src="bower_components/latinize/latinize.js"></script>
     <!-- endbower -->
 
-
+    <script>
+        p3x = {
+            Gui: {
+                Bootstrap: {}
+            }
+        };
+    </script>
 
     <!-- injector:P3x:source:js -->
-    <script src="js-components/resume-js-common/src/Ajax.js"></script>
-    <script src="js-components/resume-js-common/src/AjaxHrefInterface.js"></script>
-    <script src="js-components/resume-js-common/src/Analytics.js"></script>
-    <script src="js-components/resume-js-common/src/Boot.js"></script>
-    <script src="js-components/resume-js-common/src/Config.js"></script>
-    <script src="js-components/resume-js-common/src/DataCache.js"></script>
-    <script src="js-components/resume-js-common/src/Debug.js"></script>
-    <script src="js-components/resume-js-common/src/Event.js"></script>
-    <script src="js-components/resume-js-common/src/Growl.js"></script>
-    <script src="js-components/resume-js-common/src/Icon.js"></script>
-    <script src="js-components/resume-js-common/src/Id.js"></script>
-    <script src="js-components/resume-js-common/src/jQuery.js"></script>
-    <script src="js-components/resume-js-common/src/Language.js"></script>
-    <script src="js-components/resume-js-common/src/Layout.js"></script>
-    <script src="js-components/resume-js-common/src/Mobile.js"></script>
-    <script src="js-components/resume-js-common/src/Object.js"></script>
-    <script src="js-components/resume-js-common/src/Overlay.js"></script>
-    <script src="js-components/resume-js-common/src/Periodical.js"></script>
-    <script src="js-components/resume-js-common/src/ProtocolValid.js"></script>
-    <script src="js-components/resume-js-common/src/Router.js"></script>
-    <script src="js-components/resume-js-common/src/String.js"></script>
-    <script src="js-components/resume-js-common/src/Template.js"></script>
-    <script src="js-components/resume-js-common/src/Uri.js"></script>
-    <script src="js-components/resume-js-bootstrap/src/Accordion.js"></script>
-    <script src="js-components/resume-js-bootstrap/src/Config.js"></script>
-    <script src="js-components/resume-js-bootstrap/src/Tab.js"></script>
+    <script src="js-components/resume-js-common/Ajax.js"></script>
+    <script src="js-components/resume-js-common/AjaxHrefInterface.js"></script>
+    <script src="js-components/resume-js-common/Analytics.js"></script>
+    <script src="js-components/resume-js-common/Boot.js"></script>
+    <script src="js-components/resume-js-common/Config.js"></script>
+    <script src="js-components/resume-js-common/DataCache.js"></script>
+    <script src="js-components/resume-js-common/Debug.js"></script>
+    <script src="js-components/resume-js-common/Event.js"></script>
+    <script src="js-components/resume-js-common/Growl.js"></script>
+    <script src="js-components/resume-js-common/Icon.js"></script>
+    <script src="js-components/resume-js-common/Id.js"></script>
+    <script src="js-components/resume-js-common/jQuery.js"></script>
+    <script src="js-components/resume-js-common/Language.js"></script>
+    <script src="js-components/resume-js-common/Layout.js"></script>
+    <script src="js-components/resume-js-common/Mobile.js"></script>
+    <script src="js-components/resume-js-common/Object.js"></script>
+    <script src="js-components/resume-js-common/Overlay.js"></script>
+    <script src="js-components/resume-js-common/Periodical.js"></script>
+    <script src="js-components/resume-js-common/ProtocolValid.js"></script>
+    <script src="js-components/resume-js-common/Router.js"></script>
+    <script src="js-components/resume-js-common/String.js"></script>
+    <script src="js-components/resume-js-common/Template.js"></script>
+    <script src="js-components/resume-js-common/Uri.js"></script>
+    <script src="js-components/resume-js-bootstrap/Accordion.js"></script>
+    <script src="js-components/resume-js-bootstrap/Config.js"></script>
+    <script src="js-components/resume-js-bootstrap/Tab.js"></script>
     <!-- endinjector -->
 
     <!-- injector:P3x:source:css -->

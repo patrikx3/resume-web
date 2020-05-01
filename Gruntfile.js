@@ -41,7 +41,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-terser');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-handlebars');
@@ -92,9 +92,9 @@ module.exports = function (grunt) {
                 },
                 files: {
                     'deployment/views/layout/bower.php': [
-                        folder_public_js_components_custom + 'resume-js-common/src/**/*.js',
-                        folder_public_js_components_custom + 'resume-js-common/src/**/*.css',
-                        folder_public_js_components_custom + 'resume-js-bootstrap/src/**/*.js'
+                        folder_public_js_components_custom + 'resume-js-common/**/*.js',
+                        folder_public_js_components_custom + 'resume-js-common/**/*.css',
+                        folder_public_js_components_custom + 'resume-js-bootstrap/**/*.js'
                     ],
                 }
             },
@@ -103,9 +103,9 @@ module.exports = function (grunt) {
         concat: {
             js: {
                 src: [
-                    folder_public_js_components_custom + 'resume-js-common/src/**/*.js',
-                    folder_public_js_components_custom + 'resume-js-common/src/**/*.css',
-                    folder_public_js_components_custom + 'resume-js-bootstrap/src/**/*.js',
+                    folder_public_js_components_custom + 'resume-js-common/**/*.js',
+                    folder_public_js_components_custom + 'resume-js-common/**/*.css',
+                    folder_public_js_components_custom + 'resume-js-bootstrap/**/*.js',
                     folder_public_source_scripts + '**/*.js',
                     '!' + folder_public_source_scripts + '**/*.min.js',
                     '!' + folder_public_source_scripts + '**/Swf.js'
@@ -182,7 +182,7 @@ module.exports = function (grunt) {
                 }
             }
         },
-        uglify: {
+        terser: {
             options: {
                 /*
                  compress: false,
@@ -190,17 +190,30 @@ module.exports = function (grunt) {
                  sourceMap: false,
                  preserveComments: true,
                 */
+                /*
                 compress: true,
                 mangle: true,
                 sourceMap: false,
-                preserveComments: false,
-                /*
-                beautify: true,
-                compress: false,
-                mangle: false,
-                sourceMap: false,
-                preserveComments: false,
+                //preserveComments: false,
                  */
+                compress: {
+                    warnings: false
+                },
+                output: {
+                    comments: false
+                },
+                ecma: 2018,
+                // todo found out if mangle use or not
+                // mangle: false === keep function names
+                // mangle: true === drop function names
+                mangle: true,
+
+
+//                keep_fnames: true,
+                warnings: true,
+//                beautify: true,
+                sourceMap: false,
+//                preserveComments: false,
             },
             'all': {
                 src: [
@@ -380,7 +393,7 @@ module.exports = function (grunt) {
         'wiredep',
         'bower_concat',
         'concat',
-        'uglify',
+        'terser',
         'sass',
         'cssmin',
         'injector',

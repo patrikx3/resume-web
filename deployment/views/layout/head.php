@@ -32,6 +32,13 @@ switch ($current_theme) {
     <script type="text/javascript" src="<?= $folder_source_scripts ?>views/Resume.js"></script>
 
 <?php else : ?>
+    <script>
+        p3x = {
+            Gui: {
+                Bootstrap: {}
+            }
+        };
+    </script>
     <link rel="stylesheet" href="<?= $folder_production_css ?>production.patrikx3.css">
 
     <!--
