@@ -24,7 +24,7 @@ RUN apt-get -y install curl
 # node
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get -y install nodejs
-RUN nodejs -v
+RUN node -v
 RUN npm i -g npm  --unsafe-perm
 
 RUN curl -o /usr/bin/phpdoc -L https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.9.0/phpDocumentor.phar
