@@ -1,0 +1,12 @@
+.fa-spin-reverse {
+    animation: fa-spin-reverse 2s infinite linear;
+}
+
+@keyframes fa-spin-reverse {
+    0% {
+        transform: rotate(359deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

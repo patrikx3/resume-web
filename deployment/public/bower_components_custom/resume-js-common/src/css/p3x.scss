@@ -1,0 +1,59 @@
+@import "loading";
+@import "fontawesome";
+
+#p3x-debug-box {
+    position: fixed;
+    left: 0;
+    text-align: left;
+    padding: 5px;
+    z-index: 9998;
+    bottom: 0;
+    z-index: 9998;
+    background-color: black;
+    color: white;
+}
+
+#p3x-debug-box a {
+    color: white;
+}
+
+#p3x-debug-box {
+    font-size: 13px !important;
+}
+
+
+.p3x-all-no-animation {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+
+    /*CSS transforms  */
+    /*
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    */
+
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+
+
+.p3x-no-animation *:not(.p3x-keep-animation) {
+    @extend .p3x-all-no-animation;
+}
+
+
+[p3x-ajax-href] {
+    cursor: pointer;
+}
+

@@ -1,0 +1,1 @@
+OK-{{EMPTY}}{{CONTENT}}{{ALSO-EMPTY}}-OK

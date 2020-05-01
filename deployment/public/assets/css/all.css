@@ -1,3 +1,111 @@
+#p3x-loading-container #p3x-loading-element-1 {
+  position: fixed;
+  z-index: 10000000;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: -75px;
+  margin-top: -75px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 50px;
+  animation: p3x-loading-element-1 1.8s infinite linear;
+}
+
+#p3x-loading-container #p3x-loading-element-2 {
+  position: fixed;
+  z-index: 10000000;
+  top: 50%;
+  left: 50%;
+  width: 75px;
+  height: 75px;
+  margin-left: -37.5px;
+  margin-top: -37.5px;
+  background-color: white;
+  opacity: 0.4;
+  animation: p3x-loading-element-2 1.5s infinite linear;
+  border-radius: 28.8461538462px;
+}
+
+@keyframes p3x-loading-element-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes p3x-loading-element-1 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.fa-spin-reverse {
+  animation: fa-spin-reverse 2s infinite linear;
+}
+
+@keyframes fa-spin-reverse {
+  0% {
+    transform: rotate(359deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#p3x-debug-box {
+  position: fixed;
+  left: 0;
+  text-align: left;
+  padding: 5px;
+  z-index: 9998;
+  bottom: 0;
+  z-index: 9998;
+  background-color: black;
+  color: white;
+}
+
+#p3x-debug-box a {
+  color: white;
+}
+
+#p3x-debug-box {
+  font-size: 13px !important;
+}
+
+.p3x-all-no-animation, .p3x-no-animation *:not(.p3x-keep-animation) {
+  /*CSS transitions*/
+  -o-transition-property: none !important;
+  -moz-transition-property: none !important;
+  -ms-transition-property: none !important;
+  -webkit-transition-property: none !important;
+  transition-property: none !important;
+  /*CSS transforms  */
+  /*
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    */
+  /*CSS animations*/
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+}
+
+[p3x-ajax-href] {
+  cursor: pointer;
+}
+
 .effect-shine {
   position: relative;
   overflow: hidden;

@@ -23,6 +23,7 @@ module.exports = function (grunt) {
 
     const folder_public = folder_deployment + 'public/';
     const folder_public_bower = folder_public + 'bower_components/';
+    const folder_public_bower_custom = folder_public + 'bower_components_custom/';
     const folder_public_source = folder_public + 'assets/';
     const folder_public_source_scripts = folder_public_source + 'scripts/';
     const folder_public_source_css = folder_public_source + '/css/';
@@ -91,9 +92,9 @@ module.exports = function (grunt) {
                 },
                 files: {
                     'deployment/views/layout/bower.php': [
-                        folder_public_bower + 'p3x-resume/src/**/*.js',
-                        folder_public_bower + 'p3x-resume/src/**/*.css',
-                        folder_public_bower + 'p3x-resume-bootstrap/src/**/*.js'
+                        folder_public_bower_custom + 'resume-js-common/src/**/*.js',
+                        folder_public_bower_custom + 'resume-js-common/src/**/*.css',
+                        folder_public_bower_custom + 'resume-js-bootstrap/src/**/*.js'
                     ],
                 }
             },
@@ -102,6 +103,9 @@ module.exports = function (grunt) {
         concat: {
             js: {
                 src: [
+                    folder_public_bower_custom + 'resume-js-common/src/**/*.js',
+                    folder_public_bower_custom + 'resume-js-common/src/**/*.css',
+                    folder_public_bower_custom + 'resume-js-bootstrap/src/**/*.js',
                     folder_public_source_scripts + '**/*.js',
                     '!' + folder_public_source_scripts + '**/*.min.js',
                     '!' + folder_public_source_scripts + '**/Swf.js'
@@ -196,7 +200,7 @@ module.exports = function (grunt) {
                 mangle: false,
                 sourceMap: false,
                 preserveComments: false,
-                */
+                 */
             },
             'all': {
                 src: [

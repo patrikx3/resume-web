@@ -1,0 +1,22 @@
+{{p3x-language 'first' 'first'}}
+{{p3x-language 'second/item' 'another'}}
+{{p3x-icon-unicode unicode}}
+{{p3x-base64-decode base64}}
+{{p3x-date date-format date-time}}
+{{p3x-route-url url}}
+{{p3x-sprintf sprintf-format sprintf-1 sprintf-2}}
+{{#if (p3x-expr 1 '=' 1)}}eq-true{{/if}}
+{{#if (p3x-expr 1 '!=' 2)}}ne-true{{/if}}
+{{#if (p3x-expr 1 '<' 2)}}lt-true{{/if}}
+{{#if (p3x-expr 2 '>' 1)}}gt-true{{/if}}
+{{#if (p3x-expr 1 '<=' 1)}}lte-true{{/if}}
+{{#if (p3x-expr 1 '>=' 1)}}gte-true{{/if}}
+{{#if (p3x-expr true 'and' true)}}and-true{{/if}}
+{{#if (p3x-expr true 'or' false)}}or-true{{/if}}
+{{p3x-count count}}
+{{p3x-expr lvalue '+' rvalue}}
+{{p3x-expr lvalue '-' rvalue}}
+{{p3x-expr lvalue '*' rvalue}}
+{{p3x-expr lvalue '/' rvalue}}
+{{p3x-expr lvalue '%' rvalue}}
+{{p3x-string-id string-id}}

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+### !/usr/bin/env node
+ncu -p bower  --packageFile './bower.json' --loglevel verbose -x bootstrap,components-font-awesome

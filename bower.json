@@ -1,29 +1,32 @@
 {
-  "name": "patrikx3-resume",
-  "authors": [
-    "Patrik Laszlo"
-  ],
-  "description": "",
-  "main": "",
-  "license": "MIT",
-  "homepage": "http://www.patrikx3.com/",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests",
-    "deployment/public/components"
-  ],
-  "dependencies": {
-    "jquery": "=3.3.1",
-    "jGrowl": "jgrowl#^1.4.6",
-    "bootstrap": "3.3.7",
-    "components-font-awesome": "=4.7.0",
-    "lity": "=2.3.0",
-    "swfobject": "*",
-    "p3x-resume": "*",
-    "p3x-resume-bootstrap": "*",
-    "p3x-stackicons": "*"
-  }
+    "name": "patrikx3-resume",
+    "authors": [
+        "Patrik Laszlo"
+    ],
+    "description": "",
+    "main": "",
+    "license": "MIT",
+    "homepage": "http://www.patrikx3.com/",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests",
+        "deployment/public/components"
+    ],
+    "dependencies": {
+        "jquery": "=3.4.1",
+        "jGrowl": "jgrowl#^1.4.6",
+        "bootstrap": "^3.4.1",
+        "components-font-awesome": "=4.7.0",
+        "lity": "=2.4.1",
+        "swfobject": "*",
+        "p3x-stackicons": "*",
+        "js-cookie": "^2.2.1",
+        "handlebars": "^4.7.6",
+        "date-format": "*",
+        "sprintf": "^1.1.2",
+        "latinize": "^0.4.1"
+    }
 }
