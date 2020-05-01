@@ -49,11 +49,11 @@ RUN ln -s /resume-web/deployment/vendor/bin/phpunit /usr/bin/phpunit
 RUN chmod +x /usr/bin/phpunit
 RUN phpunit
 RUN mkdir -p /run/php
-RUN echo "cgi.fix_pathinfo = 0;" >> /etc/php/7.2/fpm/php.ini
-RUN echo "max_input_vars = 10000;" >> /etc/php/7.2/fpm/php.ini
-RUN echo "max_execution_time = 10000;" >> /etc/php/7.2/fpm/php.ini
-RUN echo "date.timezone = Europe/Budapest;" >> /etc/php/7.2/fpm/php.ini
-RUN sed -i 's/;daemonize = yes/daemonize = no/g' /etc/php/7.2/fpm/php-fpm.conf
+RUN echo "cgi.fix_pathinfo = 0;" >> /etc/php/7.4/fpm/php.ini
+RUN echo "max_input_vars = 10000;" >> /etc/php/7.4/fpm/php.ini
+RUN echo "max_execution_time = 10000;" >> /etc/php/7.4/fpm/php.ini
+RUN echo "date.timezone = Europe/Budapest;" >> /etc/php/7.4/fpm/php.ini
+RUN sed -i 's/;daemonize = yes/daemonize = no/g' /etc/php/7.4/fpm/php-fpm.conf
 
 COPY artifacts/docker-files /
 RUN chmod +x /run.sh
