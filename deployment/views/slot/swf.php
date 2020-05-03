@@ -16,6 +16,7 @@ list($folder_source, $folder_source_scripts, $folder_source_css, $folder_product
 ?>
 <html>
 <head>
+    <title>patrikx3.com</title>
     <base href="<?= WEB_ROOT ?>"/>
     <script type="text/javascript" src="bower_components/swfobject/swfobject/swfobject.js"></script>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.slim.js"></script>
