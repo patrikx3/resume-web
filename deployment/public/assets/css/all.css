@@ -979,25 +979,6 @@
   background-color: transparent;
   text-transform: uppercase;
   margin: 0 auto;
-  width: 140px;
-}
-
-@media screen and (min-width: 150px) {
-  .continuous-integration {
-    width: 150px;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .continuous-integration {
-    width: 200px;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  .continuous-integration {
-    width: 250px;
-  }
 }
 
 .continuous-integration > div {

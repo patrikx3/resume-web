@@ -16,14 +16,7 @@ docker run -h docker-patrikx3-resume -p 8080:8080 -t -i patrikx3/resume
 
 http://localhost:8080/
 
-# resume-js-bootstrap
-[ ![](https://img.shields.io/badge/GitHub-resume--js--bootstrap-ffcc00.svg) ](https://github.com/patrikx3/resume-js-bootstrap)  [![](https://api.travis-ci.com/patrikx3/resume-js-bootstrap.svg?branch=master) ](https://travis-ci.com/patrikx3/resume-js-bootstrap?branch=master)
 
-# resume-js-common
-[ ![](https://img.shields.io/badge/GitHub-resume--js--common-ffcc00.svg) ](https://github.com/patrikx3/resume-js-common)  [ ![](https://api.travis-ci.com/patrikx3/resume-js-common.svg?branch=master) ](https://travis-ci.com/patrikx3/resume-js-common?branch=master) 
-
-# resume-php-common 
- [![](https://img.shields.io/badge/GitHub-resume--php--common-ffcc00.svg)](https://github.com/patrikx3/resume-php-common)  [ ![](https://api.travis-ci.com/patrikx3/resume-php-common.svg?branch=master) ](https://travis-ci.com/patrikx3/resume-php-common?branch=master) 
 
 ## E-mail
 File: deployment/settings.json
