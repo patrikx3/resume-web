@@ -145,7 +145,7 @@ $title_name = Html::GetTitleName('layout', 'title');
 
 
 <main id="layout-main">
-    {{ADMIN}}
+    <!-- {{ADMIN}} -->
     <div id="layout-content">
         <div id="layout-content-start">
             {{CONTENT}}

@@ -84,13 +84,14 @@ class Projects
                         'project' => 'NG-IVR',
                         'company' => 'DuóVill',
                         'date-start' => new DateTime('2018-04-01'),
-                        'date-end' => new DateTime('2019-09-30'),
+                       // 'date-end' => new DateTime('2019-09-30'),
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Jenkins, Socket.IO, Observable, Redis, NGINX, GIT',
                         'country' => 'hu',
                         'image' => [
                             'files/projects/era-2015/duovill/1.jpg',
                             'files/projects/era-2015/duovill/2.jpg',
-                        ]
+                        ],
+                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['duovill']),
                     ],
                     [
                         'index' => 5,

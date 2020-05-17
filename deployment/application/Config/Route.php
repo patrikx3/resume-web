@@ -29,7 +29,7 @@ class Route
      */
     public static $Filters
         = [
-            '\\Router\\Filter\\Admin',
+//            '\\Router\\Filter\\Admin',
             '\\Router\\Filter\\Theme',
         ];
 
