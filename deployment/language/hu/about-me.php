@@ -22,7 +22,7 @@ $java = "https://hu.wikipedia.org/wiki/Java_(programoz%C3%A1si_nyelv)";
 $android
     = "https://hu.wikipedia.org/wiki/Android_(oper%C3%A1ci%C3%B3s_rendszer)";
 $dotnet = 'https://hu.wikipedia.org/wiki/.NET_keretrendszer';
-$doom = 'https://hu.wikipedia.org/wiki/Doom';
+$doom = 'https://hu.wikipedia.org/wiki/Doom_(vide%C3%B3j%C3%A1t%C3%A9k,_1993)';
 $assembly = 'https://hu.wikipedia.org/wiki/Assembly';
 $profile_class = 'label label-default';
 $content_label = 'label label-default';
@@ -52,7 +52,7 @@ $l['content']
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span>-ig egy nagyobb munkám volt a <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> cégnél. Más projektem nem volt.
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> Hazajöttem Magyarországra Los Angeles-ből, majd dolgoztam az <a target="_blank" href="https://www.epam.com/">Epam</a>-nak és a <a target="_blank" href="https://www.microsoft.com/{$language}-us/dynamics/">Microsoft</a>-nak, plusz, közben, vállalkoztam.
+            <span class="{$profile_class}">2005</span> - <span class="{$profile_class}">2010</span> Hazajöttem Magyarországra Los Angeles-ből, majd dolgoztam az <a target="_blank" href="https://www.epam.com/">Epam</a>-nak és a <a target="_blank" href="https://www.microsoft.com/{$language}-hu/dynamics/">Microsoft</a>-nak, plusz, közben, vállalkoztam.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1999</span> - <span class="{$profile_class}">2005</span> Los Angeles-ben dolgoztam web és asztali projekteket csináltam vállalkozónként. Leggyakrabban <a target="_blank" href="https://{$language}.wikipedia.org/wiki/PHP">PHP</a> / <a target="_blank" href="{$java}">Java</a> / <a target="_blank" href="{$dotnet}">.NET</a>-et használtam.
