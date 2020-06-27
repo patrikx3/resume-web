@@ -45,6 +45,7 @@ class PlayGround
                     'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-3.png',
                     'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-4.png',
                     'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-5.png',
+                    'https://cdn.corifeus.com/git/redis-ui/artifacts/preview-images/preview-6.png',
                 ],
             ],
 
