@@ -51,7 +51,7 @@ Accordion.Decorate = function (id, root, defaultAccordion, addonId, currentAccor
             $accordionMain.one('shown.bs.collapse', function () {
                 deferred.then(function () {
                     AjaxHrefInterface.CacheUpdate(cacheId === undefined ? root : cacheId);
-                    Layout.JumpToHash();
+                    //Layout.JumpToHash();
                     Overlay.Hide();
                 })
             });
@@ -74,7 +74,7 @@ Accordion.Decorate = function (id, root, defaultAccordion, addonId, currentAccor
         }
         push += '#' + e.target.id;
         history.pushState(AjaxHrefInterface.GetCurrentContentData(), document.title, push);
-        Layout.JumpToHash(true);
+        //Layout.JumpToHash(true);
     });
 
     /*

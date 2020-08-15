@@ -7,7 +7,7 @@
             loadRecaptchaTimeout = setTimeout(loadRecaptcha, 100)
             return;
         }
-        console.log(p3x.config)
+        //console.log(p3x.config)
         window.grecaptcha.render('contact-form-captcha-render', {
             'sitekey': p3x.config.recaptcha.frontend,
             'hl' : p3x.config.language.current,

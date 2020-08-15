@@ -43,6 +43,7 @@ class Config
                 'light' => array_merge($light_themes, $orignal_themes),
                 'dark' => $dark_themes,
             ],
+            'era' =>  key(array_slice(Language::Get('projects', 'projects'), 0, 1, true)),
             'base_url' => WEB_ROOT,
             'base_url_locale' => Language::Url(''),
             'theme' => $current_theme,
@@ -175,9 +176,9 @@ class Config
 
         define('WEB_ROOT', $web_root);
         $host = $_SERVER['HTTP_HOST'];
-        if ($host == 'patrikx3.com') {
-            $host = 'www.patrikx3.com';
-        }
+//        if ($host == 'www.patrikx3.com') {
+//            $host = 'patrikx3.com';
+//        }
         define('URL', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ? 'https://' : 'http://') . HOST . '/');
         //define('URL', 'http://patrikx3.com/');
 

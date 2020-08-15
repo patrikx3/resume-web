@@ -30,21 +30,9 @@ $l['title-flash'] = 'Flash';
 $l['title-in-progress'] = 'The project is still in progress';
 
 $l['projects'] = [
-    'era-2015' => [
-        'title' => '2015 - Now',
+    'era-2020' => [
+        'title' => '2020 - Now' ,
         'items' => [
-            [
-                'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Frontend Developer',
-                'tasks' => 'Frontend development, charts, video',
-                'summary' => 'Enterprise frontend guidance counsellor.',
-            ],
-            [
-                'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Frontend Developer',
-                'tasks' => 'Frontend development, charts, video',
-                'summary' => 'Enterprise frontend guidance counsellor.',
-            ],
             [
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
@@ -70,6 +58,18 @@ $l['projects'] = [
                 'tasks' => 'Mentoring, Planning, Automation, Development, Developer support',
                 'summary' => 'We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
             ],
+        ],
+    ],
+    'era-2015' => [
+        'title' => '2015 - 2020',
+        'items' => [
+            [
+                'location' => 'Hungary, Dunaújváros',
+                'role' => 'Senior Frontend Contractor',
+                'tasks' => 'Frontend development, charts, video',
+                'summary' => 'Enterprise frontend guidance counsellor.',
+            ],
+
             [
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Senior Frontend Developer',
@@ -79,12 +79,12 @@ $l['projects'] = [
 
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Szenior Full-stack Developer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Maintenance ',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Szenior Full-stack Developer',
+                'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Maintenance',
                 'summary' => 'I have implemented multiple integration like Blackboard, Canvas, Google, Haiku, Lti. They all use REST, except Blackboard which is Java based and the programmers use are .NET , so I have to help them. I worked them as a employee for over 3 and a half years.'
             ],

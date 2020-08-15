@@ -5,7 +5,10 @@
         )
     );
     $(document).ready(function () {
-        p3x.AjaxHrefInterface.Animate = false;
+        $.support.transition = false;
+        $.fx.off = false;
+        AjaxHrefInterface.Animate = false
+        //$('body').addClass('p3x-no-animation');
         p3x.Module.LayoutManager.Decorate();
     });
 })(window, document, jQuery, p3x);

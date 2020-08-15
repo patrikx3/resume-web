@@ -18,6 +18,10 @@ class Projects
     public static function ProjectFiller($locale_projects)
     {
         $projects = static::Config();
+
+        if (!isset($_REQUEST['full'])) {
+            unset($projects['era-2020']);
+        }
         foreach ($projects as $era => $era_data) {
             $projects[$era]['title'] = $locale_projects[$era]['title'];
             for ($index = 0; $index < count($era_data['items']); $index++) {
@@ -33,26 +37,8 @@ class Projects
     public static function Config()
     {
         $projects = [
-            'era-2015' => [
+            'era-2020' => [
                 'items' => [
-                    [
-                        'index' => 1,
-                        'project' => 'Healthcare',
-                        'company' => 'elementary-AI',
-                        'date-start' => new DateTime('2020-02-01'),
-                        'country' => 'gb',
-                        'technology' => 'Angular, Angular Material, Highcharts, Web-worker',
-                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['nuaxia']),
-                    ],
-                    [
-                        'index' => 1,
-                        'project' => 'Healthcare',
-                        'company' => 'Nuaxia',
-                        'date-start' => new DateTime('2019-01-19'),
-                        'country' => 'gb',
-                        'technology' => 'Angular, Angular Material, Highcharts, Web-worker',
-                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['nuaxia']),
-                    ],
                     [
                         'index' => 2,
                         'project' => 'Thermo Range',
@@ -60,11 +46,11 @@ class Projects
                         'date-start' => new DateTime('2018-12-11'),
                         'country' => 'hu',
                         'image' => [
-                            'files/projects/era-2015/thermo/1.png',
-                            'files/projects/era-2015/thermo/2.png',
-                            'files/projects/era-2015/thermo/3.png',
+                            'files/projects/era-2020/thermo/1.png',
+                            'files/projects/era-2020/thermo/2.png',
+                            'files/projects/era-2020/thermo/3.png',
                         ],
-                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
+                        //   'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
                     ],
                     [
                         'index' => 3,
@@ -74,24 +60,24 @@ class Projects
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Observable, Redis, NGINX, GIT',
                         'country' => 'hu',
                         'image' => [
-                            'files/projects/era-2015/adony/1.jpg',
-                            'files/projects/era-2015/adony/2.jpg',
+                            'files/projects/era-2020/adony/1.jpg',
+                            'files/projects/era-2020/adony/2.jpg',
                         ],
-                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
+                        //   'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
                     ],
                     [
                         'index' => 4,
                         'project' => 'NG-IVR',
                         'company' => 'DuóVill',
                         'date-start' => new DateTime('2018-04-01'),
-                       // 'date-end' => new DateTime('2019-09-30'),
+                        // 'date-end' => new DateTime('2019-09-30'),
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Jenkins, Socket.IO, Observable, Redis, NGINX, GIT',
                         'country' => 'hu',
                         'image' => [
-                            'files/projects/era-2015/duovill/1.jpg',
-                            'files/projects/era-2015/duovill/2.jpg',
+                            'files/projects/era-2020/duovill/1.jpg',
+                            'files/projects/era-2020/duovill/2.jpg',
                         ],
-                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['duovill']),
+                        //     'full' => isset($_REQUEST['full']) || isset($_REQUEST['duovill']),
                     ],
                     [
                         'index' => 5,
@@ -101,13 +87,27 @@ class Projects
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, ES.Next, Babel, Jenkins, Upsource, Docker, Socket.IO, Observable, Redis, NGINX, GIT, Ubuntu, NPM, Verdaccio, Electron',
                         'country' => 'hu',
                         'image' => [
-                            'files/projects/era-2015/ngivr/1.jpg',
-                            'files/projects/era-2015/ngivr/2.jpg',
-                            'files/projects/era-2015/ngivr/3.jpg',
-                            'files/projects/era-2015/ngivr/4.jpg',
-                            'files/projects/era-2015/ngivr/5.jpg',
+                            'files/projects/era-2020/ngivr/1.jpg',
+                            'files/projects/era-2020/ngivr/2.jpg',
+                            'files/projects/era-2020/ngivr/3.jpg',
+                            'files/projects/era-2020/ngivr/4.jpg',
+                            'files/projects/era-2020/ngivr/5.jpg',
                         ],
-                        'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
+                        //   'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
+                    ],
+                ]
+            ],
+            'era-2015' => [
+                'items' => [
+                    [
+                        'index' => 1,
+                        'project' => 'Nuaxia & elementary-ai',
+                        'company' => 'Corifeus',
+                        'date-start' => new DateTime('2019-01-19'),
+                        'date-end' => new DateTime('2020-07-24'),
+                        'country' => 'gb',
+                        'technology' => 'Angular, Angular Material, Highcharts, Web worker, Deferred rendering, Vertical scaling',
+                     //   'full' => isset($_REQUEST['full']) || isset($_REQUEST['nuaxia']),
                     ],
                     [
                         'index' => 6,

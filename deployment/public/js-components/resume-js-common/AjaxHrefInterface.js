@@ -182,8 +182,9 @@ AjaxHrefInterface.RenderContentHtml = function (data, html) {
 
     var slideUp = $.Deferred();
     var slideDown = $.Deferred();
+    var slideUpFade = $.Deferred();
 
-    var duration = 333;
+    var duration = 500;
 
     $('#layout-content').prepend('<div style="display: none;" id="' + self.CurrentContentId + '">' + html + '</div>');
 
@@ -191,6 +192,7 @@ AjaxHrefInterface.RenderContentHtml = function (data, html) {
     var $show_content = $('#' + self.CurrentContentId);
 
     if (self.Animate) {
+
         $hide_content.slideUp({
             duration: duration,
             done: function () {
@@ -198,20 +200,26 @@ AjaxHrefInterface.RenderContentHtml = function (data, html) {
             }
         });
 
+        $hide_content.fadeTo(duration, 0, function () {
+            slideUpFade.resolve();
+        })
+
         $show_content.slideDown({
             duration: duration,
             done: function () {
                 slideDown.resolve();
             }
         });
+
     } else {
         $hide_content.hide();
         $show_content.show();
         slideUp.resolve();
         slideDown.resolve();
+        slideUpFade.resolve();
     }
 
-    $.when(slideUp, slideDown).then(function () {
+    $.when(slideUp, slideDown, slideUpFade).then(function () {
         Periodical.Factory(lastContentId).destruct();
         Event.Factory(lastContentId).destruct();
         $hide_content.remove();

@@ -141,8 +141,8 @@
         }).click(self.Update.bind(self));
 
         // if (self.IsMobile) {
-        $.support.transition = false;
-        $.fx.off = true;
+        //$.support.transition = false;
+        //$.fx.off = true;
         //$('body').addClass('p3x-no-animation');
         // }
     };

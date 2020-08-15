@@ -31,21 +31,9 @@ $l['title-in-progress'] = 'Ez a munka még folyamatban van';
 
 
 $l['projects'] = [
-    'era-2015' => [
-        'title' => '2015 - Most',
+    'era-2020' => [
+        'title' => '2020 - Most',
         'items' => [
-            [
-                'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Frontend Fejlesztő',
-                'tasks' => 'Frontend fejlesztés, diagramok, video',
-                'summary' => 'Vállalati frontend tanácsadás.',
-            ],
-            [
-                'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Frontend Fejlesztő',
-                'tasks' => 'Frontend fejlesztés, diagramok, video',
-                'summary' => 'Vállalati frontend tanácsadás.',
-            ],
             [
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Szenior Full-stack Fejlesztő',
@@ -72,6 +60,18 @@ $l['projects'] = [
                 'tasks' => 'Tervezés, Automatizálás, Fejlesztők támogatása, Fejlesztés',
                 'summary' => 'Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.'
             ],
+        ]
+    ],
+    'era-2015' => [
+        'title' => '2015 - 2020',
+        'items' => [
+            [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Szenior Frontend vállalkozó',
+                'tasks' => 'Frontend fejlesztés, diagramok, video',
+                'summary' => 'Vállalati frontend tanácsadás.',
+            ],
+
             [
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Szenior Frontend Fejlesztő',

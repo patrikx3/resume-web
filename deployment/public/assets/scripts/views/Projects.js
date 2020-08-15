@@ -15,6 +15,8 @@
                 var _event = p3x.Event;
                 var config = p3x.config;
 
+
+
                 var accordion_decorate = function (current_accordion) {
                     if ($('#' + current_accordion.accordion_id).length == 0) {
                         return;
@@ -53,7 +55,7 @@
                 });
 
 
-                bootstrap_tab.Decorate(projectTabId, 'era-2015', root, current_tab);
+                bootstrap_tab.Decorate(projectTabId, config.era, root, current_tab);
                 var $bg1 = $('#projects-bg-1');
                 var $bg2 = $('#projects-bg-2');
 
