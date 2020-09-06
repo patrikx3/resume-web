@@ -30,13 +30,13 @@ $accordions_data = [];
 <div class="layout-content-text">
 
     <?php if (!isset($_REQUEST['full']) && !isset($_REQUEST['sygnus']) && !isset($_REQUEST['nuaxia'])): ?>
-
+        <!--
         <div class="warning">
             <?= language::get('projects', 'title-note'); ?>
         </div>
         <br/>
+-->
     <?php endif; ?>
-
 
     <div id="projects-tab" data-tab-item-url="item/project">
         <ul class="nav nav-pills nav-justified" role="tablist">

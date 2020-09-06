@@ -46,7 +46,7 @@ $l['content']
         </li>
 
         <li class="list-group-item">
-                <span class="{$profile_class}">2016</span> - Full-stack fejlesztő vagyok.
+                <span class="{$profile_class}">2016</span> - Full-stack programozó vagyok.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span>-ig egy nagyobb munkám volt a <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a> cégnél. Más projektem nem volt.

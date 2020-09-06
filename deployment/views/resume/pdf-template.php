@@ -387,9 +387,11 @@ $record = function ($title, $data, $item, $type = null, $additional = null) {
 <hr/>
 
 <?php if (!isset($_REQUEST['full']) && !isset($_REQUEST['sygnus']) && !isset($_REQUEST['nuaxia'])): ?>
+<!--
     <div class="note-container"><?= Language::Get('projects', 'title-note') ?></div>
 
     <hr/>
+-->
 <?php endif; ?>
 
 

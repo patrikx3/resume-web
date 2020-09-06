@@ -34,6 +34,13 @@ $l['projects'] = [
         'title' => '2020 - Now' ,
         'items' => [
             [
+                'project' => 'Ngivr Portal Port of Adony',
+                'location' => 'Hungary, Dunaújváros',
+                'role' => 'Senior Full-stack Developer',
+                'tasks' => 'Development',
+                'summary' => 'Sygnus NGIVR based stack partner portal ERP system.',
+            ],
+            [
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Research, Development',
@@ -41,6 +48,7 @@ $l['projects'] = [
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++, OpenCV, ArrayFire',
             ],
             [
+                'project' => 'Adony Logisztikai Központ',
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Planning, development, mentoring',

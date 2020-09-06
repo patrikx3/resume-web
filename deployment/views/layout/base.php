@@ -38,6 +38,7 @@ $title_name = Html::GetTitleName('layout', 'title');
     <meta name="author" content="<?= Language::Get('layout', 'author') ?>">
 
     <script src="https://www.google.com/recaptcha/api.js?onload=lmRecaptcha&render=explicit" async defer></script>
+    <script data-ad-client="ca-pub-1410073260887710" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <?= View::Get('layout/bower') ?>
     <?= View::Get('layout/head', $view_data) ?>

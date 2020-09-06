@@ -46,7 +46,7 @@ $l['content']
             Sometimes, I blog @ <a href="https://blog.patrikx3.com/" target="p3x-blog">https://blog.patrikx3.com/</a>
         </li>
         <li class="list-group-item">
-            <span class="{$profile_class}">2016</span> -  I am a full-stack developer.
+            <span class="{$profile_class}">2016</span> -  I am a full-stack programmer.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2010</span> - <span class="{$profile_class}">2015</span> I got a bigger client <a target="_blank" href="http://www.gosignmeup.com/">GoSignMeUp</a>. I had no other projects.

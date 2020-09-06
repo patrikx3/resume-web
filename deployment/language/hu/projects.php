@@ -35,6 +35,13 @@ $l['projects'] = [
         'title' => '2020 - Most',
         'items' => [
             [
+                'project' => 'Ngivr Portál Adony',
+                'location' => 'Hungary, Dunaújváros',
+                'role' => 'Szenior Full-stack Fejlesztő',
+                'tasks' => 'Development',
+                'summary' => 'Sygnus NGIVR alapú stack alapú partner portál IVR rendszer.',
+            ],
+            [
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Kutatás, Fejlesztés',
@@ -43,6 +50,7 @@ $l['projects'] = [
 
             ],
             [
+                'project' => 'Port of Adony',
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',

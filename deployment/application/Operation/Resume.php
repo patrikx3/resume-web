@@ -229,11 +229,13 @@ class Resume
                 ?>
 
                 <?php if (!isset($_REQUEST['full']) && !isset($_REQUEST['sygnus']) && !isset($_REQUEST['nuaxia'])): ?>
+                    <!--
                     <br/>
                     <div class="warning">
                         <?= language::get('projects', 'title-note'); ?>
                     </div>
                     <br/>
+                    -->
                 <?php endif; ?>
 
 

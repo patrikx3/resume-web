@@ -19,9 +19,12 @@ class Projects
     {
         $projects = static::Config();
 
+        /*
         if (!isset($_REQUEST['full'])) {
             unset($projects['era-2020']);
         }
+        */
+
         foreach ($projects as $era => $era_data) {
             $projects[$era]['title'] = $locale_projects[$era]['title'];
             for ($index = 0; $index < count($era_data['items']); $index++) {
@@ -41,6 +44,17 @@ class Projects
                 'items' => [
                     [
                         'index' => 2,
+                        'company' => 'Sygnus',
+                        'date-start' => new DateTime('2020-08-24'),
+                        'country' => 'hu',
+                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Queues, Clusters, Redis, Document locks',
+                        'image' => [
+                            'files/projects/era-2020/ngivr-portal-adony/1.png',
+                        ],
+                        //   'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
+                    ],
+                    [
+                        'index' => 2,
                         'project' => 'Thermo Range',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2018-12-11'),
@@ -54,7 +68,6 @@ class Projects
                     ],
                     [
                         'index' => 3,
-                        'project' => 'Adony Logisztikai Központ',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2018-11-13'),
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Observable, Redis, NGINX, GIT',
