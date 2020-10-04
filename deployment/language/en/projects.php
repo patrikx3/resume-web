@@ -36,19 +36,19 @@ $l['projects'] = [
             [
                 'project' => 'Ngivr Portal Port of Adony',
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Full-stack Developer',
-                'tasks' => 'Development',
+                'role' => 'Technical Architect',
+                'tasks' => 'Architect, Development',
                 'summary' => 'Sygnus NGIVR based stack partner portal ERP system.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Full-stack Developer',
+                'role' => 'Programmer',
                 'tasks' => 'Research, Development',
                 'summary' => 'A robot based on Raspberry PI, that calculates the size of the warehouse and how empty it is. A robot, a REST/Socket.IO based web client and a NodeJs server using C++ and WebGL.',
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++, OpenCV, ArrayFire',
             ],
             [
-                'project' => 'Adony Logisztikai Központ',
+                'project' => 'Port of Adony',
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Planning, development, mentoring',
@@ -62,7 +62,7 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Senior Full-stack Developer',
+                'role' => 'Enterprise architect',
                 'tasks' => 'Mentoring, Planning, Automation, Development, Developer support',
                 'summary' => 'We are creating new generation integrated enterprise management systems. I support the developers and architect. We create component based systems. We implement continuous integration and automatic build deployments. I overview the systems and develop.',
             ],

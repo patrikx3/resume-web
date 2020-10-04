@@ -42,7 +42,7 @@ $l['content']
             Megtalálsz a <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong>-on és megnézheted a mikroszervízeimet a <strong><a target="_blank" href="https://corifeus.com">Corifeus</a></strong>-on. Általában a NodeJs/C++ és Angular Material vállalati rendszereket építek ...
         </li>
         <li class="list-group-item">
-            Néha, blogozok a <a href="https://blog.patrikx3.com/" target="p3x-blog">https://blog.patrikx3.com/</a>-on.
+            Néha, blogozok a <a href="https://blog.patrikx3.com/bemutatkozo/" target="p3x-blog">https://blog.patrikx3.com/bemutatkozo/</a>-on.
         </li>
 
         <li class="list-group-item">

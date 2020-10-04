@@ -47,7 +47,7 @@ class Projects
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2020-08-24'),
                         'country' => 'hu',
-                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Queues, Clusters, Redis, Document locks',
+                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB Replication, JavaScript, Socket.IO, Distributed queues, Distributed clusters, Redis, Distributed document locks',
                         'image' => [
                             'files/projects/era-2020/ngivr-portal-adony/1.png',
                         ],

@@ -37,20 +37,20 @@ $l['projects'] = [
             [
                 'project' => 'Ngivr Portál Adony',
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Szenior Full-stack Fejlesztő',
-                'tasks' => 'Development',
+                'role' => 'Teknikai tervező',
+                'tasks' => 'Tervezés, Fejlesztés',
                 'summary' => 'Sygnus NGIVR alapú stack alapú partner portál IVR rendszer.',
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Full-stack Fejlesztő',
+                'role' => 'Programozó',
                 'tasks' => 'Kutatás, Fejlesztés',
                 'summary' => 'Egy Raspberry PI alapó robot, ami kiszámítja a raktár méretét és mennyire üres. Egy robot, egy REST/Socket.IO alapú web kliens és egy NodeJs szerver C++ és WebGL-ell.',
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, mesterséges intelligencia, WebGL, C++, OpenCV, ArrayFire',
 
             ],
             [
-                'project' => 'Port of Adony',
+                'project' => 'Adony Logisztikai Központ',
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
@@ -64,7 +64,7 @@ $l['projects'] = [
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Szenior Full-stack Fejlesztő',
+                'role' => 'Vállalati  teknikai tervező',
                 'tasks' => 'Tervezés, Automatizálás, Fejlesztők támogatása, Fejlesztés',
                 'summary' => 'Új generációs integrált vállalatirányítási rendszereket építünk. Támogatom a fejlesztőkeket. Komponens alapú rendszereket írunk. Folyamatos integrációt és automatikus telepitéseket használunk. Átnézem a teljes rendszereket és fejlesztek.'
             ],

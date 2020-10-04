@@ -43,7 +43,7 @@ $l['content']
             You could find me on <strong><a target="_blank" href="https://github.com/patrikx3">GitHub</a></strong> and you may check out my micro-services on <strong><a target="_blank" href="https://corifeus.com">Corifeus</a></strong>. Usually, I build enterprise systems using NodeJs/C++ and Angular Material ...
         </li>
         <li class="list-group-item">
-            Sometimes, I blog @ <a href="https://blog.patrikx3.com/" target="p3x-blog">https://blog.patrikx3.com/</a>
+            Sometimes, I blog @ <a href="https://blog.patrikx3.com/about/" target="p3x-blog">https://blog.patrikx3.com/about/</a>
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">2016</span> -  I am a full-stack programmer.
