@@ -169,10 +169,6 @@ class PlayGround
                 ]
             ],
             [
-                'year' => 2016,
-                'country' => 'hu',
-            ],
-            [
                 'year' => 2011,
                 'country' => 'hu',
             ],

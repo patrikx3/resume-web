@@ -80,14 +80,6 @@ $l['playground'] = [
         'summary' => 'I have created an updated new resume with the latest technologies: PHP 7, PHP Unit, Node Js, Mocha, Composer, Docker, Travis, Scrutinizer, GitHub, Uglify, Grunt, PHP Doc, Yui Doc, Karma, PhantomJS. <a data-toggle="modal" data-target="#layout-status-modal" p3x-ajax-href="/modal/status" href="/modal/status">Check out the web site deployment status</a>.',
     ],
     [
-        'title' => 'Fortune cookie',
-        'url' => [
-            'Facebook' => 'https://apps.facebook.com/new-fortune-cookie/',
-            'GitHub' => 'https://github.com/patrikx3/fortune-cookie'
-        ],
-        'summary' => 'I just like Furtune cookies so I created a small Facebook application.',
-    ],
-    [
         'title' => 'Address-book',
         'url' => [
             'Live' => 'http://address-book.patrikx3.com/?locale=en',

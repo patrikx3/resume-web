@@ -77,14 +77,6 @@ $l['playground'] = [
         'summary' => 'Csináltam egy újabb önéletrajzot a legfiresseb technológiák: PHP 7, PHP Unit, Node Js, Mocha, Composer, Docker, Travis, Scrutinizer, GitHub, Uglify, Grunt, PHP Doc, Yui Doc, Karma, PhantomJS. <a data-toggle="modal" data-target="#layout-status-modal" p3x-ajax-href="/modal/status" href="/modal/status">Nézze meg a web oldal telepítése.</a>.',
     ],
     [
-        'title' => 'Szerencse süti',
-        'url' => [
-            'Facebook' => 'https://apps.facebook.com/szerencse-suti/',
-            'GitHub' => 'https://github.com/patrikx3/fortune-cookie'
-        ],
-        'summary' => 'Csak szeretem a szerencse sütit, ezért csináltam egy Facebook appot.',
-    ],
-    [
         'title' => 'Címjegyzék',
         'url' => [
             'Élő' => 'http://address-book.patrikx3.com/?locale=hu',
