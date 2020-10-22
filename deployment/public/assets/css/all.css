@@ -1305,6 +1305,7 @@ body {
 
 .listing-item-content {
   float: right;
+  margin-left: 2px;
 }
 
 .text-extended-big {
