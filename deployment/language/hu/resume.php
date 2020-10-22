@@ -158,7 +158,7 @@ $l['company-info'] = [
         'info' => 'Különböző platformok, nyelvek és keretek között dolgoztam PHP, NodeJs, AngularJs, Java és Android. Mentorálás.',
     ],
     'corifeus' => [
-        'info' => 'Nagyvállalati full-stack tanácsadó vagyok. Több nyelven dolgozok - szkriptek és bináris platformokon. Általában 2-3 projektek és a csapat körülbelül 5 fő. A költségvetés között 500 - 50.000 dollár. Rational Unified Process és UML.',
+        'info' => 'Nagyvállalati full-stack tanácsadó vagyok. Több nyelven dolgozok - szkriptek és bináris platformokon. Általában, több projekten dolgozok. Rational Unified Process-et és UML-et használok.',
     ],
     'grosvenor-enterprises' => [
         'info' => 'Vállalkozónak dolgoztam Microsoft rendszereken (ASP, VBScript, .NET, C), SQL Server és Java.',

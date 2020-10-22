@@ -56,7 +56,7 @@ class Projects
                     [
                         'index' => 2,
                         'project' => 'Thermo Range',
-                        'company' => 'Sygnus',
+                        'company' => 'DuóVill',
                         'date-start' => new DateTime('2018-12-11'),
                         'country' => 'hu',
                         'image' => [
