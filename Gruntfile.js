@@ -1,4 +1,4 @@
-
+const config = require('corifeus-builder/src/utils/config').config
 module.exports = function (grunt) {
 
     require('time-grunt')(grunt);
@@ -202,7 +202,7 @@ module.exports = function (grunt) {
                 output: {
                     comments: false
                 },
-                ecma: 2018,
+                ecma: config.ecma,
                 // todo found out if mangle use or not
                 // mangle: false === keep function names
                 // mangle: true === drop function names

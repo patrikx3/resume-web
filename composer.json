@@ -4,7 +4,7 @@
         "discard-changes": true
     },
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=7.4.0",
         "ext-gd": "*",
         "swiftmailer/swiftmailer": ">=6",
         "mpdf/mpdf": ">=8",
