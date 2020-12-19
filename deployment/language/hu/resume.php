@@ -12,7 +12,7 @@ $l['tab-cover'] = 'Címlap';
 $l['tab-personal'] = 'Személyes';
 $l['tab-skills'] = 'Ismeretek';
 $l['tab-education'] = 'Tanulmányok';
-$l['tab-employment'] = 'Munkáltató';
+$l['tab-employment'] = 'Cég';
 
 $l['tab-cover-id'] = Str::ToUrl($l['tab-cover']);
 $l['tab-personal-id'] = Str::ToUrl($l['tab-personal']);
@@ -148,6 +148,12 @@ $l['tab-data-education'] = [
 ];
 
 $l['company-info'] = [
+    'sygnus-kikoto' => [
+        'info' => 'ERP/IVR rendszereket fejlesztünk MEAN stack-el.',
+    ],
+    'adony-logisztikai-kozpont' => [
+        'info' => 'ERP/IVR rendszereket fejlesztünk MEAN stack-el.',
+    ],
     'duovill' => [
         'info' => 'Mesterséges intelligencia keretrendszerekkel foglalkozunk, valamit NodeJs/C++ és Angular Material full-stack rendszerekkel.',
     ],

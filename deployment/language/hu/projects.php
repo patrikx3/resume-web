@@ -11,12 +11,12 @@ EOF;
 
 $l['format-date'] = 'Y. m. d.';
 
-$l['title-jump-employer'] = 'Ugrás a munkáltatóhaz';
+$l['title-jump-employer'] = 'Ugrás a céghez';
 
 $l['title'] = 'Munkák';
 
 $l['title-project'] = 'Projekt';
-$l['title-company'] = 'Munkáltató';
+$l['title-company'] = 'Cég';
 $l['title-location'] = 'Helyszín';
 $l['title-date'] = 'Dátum';
 $l['title-role'] = 'Beosztás';
@@ -35,11 +35,17 @@ $l['projects'] = [
         'title' => '2020 - Most',
         'items' => [
             [
-                'project' => 'Ngivr Portál Adony',
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Szenior Full-stack Fejlesztő',
+                'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
+                'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
+            ],
+            [
+                'project' => 'NGIVR v2 Portál Adony',
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Teknikai tervező',
                 'tasks' => 'Tervezés, Fejlesztés',
-                'summary' => 'Sygnus NGIVR alapú stack alapú partner portál IVR rendszer.',
+                'summary' => 'Sygnus NGIVR v2 alapú stack alapú partner portál IVR rendszer.',
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
@@ -50,7 +56,7 @@ $l['projects'] = [
 
             ],
             [
-                'project' => 'Adony Logisztikai Központ',
+                'project' => 'NGIVR v1',
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Szenior Full-stack Fejlesztő',
                 'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',

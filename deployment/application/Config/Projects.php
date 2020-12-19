@@ -43,8 +43,18 @@ class Projects
             'era-2020' => [
                 'items' => [
                     [
+                        'index' => 3,
+                        'project' => 'NGIVR v1',
+                        'company' => 'Sygnus Kikötő',
+                        'date-start' => new DateTime('2020-10-12'),
+                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Observable, Redis, NGINX, GIT',
+                        'country' => 'hu',
+
+                        //   'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
+                    ],
+                    [
                         'index' => 2,
-                        'company' => 'Sygnus',
+                        'company' => 'Adony Logisztikai Központ',
                         'date-start' => new DateTime('2020-08-24'),
                         'country' => 'hu',
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB Replication, JavaScript, Socket.IO, Distributed queues, Distributed clusters, Redis, Distributed document locks',
@@ -55,7 +65,7 @@ class Projects
                     ],
                     [
                         'index' => 2,
-                        'project' => 'Thermo Range',
+                        'project' => 'NGIVR v1 Thermo Range',
                         'company' => 'DuóVill',
                         'date-start' => new DateTime('2018-12-11'),
                         'country' => 'hu',
@@ -68,7 +78,7 @@ class Projects
                     ],
                     [
                         'index' => 3,
-                        'company' => 'Sygnus',
+                        'company' => 'Adony Logisztikai Központ',
                         'date-start' => new DateTime('2018-11-13'),
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Observable, Redis, NGINX, GIT',
                         'country' => 'hu',
@@ -80,7 +90,7 @@ class Projects
                     ],
                     [
                         'index' => 4,
-                        'project' => 'NG-IVR',
+                        'project' => 'NGIVR v1',
                         'company' => 'DuóVill',
                         'date-start' => new DateTime('2018-04-01'),
                         // 'date-end' => new DateTime('2019-09-30'),
@@ -94,7 +104,7 @@ class Projects
                     ],
                     [
                         'index' => 5,
-                        'project' => 'NG-IVR',
+                        'project' => 'NGIVR v1',
                         'company' => 'Sygnus',
                         'date-start' => new DateTime('2016-10-20'),
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, ES.Next, Babel, Jenkins, Upsource, Docker, Socket.IO, Observable, Redis, NGINX, GIT, Ubuntu, NPM, Verdaccio, Electron',

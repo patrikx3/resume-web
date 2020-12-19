@@ -13,10 +13,10 @@ $l['format-date'] = 'm/d/Y';
 
 $l['title'] = 'Projects';
 
-$l['title-jump-employer'] = 'Jump to the employer';
+$l['title-jump-employer'] = 'Jump to the company';
 
 $l['title-project'] = 'Project';
-$l['title-company'] = 'Employer';
+$l['title-company'] = 'Company';
 $l['title-location'] = 'Location';
 $l['title-date'] = 'Date';
 $l['title-role'] = 'Role';
@@ -34,11 +34,17 @@ $l['projects'] = [
         'title' => '2020 - Now' ,
         'items' => [
             [
-                'project' => 'Ngivr Portal Port of Adony',
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Senior Full-stack Developer',
+                'tasks' => 'Planning, development, mentoring',
+                'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus ',
+            ],
+            [
+                'project' => 'NGIVR v2 Portal Port of Adony',
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Technical Architect',
                 'tasks' => 'Architect, Development',
-                'summary' => 'Sygnus NGIVR based stack partner portal ERP system.',
+                'summary' => 'Sygnus NGIVR v2 based stack partner portal ERP system.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
@@ -48,7 +54,7 @@ $l['projects'] = [
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++, OpenCV, ArrayFire',
             ],
             [
-                'project' => 'Port of Adony',
+                'project' => 'NGIVR v1',
                 'location' => 'Magyarország, Dunaújváros',
                 'role' => 'Senior Full-stack Developer',
                 'tasks' => 'Planning, development, mentoring',

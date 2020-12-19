@@ -12,7 +12,7 @@ $l['tab-cover'] = 'Cover';
 $l['tab-personal'] = 'Personal';
 $l['tab-skills'] = 'Skill';
 $l['tab-education'] = 'Education';
-$l['tab-employment'] = 'Employer';
+$l['tab-employment'] = 'Company';
 
 $l['tab-cover-id'] = Str::ToUrl($l['tab-cover']);
 $l['tab-personal-id'] = Str::ToUrl($l['tab-personal']);
@@ -150,6 +150,12 @@ $l['tab-data-education'] = [
 ];
 
 $l['company-info'] = [
+    'sygnus-kikoto' => [
+        'info' => 'We deploy ERP sytems using MEAN stack.',
+    ],
+    'adony-logisztikai-kozpont' => [
+        'info' => 'We deploy ERP sytems using MEAN stack.',
+    ],
     'duovill' => [
         'info' => 'We are working with new AI technologies using NodeJs/C++ and Angular Material full-stack systems.',
     ],
