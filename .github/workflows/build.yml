@@ -25,7 +25,8 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: ${{ matrix.node-version }}
-            - run: npm i -g grunt-cli
+            - run: npm i -g grunt-cli bower
             - run: npm install
+            - run: bower install
             - run: grunt
             - run: docker build -t patrikx3/resume .
