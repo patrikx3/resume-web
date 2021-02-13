@@ -63,17 +63,17 @@ class Contact
 <br/><br/>
 {$data}
 EOF;
-            $own_email = base64_decode(EMAIL);
+            $own_email = CONTACT_EMAIL[0];
             $own_email_name = Language::Get('layout', 'title');
             $header
                 = <<<EOF
-Content-Type: text/html; charset=UTF-8            
+Content-Type: text/html; charset=UTF-8
 MIME-Version: 1.0
 From: $own_email_name <{$own_email}>;
 Reply-To: {$email};
 EOF;
 
-            $mail = \Operation\Mail::Send($email, base64_decode(EMAIL), Language::Get('contact', 'contact-form-mail-subject'), $message);
+            $mail = \Operation\Mail::Send($email, CONTACT_EMAIL, Language::Get('contact', 'contact-form-mail-subject'), $message);
 
             if ($mail == false) {
                 $result['error']['contact-form-email'] = Language::Get('contact', 'contact-form-mail-error');

@@ -204,6 +204,7 @@ class Config
 //const DEBUG = true;
         // patrik laszlo email
         define('EMAIL', base64_encode('alabard@gmail.com'));
+        define('CONTACT_EMAIL', ['me@patrikx3.com', 'alabard@gmail.com']);
         define('WEB_TEST_SERVER', $host != 'www.patrikx3.com');
         define('GOOGLE_ANALYTICS_ID', 'UA-102206537-1');
         define('PARAMETER_THEME', 'patrikx3-theme');

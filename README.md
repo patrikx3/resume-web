@@ -1,6 +1,9 @@
 # 😀 Patrik Laszlo's Resume Web
- 
+
+[![Build Status](https://github.com/patrikx3/resume-web/workflows/build/badge.svg)](https://github.com/patrikx3/resume-web/actions?query=workflow%3Abuild)
+<!--
 [![Build Status](https://api.travis-ci.com/patrikx3/resume-web.svg?branch=master)](https://travis-ci.com/patrikx3/resume-web)
+-->
 [![Docker](https://img.shields.io/badge/Docker-alive-blue.svg)](https://hub.docker.com/r/patrikx3/resume/)
 ![CodeSHip](https://codeship.com/projects/951b4e20-b118-0134-b8d2-02806e5946e9/status?branch=master)
 
