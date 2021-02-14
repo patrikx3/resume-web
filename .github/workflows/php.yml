@@ -31,6 +31,8 @@ jobs:
               run: composer install --prefer-dist --no-progress --no-suggest
 
             - name: tests
+              with:
+                  php-version: '7.4'
               run: XDEBUG_MODE=coverage ./deployment/vendor/bin/phpunit --coverage-text
 
         # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
