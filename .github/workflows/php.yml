@@ -39,6 +39,7 @@ jobs:
 
             - name: tests
               run: |
+                ll -all -h
                 XDEBUG_MODE=coverage ./deployment/vendor/bin/phpunit --coverage-text
                 cd ./deployment/composer-custom/resume-php-common
                 composer install
