@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit colors="true" bootstrap="deployment/vendor/autoload.php">
-
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./deployment/application</directory>
+        </whitelist>
+    </filter>
 
     <testsuites>
         <testsuite name="patrikx3/resume-web">
-            <directory>./test/phpunit</directory>
+            <directory>test/phpunit</directory>
         </testsuite>
     </testsuites>
 </phpunit>

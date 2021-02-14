@@ -2,13 +2,19 @@
 <phpunit colors="true" bootstrap="vendor/autoload.php">
     <filter>
         <whitelist>
-            <directory suffix=".php">./src/</directory>
+            <directory suffix=".php">./src</directory>
         </whitelist>
     </filter>
 
+    <logging>
+        <log type="coverage-html" target="build/phpunit" title="patrikx3/resume-php-common" charset="UTF-8" />
+        <log type="coverage-text" target="php://stdout" />
+        <log type="coverage-clover" target="build/coverage.xml"/>
+    </logging>
+
     <testsuites>
-        <testsuite name="patrikx3/resume-web">
-            <directory>./tests/phpunit</directory>
+        <testsuite name="patrikx3/resume-php-common">
+            <directory>./test/phpunit</directory>
         </testsuite>
     </testsuites>
 </phpunit>
