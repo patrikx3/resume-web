@@ -38,7 +38,11 @@ jobs:
               run: php --version
 
             - name: tests
-              run: XDEBUG_MODE=coverage ./deployment/vendor/bin/phpunit --coverage-text
+            - run: XDEBUG_MODE=coverage ./deployment/vendor/bin/phpunit --coverage-text
+            - run: |
+                  cd ./deployment/composer-custom/resume-php-common
+                  composer install
+                  XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-text
 
         # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
         # Docs: https://getcomposer.org/doc/articles/scripts.md
