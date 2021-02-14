@@ -46,6 +46,7 @@ class Face
      */
     public function render($template)
     {
+        echo "ok";
         $renderer = tpl::Get($template, $this->compile());
         $output = $renderer($this->data());
         return $output;
