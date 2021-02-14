@@ -13,8 +13,6 @@ jobs:
 
         steps:
             - uses: actions/checkout@v2
-              with:
-                  php-version: '7.4'
 
             - name: Validate composer.json and composer.lock
               run: composer validate
@@ -31,6 +29,9 @@ jobs:
             - name: Install dependencies
               if: steps.composer-cache.outputs.cache-hit != 'true'
               run: composer install --prefer-dist --no-progress --no-suggest
+
+            - name: php version
+              run: php --version
 
             - name: tests
               run: XDEBUG_MODE=coverage ./deployment/vendor/bin/phpunit --coverage-text
