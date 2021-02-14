@@ -1,5 +1,6 @@
 {
     "name": "patrikx3/resume-web",
+    "description": "My resume.",
     "config": {
         "vendor-dir": "deployment/vendor",
         "discard-changes": true
