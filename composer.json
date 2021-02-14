@@ -1,4 +1,5 @@
 {
+    "name": "patrikx3/resume-web",
     "config": {
         "vendor-dir": "deployment/vendor",
         "discard-changes": true
