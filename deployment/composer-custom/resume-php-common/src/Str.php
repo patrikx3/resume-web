@@ -35,7 +35,7 @@ class Str
     {
         $url = static::RemoveAccents($url);
         $url = str_replace('.', '', $url);
-        $url = preg_replace("/\s/", '-', $url);
+        $url = preg_replace("/[^A-Za-z0-9\-]/", '-', $url);
         $url = preg_replace('/-+/', '-', $url);
         return strtolower($url);
     }

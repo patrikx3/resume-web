@@ -18,31 +18,9 @@ jobs:
                   php-version: '7.4'
                   coverage: xdebug
 
-            - name: Validate composer.json and composer.lock
-              run: composer validate
-
-            - name: Cache Composer packages
-              id: composer-cache
-              uses: actions/cache@v2
-              with:
-                  path: vendor
-                  key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
-                  restore-keys: |
-                      ${{ runner.os }}-php-
-
-            - name: Install dependencies
-              if: steps.composer-cache.outputs.cache-hit != 'true'
-              run: composer install --no-progress
-
-            - name: php version
-              run: php --version
-
             - name: tests
               run: |
-                ls -all -h
-                ls ./deployment/ -all -h
                 composer install --no-progress
-                ls ./deployment/ -all -h
                 XDEBUG_MODE=coverage ./deployment/vendor/bin/phpunit --coverage-text
                 cd ./deployment/composer-custom/resume-php-common
                 composer install --no-progress
