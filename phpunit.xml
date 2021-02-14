@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit colors="true" bootstrap="deployment/vendor/autoload.php">
-    <filter>
-        <whitelist>
-            <directory suffix=".php">./deployment/application</directory>
-        </whitelist>
-    </filter>
-
-    <testsuites>
-        <testsuite name="patrikx3/resume-web">
-            <directory>test/phpunit</directory>
-        </testsuite>
-    </testsuites>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" colors="true" bootstrap="deployment/vendor/autoload.php" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+  <coverage>
+    <include>
+      <directory suffix=".php">./deployment/application</directory>
+    </include>
+  </coverage>
+  <testsuites>
+    <testsuite name="patrikx3/resume-web">
+      <directory>test/phpunit</directory>
+    </testsuite>
+  </testsuites>
 </phpunit>
