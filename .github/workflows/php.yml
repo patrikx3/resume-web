@@ -28,7 +28,7 @@ jobs:
 
             - name: Install dependencies
               if: steps.composer-cache.outputs.cache-hit != 'true'
-              run: composer install --no-progress
+              run: composer install --prefer-dist --no-progress --no-suggest
 
             - name: tests
               run: XDEBUG_MODE=coverage ./deployment/vendor/bin/phpunit --coverage-text
