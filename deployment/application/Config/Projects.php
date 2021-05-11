@@ -60,6 +60,9 @@ class Projects
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB Replication, JavaScript, Socket.IO, Distributed queues, Distributed clusters, Redis, Distributed document locks',
                         'image' => [
                             'files/projects/era-2020/ngivr-portal-adony/1.png',
+                            'files/projects/era-2020/ngivr-portal-adony/2.png',
+                            'files/projects/era-2020/ngivr-portal-adony/3.png',
+                            'files/projects/era-2020/ngivr-portal-adony/4.png',
                         ],
                         //   'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
                     ],

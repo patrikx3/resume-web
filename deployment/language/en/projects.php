@@ -35,20 +35,20 @@ $l['projects'] = [
         'items' => [
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Senior Full-stack Developer',
+                'role' => 'Senior enterprise architect',
                 'tasks' => 'Planning, development, mentoring',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus ',
             ],
             [
                 'project' => 'NGIVR v2 Portal Port of Adony',
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Technical Architect',
+                'role' => 'Enterprise architect',
                 'tasks' => 'Architect, Development',
                 'summary' => 'Sygnus NGIVR v2 based stack partner portal ERP system.',
             ],
             [
                 'location' => 'Hungary, Dunaújváros',
-                'role' => 'Programmer',
+                'role' => 'Enterprise architect',
                 'tasks' => 'Research, Development',
                 'summary' => 'A robot based on Raspberry PI, that calculates the size of the warehouse and how empty it is. A robot, a REST/Socket.IO based web client and a NodeJs server using C++ and WebGL.',
                 'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, artificial intelligence, WebGL, C++, OpenCV, ArrayFire',
@@ -56,13 +56,13 @@ $l['projects'] = [
             [
                 'project' => 'NGIVR v1',
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Senior Full-stack Developer',
+                'role' => 'Enterprise architect',
                 'tasks' => 'Planning, development, mentoring',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus ',
             ],
             [
                 'location' => 'Magyarország, Dunaújváros',
-                'role' => 'Senior Full-stack Developer',
+                'role' => 'Enterprise architect',
                 'tasks' => 'Planning, development, mentoring',
                 'summary' => 'Enterprise resource planning system development based on NGIVR Sygnus on 04/18/2018.',
             ],

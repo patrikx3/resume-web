@@ -71,7 +71,7 @@ $l['content']
             <span class="{$profile_class}">1988</span> I got an <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Amiga">Amiga 500</a> from my father. I was 11 years old, I used BASIC and started to learn Assembly with on a <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Motorola_68000">Motorola 68000</a> CPU. I used a quite of many graphical applications and <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Demoscene">demo scene</a> code.
         </li>
          <li class="list-group-item">
-            <span class="{$profile_class}">1986</span> I received a <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Commodore_Plus/4">Commodore Plus/4</a> computer from my mother . I started to check out <a target="_blank" href="{$assembly}">Assembly</a>, but I was just hacking and cracking, I did not really know what I was doing. I usually played with BASIC and I read programming books.
+            <span class="{$profile_class}">1986</span> I received a <a target="_blank" href="https://{$language}.wikipedia.org/wiki/Commodore_Plus/4">Commodore Plus/4</a> computer from my mother. I started to check out <a target="_blank" href="{$assembly}">Assembly</a>, but I was just hacking and cracking, I did not really know what I was doing. I usually played with BASIC and I read programming books.
         </li>
         <li class="list-group-item">
             <span class="{$profile_class}">1984</span> With a good friend of mine, we started to program together on a <a target="_blank" href="https://{$language}.wikipedia.org/wiki/ZX81">Sinclair ZX81</a> using <a target="_blank" href="https://{$language}.wikipedia.org/wiki/BASIC">BASIC</a>.

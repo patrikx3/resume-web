@@ -1,5 +1,6 @@
 (function (window, document, $, p3x) {
 
+    /*
     var loadRecaptchaTimeout
     var loadRecaptcha = function () {
         clearTimeout(loadRecaptchaTimeout)
@@ -17,6 +18,7 @@
             'theme': $('body').hasClass('theme-light') ? 'light' : 'dark'
         });
     }
+     */
 
 
     p3x.Module.Contact = function () {
@@ -109,33 +111,39 @@
 
         };
 
-        FormMessage.Transport = function () {
+        FormMessage.Transport = function (e) {
             var self = this;
-            var data = self.Form.serialize();
-            self.ErrorClear();
-            self.Form.find(':input').prop('disabled', true);
-            var options = {
-                url: contact_url,
-                dataType: 'json',
-                data: data,
-                method: 'post',
-                success: function (data) {
-                    switch (data.result) {
-                        case 'error':
-                            self.Error(data);
-                            break;
+            e.preventDefault();
+            grecaptcha.ready(function() {
+                grecaptcha.execute(p3x.config.recaptcha.frontend, {action: 'submit'}).then(function(token) {
+                    var data = self.Form.serialize();
+                    data += '&g-recaptcha-response=' + token
+                    self.ErrorClear();
+                    self.Form.find(':input').prop('disabled', true);
+                    var options = {
+                        url: contact_url,
+                        dataType: 'json',
+                        data: data,
+                        method: 'post',
+                        success: function (data) {
+                            switch (data.result) {
+                                case 'error':
+                                    self.Error(data);
+                                    break;
 
-                        default:
-                            self.Success(data);
+                                default:
+                                    self.Success(data);
+                            }
+                        },
+                        complete: function () {
+                            self.Form.find(':input').prop('disabled', false);
+                            self.Email.focus();
+                        }
                     }
-                },
-                complete: function () {
-                    self.Form.find(':input').prop('disabled', false);
-                    self.Email.focus();
-                }
-            }
-            options[config.parameter.ajax.analytics] = true;
-            $.ajax(options);
+                    options[config.parameter.ajax.analytics] = true;
+                    $.ajax(options);
+                });
+            });
         };
 
         $(document).ready(function () {
@@ -200,7 +208,7 @@
                 $('.effect-shine').toggleClass('effect-shine-active');
             }, 2000, 500, true);
 
-            loadRecaptcha()
+//            loadRecaptcha()
         });
     };
 })(window, document, jQuery, p3x);

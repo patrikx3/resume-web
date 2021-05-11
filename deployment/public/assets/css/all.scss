@@ -13,6 +13,8 @@
 @import "footer";
 @import "opening-zoom";
 
+.grecaptcha-badge { visibility: hidden; }
+
 body {
     margin-top: $navbar-margin;
     margin-bottom: $default-margin + $site-bottom + 20 !important;

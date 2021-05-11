@@ -59,8 +59,8 @@ $l['tab-data-personal'] = [
         'type' => 'url'
     ],
     [
-        'field' => 'Travis',
-        'content' => 'https://travis-ci.com/patrikx3/',
+        'field' => 'Codersrank',
+        'content' => 'https://profile.codersrank.io/user/p3x-robot/',
         'type' => 'url'
     ],
     [

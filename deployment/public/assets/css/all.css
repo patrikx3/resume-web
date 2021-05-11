@@ -1045,6 +1045,10 @@ footer .p3x-sponsor-responsive {
 }
 
 */
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
 body {
   margin-top: 45px;
   margin-bottom: 37px !important;
