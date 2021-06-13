@@ -41,6 +41,12 @@ $l['projects'] = [
                 'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
             ],
             [
+                'location' => 'Magyarország, Dunaújváros',
+                'role' => 'Szenior vállalati tervező',
+                'tasks' => 'Tervezés, automatizálás, fejlesztés, fejlesztői támogatás',
+                'summary' => 'Az NGIVR Sygnus-on alapuló vállalati erőforrás-tervezési rendszerfejlesztés.',
+            ],
+            [
                 'project' => 'NGIVR v2 Portál Adony',
                 'location' => 'Hungary, Dunaújváros',
                 'role' => 'Vállalati tervező',

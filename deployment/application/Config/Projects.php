@@ -43,6 +43,16 @@ class Projects
             'era-2020' => [
                 'items' => [
                     [
+                        'index' => 4,
+                        'project' => 'NGIVR v1',
+                        'company' => 'MADAGRO Kft.',
+                        'date-start' => new DateTime('2021-06-09'),
+                        'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Observable, Redis, NGINX, GIT',
+                        'country' => 'hu',
+
+                        //   'full' => isset($_REQUEST['full']) || isset($_REQUEST['sygnus']),
+                    ],
+                    [
                         'index' => 3,
                         'project' => 'NGIVR v1',
                         'company' => 'Sygnus Kikötő',

@@ -15,8 +15,8 @@
   "dependencies": {},
   "devDependencies": {
     "cli-clear": "^1.0.4",
-    "corifeus-builder": "^2021.4.132",
-    "grunt": "^1.4.0",
+    "corifeus-builder": "^2021.4.141",
+    "grunt": "^1.4.1",
     "grunt-bower-concat": "^1.0.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
