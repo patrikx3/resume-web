@@ -45,7 +45,7 @@ class Projects
                     [
                         'index' => 4,
                         'project' => 'NGIVR v1',
-                        'company' => 'MADAGRO Kft.',
+                        'company' => 'Madagro',
                         'date-start' => new DateTime('2021-06-09'),
                         'technology' => 'NodeJs, AngularJs, AngularJs Material, MongoDB, JavaScript, Socket.IO, Observable, Redis, NGINX, GIT',
                         'country' => 'hu',

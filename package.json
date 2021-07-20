@@ -15,7 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "cli-clear": "^1.0.4",
-    "corifeus-builder": "^2021.4.141",
+    "corifeus-builder": "^2021.10.101",
     "grunt": "^1.4.1",
     "grunt-bower-concat": "^1.0.0",
     "grunt-contrib-clean": "^2.0.0",
@@ -31,10 +31,10 @@
     "grunt-terser": "^2.0.0",
     "grunt-wiredep": "^3.0.1",
     "mz": "^2.7.0",
-    "node-sass": "^6.0.0",
+    "node-sass": "^6.0.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
-    "terser": "^5.7.0",
+    "terser": "^5.7.1",
     "time-grunt": "^2.0.0"
   }
 }
